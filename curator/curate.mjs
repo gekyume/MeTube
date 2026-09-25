@@ -220,8 +220,16 @@ async function manualVideos(list) {
 
 // ---------- run ----------
 
+// Liked beats are hand-picked: always kept, never trimmed, listed in your order.
+const liked = (config.beats.liked || []).map((v) => ({ ...v, source: "liked", liked: true }));
+const likedIds = new Set(liked.map((v) => v.id));
 const beatsIn = [...(await manualVideos(config.beats.videos)), ...(await collectFeeds(config.beats))];
-const beats = await merge(library.beats || [], beatsIn, config.beats);
+const feedBeats = await merge((library.beats || []).filter((v) => !v.liked), beatsIn.filter((v) => !likedIds.has(v.id)), config.beats);
+const prevAdded = new Map((library.beats || []).map((v) => [v.id, v.added]));
+const beats = {
+  items: [...liked.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...feedBeats.items.filter((v) => !likedIds.has(v.id))],
+  added: feedBeats.added,
+};
 
 const learnFeed = [...(await manualVideos(config.learn.videos)), ...(await collectFeeds(config.learn))];
 const learnSubs = await merge(library.learn || [], learnFeed, {

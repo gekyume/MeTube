@@ -75,9 +75,9 @@
   .chip { flex: none; padding: 6px 12px; border-radius: 999px; background: var(--surface); color: var(--muted); font-size: 13px; }
   .chip.active { background: var(--surface-2); color: var(--text); }
   ul { list-style: none; margin: 0; padding: 4px 0 40px; }
-  li { display: flex; gap: 12px; padding: 8px 16px; align-items: center; cursor: pointer; }
+  li { display: flex; gap: 10px; padding: 8px 16px; align-items: center; cursor: pointer; }
   li.playing { background: var(--surface); }
-  .thumb { position: relative; flex: none; width: 128px; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+  .thumb { position: relative; flex: none; width: 112px; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: var(--surface-2); }
   .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   li.watched .thumb img { opacity: .45; }
   .badge { position: absolute; left: 4px; top: 4px; font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 4px;
@@ -85,7 +85,9 @@
   .meta { flex: 1; min-width: 0; }
   .title { font-size: 14px; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .sub { color: var(--muted); font-size: 12px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .hide { flex: none; color: var(--muted); font-size: 16px; width: 32px; height: 32px; }
+  .like { flex: none; color: var(--muted); font-size: 18px; width: 28px; height: 32px; }
+  .like.on { color: var(--accent); }
+  .hide { flex: none; color: var(--muted); font-size: 16px; width: 28px; height: 32px; }
   .empty { color: var(--muted); text-align: center; padding: 40px 16px; justify-content: center; }
 </style>
 </head>
@@ -142,7 +144,10 @@
 
   let data = { beats: [], learn: [] };
   let tab = store.get("tab", "beats");
-  const filter = { beats: "all", learn: "new" };
+  const filter = { beats: "liked", learn: "new" };
+  // Liked comes from the curator config; hearts tapped on this phone override it locally.
+  const likeOverrides = store.get("likes", {});
+  const isLiked = (v) => likeOverrides[v.id] ?? !!v.liked;
   const watched = new Set(store.get("watched", []));
   const hidden = new Set(store.get("hidden", []));
   const modes = store.get("modes", { beats: "next", learn: "stop" }); // next | loop | stop
@@ -167,7 +172,8 @@
   function visible(section) {
     let items = (data[section] || []).filter((v) => !hidden.has(v.id));
     const f = filter[section];
-    if (f === "new") items = items.filter((v) => !watched.has(v.id) || v.id === current?.id);
+    if (f === "liked") items = items.filter(isLiked);
+    else if (f === "new") items = items.filter((v) => !watched.has(v.id) || v.id === current?.id);
     else if (f === "picks") items = items.filter((v) => v.source === "discovery");
     else if (f !== "all") items = items.filter((v) => v.channel === f);
     return items;
@@ -185,10 +191,11 @@
   function render() {
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", t.dataset.tab === tab));
     const items = data[tab] || [];
-    const channels = [...new Set(items.filter((v) => !hidden.has(v.id)).map((v) => v.channel))].sort();
+    // Beats: channel chips only for subscribed producers, not every liked beat's uploader.
+    const channels = [...new Set(items.filter((v) => !hidden.has(v.id) && !(tab === "beats" && v.liked)).map((v) => v.channel))].sort();
     const chips = tab === "learn"
       ? [["new", "New"], ["all", "All"], ...(items.some((v) => v.source === "discovery") ? [["picks", "Curator picks"]] : [])]
-      : [["all", "All"]];
+      : [["liked", "♥\uFE0E Liked"], ["all", "All"]];
     chips.push(...channels.map((c) => [c, c]));
     $("toolbar").innerHTML = "";
     if (tab === "beats") chip("🔀 Shuffle", false, () => {
@@ -212,10 +219,16 @@
         <div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
           ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}</div>
         <div class="meta"><div class="title"></div><div class="sub"></div></div>
+        ${tab === "beats" ? `<button class="like${isLiked(v) ? " on" : ""}" aria-label="Like">${isLiked(v) ? "♥\uFE0E" : "♡\uFE0E"}</button>` : ""}
         <button class="hide" aria-label="Hide this video">✕</button>`;
       li.querySelector(".title").textContent = v.title;
       li.querySelector(".sub").textContent = [v.channel, ago(v.published)].filter(Boolean).join(" · ");
       li.onclick = () => play(v, list);
+      const like = li.querySelector(".like");
+      if (like) like.onclick = (e) => {
+        e.stopPropagation();
+        likeOverrides[v.id] = !isLiked(v); store.set("likes", likeOverrides); render();
+      };
       li.querySelector(".hide").onclick = (e) => {
         e.stopPropagation();
         hidden.add(v.id); store.set("hidden", [...hidden]); render();
