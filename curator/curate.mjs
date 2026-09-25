@@ -1,4 +1,4 @@
-// Lane curator: builds docs/videos.json from whitelisted channels + optional AI discovery.
+// MeTube curator: builds docs/videos.json from whitelisted channels + optional AI discovery.
 // Runs daily in GitHub Actions. No keys needed for channel feeds; discovery needs
 // YOUTUBE_API_KEY and ANTHROPIC_API_KEY.
 
@@ -10,12 +10,12 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONFIG_PATH = path.join(ROOT, "curator/config.json");
 const STATE_PATH = path.join(ROOT, "curator/state.json");
 const OUT_PATH = path.join(ROOT, "docs/videos.json");
-const UA = { "User-Agent": "Mozilla/5.0 (Macintosh) LaneCurator/1.0", "Accept-Language": "en-US" };
+const UA = { "User-Agent": "Mozilla/5.0 (Macintosh) MeTubeCurator/1.0", "Accept-Language": "en-US" };
 
 const readJson = async (p, fallback) => {
   try { return JSON.parse(await readFile(p, "utf8")); } catch { return fallback; }
 };
-const log = (...a) => console.log("[lane]", ...a);
+const log = (...a) => console.log("[metube]", ...a);
 
 const config = await readJson(CONFIG_PATH);
 const state = await readJson(STATE_PATH, { channelIds: {}, seen: [] });

@@ -1,4 +1,4 @@
-# Lane
+# MeTube
 
 A two-lane YouTube for your iPhone: **Beats** and **Learn**. No search, no recommendations, no comments, no way out to YouTube.
 
@@ -12,11 +12,11 @@ A two-lane YouTube for your iPhone: **Beats** and **Learn**. No search, no recom
 
 1. **Put it on GitHub.** Create a new repo on github.com (public, so Pages is free), then push this folder to it:
    ```bash
-   git remote add origin https://github.com/<you>/lane.git && git push -u origin main
+   git remote add origin https://github.com/<you>/metube.git && git push -u origin main
    ```
 2. **Turn on Pages.** In the repo, go to Settings → Pages → Source and choose **GitHub Actions**.
-3. **Run it once.** Go to Actions → "Curate and deploy" → Run workflow. When it finishes, your app is at `https://<you>.github.io/lane/`.
-4. **On your iPhone,** open that URL in Safari, tap Share, then **Add to Home Screen**. From then on, open Lane from the home screen icon. It runs full screen with no address bar.
+3. **Run it once.** Go to Actions → "Curate and deploy" → Run workflow. When it finishes, your app is at `https://<you>.github.io/metube/`.
+4. **On your iPhone,** open that URL in Safari, tap Share, then **Add to Home Screen**. From then on, open MeTube from the home screen icon. It runs full screen with no address bar.
 
 ### Optional: AI discovery
 Add two secrets in Settings → Secrets and variables → Actions:
@@ -42,7 +42,7 @@ On the iPhone, go to **Settings → Screen Time → Content & Privacy Restrictio
    - Do **not** block `youtube-nocookie.com`, `googlevideo.com`, or `ytimg.com`. The player and thumbnails need them. The embed loads its code from youtube-nocookie.com and only uses youtube.com for its "watch on YouTube" links, so blocking youtube.com closes those links without breaking playback.
 3. Set a **Screen Time passcode you don't know**. Have a friend type it in.
 
-After step 2, open Lane and play one Beat and one Learn video to confirm everything still works.
+After step 2, open MeTube and play one Beat and one Learn video to confirm everything still works.
 
 ## Using it
 - The first video of a session: tap the video itself to start (iOS rule). After that, the big ▶ button, the ±10s buttons, and the seek bar do everything.

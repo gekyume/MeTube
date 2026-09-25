@@ -6,11 +6,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Lane">
+<meta name="apple-mobile-web-app-title" content="MeTube">
 <meta name="theme-color" content="#0e0e10">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
-<title>Lane</title>
+<title>MeTube</title>
 <style>
   :root {
     --bg: #0e0e10; --surface: #18181b; --surface-2: #232328; --text: #f4f4f5;
@@ -91,7 +91,7 @@
 </head>
 <body>
 <header>
-  <h1>Lane</h1>
+  <h1>MeTube</h1>
   <span class="updated" id="updated"></span>
 </header>
 
@@ -136,8 +136,8 @@
 (() => {
   const $ = (id) => document.getElementById(id);
   const store = {
-    get(k, d) { try { return JSON.parse(localStorage.getItem("lane:" + k)) ?? d; } catch { return d; } },
-    set(k, v) { try { localStorage.setItem("lane:" + k, JSON.stringify(v)); } catch {} },
+    get(k, d) { try { return JSON.parse(localStorage.getItem("metube:" + k)) ?? d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("metube:" + k, JSON.stringify(v)); } catch {} },
   };
 
   let data = { beats: [], learn: [] };

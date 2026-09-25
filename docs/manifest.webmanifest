@@ -1,6 +1,6 @@
 {
-  "name": "Lane",
-  "short_name": "Lane",
+  "name": "MeTube",
+  "short_name": "MeTube",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0e0e10",
