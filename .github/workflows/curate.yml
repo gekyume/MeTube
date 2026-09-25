@@ -1,0 +1,49 @@
+name: Curate and deploy
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # daily, 11:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["curator/config.json", "docs/**", "curator/curate.mjs"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: lane
+  cancel-in-progress: false
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - name: Curate
+        run: node curator/curate.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Save library
+        run: |
+          git config user.name "lane-curator"
+          git config user.email "lane-curator@users.noreply.github.com"
+          git add docs/videos.json curator/state.json
+          git diff --cached --quiet || git commit -m "Curate: $(date -u +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4

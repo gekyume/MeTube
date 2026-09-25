@@ -1,0 +1,12 @@
+{
+  "name": "lane",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "curate": "node curator/curate.mjs",
+    "serve": "python3 -m http.server 8787 -d docs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest"
+  }
+}

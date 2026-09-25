@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lane">
+<meta name="theme-color" content="#0e0e10">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Lane</title>
+<style>
+  :root {
+    --bg: #0e0e10; --surface: #18181b; --surface-2: #232328; --text: #f4f4f5;
+    --muted: #9b9ba3; --accent: #f5b83d; --learn: #6cb6ff; --line: #2c2c33;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.4 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  body { padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); min-height: 100dvh;
+    -webkit-user-select: none; user-select: none; overscroll-behavior: none; }
+  button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+
+  header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px 10px; }
+  h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 12px; }
+
+  .tabs { display: flex; gap: 6px; margin: 0 16px 12px; background: var(--surface); padding: 4px; border-radius: 12px; }
+  .tab { flex: 1; padding: 9px 0; border-radius: 9px; font-weight: 600; color: var(--muted); }
+  .tab[aria-selected="true"] { background: var(--surface-2); color: var(--text); }
+  .tab[data-tab="beats"][aria-selected="true"] { color: var(--accent); }
+  .tab[data-tab="learn"][aria-selected="true"] { color: var(--learn); }
+
+  /* player */
+  #stage { position: sticky; top: env(safe-area-inset-top); z-index: 5; background: var(--bg); display: none; }
+  #stage.on { display: block; }
+  .frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
+  .frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  /* shields sit over YouTube's own links (title, channel, logo) so they can't be tapped */
+  .shield { position: absolute; left: 0; right: 0; z-index: 2; }
+  .shield.top { top: 0; height: 24%; }
+  .shield.bottom { bottom: 0; height: 24%; }
+  .shield.full { inset: 0; height: auto; display: none; }
+  .frame.started .shield.full { display: block; }
+  .hint { position: absolute; left: 0; right: 0; bottom: 8px; z-index: 3; text-align: center;
+    font-size: 12px; color: #fff; opacity: .8; pointer-events: none; }
+  .frame.started .hint { display: none; }
+  .endcard { position: absolute; inset: 0; z-index: 4; display: none; place-items: center; background: #000; }
+  .frame.ended .endcard { display: grid; }
+  .endcard div { display: flex; gap: 10px; }
+  .endcard button { background: var(--surface-2); padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+
+  .now { padding: 10px 16px 4px; }
+  .now-title { font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .now-sub { color: var(--muted); font-size: 13px; }
+  .why { color: var(--learn); font-size: 13px; margin-top: 2px; }
+  .seek { display: flex; align-items: center; gap: 10px; padding: 8px 16px 0; font-size: 12px; color: var(--muted);
+    font-variant-numeric: tabular-nums; }
+  .seek input { flex: 1; min-width: 0; accent-color: var(--accent); }
+  .controls { display: flex; justify-content: space-around; align-items: center; padding: 6px 12px 12px;
+    border-bottom: 1px solid var(--line); }
+  .controls button { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; }
+  .controls button.big { width: 60px; height: 60px; background: var(--text); color: var(--bg); }
+  .controls svg { width: 24px; height: 24px; fill: currentColor; }
+  .controls .mode { font-size: 11px; font-weight: 700; width: auto; padding: 0 10px; border-radius: 8px;
+    height: 30px; background: var(--surface-2); color: var(--muted); }
+  .controls .mode.active { color: var(--accent); }
+  .controls .close { font-size: 20px; color: var(--muted); }
+
+  /* list */
+  .toolbar { display: flex; gap: 8px; padding: 12px 16px 4px; overflow-x: auto; scrollbar-width: none; }
+  .toolbar::-webkit-scrollbar { display: none; }
+  .chip { flex: none; padding: 6px 12px; border-radius: 999px; background: var(--surface); color: var(--muted); font-size: 13px; }
+  .chip.active { background: var(--surface-2); color: var(--text); }
+  ul { list-style: none; margin: 0; padding: 4px 0 40px; }
+  li { display: flex; gap: 12px; padding: 8px 16px; align-items: center; cursor: pointer; }
+  li.playing { background: var(--surface); }
+  .thumb { position: relative; flex: none; width: 128px; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  li.watched .thumb img { opacity: .45; }
+  .badge { position: absolute; left: 4px; top: 4px; font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 4px;
+    background: var(--learn); color: #001; }
+  .meta { flex: 1; min-width: 0; }
+  .title { font-size: 14px; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .sub { color: var(--muted); font-size: 12px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hide { flex: none; color: var(--muted); font-size: 16px; width: 32px; height: 32px; }
+  .empty { color: var(--muted); text-align: center; padding: 40px 16px; justify-content: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Lane</h1>
+  <span class="updated" id="updated"></span>
+</header>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="beats" aria-selected="true">Beats</button>
+  <button class="tab" role="tab" data-tab="learn" aria-selected="false">Learn</button>
+</div>
+
+<section id="stage">
+  <div class="frame" id="frame">
+    <iframe id="yt" allow="autoplay; encrypted-media; picture-in-picture" title="Player"></iframe>
+    <div class="shield top"></div>
+    <div class="shield bottom"></div>
+    <div class="shield full" id="shieldFull"></div>
+    <div class="hint">Tap the video to start</div>
+    <div class="endcard"><div><button id="replay">Replay</button><button id="nextEnd">Next</button></div></div>
+  </div>
+  <div class="now">
+    <div class="now-title" id="nowTitle"></div>
+    <div class="now-sub" id="nowSub"></div>
+    <div class="why" id="nowWhy"></div>
+  </div>
+  <div class="seek">
+    <span id="tCur">0:00</span>
+    <input type="range" id="seek" min="0" max="100" step="0.1" value="0" aria-label="Seek">
+    <span id="tDur">0:00</span>
+  </div>
+  <div class="controls">
+    <button class="close" id="close" aria-label="Close player">✕</button>
+    <button id="back10" aria-label="Back 10 seconds"><svg viewBox="0 0 24 24"><path d="M11 18V6l-8.5 6 8.5 6zm.5-6 8.5 6V6l-8.5 6z"/></svg></button>
+    <button class="big" id="playPause" aria-label="Play/pause"><svg viewBox="0 0 24 24" id="ppIcon"><path d="M8 5v14l11-7z"/></svg></button>
+    <button id="fwd10" aria-label="Forward 10 seconds"><svg viewBox="0 0 24 24"><path d="M4 18l8.5-6L4 6v12zm9-12v12l8.5-6L13 6z"/></svg></button>
+    <button id="next" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+    <button class="mode" id="mode" aria-label="End-of-video mode"></button>
+  </div>
+</section>
+
+<div class="toolbar" id="toolbar"></div>
+<ul id="list"></ul>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const store = {
+    get(k, d) { try { return JSON.parse(localStorage.getItem("lane:" + k)) ?? d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem("lane:" + k, JSON.stringify(v)); } catch {} },
+  };
+
+  let data = { beats: [], learn: [] };
+  let tab = store.get("tab", "beats");
+  const filter = { beats: "all", learn: "new" };
+  const watched = new Set(store.get("watched", []));
+  const hidden = new Set(store.get("hidden", []));
+  const modes = store.get("modes", { beats: "next", learn: "stop" }); // next | loop | stop
+  let queue = [], queueTab = tab, current = null;
+  let player = freshPlayer();
+  let seeking = false;
+
+  function freshPlayer() { return { state: -1, time: 0, dur: 0, ready: false, started: false }; }
+
+  // ---------- data ----------
+  fetch("videos.json", { cache: "no-store" })
+    .then((r) => r.json())
+    .then((d) => { data = d; renderUpdated(); render(); })
+    .catch(() => { $("list").innerHTML = '<li class="empty">Could not load the library.</li>'; });
+
+  function renderUpdated() {
+    if (!data.updatedAt) return;
+    const days = Math.floor((Date.now() - new Date(data.updatedAt)) / 864e5);
+    $("updated").textContent = days <= 0 ? "Updated today" : `Updated ${days}d ago`;
+  }
+
+  function visible(section) {
+    let items = (data[section] || []).filter((v) => !hidden.has(v.id));
+    const f = filter[section];
+    if (f === "new") items = items.filter((v) => !watched.has(v.id) || v.id === current?.id);
+    else if (f === "picks") items = items.filter((v) => v.source === "discovery");
+    else if (f !== "all") items = items.filter((v) => v.channel === f);
+    return items;
+  }
+
+  // ---------- render ----------
+  function chip(label, active, onclick) {
+    const b = document.createElement("button");
+    b.className = "chip" + (active ? " active" : "");
+    b.textContent = label;
+    b.onclick = onclick;
+    $("toolbar").append(b);
+  }
+
+  function render() {
+    document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", t.dataset.tab === tab));
+    const items = data[tab] || [];
+    const channels = [...new Set(items.filter((v) => !hidden.has(v.id)).map((v) => v.channel))].sort();
+    const chips = tab === "learn"
+      ? [["new", "New"], ["all", "All"], ...(items.some((v) => v.source === "discovery") ? [["picks", "Curator picks"]] : [])]
+      : [["all", "All"]];
+    chips.push(...channels.map((c) => [c, c]));
+    $("toolbar").innerHTML = "";
+    if (tab === "beats") chip("🔀 Shuffle", false, () => {
+      const q = shuffled(visible("beats"));
+      if (q.length) play(q[0], q);
+    });
+    for (const [key, label] of chips) chip(label, filter[tab] === key, () => { filter[tab] = key; render(); });
+
+    const list = visible(tab);
+    const ul = $("list");
+    ul.innerHTML = "";
+    if (!list.length) {
+      ul.innerHTML = `<li class="empty">${tab === "learn" && filter.learn === "new"
+        ? "You're caught up. New videos arrive daily." : "Nothing here yet."}</li>`;
+      return;
+    }
+    for (const v of list) {
+      const li = document.createElement("li");
+      li.className = (watched.has(v.id) ? "watched " : "") + (current?.id === v.id ? "playing" : "");
+      li.innerHTML = `
+        <div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
+          ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}</div>
+        <div class="meta"><div class="title"></div><div class="sub"></div></div>
+        <button class="hide" aria-label="Hide this video">✕</button>`;
+      li.querySelector(".title").textContent = v.title;
+      li.querySelector(".sub").textContent = [v.channel, ago(v.published)].filter(Boolean).join(" · ");
+      li.onclick = () => play(v, list);
+      li.querySelector(".hide").onclick = (e) => {
+        e.stopPropagation();
+        hidden.add(v.id); store.set("hidden", [...hidden]); render();
+      };
+      ul.append(li);
+    }
+  }
+
+  function ago(iso) {
+    const d = Math.floor((Date.now() - new Date(iso)) / 864e5);
+    if (!iso || isNaN(d)) return "";
+    if (d < 1) return "today";
+    if (d < 30) return `${d}d ago`;
+    if (d < 365) return `${Math.floor(d / 30)}mo ago`;
+    return `${Math.floor(d / 365)}y ago`;
+  }
+
+  function shuffled(a) {
+    a = a.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a;
+  }
+
+  // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
+  const ORIGIN = "https://www.youtube-nocookie.com";
+  const iframe = $("yt");
+
+  function send(func, args = []) {
+    iframe.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args, id: 1, channel: "widget" }), ORIGIN);
+  }
+
+  function embedUrl(id) {
+    const p = new URLSearchParams({
+      enablejsapi: 1, controls: 0, playsinline: 1, rel: 0, iv_load_policy: 3, disablekb: 1,
+      fs: 0, modestbranding: 1, autoplay: 1, origin: location.origin,
+    });
+    return `${ORIGIN}/embed/${id}?${p}`;
+  }
+
+  function play(v, q) {
+    current = v;
+    queue = q.slice();
+    queueTab = tab;
+    $("stage").classList.add("on");
+    $("frame").classList.remove("ended");
+    $("nowTitle").textContent = v.title;
+    $("nowSub").textContent = v.channel;
+    $("nowWhy").textContent = v.why || "";
+    renderMode();
+    // Once the player was started by a tap, reuse it: iOS then allows loadVideoById to autoplay.
+    if (player.ready && player.started) {
+      send("loadVideoById", [v.id]);
+    } else {
+      player = freshPlayer();
+      $("frame").classList.remove("started");
+      iframe.src = embedUrl(v.id);
+    }
+    watched.add(v.id);
+    store.set("watched", [...watched].slice(-3000));
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function next() {
+    if (!current || !queue.length) return;
+    const i = queue.findIndex((x) => x.id === current.id);
+    play(queue[(i + 1) % queue.length], queue);
+  }
+
+  iframe.addEventListener("load", () => {
+    if (!iframe.src.startsWith(ORIGIN)) return;
+    // Say hello until the embed starts streaming its state back.
+    let tries = 0;
+    const t = setInterval(() => {
+      iframe.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: 1, channel: "widget" }), ORIGIN);
+      if (player.ready || ++tries > 40) clearInterval(t);
+    }, 250);
+  });
+
+  window.addEventListener("message", (e) => {
+    if (e.origin !== ORIGIN || typeof e.data !== "string") return;
+    let msg; try { msg = JSON.parse(e.data); } catch { return; }
+    const info = msg.info;
+    if (msg.event === "onReady") player.ready = true;
+    if (msg.event === "infoDelivery" && info) {
+      player.ready = true;
+      if (typeof info.currentTime === "number") player.time = info.currentTime;
+      if (typeof info.duration === "number" && info.duration) player.dur = info.duration;
+      if (typeof info.playerState === "number") onState(info.playerState);
+      paintTime();
+    }
+    if (msg.event === "onStateChange") onState(typeof info === "number" ? info : info?.playerState);
+  });
+
+  function onState(s) {
+    if (s === player.state) return;
+    player.state = s;
+    if (s === 1) { // playing
+      player.started = true;
+      $("frame").classList.add("started");
+      $("frame").classList.remove("ended");
+    }
+    if (s === 0) onEnded();
+    paintPP();
+  }
+
+  function onEnded() {
+    const mode = modes[queueTab];
+    if (mode === "loop") { send("seekTo", [0, true]); send("playVideo"); return; }
+    if (mode === "next") { next(); return; }
+    $("frame").classList.add("ended"); // cover YouTube's end screen
+  }
+
+  function paintPP() {
+    $("ppIcon").innerHTML = player.state === 1
+      ? '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>'
+      : '<path d="M8 5v14l11-7z"/>';
+  }
+  const fmt = (s) => {
+    s = Math.max(0, Math.floor(s));
+    const h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60, x = String(s % 60).padStart(2, "0");
+    return h ? `${h}:${String(m).padStart(2, "0")}:${x}` : `${m}:${x}`;
+  };
+  function paintTime() {
+    $("tCur").textContent = fmt(player.time);
+    $("tDur").textContent = fmt(player.dur);
+    if (!seeking && player.dur) $("seek").value = (player.time / player.dur) * 100;
+  }
+
+  const MODE_LABEL = { next: "AUTO-NEXT", loop: "LOOP", stop: "STOP" };
+  function renderMode() {
+    const m = modes[queueTab];
+    $("mode").textContent = MODE_LABEL[m];
+    $("mode").classList.toggle("active", m !== "stop");
+  }
+
+  // If iOS ignores this for the very first start, a tap on the video itself always works.
+  $("playPause").onclick = () => send(player.state === 1 ? "pauseVideo" : "playVideo");
+  $("back10").onclick = () => send("seekTo", [Math.max(0, player.time - 10), true]);
+  $("fwd10").onclick = () => send("seekTo", [player.time + 10, true]);
+  $("next").onclick = next;
+  $("nextEnd").onclick = next;
+  $("replay").onclick = () => { $("frame").classList.remove("ended"); send("seekTo", [0, true]); send("playVideo"); };
+  $("shieldFull").onclick = () => $("playPause").click();
+  $("mode").onclick = () => {
+    const order = ["next", "loop", "stop"];
+    modes[queueTab] = order[(order.indexOf(modes[queueTab]) + 1) % 3];
+    store.set("modes", modes);
+    renderMode();
+  };
+  $("close").onclick = () => {
+    send("stopVideo");
+    iframe.src = "about:blank";
+    player = freshPlayer();
+    current = null;
+    $("stage").classList.remove("on");
+    render();
+  };
+  $("seek").addEventListener("input", () => { seeking = true; $("tCur").textContent = fmt(($("seek").value / 100) * player.dur); });
+  $("seek").addEventListener("change", () => { seeking = false; send("seekTo", [($("seek").value / 100) * player.dur, true]); });
+
+  document.querySelectorAll(".tab").forEach((t) => t.onclick = () => {
+    tab = t.dataset.tab; store.set("tab", tab); render();
+  });
+})();
+</script>
+</body>
+</html>
