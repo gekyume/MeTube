@@ -196,6 +196,11 @@
   .upnext-head h3 { margin: 0; font-size: 17px; }
   .upnext-head span { color: var(--muted); font-size: 13px; }
 
+  .toast { position: fixed; z-index: 60; left: 50%; bottom: calc(var(--safe-b) + 96px); transform: translate(-50%, 20px);
+    background: var(--text); color: var(--bg); font-size: 14px; font-weight: 600; padding: 10px 16px; border-radius: 999px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; white-space: nowrap; }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
   /* ---------- mini player ---------- */
   #stage.mini { position: fixed; z-index: 40; left: 8px; right: 8px; bottom: calc(var(--safe-b) + 8px);
     display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 14px;
@@ -271,6 +276,7 @@
   <symbol id="i-autonext" viewBox="0 0 24 24"><path d="M4 6h10v2H4zm0 4h10v2H4zm0 4h6v2H4zm12 0v6l5-3z"/></symbol>
   <symbol id="i-stop" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"/></symbol>
   <symbol id="i-hide" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM4 12a8 8 0 0 1 12.9-6.3L5.7 16.9A7.9 7.9 0 0 1 4 12zm8 8a7.9 7.9 0 0 1-4.9-1.7L18.3 7.1A8 8 0 0 1 12 20z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 4h2v8.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3zM5 18h14v2H5z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -341,6 +347,7 @@
 
   <div id="viewRoot"></div>
 </main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 (() => {
@@ -701,11 +708,13 @@
       <div class="info-row">
         <button class="chan-btn" data-act="channel"><span class="avatar">${esc(initial(v.channel))}</span><span class="name">${esc(v.channel)}</span></button>
         ${queueTab === "beats" ? `<button class="pill${isLiked(v) ? " on" : ""}" data-act="like">${icon(isLiked(v) ? "heart" : "heart-o")}${isLiked(v) ? "Liked" : "Like"}</button>` : ""}
+        ${queueTab === "beats" ? `<button class="pill" data-act="mp3">${icon("download")}MP3</button>` : ""}
         <button class="pill${mode !== "stop" ? " on" : ""}" data-act="mode">${icon(MODES[mode][0])}${MODES[mode][1]}</button>
         <button class="pill" data-act="hide">${icon("hide")}Not for me</button>
       </div>`;
     el.querySelector('[data-act="channel"]').onclick = () => go({ view: "channel", tab: queueTab, name: v.channel });
     el.querySelector('[data-act="like"]')?.addEventListener("click", () => { toggleLike(v); renderInfo(); });
+    el.querySelector('[data-act="mp3"]')?.addEventListener("click", () => copyAndConvert(v));
     el.querySelector('[data-act="mode"]').onclick = () => {
       const order = ["next", "loop", "stop"];
       modes[queueTab] = order[(order.indexOf(modes[queueTab]) + 1) % 3];
@@ -726,6 +735,31 @@
     el.innerHTML = `<div class="upnext-head"><h3>Up next</h3><span>${rest.length ? `${queue.length} in this list` : ""}</span></div>`;
     if (!rest.length) { el.insertAdjacentHTML("beforeend", `<div class="empty">That's the end of this list.</div>`); return; }
     el.append(videoList(rest, { section: queueTab, onPick: (v) => playFrom(v, queue) }));
+  }
+
+  // Copy the beat's YouTube link, then open the converter in a new tab (Safari, when running from the home screen).
+  const CONVERTER = "https://convertytmp3.org/";
+  function copyAndConvert(v) {
+    const url = `https://www.youtube.com/watch?v=${v.id}`;
+    copyText(url);
+    toast("Link copied. Paste it into the converter.");
+    window.open(CONVERTER, "_blank", "noopener"); // must happen in the same tap, or iOS blocks it
+  }
+  function copyText(text) {
+    const fallback = () => {
+      const ta = Object.assign(document.createElement("textarea"), { value: text, readOnly: true });
+      ta.style.cssText = "position:fixed;opacity:0;top:0";
+      document.body.append(ta); ta.select(); ta.setSelectionRange(0, text.length);
+      try { document.execCommand("copy"); } catch {}
+      ta.remove();
+    };
+    try { navigator.clipboard ? navigator.clipboard.writeText(text).catch(fallback) : fallback(); } catch { fallback(); }
+  }
+  let toastTimer;
+  function toast(msg) {
+    const t = $("toast");
+    t.textContent = msg; t.classList.add("show");
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
   }
 
   // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
