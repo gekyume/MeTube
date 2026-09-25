@@ -76,10 +76,15 @@ async function collectFeeds(section) {
   ];
   for (const src of sources) {
     try {
-      const q = src.kind === "channel"
-        ? `channel_id=${await resolveChannelId(src.ref)}`
-        : `playlist_id=${src.ref.match(/list=([\w-]+)/)?.[1] || src.ref}`;
-      const entries = (await readFeed(q)).filter((v) => !blocked(v.title));
+      let entries;
+      if (src.kind === "channel") {
+        const id = await resolveChannelId(src.ref);
+        // UULF… is the channel's long-form-only uploads list (no Shorts); fall back to the plain feed.
+        entries = await readFeed(`playlist_id=UULF${id.slice(2)}`).catch(() => readFeed(`channel_id=${id}`));
+      } else {
+        entries = await readFeed(`playlist_id=${src.ref.match(/list=([\w-]+)/)?.[1] || src.ref}`);
+      }
+      entries = entries.filter((v) => !blocked(v.title));
       out.push(...entries.slice(0, section.maxPerChannel).map((v) => ({ ...v, source: src.ref })));
     } catch (e) {
       log("skip", src.ref, e.message);
@@ -193,11 +198,11 @@ async function rankWithClaude(disc, candidates) {
 }
 
 // Merge new items into a section, dropping Shorts, keeping order newest-first.
-async function merge(existing, incoming, { maxTotal, maxNew = Infinity }) {
+async function merge(existing, incoming, { maxTotal, maxNew = Infinity, uncapped = () => false }) {
   const byId = new Map(existing.map((v) => [v.id, v]));
   let added = 0;
   for (const v of incoming) {
-    if (byId.has(v.id) || added >= maxNew) continue;
+    if (byId.has(v.id) || (added >= maxNew && !uncapped(v))) continue;
     if (await isShort(v.id)) { seen.add(v.id); continue; }
     byId.set(v.id, { ...v, added: now });
     added++;
@@ -231,12 +236,16 @@ const beats = {
   added: feedBeats.added,
 };
 
+// Existing libraries predate seeding; treat their channels as already seeded.
+const seededSources = new Set(state.seeded || ((library.learn || []).length ? config.learn.channels.filter((c) => (library.learn || []).some((v) => v.source === c)) : []));
 const learnFeed = [...(await manualVideos(config.learn.videos)), ...(await collectFeeds(config.learn))];
 const learnSubs = await merge(library.learn || [], learnFeed, {
   maxTotal: Infinity,
-  // first run seeds the library; after that, cap how much the feed can add per day
-  maxNew: (library.learn || []).length ? config.learn.maxNewPerRun : Infinity,
+  // A channel's first run seeds its back catalog; after that, cap how much the feeds add per day.
+  maxNew: config.learn.maxNewPerRun,
+  uncapped: (v) => !seededSources.has(v.source),
 });
+config.learn.channels.forEach((c) => seededSources.add(c));
 let discovered = [];
 try {
   discovered = await discover(config.learn.discovery, new Set(learnSubs.items.map((v) => v.id)));
@@ -247,5 +256,6 @@ const learn = await merge(learnSubs.items, discovered, { maxTotal: config.learn.
 
 await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, beats: beats.items, learn: learn.items }, null, 1) + "\n");
 state.seen = [...seen].slice(-5000);
+state.seeded = [...seededSources];
 await writeFile(STATE_PATH, JSON.stringify(state, null, 1) + "\n");
 log(`beats: ${beats.items.length} (+${beats.added}), learn: ${learn.items.length} (+${learnSubs.added + learn.added})`);

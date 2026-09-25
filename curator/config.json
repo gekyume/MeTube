@@ -746,11 +746,12 @@
       "@3blue1brown",
       "@kurzgesagt",
       "@PracticalEngineeringChannel",
-      "@Asianometry"
+      "@Asianometry",
+      "@Vox"
     ],
     "playlists": [],
     "videos": [],
-    "maxPerChannel": 6,
+    "maxPerChannel": 15,
     "maxNewPerRun": 6,
     "maxTotal": 250,
     "discovery": {

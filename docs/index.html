@@ -35,6 +35,17 @@
   .tab[data-tab="beats"][aria-selected="true"] { color: var(--accent); }
   .tab[data-tab="learn"][aria-selected="true"] { color: var(--learn); }
 
+  .search { margin: 0 16px 12px; position: relative; }
+  .search input { width: 100%; font: inherit; font-size: 16px; color: var(--text); background: var(--surface);
+    border: 1px solid transparent; border-radius: 10px; padding: 9px 34px 9px 12px; outline: none; -webkit-appearance: none; }
+  .search input:focus { border-color: var(--line); }
+  .search input::placeholder { color: var(--muted); }
+  .search input::-webkit-search-cancel-button { display: none; }
+  .search button { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px;
+    color: var(--muted); display: none; }
+  .search.has-q button { display: block; }
+  .progress { position: absolute; left: 0; bottom: 0; height: 3px; background: #f00000; }
+
   /* player */
   #stage { position: sticky; top: env(safe-area-inset-top); z-index: 5; background: var(--bg); display: none; }
   #stage.on { display: block; }
@@ -104,6 +115,11 @@
   <button class="tab" role="tab" data-tab="learn" aria-selected="false">Learn</button>
 </div>
 
+<div class="search" id="searchBox">
+  <input id="q" type="search" placeholder="Search your library" autocomplete="off" autocorrect="off" enterkeyhint="search" aria-label="Search your library">
+  <button id="qClear" aria-label="Clear search">✕</button>
+</div>
+
 <section id="stage">
   <div class="frame" id="frame">
     <iframe id="yt" allow="autoplay; encrypted-media; picture-in-picture" title="Player"></iframe>
@@ -153,6 +169,12 @@
   const watched = new Set(store.get("watched", []));
   const hidden = new Set(store.get("hidden", []));
   const modes = store.get("modes", { beats: "next", learn: "stop" }); // next | loop | stop
+  // Recently viewed: newest first. Positions let Learn videos resume where you left off.
+  let history = store.get("history", []); // [{id, at}]
+  const positions = store.get("positions", {}); // id -> {t, d}
+  let query = "";
+  let wantPlaying = false; // you pressed play and haven't paused: used to fight iOS background pauses
+  let pendingSeek = 0, lastSave = 0;
   let queue = [], queueTab = tab, current = null;
   let player = freshPlayer();
   let seeking = false;
@@ -173,7 +195,15 @@
 
   function visible(section) {
     let items = (data[section] || []).filter((v) => !hidden.has(v.id));
+    if (query) {
+      const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+      return items.filter((v) => { const hay = `${v.title} ${v.channel}`.toLowerCase(); return words.every((w) => hay.includes(w)); });
+    }
     const f = filter[section];
+    if (f === "recent") {
+      const byId = new Map(items.map((v) => [v.id, v]));
+      return history.map((h) => byId.get(h.id)).filter(Boolean);
+    }
     if (f === "liked") items = items.filter(isLiked);
     else if (f === "new") items = items.filter((v) => !watched.has(v.id) || v.id === current?.id);
     else if (f === "picks") items = items.filter((v) => v.source === "discovery");
@@ -196,22 +226,24 @@
     // Beats: channel chips only for subscribed producers, not every liked beat's uploader.
     const channels = [...new Set(items.filter((v) => !hidden.has(v.id) && !(tab === "beats" && v.liked)).map((v) => v.channel))].sort();
     const chips = tab === "learn"
-      ? [["new", "New"], ["all", "All"], ...(items.some((v) => v.source === "discovery") ? [["picks", "Curator picks"]] : [])]
-      : [["liked", "♥\uFE0E Liked"], ["all", "All"]];
+      ? [["new", "New"], ["recent", "🕘 Recent"], ["all", "All"], ...(items.some((v) => v.source === "discovery") ? [["picks", "Curator picks"]] : [])]
+      : [["liked", "♥\uFE0E Liked"], ["recent", "🕘 Recent"], ["all", "All"]];
     chips.push(...channels.map((c) => [c, c]));
     $("toolbar").innerHTML = "";
     if (tab === "beats") chip("🔀 Shuffle", false, () => {
       const q = shuffled(visible("beats"));
       if (q.length) play(q[0], q);
     });
-    for (const [key, label] of chips) chip(label, filter[tab] === key, () => { filter[tab] = key; render(); });
+    for (const [key, label] of chips) chip(label, !query && filter[tab] === key, () => { filter[tab] = key; clearSearch(); });
 
     const list = visible(tab);
     const ul = $("list");
     ul.innerHTML = "";
     if (!list.length) {
-      ul.innerHTML = `<li class="empty">${tab === "learn" && filter.learn === "new"
-        ? "You're caught up. New videos arrive daily." : "Nothing here yet."}</li>`;
+      const msg = query ? `No ${tab === "beats" ? "beats" : "videos"} match “${query.replace(/[<>&]/g, "")}”.`
+        : filter[tab] === "recent" ? "Nothing watched yet."
+        : tab === "learn" && filter.learn === "new" ? "You're caught up. New videos arrive daily." : "Nothing here yet.";
+      ul.innerHTML = `<li class="empty">${msg}</li>`;
       return;
     }
     for (const v of list) {
@@ -219,12 +251,14 @@
       li.className = (watched.has(v.id) ? "watched " : "") + (current?.id === v.id ? "playing" : "");
       li.innerHTML = `
         <div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
-          ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}</div>
+          ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}
+          ${progressOf(v.id) ? `<span class="progress" style="width:${progressOf(v.id)}%"></span>` : ""}</div>
         <div class="meta"><div class="title"></div><div class="sub"></div></div>
         ${tab === "beats" ? `<button class="like${isLiked(v) ? " on" : ""}" aria-label="Like">${isLiked(v) ? "♥\uFE0E" : "♡\uFE0E"}</button>` : ""}
         <button class="hide" aria-label="Hide this video">✕</button>`;
       li.querySelector(".title").textContent = v.title;
-      li.querySelector(".sub").textContent = [v.channel, ago(v.published)].filter(Boolean).join(" · ");
+      const seenAt = !query && filter[tab] === "recent" && history.find((h) => h.id === v.id)?.at;
+      li.querySelector(".sub").textContent = [v.channel, seenAt ? `watched ${agoTime(seenAt)}` : ago(v.published)].filter(Boolean).join(" · ");
       li.onclick = () => play(v, list);
       const like = li.querySelector(".like");
       if (like) like.onclick = (e) => {
@@ -246,6 +280,23 @@
     if (d < 30) return `${d}d ago`;
     if (d < 365) return `${Math.floor(d / 30)}mo ago`;
     return `${Math.floor(d / 365)}y ago`;
+  }
+
+  function agoTime(ms) {
+    const m = Math.floor((Date.now() - ms) / 60000);
+    if (m < 1) return "just now";
+    if (m < 60) return `${m}m ago`;
+    if (m < 1440) return `${Math.floor(m / 60)}h ago`;
+    return `${Math.floor(m / 1440)}d ago`;
+  }
+
+  function progressOf(id) {
+    const p = positions[id];
+    return p && p.d ? Math.min(100, Math.round((p.t / p.d) * 100)) : 0;
+  }
+
+  function clearSearch() {
+    query = ""; $("q").value = ""; $("searchBox").classList.remove("has-q"); render();
   }
 
   function shuffled(a) {
@@ -290,6 +341,11 @@
     }
     watched.add(v.id);
     store.set("watched", [...watched].slice(-3000));
+    history = [{ id: v.id, at: Date.now() }, ...history.filter((h) => h.id !== v.id)].slice(0, 200);
+    store.set("history", history);
+    // Learn videos pick up where you left off (unless you were basically done).
+    const p = positions[v.id];
+    pendingSeek = queueTab === "learn" && p && p.t > 20 && p.t < p.d - 30 ? p.t : 0;
     render();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -321,6 +377,13 @@
       if (typeof info.duration === "number" && info.duration) player.dur = info.duration;
       if (typeof info.playerState === "number") onState(info.playerState);
       paintTime();
+      if (current && player.dur && player.time > 5 && Date.now() - lastSave > 5000) {
+        lastSave = Date.now();
+        positions[current.id] = { t: Math.round(player.time), d: Math.round(player.dur) };
+        const ids = Object.keys(positions);
+        if (ids.length > 300) ids.slice(0, ids.length - 300).forEach((k) => delete positions[k]);
+        store.set("positions", positions);
+      }
     }
     if (msg.event === "onStateChange") onState(typeof info === "number" ? info : info?.playerState);
   });
@@ -329,11 +392,16 @@
     if (s === player.state) return;
     player.state = s;
     if (s === 1) { // playing
+      wantPlaying = true;
+      if (pendingSeek) { send("seekTo", [pendingSeek, true]); pendingSeek = 0; }
       player.started = true;
       $("frame").classList.add("started");
       $("frame").classList.remove("ended");
     }
-    if (s === 0) onEnded();
+    if (s === 0) { if (current) delete positions[current.id]; store.set("positions", positions); onEnded(); }
+    // iOS pauses web video when the app goes to the background or the screen locks. Ask it to keep going.
+    // Only right after leaving the app, so a pause you make from the lock screen sticks.
+    if (s === 2 && wantPlaying && document.hidden && Date.now() - hiddenAt < 4000) resumeInBackground();
     paintPP();
   }
 
@@ -367,8 +435,22 @@
     $("mode").classList.toggle("active", m !== "stop");
   }
 
+  function resumeInBackground() {
+    [0, 300, 900, 2000].forEach((ms) => setTimeout(() => { if (wantPlaying && player.state !== 1) send("playVideo"); }, ms));
+  }
+  let hiddenAt = 0;
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) return;
+    hiddenAt = Date.now();
+    if (wantPlaying) resumeInBackground();
+  });
+  window.addEventListener("pagehide", () => { if (wantPlaying) send("playVideo"); });
+
   // If iOS ignores this for the very first start, a tap on the video itself always works.
-  $("playPause").onclick = () => send(player.state === 1 ? "pauseVideo" : "playVideo");
+  $("playPause").onclick = () => {
+    wantPlaying = player.state !== 1;
+    send(wantPlaying ? "playVideo" : "pauseVideo");
+  };
   $("back10").onclick = () => send("seekTo", [Math.max(0, player.time - 10), true]);
   $("fwd10").onclick = () => send("seekTo", [player.time + 10, true]);
   $("next").onclick = next;
@@ -382,6 +464,7 @@
     renderMode();
   };
   $("close").onclick = () => {
+    wantPlaying = false;
     send("stopVideo");
     iframe.src = "about:blank";
     player = freshPlayer();
@@ -391,6 +474,14 @@
   };
   $("seek").addEventListener("input", () => { seeking = true; $("tCur").textContent = fmt(($("seek").value / 100) * player.dur); });
   $("seek").addEventListener("change", () => { seeking = false; send("seekTo", [($("seek").value / 100) * player.dur, true]); });
+
+  $("q").addEventListener("input", () => {
+    query = $("q").value.trim();
+    $("searchBox").classList.toggle("has-q", !!query);
+    render();
+  });
+  $("q").addEventListener("keydown", (e) => { if (e.key === "Enter") $("q").blur(); });
+  $("qClear").onclick = clearSearch;
 
   document.querySelectorAll(".tab").forEach((t) => t.onclick = () => {
     tab = t.dataset.tab; store.set("tab", tab); render();

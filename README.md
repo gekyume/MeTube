@@ -1,6 +1,6 @@
 # MeTube
 
-A two-lane YouTube for your iPhone: **Beats** and **Learn**. No search, no recommendations, no comments, no way out to YouTube.
+A two-lane YouTube for your iPhone: **Beats** and **Learn**. No YouTube search, no recommendations, no comments, no way out to YouTube.
 
 - `docs/`: the phone app, a static web app you add to your home screen. Videos play in the youtube-nocookie embed with YouTube's controls hidden, and its title, logo, and end-screen links are covered.
 - `curator/`: a daily job that fills `docs/videos.json`.
@@ -48,6 +48,9 @@ After step 2, open MeTube and play one Beat and one Learn video to confirm every
 - The first video of a session: tap the video itself to start (iOS rule). After that, the big ▶ button, the ±10s buttons, and the seek bar do everything.
 - **AUTO-NEXT / LOOP / STOP** sets what happens when a video ends. Each tab remembers its own setting: Beats defaults to auto-next and Learn to stop.
 - **✕** on a row hides that video on this phone. Learn opens on **New**, which only shows videos you haven't watched.
+- **Search** only looks through your MeTube library (titles and channel names), never all of YouTube.
+- **🕘 Recent** lists what you've watched, newest first. Learn videos resume where you left off, and the red bar under a thumbnail shows how far you got.
+- **Background / screen off (best effort):** iOS normally pauses web video when you leave the app or lock the screen. MeTube immediately asks the player to keep going. If it still pauses, press play on the lock screen or in Control Center's media player.
 
 ## Local dev
 ```bash

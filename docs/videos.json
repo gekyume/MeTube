@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T18:51:26.667Z",
+ "updatedAt": "2026-09-25T22:07:43.771Z",
  "beats": [
   {
    "id": "KBU4ZHiMO8Y",
@@ -1754,6 +1754,14 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "UQdpbLgw8tk",
+   "title": "[Free] \"True\" Emotional Rap Beat | Hip Hop Instrumental 2025",
+   "channel": "MY Space Prod. (Beats) ",
+   "published": "2025-12-22T14:54:54+00:00",
+   "source": "@myspaceproduction",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
    "id": "HRcV_rwcwJk",
    "title": "[FREE] Freestyle Rap Instrumental Beat - \"STILL SLEEPING\"",
    "channel": "Mixla",
@@ -1864,9 +1872,25 @@
    "published": "2025-03-11T16:05:03+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "-jc93jAkEYk",
+   "title": "(FREE) J Cole x JID Type Beat - \"Cold Reality\"",
+   "channel": "Mixla",
+   "published": "2025-03-07T15:55:59+00:00",
+   "source": "@mixlaproduction",
+   "added": "2026-09-25T22:07:34.050Z"
   }
  ],
  "learn": [
+  {
+   "id": "WVxfkDrfouo",
+   "title": "The AI double squeeze: job loss and predatory debt | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-25T12:00:14+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
   {
    "id": "3nTpW52nioI",
    "title": "High Bandwidth Flash Is Coming",
@@ -1884,6 +1908,14 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "iqoN-7okyHk",
+   "title": "What the media gets wrong about Israel | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-22T00:10:00+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
    "id": "JsBZOcqZerk",
    "title": "The Insane Real Engineering of the Nazi Enigma Machine",
    "channel": "Veritasium",
@@ -1892,12 +1924,28 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "XsfJTbdVFo0",
+   "title": "This is how you rule the world | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-21T12:00:03+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
    "id": "A2BsmrnegrY",
    "title": "Intel’s Optane Memory: A Promise Unfulfilled",
    "channel": "Asianometry",
    "published": "2026-09-20T23:00:19+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "OGixndAvyKw",
+   "title": "Why Latino voters have turned on Trump | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-19T12:00:32+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
   },
   {
    "id": "Nbwv5wHQoj0",
@@ -1932,12 +1980,36 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "l6Jidmgwpa0",
+   "title": "Will I ever want to have kids? | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-14T12:00:06+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
    "id": "x8QP9oXgahA",
    "title": "Silicon Valley’s Starving for Compute",
    "channel": "Asianometry",
    "published": "2026-09-13T23:00:33+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "FZ34RCZTmS4",
+   "title": "Five things you need to know for the 2026 midterms | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-12T12:00:26+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "go_G8hgqMmA",
+   "title": "The truth behind the millennial \"midlife crisis\" | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-11T12:00:23+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
   },
   {
    "id": "DNKfD1PC68E",
@@ -1948,12 +2020,44 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "U_ezGNRvvYs",
+   "title": "How to be less neurotic | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-07T12:00:03+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
    "id": "flkcHcpdRX0",
    "title": "The Flood that Wrecked the Hard Disk Drive Industry",
    "channel": "Asianometry",
    "published": "2026-09-06T23:00:19+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "HvrhW4vEUsQ",
+   "title": "How to undo the damage of sitting all day | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-04T12:00:16+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "Z0VJFcpVLm0",
+   "title": "Olympic weightlifting, explained",
+   "channel": "Vox",
+   "published": "2026-09-02T12:00:33+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "GXJRAFgqxDU",
+   "title": "Angie Nixon’s playbook to be Florida’s next senator | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-01T19:45:19+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
   },
   {
    "id": "-17mPnFxi30",
@@ -1964,6 +2068,38 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "8gkSNzZpJxQ",
+   "title": "Why we can’t stop thinking about aliens | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-08-31T12:00:24+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "yxoHOPOM0Ok",
+   "title": "Gen Z is done with both political parties | America, Actually",
+   "channel": "Vox",
+   "published": "2026-08-29T12:00:25+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "NVNAdjF5uhQ",
+   "title": "Why straight dating feels like a battleground | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-08-28T12:00:10+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "A-FPvbskBjk",
+   "title": "What's safe to eat now?",
+   "channel": "Vox",
+   "published": "2026-08-26T12:00:08+00:00",
+   "source": "@Vox",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
    "id": "r1wwtGgnzg4",
    "title": "Are Beavers Actually Good at Dams?",
    "channel": "Practical Engineering",
@@ -1972,12 +2108,44 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "J1WoNuemKOg",
+   "title": "We sent a camera to space to film the solar eclipse",
+   "channel": "Veritasium",
+   "published": "2026-08-17T14:30:16+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
+   "id": "Cyl3X88KEgg",
+   "title": "Why Humanity Will Never Leave The Solar System",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-04T13:59:53+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
    "id": "stQfGfUSLQg",
    "title": "The Grid That Doubles the Strength of the Ground",
    "channel": "Practical Engineering",
    "published": "2026-08-04T13:00:39+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "wt4p2oalmRY",
+   "title": "Is spider web really stronger than steel?",
+   "channel": "Veritasium",
+   "published": "2026-08-02T13:21:11+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
+   "id": "tL9Lw250spc",
+   "title": "Why does every mammal get 1 billion heartbeats in their life?",
+   "channel": "Veritasium",
+   "published": "2026-07-25T17:29:09+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:05:44.662Z"
   },
   {
    "id": "Iclf_JnPkKw",
@@ -1996,12 +2164,124 @@
    "added": "2026-09-25T17:55:32.668Z"
   },
   {
+   "id": "GK2pZ_oVU1o",
+   "title": "The Scariest Chart in Electrical Engineering",
+   "channel": "Veritasium",
+   "published": "2026-07-14T18:03:28+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
    "id": "Ku_ockR2t44",
    "title": "The Mind-Blowing Flaw That Flooded New Orleans",
    "channel": "Practical Engineering",
    "published": "2026-07-07T13:00:05+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z"
+  },
+  {
+   "id": "mvcesPWvUIc",
+   "title": "We've Been Using The Wrong Science In Court For 50 years",
+   "channel": "Veritasium",
+   "published": "2026-06-22T14:40:50+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
+   "id": "8HBDE-msUjw",
+   "title": "We're 99.9% sure this pattern is true, but no one can prove it",
+   "channel": "Veritasium",
+   "published": "2026-06-14T15:18:45+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
+   "id": "l6DKRf-fAAM",
+   "title": "Reinventing Entropy | Compression is Intelligence Part 1",
+   "channel": "3Blue1Brown",
+   "published": "2026-06-07T11:49:51+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
+   "id": "tz23G_UXCGA",
+   "title": "Something is jamming GPS over Europe. Here's what we found",
+   "channel": "Veritasium",
+   "published": "2026-06-05T07:09:17+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
+   "id": "kS-CGkiPetQ",
+   "title": "Google Maps is unreasonably fast. Let me explain",
+   "channel": "Veritasium",
+   "published": "2026-05-30T14:46:43+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
+   "id": "SVTPv4sI_Jc",
+   "title": "The CIA's new tech doesn't make sense",
+   "channel": "Veritasium",
+   "published": "2026-05-03T19:26:56+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:34.050Z"
+  },
+  {
+   "id": "ksn5yrsC3Wg",
+   "title": "The Crystal That Could Destroy All Medicine",
+   "channel": "Veritasium",
+   "published": "2026-04-29T20:30:53+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "PPJ6NJkmDAo",
+   "title": "How easy is it to steal $10,000 from a locked phone?",
+   "channel": "Veritasium",
+   "published": "2026-04-15T16:40:38+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "jjp3WC8Unj8",
+   "title": "What happens if you drop 0.125 grams of antimatter?",
+   "channel": "Veritasium",
+   "published": "2026-04-05T20:07:08+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "YSJY3DvnybE",
+   "title": "The Secret Spy Tech Inside Every Credit Card",
+   "channel": "Veritasium",
+   "published": "2026-03-26T17:47:09+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "ldxFjLJ3rVY",
+   "title": "How (and why) to take a logarithm of an image",
+   "channel": "3Blue1Brown",
+   "published": "2026-03-22T12:59:00+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:05:44.662Z"
+  },
+  {
+   "id": "9szhjhO9epA",
+   "title": "We Made A Giant Zipper To Explain How It Works",
+   "channel": "Veritasium",
+   "published": "2026-03-19T21:12:24+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "fsLh-NYhOoU",
+   "title": "The most beautiful formula not enough people understand",
+   "channel": "3Blue1Brown",
+   "published": "2026-02-27T15:14:23+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:07:43.771Z"
   }
  ]
 }
