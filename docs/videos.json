@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-25T22:07:43.771Z",
+ "updatedAt": "2026-09-25T22:10:05.438Z",
  "beats": [
   {
    "id": "KBU4ZHiMO8Y",
@@ -2282,6 +2282,54 @@
    "published": "2026-02-27T15:14:23+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:07:43.771Z"
+  },
+  {
+   "id": "BHdbsHFs2P0",
+   "title": "Why you can't comb a hairy ball, and why we care",
+   "channel": "3Blue1Brown",
+   "published": "2026-01-31T14:57:42+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
+  },
+  {
+   "id": "FE-hM1kRK4Y",
+   "title": "Why Laplace transforms are so useful",
+   "channel": "3Blue1Brown",
+   "published": "2025-11-05T13:09:45+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
+  },
+  {
+   "id": "j0wJBEZdwLs",
+   "title": "But what is a Laplace Transform?",
+   "channel": "3Blue1Brown",
+   "published": "2025-10-12T11:19:53+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
+  },
+  {
+   "id": "-j8PzkZ70Lg",
+   "title": "The Physics of Euler's Formula | Laplace Transform Prelude",
+   "channel": "3Blue1Brown",
+   "published": "2025-10-05T13:53:28+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
+  },
+  {
+   "id": "M-MgQC6z3VU",
+   "title": "What was Euclid really doing? | Guest video by Ben Syversen",
+   "channel": "3Blue1Brown",
+   "published": "2025-09-18T14:13:05+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
+  },
+  {
+   "id": "_BrFKp-U8GI",
+   "title": "Exploration & Epiphany | Guest video by Paul Dancstep",
+   "channel": "3Blue1Brown",
+   "published": "2025-09-07T12:25:03+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-25T22:10:05.438Z"
   }
  ]
 }
