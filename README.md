@@ -45,12 +45,17 @@ On the iPhone, go to **Settings → Screen Time → Content & Privacy Restrictio
 After step 2, open MeTube and play one Beat and one Learn video to confirm everything still works.
 
 ## Using it
-- The first video of a session: tap the video itself to start (iOS rule). After that, the big ▶ button, the ±10s buttons, and the seek bar do everything.
-- **AUTO-NEXT / LOOP / STOP** sets what happens when a video ends. Each tab remembers its own setting: Beats defaults to auto-next and Learn to stop.
-- **✕** on a row hides that video on this phone. Learn opens on **New**, which only shows videos you haven't watched.
-- **Search** only looks through your MeTube library (titles and channel names), never all of YouTube.
-- **🕘 Recent** lists what you've watched, newest first. Learn videos resume where you left off, and the red bar under a thumbnail shows how far you got.
+- **Home:** Beats and Learn tabs. Beats opens on your **Liked** folder; Learn opens on **Browse**, which has shelves for Continue watching, New for you, and each topic (History, Science, Engineering & Tech, Society).
+- **Watch page:** tap any video. The back arrow (or swipe back on iPhone, or Esc on a computer) returns you where you were. Tap the channel name for that channel's page, with Play all and Shuffle.
+- **Mini player:** leave the watch page and the video keeps playing in a bar at the bottom. Tap it to return; ✕ closes it.
+- The first video of a session: tap the video itself to start (iOS rule). After that, the buttons do everything.
+- **Auto-next / Loop / Stop at end** is a button on the watch page; each tab remembers its own setting.
+- **Not for me** on the watch page hides a video on this device. **♥** saves a beat to Liked.
+- **Search** only looks through your MeTube library (titles, channels, topics), never all of YouTube.
+- **Recent** lists what you've watched, newest first. Learn videos resume where you left off.
+- **On a computer:** space plays or pauses, ←/→ skip 10s, `n` goes to the next video, `/` jumps to search.
 - **Background / screen off (best effort):** iOS normally pauses web video when you leave the app or lock the screen. MeTube immediately asks the player to keep going. If it still pauses, press play on the lock screen or in Control Center's media player.
+- **Topics:** edit `learn.topics` in `curator/config.json` to add a channel to a shelf, or to add a new shelf.
 
 ## Local dev
 ```bash

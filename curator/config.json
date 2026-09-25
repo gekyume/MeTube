@@ -741,19 +741,34 @@
     "maxTotal": 200
   },
   "learn": {
-    "channels": [
-      "@veritasium",
-      "@3blue1brown",
-      "@kurzgesagt",
-      "@PracticalEngineeringChannel",
-      "@Asianometry",
-      "@Vox"
-    ],
+    "channels": [],
+    "topics": {
+      "History": [
+        "@OverSimplified",
+        "@KingsandGenerals",
+        "@HistoriaCivilis",
+        "@FallofCivilizations",
+        "@HistoryMatters",
+        "@TheArmchairHistorian"
+      ],
+      "Science": [
+        "@veritasium",
+        "@3blue1brown",
+        "@kurzgesagt"
+      ],
+      "Engineering & Tech": [
+        "@PracticalEngineeringChannel",
+        "@Asianometry"
+      ],
+      "Society": [
+        "@Vox"
+      ]
+    },
     "playlists": [],
     "videos": [],
     "maxPerChannel": 15,
     "maxNewPerRun": 6,
-    "maxTotal": 250,
+    "maxTotal": 400,
     "discovery": {
       "enabled": true,
       "queries": [

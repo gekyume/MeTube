@@ -18,6 +18,10 @@ const readJson = async (p, fallback) => {
 const log = (...a) => console.log("[metube]", ...a);
 
 const config = await readJson(CONFIG_PATH);
+// Learn channels are grouped by topic ({ "History": ["@OverSimplified", ...] }); the app shows each topic as a shelf.
+const topicOf = {};
+for (const [topic, chans] of Object.entries(config.learn.topics || {})) chans.forEach((c) => (topicOf[c] = topic));
+config.learn.channels = [...new Set([...(config.learn.channels || []), ...Object.keys(topicOf)])];
 const state = await readJson(STATE_PATH, { channelIds: {}, seen: [] });
 const library = await readJson(OUT_PATH, { beats: [], learn: [] });
 const seen = new Set(state.seen);
@@ -254,7 +258,12 @@ try {
 }
 const learn = await merge(learnSubs.items, discovered, { maxTotal: config.learn.maxTotal });
 
-await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, beats: beats.items, learn: learn.items }, null, 1) + "\n");
+// Some channels upload the same episode twice (e.g. video + podcast version); keep one per channel+title.
+const dedupe = (items) => { const seenKey = new Set(); return items.filter((v) => { const k = `${v.channel}|${v.title.toLowerCase().trim()}`; if (seenKey.has(k)) return false; seenKey.add(k); return true; }); };
+beats.items = dedupe(beats.items);
+learn.items = dedupe(learn.items);
+const learnOut = learn.items.map((v) => (topicOf[v.source] ? { ...v, topic: topicOf[v.source] } : v));
+await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), beats: beats.items, learn: learnOut }, null, 1) + "\n");
 state.seen = [...seen].slice(-5000);
 state.seeded = [...seededSources];
 await writeFile(STATE_PATH, JSON.stringify(state, null, 1) + "\n");

@@ -1,5 +1,11 @@
 {
- "updatedAt": "2026-09-25T22:10:05.438Z",
+ "updatedAt": "2026-09-25T22:44:51.754Z",
+ "topics": [
+  "History",
+  "Science",
+  "Engineering & Tech",
+  "Society"
+ ],
  "beats": [
   {
    "id": "KBU4ZHiMO8Y",
@@ -1884,12 +1890,31 @@
  ],
  "learn": [
   {
+   "id": "wP14-UMT3dk",
+   "title": "21. Majapahit - Empire of the Islands",
+   "channel": "Fall of Civilizations",
+   "published": "2026-09-25T18:23:26+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "AgaY0Zvkd8I",
+   "title": "Why did Charles V split up his empire? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-09-25T17:15:16+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
    "id": "WVxfkDrfouo",
    "title": "The AI double squeeze: job loss and predatory debt | The Gray Area",
    "channel": "Vox",
    "published": "2026-09-25T12:00:14+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Society"
   },
   {
    "id": "3nTpW52nioI",
@@ -1897,7 +1922,17 @@
    "channel": "Asianometry",
    "published": "2026-09-24T23:00:30+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "ZaGZYXgMtgA",
+   "title": "What Did the Ancient Greeks and Romans Know About Britain?",
+   "channel": "Kings and Generals",
+   "published": "2026-09-24T12:59:51+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "QW_jlUn4gA8",
@@ -1905,7 +1940,17 @@
    "channel": "Kurzgesagt – In a Nutshell",
    "published": "2026-09-22T14:00:01+00:00",
    "source": "@kurzgesagt",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Science"
+  },
+  {
+   "id": "e_CItReyz_0",
+   "title": "Why the Pope Crowned Charlemagne Emperor - How Papacy Survived",
+   "channel": "Kings and Generals",
+   "published": "2026-09-22T13:22:33+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "iqoN-7okyHk",
@@ -1913,7 +1958,8 @@
    "channel": "Vox",
    "published": "2026-09-22T00:10:00+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Society"
   },
   {
    "id": "JsBZOcqZerk",
@@ -1921,7 +1967,8 @@
    "channel": "Veritasium",
    "published": "2026-09-21T17:49:57+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Science"
   },
   {
    "id": "XsfJTbdVFo0",
@@ -1929,7 +1976,8 @@
    "channel": "Vox",
    "published": "2026-09-21T12:00:03+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Society"
   },
   {
    "id": "A2BsmrnegrY",
@@ -1937,7 +1985,26 @@
    "channel": "Asianometry",
    "published": "2026-09-20T23:00:19+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "o9sr8sviSIs",
+   "title": "Mỹ Lai Massacre",
+   "channel": "The Armchair Historian",
+   "published": "2026-09-20T16:57:48+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "kN2yEEMeIFA",
+   "title": "World War I: Fate of Armenians, Georgians, Azerbaijanis, Kurds and Assyrians",
+   "channel": "Kings and Generals",
+   "published": "2026-09-20T12:59:46+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "OGixndAvyKw",
@@ -1945,7 +2012,8 @@
    "channel": "Vox",
    "published": "2026-09-19T12:00:32+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "Nbwv5wHQoj0",
@@ -1953,7 +2021,8 @@
    "channel": "3Blue1Brown",
    "published": "2026-09-18T17:12:53+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Science"
   },
   {
    "id": "Qeunu8YkuOk",
@@ -1961,7 +2030,17 @@
    "channel": "Asianometry",
    "published": "2026-09-17T23:00:39+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "lkPZPu7t38c",
+   "title": "How a Company Hooked China on Opium - Tea Led to the Opium War",
+   "channel": "Kings and Generals",
+   "published": "2026-09-17T12:59:58+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "0NY2gAftzJE",
@@ -1969,7 +2048,8 @@
    "channel": "Kurzgesagt – In a Nutshell",
    "published": "2026-09-15T14:00:02+00:00",
    "source": "@kurzgesagt",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Science"
   },
   {
    "id": "n_1wzYQwnts",
@@ -1977,7 +2057,17 @@
    "channel": "Practical Engineering",
    "published": "2026-09-15T13:00:35+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "4baAU3bs-AI",
+   "title": "Ancient Law That Created the Greek Mediterranean World - Zeus' Law",
+   "channel": "Kings and Generals",
+   "published": "2026-09-15T12:59:48+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "l6Jidmgwpa0",
@@ -1985,7 +2075,8 @@
    "channel": "Vox",
    "published": "2026-09-14T12:00:06+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "x8QP9oXgahA",
@@ -1993,7 +2084,17 @@
    "channel": "Asianometry",
    "published": "2026-09-13T23:00:33+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "5ij0tDYhIhg",
+   "title": "War of the Spanish Succession: All Battles and Events - FULL DOCUMENTARY",
+   "channel": "Kings and Generals",
+   "published": "2026-09-13T12:59:54+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "FZ34RCZTmS4",
@@ -2001,7 +2102,8 @@
    "channel": "Vox",
    "published": "2026-09-12T12:00:26+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "go_G8hgqMmA",
@@ -2009,7 +2111,8 @@
    "channel": "Vox",
    "published": "2026-09-11T12:00:23+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "DNKfD1PC68E",
@@ -2017,7 +2120,26 @@
    "channel": "Asianometry",
    "published": "2026-09-10T23:00:09+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "f7KjbemUhkw",
+   "title": "The Greatest Peasant Uprising in English History",
+   "channel": "Kings and Generals",
+   "published": "2026-09-10T12:59:52+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "N4zI_oNsdgg",
+   "title": "Ukraine Hits Putin Where It Hurts - CIA in Moscow",
+   "channel": "Kings and Generals",
+   "published": "2026-09-08T12:59:57+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "U_ezGNRvvYs",
@@ -2025,7 +2147,8 @@
    "channel": "Vox",
    "published": "2026-09-07T12:00:03+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "flkcHcpdRX0",
@@ -2033,7 +2156,26 @@
    "channel": "Asianometry",
    "published": "2026-09-06T23:00:19+00:00",
    "source": "@Asianometry",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "AKAJOrbYVS8",
+   "title": "Alexander the Great - All Battles and Conquests EXPLAINED in 6 Hours",
+   "channel": "Kings and Generals",
+   "published": "2026-09-06T12:59:52+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "-B1emleGujk",
+   "title": "Soviets Who Helped the Nazis (Uncensored Version)",
+   "channel": "The Armchair Historian",
+   "published": "2026-09-05T02:27:53+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "HvrhW4vEUsQ",
@@ -2041,7 +2183,17 @@
    "channel": "Vox",
    "published": "2026-09-04T12:00:16+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
+  },
+  {
+   "id": "weBFFygUxxc",
+   "title": "Who Was Really Roman? When Did Romans Stop Being Roman?",
+   "channel": "Kings and Generals",
+   "published": "2026-09-03T12:59:53+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "Z0VJFcpVLm0",
@@ -2049,7 +2201,8 @@
    "channel": "Vox",
    "published": "2026-09-02T12:00:33+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "GXJRAFgqxDU",
@@ -2057,7 +2210,8 @@
    "channel": "Vox",
    "published": "2026-09-01T19:45:19+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
   },
   {
    "id": "-17mPnFxi30",
@@ -2065,7 +2219,26 @@
    "channel": "Practical Engineering",
    "published": "2026-09-01T13:00:00+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "8bHCPc-hZWQ",
+   "title": "Sudan’s Three Civil Wars Explained",
+   "channel": "Kings and Generals",
+   "published": "2026-09-01T12:59:53+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "H63wgtmW8fQ",
+   "title": "Why did Britain join WW1? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-08-31T17:15:15+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "8gkSNzZpJxQ",
@@ -2073,7 +2246,17 @@
    "channel": "Vox",
    "published": "2026-08-31T12:00:24+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
+  },
+  {
+   "id": "MSaVL1JAoIc",
+   "title": "The Battle That Changed the Middle East - Ottomans Broke the Mamluks",
+   "channel": "Kings and Generals",
+   "published": "2026-08-30T13:00:00+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "yxoHOPOM0Ok",
@@ -2081,7 +2264,17 @@
    "channel": "Vox",
    "published": "2026-08-29T12:00:25+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
+  },
+  {
+   "id": "CtPGZxaSnv4",
+   "title": "Malmedy Massacre",
+   "channel": "The Armchair Historian",
+   "published": "2026-08-28T16:24:07+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "NVNAdjF5uhQ",
@@ -2089,7 +2282,17 @@
    "channel": "Vox",
    "published": "2026-08-28T12:00:10+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
+  },
+  {
+   "id": "t5hhOOMUjZQ",
+   "title": "Why the Pope Stayed Silent - Vatican Wouldn’t Condemn Hitler",
+   "channel": "Kings and Generals",
+   "published": "2026-08-27T12:51:38+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "A-FPvbskBjk",
@@ -2097,7 +2300,26 @@
    "channel": "Vox",
    "published": "2026-08-26T12:00:08+00:00",
    "source": "@Vox",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Society"
+  },
+  {
+   "id": "0RDCTHMXjgg",
+   "title": "Were the Sea Peoples Actually Greek? Did Greeks Destroy the Bronze Age?",
+   "channel": "Kings and Generals",
+   "published": "2026-08-25T13:18:48+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "Rk7QV9Gto-c",
+   "title": "Fall of Jerusalem - How Britain Broke the Ottoman Front",
+   "channel": "Kings and Generals",
+   "published": "2026-08-23T12:57:54+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "r1wwtGgnzg4",
@@ -2105,7 +2327,8 @@
    "channel": "Practical Engineering",
    "published": "2026-08-18T13:00:21+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
   },
   {
    "id": "J1WoNuemKOg",
@@ -2113,7 +2336,17 @@
    "channel": "Veritasium",
    "published": "2026-08-17T14:30:16+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
+  },
+  {
+   "id": "CoxRduAbxRs",
+   "title": "Why didn't the Dutch also scramble Africa? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-08-16T17:15:28+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "Cyl3X88KEgg",
@@ -2121,7 +2354,8 @@
    "channel": "Kurzgesagt – In a Nutshell",
    "published": "2026-08-04T13:59:53+00:00",
    "source": "@kurzgesagt",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
   },
   {
    "id": "stQfGfUSLQg",
@@ -2129,7 +2363,8 @@
    "channel": "Practical Engineering",
    "published": "2026-08-04T13:00:39+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
   },
   {
    "id": "wt4p2oalmRY",
@@ -2137,7 +2372,17 @@
    "channel": "Veritasium",
    "published": "2026-08-02T13:21:11+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
+  },
+  {
+   "id": "J9H_BOe5suY",
+   "title": "Boer Wars (Full Documentary)",
+   "channel": "The Armchair Historian",
+   "published": "2026-08-01T21:29:55+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "tL9Lw250spc",
@@ -2145,7 +2390,8 @@
    "channel": "Veritasium",
    "published": "2026-07-25T17:29:09+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
   },
   {
    "id": "Iclf_JnPkKw",
@@ -2153,7 +2399,17 @@
    "channel": "Practical Engineering",
    "published": "2026-07-21T13:02:12+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "QFrzGhlRAkw",
+   "title": "Why did the Treaty of Versailles Fail? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-07-20T17:15:10+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "GlYgs6v2YfU",
@@ -2161,7 +2417,8 @@
    "channel": "3Blue1Brown",
    "published": "2026-07-16T11:56:04+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Science"
   },
   {
    "id": "GK2pZ_oVU1o",
@@ -2169,7 +2426,8 @@
    "channel": "Veritasium",
    "published": "2026-07-14T18:03:28+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
   },
   {
    "id": "Ku_ockR2t44",
@@ -2177,7 +2435,26 @@
    "channel": "Practical Engineering",
    "published": "2026-07-07T13:00:05+00:00",
    "source": "@PracticalEngineeringChannel",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "0s0N8BrxCok",
+   "title": "Germany's Last Ditch 1945 Units (Uncensored Version)",
+   "channel": "The Armchair Historian",
+   "published": "2026-07-04T20:54:41+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "49s1EHBzmFQ",
+   "title": "When did the Cold War actually start? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-06-30T17:15:21+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "mvcesPWvUIc",
@@ -2185,7 +2462,17 @@
    "channel": "Veritasium",
    "published": "2026-06-22T14:40:50+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
+  },
+  {
+   "id": "b_aL0-R2z3Y",
+   "title": "Wars of South American Independence",
+   "channel": "The Armchair Historian",
+   "published": "2026-06-21T00:29:23+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "8HBDE-msUjw",
@@ -2193,7 +2480,17 @@
    "channel": "Veritasium",
    "published": "2026-06-14T15:18:45+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
+  },
+  {
+   "id": "0cxMrCykadY",
+   "title": "Why wasn't Japan allowed to keep Taiwan after WW2? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-06-13T17:15:30+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "l6DKRf-fAAM",
@@ -2201,7 +2498,8 @@
    "channel": "3Blue1Brown",
    "published": "2026-06-07T11:49:51+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
   },
   {
    "id": "tz23G_UXCGA",
@@ -2209,7 +2507,26 @@
    "channel": "Veritasium",
    "published": "2026-06-05T07:09:17+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
+  },
+  {
+   "id": "pp7l-JQQ2IY",
+   "title": "The Great Northern War",
+   "channel": "The Armchair Historian",
+   "published": "2026-06-01T21:06:30+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "zIknCgPbRyc",
+   "title": "Why did the Spanish choose to fight the USA in 1898? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-05-30T17:15:15+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "kS-CGkiPetQ",
@@ -2217,7 +2534,35 @@
    "channel": "Veritasium",
    "published": "2026-05-30T14:46:43+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
+  },
+  {
+   "id": "hqt96HLH6PM",
+   "title": "WW1's Forgotten Middle Eastern Theater (Uncensored Version)",
+   "channel": "The Armchair Historian",
+   "published": "2026-05-24T17:07:37+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "vcg1WMzr9xw",
+   "title": "U.S. Island Hopping Strategy",
+   "channel": "The Armchair Historian",
+   "published": "2026-05-17T11:56:59+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "YuYDi5dh_70",
+   "title": "Why didn't Germany stop expanding in 1939? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-05-14T17:15:35+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "SVTPv4sI_Jc",
@@ -2225,7 +2570,17 @@
    "channel": "Veritasium",
    "published": "2026-05-03T19:26:56+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "topic": "Science"
+  },
+  {
+   "id": "_W91vYZETPM",
+   "title": "Why didn't the other Central Powers have to pay reparations too? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-05-03T17:15:00+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "ksn5yrsC3Wg",
@@ -2233,7 +2588,35 @@
    "channel": "Veritasium",
    "published": "2026-04-29T20:30:53+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "nc4tcJL6-W0",
+   "title": "British Tank Development in WWI",
+   "channel": "The Armchair Historian",
+   "published": "2026-04-26T21:20:54+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "ynhI5fZ_Uhk",
+   "title": "Why didn't the Boers ever unite against the British? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-04-19T17:15:00+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "872JcpP3FEM",
+   "title": "The City.",
+   "channel": "Historia Civilis",
+   "published": "2026-04-18T17:00:16+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "PPJ6NJkmDAo",
@@ -2241,7 +2624,17 @@
    "channel": "Veritasium",
    "published": "2026-04-15T16:40:38+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "-sJhk8qscSs",
+   "title": "India's Annexation of Portuguese Goa",
+   "channel": "The Armchair Historian",
+   "published": "2026-04-11T22:26:33+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "jjp3WC8Unj8",
@@ -2249,7 +2642,17 @@
    "channel": "Veritasium",
    "published": "2026-04-05T20:07:08+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "HZpyTTsx0xw",
+   "title": "Why wasn't Teddy Roosevelt allowed to fight in World War One? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-03-27T18:15:00+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "YSJY3DvnybE",
@@ -2257,7 +2660,17 @@
    "channel": "Veritasium",
    "published": "2026-03-26T17:47:09+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "p-gleC7WxNY",
+   "title": "Life in German-Occupied Poland (Uncensored Version)",
+   "channel": "The Armchair Historian",
+   "published": "2026-03-22T19:12:44+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "ldxFjLJ3rVY",
@@ -2265,7 +2678,8 @@
    "channel": "3Blue1Brown",
    "published": "2026-03-22T12:59:00+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:05:44.662Z"
+   "added": "2026-09-25T22:05:44.662Z",
+   "topic": "Science"
   },
   {
    "id": "9szhjhO9epA",
@@ -2273,7 +2687,26 @@
    "channel": "Veritasium",
    "published": "2026-03-19T21:12:24+00:00",
    "source": "@veritasium",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "cqMouZcoWMA",
+   "title": "The Rwandan Genocide",
+   "channel": "The Armchair Historian",
+   "published": "2026-03-07T19:06:06+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "uw8sjn7z0Ls",
+   "title": "Why couldn't the Mongols conquer Japan? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-03-03T18:15:00+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "fsLh-NYhOoU",
@@ -2281,7 +2714,35 @@
    "channel": "3Blue1Brown",
    "published": "2026-02-27T15:14:23+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:07:43.771Z"
+   "added": "2026-09-25T22:07:43.771Z",
+   "topic": "Science"
+  },
+  {
+   "id": "RSjMtbHBJDQ",
+   "title": "Peasants vs Knights: Battle of Hemmingstedt",
+   "channel": "The Armchair Historian",
+   "published": "2026-02-22T23:44:05+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "kbrjnNq3aoQ",
+   "title": "Retiring End of 2026 - My Last Year on YouTube",
+   "channel": "The Armchair Historian",
+   "published": "2026-02-22T23:43:46+00:00",
+   "source": "@TheArmchairHistorian",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "T_OqU3ONq3w",
+   "title": "Why did Mao win the Chinese Civil War?",
+   "channel": "History Matters",
+   "published": "2026-02-07T18:15:00+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "BHdbsHFs2P0",
@@ -2289,7 +2750,35 @@
    "channel": "3Blue1Brown",
    "published": "2026-01-31T14:57:42+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
+  },
+  {
+   "id": "nVFqq1a1r_s",
+   "title": "Why did Austria-Hungary do so poorly in World War One? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2026-01-09T18:15:07+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "DvVqcgBiddc",
+   "title": "Why didn't the US focus on Japan first in WW2? (Short Animated Documentary)",
+   "channel": "History Matters",
+   "published": "2025-12-19T18:15:01+00:00",
+   "source": "@HistoryMatters",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "CAsKpXoxZAQ",
+   "title": "20. Persia - An Empire in Ashes",
+   "channel": "Fall of Civilizations",
+   "published": "2025-12-16T15:04:49+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   },
   {
    "id": "FE-hM1kRK4Y",
@@ -2297,7 +2786,8 @@
    "channel": "3Blue1Brown",
    "published": "2025-11-05T13:09:45+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
   },
   {
    "id": "j0wJBEZdwLs",
@@ -2305,7 +2795,8 @@
    "channel": "3Blue1Brown",
    "published": "2025-10-12T11:19:53+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
   },
   {
    "id": "-j8PzkZ70Lg",
@@ -2313,7 +2804,8 @@
    "channel": "3Blue1Brown",
    "published": "2025-10-05T13:53:28+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
   },
   {
    "id": "M-MgQC6z3VU",
@@ -2321,7 +2813,8 @@
    "channel": "3Blue1Brown",
    "published": "2025-09-18T14:13:05+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
   },
   {
    "id": "_BrFKp-U8GI",
@@ -2329,7 +2822,332 @@
    "channel": "3Blue1Brown",
    "published": "2025-09-07T12:25:03+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-25T22:10:05.438Z"
+   "added": "2026-09-25T22:44:51.754Z",
+   "topic": "Science"
+  },
+  {
+   "id": "h6E4_Bcmscg",
+   "title": "Reform or Revolution? (1830 to 1832)",
+   "channel": "Historia Civilis",
+   "published": "2025-08-30T16:01:09+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "PdFwMDuAnS4",
+   "title": "19. The Mongols - Terror of the Steppe",
+   "channel": "Fall of Civilizations",
+   "published": "2025-04-02T19:35:09+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "1BVJzaXv3rk",
+   "title": "The Second Punic War  - OverSimplified (Part 3)",
+   "channel": "OverSimplified",
+   "published": "2025-01-18T19:30:06+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "Qw7xXYypFQ0",
+   "title": "The July Revolution (1820 to 1830)",
+   "channel": "Historia Civilis",
+   "published": "2024-11-23T17:00:11+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "YpKej05RgsY",
+   "title": "18. Egypt - Fall of the Pharaohs",
+   "channel": "Fall of Civilizations",
+   "published": "2024-04-30T15:25:46+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "R0wwuj0sTyY",
+   "title": "The Year Without a Summer (1816 to 1824)",
+   "channel": "Historia Civilis",
+   "published": "2024-03-16T16:00:13+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "Q-nWA0WeF98",
+   "title": "The Second Punic War - OverSimplified (Part 2)",
+   "channel": "OverSimplified",
+   "published": "2024-01-19T19:45:11+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "lsbcN9-jU1Y",
+   "title": "The Second Punic War - OverSimplified (Part 1)",
+   "channel": "OverSimplified",
+   "published": "2024-01-19T19:00:08+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "805SIqgDZIE",
+   "title": "RECAP: First Punic War",
+   "channel": "OverSimplified",
+   "published": "2024-01-19T17:22:31+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "hvk_XylEmLo",
+   "title": "Work.",
+   "channel": "Historia Civilis",
+   "published": "2023-09-29T16:00:16+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "6dbdVhVSat8",
+   "title": "17. Carthage - Empire of the Phoenicians",
+   "channel": "Fall of Civilizations",
+   "published": "2023-06-18T17:22:14+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "EezHXh-UG-c",
+   "title": "The Death of Antony & Cleopatra (30 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2023-05-20T16:00:14+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "t7Y-1qMKY_0",
+   "title": "The Battle of Actium (31 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2022-12-17T20:15:07+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "0MtIVJ2lcu8",
+   "title": "16. Bagan - City of Temples",
+   "channel": "Fall of Civilizations",
+   "published": "2022-11-03T17:38:39+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "HURI6EHXybc",
+   "title": "War and Peace ...and War (35 to 32 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2022-09-30T19:00:13+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "hRSGxw2AQnk",
+   "title": "The First Punic War - OverSimplified (Part 2)",
+   "channel": "OverSimplified",
+   "published": "2022-09-02T19:45:08+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "yRmOWcWdQAo",
+   "title": "The First Punic War - OverSimplified (Part 1)",
+   "channel": "OverSimplified",
+   "published": "2022-09-02T19:15:10+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "qSfFq02pK4s",
+   "title": "15. The Nabataeans - The Last Days Of Petra",
+   "channel": "Fall of Civilizations",
+   "published": "2022-07-17T12:40:03+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "uFU7--7Zy9s",
+   "title": "15. The Nabataeans - The Final Days Of Petra",
+   "channel": "Fall of Civilizations",
+   "published": "2022-06-15T15:01:19+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "nlMpxUYKTcU",
+   "title": "14. Vijayanagara - The Last Emperors of South India",
+   "channel": "Fall of Civilizations",
+   "published": "2022-04-22T14:28:34+00:00",
+   "source": "@FallofCivilizations",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "OGJHE6O7Mhk",
+   "title": "The Congress of Vienna (Part 2) (1814 to 1815)",
+   "channel": "Historia Civilis",
+   "published": "2022-04-02T16:32:00+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "QtOXq9SwarQ",
+   "title": "The Congress of Vienna (Part 1) (1814)",
+   "channel": "Historia Civilis",
+   "published": "2022-01-29T16:15:19+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "QLq6GEiHqR8",
+   "title": "The Pig War - OverSimplified",
+   "channel": "OverSimplified",
+   "published": "2021-12-06T23:30:10+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "CH1oYhTigyA",
+   "title": "Peace...? (1814)",
+   "channel": "Historia Civilis",
+   "published": "2021-07-18T13:56:36+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "mY3SEMTROas",
+   "title": "The Napoleonic Wars - OverSimplified (Part 2)",
+   "channel": "OverSimplified",
+   "published": "2021-05-29T00:30:11+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "zqllxbPWKNI",
+   "title": "The Napoleonic Wars  - OverSimplified (Part 1)",
+   "channel": "OverSimplified",
+   "published": "2021-05-28T23:45:09+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "POHNhn3WcCc",
+   "title": "Antony's Invasion of Parthia (42 to 33 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2021-04-24T14:00:31+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "8rt67AqrR74",
+   "title": "Sextus Pompeius and the Sicilian War (42 to 36 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2021-01-16T17:16:28+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "AAGIi62-sAU",
+   "title": "Prohibition - OverSimplified",
+   "channel": "OverSimplified",
+   "published": "2020-12-16T02:30:09+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "gdavaK3d4Pc",
+   "title": "The Battle of Philippi (42 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2020-09-22T13:48:35+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "b1reY72ktEc",
+   "title": "The Russian Revolution - OverSimplified (Part 2)",
+   "channel": "OverSimplified",
+   "published": "2020-08-18T00:00:10+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "Cqbleas1mmo",
+   "title": "The Russian Revolution - OverSimplified (Part 1)",
+   "channel": "OverSimplified",
+   "published": "2020-08-17T23:30:09+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "aq4G-7v-_xI",
+   "title": "The Bronze Age Collapse (approximately 1200 B.C.E.)",
+   "channel": "Historia Civilis",
+   "published": "2020-07-25T13:18:15+00:00",
+   "source": "@HistoriaCivilis",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "ewLpXw6uN28",
+   "title": "Henry VIII - OverSimplified",
+   "channel": "OverSimplified",
+   "published": "2020-05-04T21:45:11+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "sV6uuMAnJUE",
+   "title": "The American Civil War  - OverSimplified (Part 2)",
+   "channel": "OverSimplified",
+   "published": "2020-01-31T23:32:33+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
+  },
+  {
+   "id": "tsxmyL7TUJg",
+   "title": "The American Civil War - OverSimplified (Part 1)",
+   "channel": "OverSimplified",
+   "published": "2020-01-31T23:00:10+00:00",
+   "source": "@OverSimplified",
+   "added": "2026-09-25T22:37:17.125Z",
+   "topic": "History"
   }
  ]
 }
