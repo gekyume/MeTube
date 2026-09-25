@@ -25,6 +25,8 @@
 
   header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px 10px; }
   h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+  .brand { display: flex; align-items: center; gap: 8px; }
+  .logo { width: 34px; height: auto; display: block; }
   .updated { color: var(--muted); font-size: 12px; }
 
   .tabs { display: flex; gap: 6px; margin: 0 16px 12px; background: var(--surface); padding: 4px; border-radius: 12px; }
@@ -93,7 +95,7 @@
 </head>
 <body>
 <header>
-  <h1>MeTube</h1>
+  <h1 class="brand"><svg class="logo" viewBox="0 0 147 100" aria-hidden="true"><rect width="147" height="100" rx="24" fill="#f00000"/><path d="M51.6 50.6 88.2 29.3v42.4z" fill="#fff"/></svg>MeTube</h1>
   <span class="updated" id="updated"></span>
 </header>
 
