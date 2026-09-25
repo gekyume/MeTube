@@ -389,6 +389,32 @@
   const sectionOf = (id) => ((data.beats || []).some((x) => x.id === id) ? "beats" : "learn");
   const findVideo = (id) => (data.beats || []).find((x) => x.id === id) || (data.learn || []).find((x) => x.id === id);
 
+  // Beat moods, guessed from the "type beat" artists and style words in each title (a beat can have several).
+  const MOODS = [
+    ["Chill", ["chill", "jazz", "lofi", "lo-fi", "smino", "steve lacy", "jordan ward", "daniel caesar", "frank ocean", "dijon", "sainte",
+      "isaiah rashad", "aaron may", "tommy richman", "brent faiyaz", "don toliver", "neo soul", "neo -soul", "sza", "bieber", "sade",
+      "erykah", "reggae", "earl sweatshirt", "young nudy", "lucki", "piano"]],
+    ["Hype", ["hard", "bouncy", "trap", "nba youngboy", "glokknine", "9lokknine", "lpb poody", "real boston richey", "big yavo",
+      "wizz havinn", "dababy", "travis scott", "iceman", "detroit", "florida", "el snappo", "loe shimmy", "hurricane wisdom", "jerk",
+      "baby keem", "asap rocky", "bak jay", "yn jay", "babyfxce", "babyface ray", "veeze", "nine vicious", "lil noonie", "az chike",
+      "bluebucksclan", "rucci", "rick ross", "concrete", "prxphecy", "lil nas x", "montero", "iann dior", "tyler the creator", "doechii"]],
+    ["Conscious", ["j cole", "kendrick", "joey bada", "joey badass", "erick the architect", "dreamville", "chance the rapper", "cordae",
+      "earl sweatshirt", "mf doom", "schoolboy q", "alchemist", "underground", "big noyd"]],
+    ["Boom Bap", ["boom bap", "old school", "90s", "mf doom", "alchemist", "joey bada", "lethalneedle", "vintageman", "templum", "mixla"]],
+    ["Soulful", ["soul", "gospel", "sample", "kanye", "chance the rapper", "amy winehouse", "70s", "clayh", "choir"]],
+    ["Emotional", ["emotional", "sad", "tears", "ballad", "pain", "falling in love", "regrets", "piano", "my space prod", "drake type beat"]],
+    ["Throwback", ["2000s", "90s", "r&b-pop", "dougie", "lil wayne", "jay z", "50 cent", "pharrell", "lil tecca", "jack harlow", "old school kanye"]],
+    ["Epic", ["stadium", "cinematic", "yeezus", "life of pablo", "champion", "beat switch", "trumpet", "brass", "award show", "greatest"]],
+  ];
+  const moodCache = new Map();
+  function moodsOf(v) {
+    if (!moodCache.has(v.id)) {
+      const hay = `${v.title} ${v.channel}`.toLowerCase();
+      moodCache.set(v.id, MOODS.filter(([, words]) => words.some((w) => hay.includes(w))).map(([m]) => m));
+    }
+    return moodCache.get(v.id);
+  }
+
   function listFor(section, f = filter[section]) {
     const items = allItems(section);
     if (query) {
@@ -399,6 +425,7 @@
     if (f === "liked") return items.filter(isLiked);
     if (f === "new") return items.filter((v) => !watched.has(v.id));
     if (f === "picks") return items.filter((v) => v.source === "discovery");
+    if (f.startsWith("mood:")) return items.filter((v) => moodsOf(v).includes(f.slice(5)));
     if (f.startsWith("topic:")) return items.filter((v) => v.topic === f.slice(6));
     if (f.startsWith("channel:")) return items.filter((v) => v.channel === f.slice(8));
     return items;
@@ -507,6 +534,9 @@
       addChip("Liked", f === "liked", setFilter("liked"));
       addChip("Recent", f === "recent", setFilter("recent"));
       addChip("All beats", f === "all", setFilter("all"));
+      chips.insertAdjacentHTML("beforeend", `<span class="chip-sep"></span>`);
+      const beats = allItems("beats");
+      for (const [m] of MOODS) if (beats.some((v) => moodsOf(v).includes(m))) addChip(m, f === `mood:${m}`, setFilter(`mood:${m}`));
     } else {
       addChip("Browse", f === "browse", setFilter("browse"));
       addChip("New", f === "new", setFilter("new"));
