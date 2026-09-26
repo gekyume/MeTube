@@ -70,9 +70,11 @@ async function isShort(id) {
   } catch { return false; }
 }
 
-const blocked = (title) => config.blockedTitleWords.some((w) => title.toLowerCase().includes(w.toLowerCase()));
+const blocked = (title, isShortsFeed = false) => config.blockedTitleWords
+  .filter((w) => !(isShortsFeed && w === "#shorts"))
+  .some((w) => title.toLowerCase().includes(w.toLowerCase()));
 
-async function collectFeeds(section) {
+async function collectFeeds(section, { list = "UULF" } = {}) {
   const out = [];
   const sources = [
     ...section.channels.map((c) => ({ ref: c, kind: "channel" })),
@@ -83,12 +85,12 @@ async function collectFeeds(section) {
       let entries;
       if (src.kind === "channel") {
         const id = await resolveChannelId(src.ref);
-        // UULF… is the channel's long-form-only uploads list (no Shorts); fall back to the plain feed.
-        entries = await readFeed(`playlist_id=UULF${id.slice(2)}`).catch(() => readFeed(`channel_id=${id}`));
+        // UULF… is the channel's long-form-only uploads list (no Shorts), UUSH… its Shorts-only list.
+        entries = await readFeed(`playlist_id=${list}${id.slice(2)}`).catch((e) => (list === "UULF" ? readFeed(`channel_id=${id}`) : Promise.reject(e)));
       } else {
         entries = await readFeed(`playlist_id=${src.ref.match(/list=([\w-]+)/)?.[1] || src.ref}`);
       }
-      entries = entries.filter((v) => !blocked(v.title));
+      entries = entries.filter((v) => !blocked(v.title, list === "UUSH"));
       out.push(...entries.slice(0, section.maxPerChannel).map((v) => ({ ...v, source: src.ref })));
     } catch (e) {
       log("skip", src.ref, e.message);
@@ -202,12 +204,12 @@ async function rankWithClaude(disc, candidates) {
 }
 
 // Merge new items into a section, dropping Shorts, keeping order newest-first.
-async function merge(existing, incoming, { maxTotal, maxNew = Infinity, uncapped = () => false }) {
+async function merge(existing, incoming, { maxTotal, maxNew = Infinity, uncapped = () => false, allowShorts = false }) {
   const byId = new Map(existing.map((v) => [v.id, v]));
   let added = 0;
   for (const v of incoming) {
     if (byId.has(v.id) || (added >= maxNew && !uncapped(v))) continue;
-    if (await isShort(v.id)) { seen.add(v.id); continue; }
+    if (!allowShorts && (await isShort(v.id))) { seen.add(v.id); continue; }
     byId.set(v.id, { ...v, added: now });
     added++;
   }
@@ -225,6 +227,27 @@ async function manualVideos(list) {
       return { id, title: "Video", channel: "", published: now, source: "manual" };
     }
   }));
+}
+
+// Video length in seconds, read from the watch page (the RSS feeds don't include it). Cached in videos.json.
+async function fetchDuration(id) {
+  try {
+    const html = await (await fetch(`https://www.youtube.com/watch?v=${id}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
+    const m = html.match(/"lengthSeconds":"(\d+)"/);
+    return m ? +m[1] : null;
+  } catch { return null; }
+}
+async function fillDurations(items, known) {
+  const todo = [];
+  for (const v of items) {
+    if (v.dur == null && known.has(v.id)) v.dur = known.get(v.id);
+    if (v.dur == null) todo.push(v);
+  }
+  let i = 0, found = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    while (i < Math.min(todo.length, 600)) { const v = todo[i++]; v.dur = await fetchDuration(v.id); if (v.dur) found++; }
+  }));
+  if (todo.length) log(`durations: ${found}/${Math.min(todo.length, 600)} looked up`);
 }
 
 // ---------- run ----------
@@ -258,13 +281,21 @@ try {
 }
 const learn = await merge(learnSubs.items, discovered, { maxTotal: config.learn.maxTotal });
 
+// Shorts: educational channels' Shorts-only feeds, for the swipe feed.
+const shortsCfg = config.shorts || { channels: [] };
+const shortsIn = await collectFeeds(shortsCfg, { list: "UUSH" });
+const shorts = await merge(library.shorts || [], shortsIn, { maxTotal: shortsCfg.maxTotal || 300, allowShorts: true });
+
 // Some channels upload the same episode twice (e.g. video + podcast version); keep one per channel+title.
 const dedupe = (items) => { const seenKey = new Set(); return items.filter((v) => { const k = `${v.channel}|${v.title.toLowerCase().trim()}`; if (seenKey.has(k)) return false; seenKey.add(k); return true; }); };
 beats.items = dedupe(beats.items);
 learn.items = dedupe(learn.items);
+shorts.items = dedupe(shorts.items);
+const knownDur = new Map([...(library.beats || []), ...(library.learn || [])].filter((v) => v.dur != null).map((v) => [v.id, v.dur]));
+await fillDurations([...beats.items, ...learn.items], knownDur);
 const learnOut = learn.items.map((v) => (topicOf[v.source] ? { ...v, topic: topicOf[v.source] } : v));
-await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), beats: beats.items, learn: learnOut }, null, 1) + "\n");
+await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), beats: beats.items, learn: learnOut, shorts: shorts.items }, null, 1) + "\n");
 state.seen = [...seen].slice(-5000);
 state.seeded = [...seededSources];
 await writeFile(STATE_PATH, JSON.stringify(state, null, 1) + "\n");
-log(`beats: ${beats.items.length} (+${beats.added}), learn: ${learn.items.length} (+${learnSubs.added + learn.added})`);
+log(`beats: ${beats.items.length} (+${beats.added}), learn: ${learn.items.length} (+${learnSubs.added + learn.added}), shorts: ${shorts.items.length} (+${shorts.added})`);

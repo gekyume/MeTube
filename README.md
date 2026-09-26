@@ -52,6 +52,8 @@ After step 2, open MeTube and play one Beat and one Learn video to confirm every
 - **Auto-next / Loop / Stop at end** is a button on the watch page; each tab remembers its own setting.
 - **Not for me** on the watch page hides a video on this device. **♥** saves a beat to Liked.
 - **Search** only looks through your MeTube library (titles, channels, topics), never all of YouTube.
+- **Shorts tab:** educational Shorts (TED-Ed, Kurzgesagt, Veritasium, 3Blue1Brown, Vsauce, Kings and Generals, Practical Engineering, TED). Tap one, tap the video once to start, then swipe up and down. They loop, and tapping pauses. Change the channels under `shorts.channels` in `curator/config.json`.
+- **Video lengths** show on every thumbnail. Learn has a **Quick (≤10 min)** filter and a Quick watches shelf.
 - **Recent** lists what you've watched, newest first. Learn videos resume where you left off.
 - **On a computer:** space plays or pauses, ←/→ skip 10s, `n` goes to the next video, `/` jumps to search.
 - **Background / screen off (best effort):** iOS normally pauses web video when you leave the app or lock the screen. MeTube immediately asks the player to keep going. If it still pauses, press play on the lock screen or in Control Center's media player.

@@ -16,11 +16,12 @@
   :root {
     --bg: #0b0b0d; --bg-2: #111114; --surface: #17171b; --surface-2: #202026; --surface-3: #2a2a31;
     --text: #f5f5f7; --muted: #9a9aa3; --faint: #6b6b74; --line: #26262c;
-    --red: #f00000; --beats: #f5b83d; --learn: #6cb6ff; --accent: var(--beats);
+    --red: #f00000; --beats: #f5b83d; --learn: #6cb6ff; --shorts: #ff6b9a; --accent: var(--beats);
     --radius: 12px; --appbar: 56px;
     --safe-t: env(safe-area-inset-top); --safe-b: env(safe-area-inset-bottom);
   }
   body[data-tab="learn"] { --accent: var(--learn); }
+  body[data-tab="shorts"] { --accent: var(--shorts); }
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html { background: var(--bg); }
   html, body { margin: 0; color: var(--text);
@@ -77,6 +78,7 @@
   .tab[aria-selected="true"] { background: var(--surface-3); color: var(--text); }
   .tab[data-tab="beats"][aria-selected="true"] { color: var(--beats); }
   .tab[data-tab="learn"][aria-selected="true"] { color: var(--learn); }
+  .tab[data-tab="shorts"][aria-selected="true"] { color: var(--shorts); }
 
   .chips { display: flex; gap: 8px; padding: 14px 16px 6px; overflow-x: auto; scrollbar-width: none; scroll-padding: 16px; }
   .chips::-webkit-scrollbar { display: none; }
@@ -105,6 +107,9 @@
   .badge { position: absolute; left: 6px; top: 6px; font-size: 10px; font-weight: 800; letter-spacing: .04em; padding: 2px 6px; border-radius: 5px;
     background: var(--learn); color: #031; }
   .now-badge { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(0,0,0,.55); font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+  .dur { position: absolute; right: 6px; bottom: 6px; font-size: 11.5px; font-weight: 700; line-height: 1.3; padding: 1px 5px; border-radius: 4px;
+    background: rgba(0,0,0,.82); color: #fff; font-variant-numeric: tabular-nums; }
+  .thumb .progress-track ~ .dur { bottom: 9px; }
   .progress { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--red); }
   .progress-track { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255,255,255,.25); }
   .meta { flex: 1; min-width: 0; }
@@ -201,6 +206,48 @@
     box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; white-space: nowrap; }
   .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
+  /* ---------- shorts ---------- */
+  .sgrid { list-style: none; margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 8px 16px; }
+  .scard { position: relative; aspect-ratio: 9 / 16; border-radius: 12px; overflow: hidden; background: var(--surface-2); cursor: pointer; }
+  .scard img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s ease; }
+  .scard.watched img { opacity: .5; }
+  .scard .scap { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 10px 10px; font-size: 13px; font-weight: 600; line-height: 1.25;
+    background: linear-gradient(transparent, rgba(0,0,0,.85)); }
+  .scard .scap span { display: block; color: rgba(255,255,255,.7); font-size: 11.5px; font-weight: 500; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .scard .scap b { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-weight: 600; }
+
+  .shorts-view { position: fixed; inset: 0; z-index: 70; background: #000; }
+  body.view-shorts { overflow: hidden; }
+  body.view-shorts .appbar, body.view-shorts .page { visibility: hidden; }
+  .shorts-scroller { position: absolute; inset: 0; overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; scrollbar-width: none; }
+  .shorts-scroller::-webkit-scrollbar { display: none; }
+  .short-card { height: 100%; scroll-snap-align: start; scroll-snap-stop: always; display: grid; place-items: center; cursor: pointer; }
+  .short-media { height: 100%; width: min(100%, 56.25dvh); background: #111; }
+  .short-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .shorts-player { position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100vw, 56.25dvh);
+    pointer-events: none; transition: opacity .15s; }
+  .shorts-player.moving { opacity: 0; }
+  .shorts-player iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .shorts-player:not(.started) { pointer-events: auto; } /* the very first start needs a tap on the video itself */
+  .shorts-player:not(.started) .shield { display: block; }
+  .shorts-player .shield { display: none; }
+  .shorts-player .shield.top { height: 16%; }
+  .shorts-player .shield.bottom { height: 22%; }
+  .shorts-meta { position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; width: min(100vw, 56.25dvh); pointer-events: none;
+    padding: 60px 16px calc(var(--safe-b) + 20px); background: linear-gradient(transparent, rgba(0,0,0,.75)); }
+  .shorts-meta .t { font-weight: 650; font-size: 15px; line-height: 1.3; text-shadow: 0 1px 3px rgba(0,0,0,.6); }
+  .shorts-meta .c { color: rgba(255,255,255,.8); font-size: 13px; margin-top: 4px; }
+  .shorts-top { position: absolute; top: calc(var(--safe-t) + 8px); left: 8px; right: 8px; display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
+  .shorts-top > * { pointer-events: auto; }
+  .shorts-top .icon-btn { background: rgba(0,0,0,.35); }
+  .shorts-top .count { font-size: 12.5px; font-weight: 600; color: rgba(255,255,255,.8); background: rgba(0,0,0,.35); padding: 5px 10px; border-radius: 999px; }
+  .shorts-center { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 72px; height: 72px; border-radius: 50%;
+    display: none; place-items: center; background: rgba(0,0,0,.45); pointer-events: none; }
+  .shorts-center .ico { width: 36px; height: 36px; }
+  .shorts-view.paused .shorts-center { display: grid; }
+  .shorts-hint { position: absolute; left: 50%; bottom: calc(var(--safe-b) + 110px); transform: translateX(-50%); pointer-events: none;
+    font-size: 12.5px; font-weight: 600; background: rgba(0,0,0,.6); padding: 5px 12px; border-radius: 999px; white-space: nowrap; }
+
   /* ---------- mini player ---------- */
   #stage.mini { position: fixed; z-index: 40; left: 8px; right: 8px; bottom: calc(var(--safe-b) + 8px);
     display: flex; align-items: center; gap: 12px; padding: 8px; border-radius: 14px;
@@ -234,6 +281,8 @@
     .vlist.grid .thumb { width: 100%; }
     .vlist.grid .meta { padding: 10px 40px 0 2px; }
     .vlist.grid .like-btn { position: absolute; right: -6px; bottom: -4px; }
+    .sgrid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; padding: 8px 24px; }
+    .scard:hover img { transform: scale(1.04); }
     .vlist.grid .vrow.playing .thumb { outline: 2px solid var(--accent); outline-offset: 2px; }
     .clist { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 4px 12px; padding: 8px 12px; }
     .foot { padding: 32px 24px 8px; }
@@ -347,6 +396,20 @@
 
   <div id="viewRoot"></div>
 </main>
+<div class="shorts-view" id="shortsView" hidden>
+  <div class="shorts-scroller" id="shortsScroller"></div>
+  <div class="shorts-player moving" id="shortsPlayer">
+    <iframe id="syt" allow="autoplay; encrypted-media" title="Short"></iframe>
+    <div class="shield top"></div><div class="shield bottom"></div>
+  </div>
+  <div class="shorts-center"><svg class="ico"><use href="#i-play"/></svg></div>
+  <div class="shorts-meta"><div class="t" id="shortsTitle"></div><div class="c" id="shortsChannel"></div></div>
+  <div class="shorts-hint" id="shortsHint">Tap the video to start · then swipe up</div>
+  <div class="shorts-top">
+    <button class="icon-btn" id="shortsBack" aria-label="Back"><svg class="ico"><use href="#i-back"/></svg></button>
+    <span class="count" id="shortsCount"></span>
+  </div>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
@@ -360,9 +423,9 @@
   };
 
   // ---------- state ----------
-  let data = { beats: [], learn: [], topics: [] };
+  let data = { beats: [], learn: [], shorts: [], topics: [] };
   let tab = store.get("tab", "beats");
-  const filter = { beats: "liked", learn: "browse" };
+  const filter = { beats: "liked", learn: "browse", shorts: "new" };
   const likeOverrides = store.get("likes", {}); // hearts tapped on this phone override the curator's list
   const isLiked = (v) => likeOverrides[v.id] ?? !!v.liked;
   const watched = new Set(store.get("watched", []));
@@ -382,7 +445,7 @@
   // ---------- data ----------
   fetch("videos.json", { cache: "no-store" })
     .then((r) => r.json())
-    .then((d) => { data = { topics: [], ...d }; applyRoute(parseHash(), false); })
+    .then((d) => { data = { topics: [], shorts: [], ...d }; applyRoute(parseHash(), false); })
     .catch(() => { $("viewRoot").innerHTML = `<div class="empty"><strong>Couldn't load your library</strong>Check your connection and reopen MeTube.</div>`; });
 
   const allItems = (section) => (data[section] || []).filter((v) => !hidden.has(v.id));
@@ -425,6 +488,7 @@
     if (f === "liked") return items.filter(isLiked);
     if (f === "new") return items.filter((v) => !watched.has(v.id));
     if (f === "picks") return items.filter((v) => v.source === "discovery");
+    if (f === "quick") return items.filter((v) => v.dur && v.dur <= 600);
     if (f.startsWith("mood:")) return items.filter((v) => moodsOf(v).includes(f.slice(5)));
     if (f.startsWith("topic:")) return items.filter((v) => v.topic === f.slice(6));
     if (f.startsWith("channel:")) return items.filter((v) => v.channel === f.slice(8));
@@ -436,6 +500,7 @@
     if (r.view === "watch") return `#/watch/${r.id}`;
     if (r.view === "channel") return `#/channel/${r.tab}/${encodeURIComponent(r.name)}`;
     if (r.view === "channels") return `#/channels/${r.tab}`;
+    if (r.view === "shorts") return `#/shorts/${r.id}`;
     return "#/";
   }
   function parseHash() {
@@ -443,6 +508,7 @@
     if (view === "watch" && a) return { view: "watch", id: a };
     if (view === "channel" && a && b) return { view: "channel", tab: a, name: decodeURIComponent(b) };
     if (view === "channels" && a) return { view: "channels", tab: a };
+    if (view === "shorts" && a) return { view: "shorts", id: a };
     return { view: "home" };
   }
   function go(r, { replace = false } = {}) {
@@ -472,11 +538,14 @@
       }
     }
     if ((r.view === "channel" || r.view === "channels") && r.tab !== tab) setTab(r.tab);
+    if (r.view === "shorts" && !(data.shorts || []).some((v) => v.id === r.id)) return go({ view: "home" }, { replace: true });
     route = { view: r.view, id: r.id, tab: r.tab, name: r.name };
     document.body.className = `view-${r.view}` + (current && r.view !== "watch" ? " has-mini" : "");
     document.body.dataset.tab = r.view === "watch" ? queueTab : tab;
     renderChrome();
     renderStage();
+    renderShorts(r);
+    if (r.view === "shorts") return;
     renderView();
     const y = restoreScroll ? scrollMemory[hashFor(r)] || 0 : 0;
     requestAnimationFrame(() => window.scrollTo(0, y));
@@ -515,6 +584,7 @@
       <div class="tabs" role="tablist">
         <button class="tab" role="tab" data-tab="beats" aria-selected="${tab === "beats"}">Beats</button>
         <button class="tab" role="tab" data-tab="learn" aria-selected="${tab === "learn"}">Learn</button>
+        <button class="tab" role="tab" data-tab="shorts" aria-selected="${tab === "shorts"}">Shorts</button>
       </div>
       <div class="chips"></div>`);
     root.querySelectorAll(".tab").forEach((t) => (t.onclick = () => { setTab(t.dataset.tab); query = ""; renderChrome(); renderView(); window.scrollTo(0, 0); }));
@@ -537,9 +607,14 @@
       chips.insertAdjacentHTML("beforeend", `<span class="chip-sep"></span>`);
       const beats = allItems("beats");
       for (const [m] of MOODS) if (beats.some((v) => moodsOf(v).includes(m))) addChip(m, f === `mood:${m}`, setFilter(`mood:${m}`));
+    } else if (tab === "shorts") {
+      addChip(`${icon("play")}Start scrolling`, false, () => { const q = listFor("shorts"); const list = q.length ? q : allItems("shorts"); if (list.length) openShorts(list[0], list); }, "action");
+      addChip("New", f === "new", setFilter("new"));
+      addChip("All", f === "all", setFilter("all"));
     } else {
       addChip("Browse", f === "browse", setFilter("browse"));
       addChip("New", f === "new", setFilter("new"));
+      addChip("Quick (≤10 min)", f === "quick", setFilter("quick"));
       addChip("Recent", f === "recent", setFilter("recent"));
       if (allItems("learn").some((v) => v.source === "discovery")) addChip("Curator picks", f === "picks", setFilter("picks"));
       for (const t of data.topics || []) addChip(esc(t), f === `topic:${t}`, setFilter(`topic:${t}`));
@@ -552,6 +627,12 @@
     if (!query && tab === "learn" && filter.learn === "browse") return renderBrowse(root);
 
     const list = listFor(tab);
+    if (tab === "shorts") {
+      if (query) root.insertAdjacentHTML("beforeend", `<div class="section-head"><h2>Results for “${esc(query)}”</h2><span class="sub">${list.length}</span></div>`);
+      if (!list.length) root.insertAdjacentHTML("beforeend", query ? emptyState() : `<div class="empty"><strong>You've seen them all</strong>New Shorts arrive every morning. Tap All to rewatch.</div>`);
+      else root.append(shortsGrid(list));
+      return footer(root);
+    }
     if (query) root.insertAdjacentHTML("beforeend", `<div class="section-head"><h2>Results for “${esc(query)}”</h2><span class="sub">${list.length}</span></div>`);
     if (!list.length) root.insertAdjacentHTML("beforeend", emptyState());
     else root.append(videoList(list, { grid: true, showWhen: !query && filter[tab] === "recent" }));
@@ -574,6 +655,8 @@
     if (cont.length) shelves.push(["Continue watching", cont, "recent"]);
     const fresh = learn.filter((v) => !watched.has(v.id));
     if (fresh.length) shelves.push(["New for you", fresh.slice(0, 14), "new", fresh.length]);
+    const quick = learn.filter((v) => v.dur && v.dur <= 600 && !watched.has(v.id));
+    if (quick.length) shelves.push(["Quick watches · under 10 min", quick.slice(0, 14), "quick", quick.length]);
     const picks = learn.filter((v) => v.source === "discovery");
     if (picks.length) shelves.push(["Curator picks", picks.slice(0, 14), "picks", picks.length]);
     for (const t of data.topics || []) {
@@ -621,16 +704,17 @@
         <button class="btn primary" data-act="play">${icon("play")}Play all</button>
         <button class="btn" data-act="shuffle">${icon("shuffle")}Shuffle</button>
       </div>`);
-    root.querySelector('[data-act="play"]').onclick = () => list.length && playFrom(list[0], list);
-    root.querySelector('[data-act="shuffle"]').onclick = () => { const q = shuffled(list); if (q.length) playFrom(q[0], q); };
-    if (list.length) root.append(videoList(list, { grid: true }));
+    const start = (q) => q.length && (tab === "shorts" ? openShorts(q[0], q) : playFrom(q[0], q));
+    root.querySelector('[data-act="play"]').onclick = () => start(list);
+    root.querySelector('[data-act="shuffle"]').onclick = () => start(shuffled(list));
+    if (list.length) root.append(tab === "shorts" ? shortsGrid(list) : videoList(list, { grid: true }));
     else root.insertAdjacentHTML("beforeend", emptyState());
   }
 
   function footer(root) {
     if (!data.updatedAt) return;
     const days = Math.floor((Date.now() - new Date(data.updatedAt)) / 864e5);
-    const n = (data.beats?.length || 0) + (data.learn?.length || 0);
+    const n = (data.beats?.length || 0) + (data.learn?.length || 0) + (data.shorts?.length || 0);
     root.insertAdjacentHTML("beforeend", `<div class="foot">${n} videos · library updated ${days <= 0 ? "today" : days === 1 ? "yesterday" : `${days} days ago`}</div>`);
   }
 
@@ -640,7 +724,8 @@
     return `<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
       ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}
       ${current?.id === v.id ? '<span class="now-badge">NOW PLAYING</span>' : ""}
-      ${p && current?.id !== v.id ? `<span class="progress-track"></span><span class="progress" style="width:${p}%"></span>` : ""}</div>`;
+      ${p && current?.id !== v.id ? `<span class="progress-track"></span><span class="progress" style="width:${p}%"></span>` : ""}
+      ${v.dur && current?.id !== v.id ? `<span class="dur">${fmt(v.dur)}</span>` : ""}</div>`;
   }
 
   function subText(v, showWhen) {
@@ -674,6 +759,21 @@
     el.innerHTML = `${thumbHTML(v)}<div class="vtitle">${esc(v.title)}</div><div class="vsub">${esc(v.channel)}</div>`;
     el.onclick = () => playFrom(v, list);
     return el;
+  }
+
+  function shortThumb(id) { return `https://i.ytimg.com/vi/${id}/oar2.jpg`; }
+  function shortsGrid(list) {
+    const ul = document.createElement("ul");
+    ul.className = "sgrid";
+    for (const v of list) {
+      const li = document.createElement("li");
+      li.className = "scard" + (watched.has(v.id) ? " watched" : "");
+      li.innerHTML = `<img loading="lazy" alt="" src="${shortThumb(v.id)}" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'">
+        <div class="scap"><b>${esc(v.title.replace(/#\S+/g, "").trim())}</b><span>${esc(v.channel)}</span></div>`;
+      li.onclick = () => openShorts(v, list);
+      ul.append(li);
+    }
+    return ul;
   }
 
   // ---------- helpers ----------
@@ -792,6 +892,89 @@
     clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
   }
 
+  // ---------- shorts feed: one reused player floats over a snap-scrolling list of thumbnails ----------
+  const sframe = $("syt"), sbox = $("shortsPlayer"), scroller = $("shortsScroller");
+  let shortsList = [], shortsIdx = -1, sp = freshPlayer(), settleTimer, builtFor = null;
+  const ssend = (func, args = []) => sframe.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args, id: 2, channel: "widget" }), ORIGIN);
+
+  function openShorts(v, list) {
+    shortsList = list.slice();
+    builtFor = null;
+    go({ view: "shorts", id: v.id });
+  }
+
+  function renderShorts(r) {
+    const on = r.view === "shorts";
+    $("shortsView").hidden = !on;
+    if (!on) { ssend("pauseVideo"); shortsIdx = -1; return; }
+    if (wantPlaying) { wantPlaying = false; send("pauseVideo"); } // pause the regular player while scrolling Shorts
+    if (!shortsList.some((x) => x.id === r.id)) shortsList = allItems("shorts");
+    if (builtFor !== shortsList) {
+      builtFor = shortsList;
+      scroller.innerHTML = "";
+      for (const v of shortsList) {
+        const card = document.createElement("div");
+        card.className = "short-card";
+        card.innerHTML = `<div class="short-media"><img loading="lazy" alt="" src="${shortThumb(v.id)}" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'"></div>`;
+        card.onclick = () => { if (sp.started) ssend(sp.state === 1 ? "pauseVideo" : "playVideo"); };
+        scroller.append(card);
+      }
+    }
+    const i = Math.max(0, shortsList.findIndex((x) => x.id === r.id));
+    requestAnimationFrame(() => { scroller.scrollTop = i * scroller.clientHeight; activateShort(i); });
+  }
+
+  function activateShort(i) {
+    if (i === shortsIdx || !shortsList[i]) { if (sp.started && sp.state === 1) sbox.classList.remove("moving"); return; }
+    shortsIdx = i;
+    const v = shortsList[i];
+    $("shortsTitle").textContent = v.title.replace(/#\S+/g, "").trim();
+    $("shortsChannel").textContent = v.channel;
+    $("shortsCount").textContent = `${i + 1} / ${shortsList.length}`;
+    history.replaceState({ ...history.state, view: "shorts", id: v.id }, "", hashFor({ view: "shorts", id: v.id }));
+    route.id = v.id;
+    watched.add(v.id); store.set("watched", [...watched].slice(-3000));
+    $("shortsView").classList.remove("paused");
+    if (sp.ready && sp.started) { sbox.classList.add("moving"); ssend("loadVideoById", [v.id]); }
+    else { sp = freshPlayer(); sbox.classList.remove("started"); sbox.classList.remove("moving"); sframe.src = embedUrl(v.id); }
+    $("shortsHint").hidden = sp.started;
+  }
+
+  scroller.addEventListener("scroll", () => {
+    if (sp.started) sbox.classList.add("moving");
+    clearTimeout(settleTimer);
+    settleTimer = setTimeout(() => activateShort(Math.round(scroller.scrollTop / scroller.clientHeight)), 120);
+  }, { passive: true });
+
+  sframe.addEventListener("load", () => {
+    if (!sframe.src.startsWith(ORIGIN)) return;
+    let tries = 0;
+    const t = setInterval(() => {
+      sframe.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: 2, channel: "widget" }), ORIGIN);
+      if (sp.ready || ++tries > 40) clearInterval(t);
+    }, 250);
+  });
+
+  function onShortsMessage(msg) {
+    const info = msg.info;
+    if (msg.event === "onReady") sp.ready = true;
+    let s = msg.event === "onStateChange" ? (typeof info === "number" ? info : info?.playerState) : undefined;
+    if (msg.event === "infoDelivery" && info) { sp.ready = true; if (typeof info.playerState === "number") s = info.playerState; }
+    if (s === undefined || s === sp.state) return;
+    sp.state = s;
+    if (s === 1) {
+      sp.started = true;
+      sbox.classList.add("started");
+      sbox.classList.remove("moving");
+      $("shortsHint").hidden = true;
+    }
+    if (s === 0) { ssend("seekTo", [0, true]); ssend("playVideo"); } // Shorts loop
+    $("shortsView").classList.toggle("paused", s === 2 && sp.started && !sbox.classList.contains("moving"));
+  }
+
+  $("shortsBack").onclick = goBack;
+  const stepShort = (d) => scroller.scrollTo({ top: (shortsIdx + d) * scroller.clientHeight, behavior: "smooth" });
+
   // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
   const ORIGIN = "https://www.youtube-nocookie.com";
   const iframe = $("yt");
@@ -850,6 +1033,8 @@
   window.addEventListener("message", (e) => {
     if (e.origin !== ORIGIN || typeof e.data !== "string") return;
     let msg; try { msg = JSON.parse(e.data); } catch { return; }
+    if (e.source === sframe.contentWindow) return onShortsMessage(msg);
+    if (e.source !== iframe.contentWindow) return;
     const info = msg.info;
     if (msg.event === "onReady") player.ready = true;
     if (msg.event === "infoDelivery" && info) {
@@ -958,6 +1143,12 @@
     if (e.target.closest("input") || e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.key === "/") { e.preventDefault(); document.querySelector(".search-desktop input")?.focus(); return; }
     if (e.key === "Escape" && route.view !== "home") return goBack();
+    if (route.view === "shorts") {
+      if (e.key === "ArrowDown" || e.key === "j") { e.preventDefault(); stepShort(1); }
+      else if (e.key === "ArrowUp" || e.key === "k") { e.preventDefault(); stepShort(-1); }
+      else if (e.key === " ") { e.preventDefault(); if (sp.started) ssend(sp.state === 1 ? "pauseVideo" : "playVideo"); }
+      return;
+    }
     if (!current) return;
     if (e.key === " " || e.key === "k") { e.preventDefault(); togglePlay(); }
     else if (e.key === "ArrowLeft" || e.key === "j") $("back10").click();

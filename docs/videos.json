@@ -1,10 +1,11 @@
 {
- "updatedAt": "2026-09-25T22:58:22.699Z",
+ "updatedAt": "2026-09-26T01:21:25.578Z",
  "topics": [
   "History",
   "Science",
   "Engineering & Tech",
-  "Society"
+  "Society",
+  "Ideas & Talks"
  ],
  "beats": [
   {
@@ -13,7 +14,8 @@
    "channel": "nonotsaga",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 119
   },
   {
    "id": "VmX92XtMuvs",
@@ -21,7 +23,8 @@
    "channel": "RTB BEATS ll",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 145
   },
   {
    "id": "v_uoQoTZd0A",
@@ -29,7 +32,8 @@
    "channel": "Jayzz",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 146
   },
   {
    "id": "P0CyVdf7q6M",
@@ -37,7 +41,8 @@
    "channel": "ayohighflyer",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 164
   },
   {
    "id": "jiBu1a9jLVU",
@@ -45,7 +50,8 @@
    "channel": "prodtheofr",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 135
   },
   {
    "id": "7eG0OwbZ4js",
@@ -53,7 +59,8 @@
    "channel": "SOGIMURA",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 164
   },
   {
    "id": "SAAsjePWIEk",
@@ -61,7 +68,8 @@
    "channel": "Michelangelo Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 134
   },
   {
    "id": "KgO2qC724Ys",
@@ -69,7 +77,8 @@
    "channel": "Gentle Beats II",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 145
   },
   {
    "id": "dw4FYa_DpA8",
@@ -77,7 +86,8 @@
    "channel": "Michelangelo Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 151
   },
   {
    "id": "lqVId_4tRG8",
@@ -85,7 +95,8 @@
    "channel": "EasterBeats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 237
   },
   {
    "id": "Xt-WS_EeG9I",
@@ -93,7 +104,8 @@
    "channel": "RTB BEATS ll",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 156
   },
   {
    "id": "ol3I4U6l0To",
@@ -101,7 +113,8 @@
    "channel": "Toddy",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 165
   },
   {
    "id": "nF2PHylevS0",
@@ -109,7 +122,8 @@
    "channel": "B€NNA",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 90
   },
   {
    "id": "cfJtMRyrAYw",
@@ -117,7 +131,8 @@
    "channel": "prod. idontworry",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 157
   },
   {
    "id": "IgFjDGVfAIk",
@@ -125,7 +140,8 @@
    "channel": "Nicknme",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 131
   },
   {
    "id": "V6FFVSuowq4",
@@ -133,7 +149,8 @@
    "channel": "yogic beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 240
   },
   {
    "id": "cTUYbXTAEn8",
@@ -141,7 +158,8 @@
    "channel": "yogic beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 238
   },
   {
    "id": "CKHaerl-blI",
@@ -149,7 +167,8 @@
    "channel": "Prod.Brandsan",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 162
   },
   {
    "id": "6inxwNHgZiM",
@@ -157,7 +176,8 @@
    "channel": "MetzMusic",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 266
   },
   {
    "id": "I6kZBdkaJTw",
@@ -165,7 +185,8 @@
    "channel": "BeatsbyJonas",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 214
   },
   {
    "id": "0DfHsNjWuVo",
@@ -173,7 +194,8 @@
    "channel": "ClayH",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 311
   },
   {
    "id": "k8vvYCoIhDM",
@@ -181,7 +203,8 @@
    "channel": "ClayH",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 210
   },
   {
    "id": "WDdaUp8L2zw",
@@ -189,7 +212,8 @@
    "channel": "ClayH",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 285
   },
   {
    "id": "jha3gmyMyVs",
@@ -197,7 +221,8 @@
    "channel": "ClayH",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 195
   },
   {
    "id": "4dSCsh92GvE",
@@ -205,7 +230,8 @@
    "channel": "ClayH",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 151
   },
   {
    "id": "ZpStvC8SGqs",
@@ -213,7 +239,8 @@
    "channel": "Arcane Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 174
   },
   {
    "id": "2f8WZ7KUYWE",
@@ -221,7 +248,8 @@
    "channel": "flowers in narnia",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 141
   },
   {
    "id": "eQsH44KszbM",
@@ -229,7 +257,8 @@
    "channel": "Arcane Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 204
   },
   {
    "id": "22rbq1O52FY",
@@ -237,7 +266,8 @@
    "channel": "7INK",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 248
   },
   {
    "id": "EUEel39HiHk",
@@ -245,7 +275,8 @@
    "channel": "Wonderlust Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 220
   },
   {
    "id": "4N4C-EeFhTE",
@@ -253,7 +284,8 @@
    "channel": "Wonderlust Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 242
   },
   {
    "id": "NBeJlppARjY",
@@ -261,7 +293,8 @@
    "channel": "flowers in narnia",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 188
   },
   {
    "id": "powa3HdtBko",
@@ -269,7 +302,8 @@
    "channel": "LoopGod",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 166
   },
   {
    "id": "Hl6Qrwhvcko",
@@ -277,7 +311,8 @@
    "channel": "OFFSNEAK",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 141
   },
   {
    "id": "Kj5ayNbLK6Q",
@@ -285,7 +320,8 @@
    "channel": "1080PALE",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 210
   },
   {
    "id": "iluUBNPv4Ko",
@@ -293,7 +329,8 @@
    "channel": "Greco Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 154
   },
   {
    "id": "h6lcau4CTb8",
@@ -301,7 +338,8 @@
    "channel": "Greco Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 180
   },
   {
    "id": "I5RdOyqmOMM",
@@ -309,7 +347,8 @@
    "channel": "Greco Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 159
   },
   {
    "id": "j-FCoIK9ZYU",
@@ -317,7 +356,8 @@
    "channel": "Hachi",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 222
   },
   {
    "id": "kHDAzYZGbnw",
@@ -325,7 +365,8 @@
    "channel": "ThatKidGoran",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 205
   },
   {
    "id": "D1ILYa_FFxw",
@@ -333,7 +374,8 @@
    "channel": "Greco Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 181
   },
   {
    "id": "r9dwFR7upo4",
@@ -341,7 +383,8 @@
    "channel": "Skeebs",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 203
   },
   {
    "id": "8qURcj0If-8",
@@ -349,7 +392,8 @@
    "channel": "Greco Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 141
   },
   {
    "id": "wVBJBEz2_H0",
@@ -357,7 +401,8 @@
    "channel": "BeatsbyJonas",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 220
   },
   {
    "id": "bCYcQh74ees",
@@ -365,7 +410,8 @@
    "channel": "Prod.Brandsan",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 151
   },
   {
    "id": "mb_S9JgWVmw",
@@ -373,7 +419,8 @@
    "channel": "Skeebs and RIGHTMIND ",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 255
   },
   {
    "id": "TZfwM2pLcFk",
@@ -381,7 +428,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 214
   },
   {
    "id": "_nyBZF42LaY",
@@ -389,7 +437,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 202
   },
   {
    "id": "fSgEmAzI4W0",
@@ -397,7 +446,8 @@
    "channel": "448 Millionaire",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 95
   },
   {
    "id": "wFsyoedSRFY",
@@ -405,7 +455,8 @@
    "channel": "prodtheofr",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 120
   },
   {
    "id": "8Dq0xXFVQ_Q",
@@ -413,7 +464,8 @@
    "channel": "ross gossage",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 165
   },
   {
    "id": "itAtd-cH92k",
@@ -421,7 +473,8 @@
    "channel": "ITB",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 160
   },
   {
    "id": "BRuMOfMIPmQ",
@@ -429,7 +482,8 @@
    "channel": "ITB",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 190
   },
   {
    "id": "GTN04vnJtWw",
@@ -437,7 +491,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 230
   },
   {
    "id": "gXBkfezvnVA",
@@ -445,7 +500,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 183
   },
   {
    "id": "kuJD6dTPTdg",
@@ -453,7 +509,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 213
   },
   {
    "id": "YOpElpjQX1A",
@@ -461,7 +518,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 204
   },
   {
    "id": "txeE55gfn1g",
@@ -469,7 +527,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 257
   },
   {
    "id": "OOymAaVxDH4",
@@ -477,7 +536,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 187
   },
   {
    "id": "4YPegNZ8MU8",
@@ -485,7 +545,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 208
   },
   {
    "id": "BX4f3_CORHs",
@@ -493,7 +554,8 @@
    "channel": "Urban Nerd Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 272
   },
   {
    "id": "cE5vOOy9lLs",
@@ -501,7 +563,8 @@
    "channel": "flowers in narnia",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 198
   },
   {
    "id": "alBapK3ToSc",
@@ -509,7 +572,8 @@
    "channel": "StoneSoWavy!",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 147
   },
   {
    "id": "tZv8dU_EIVo",
@@ -517,7 +581,8 @@
    "channel": "LoopGod",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 153
   },
   {
    "id": "WtKMtx8WWgc",
@@ -525,7 +590,8 @@
    "channel": "ITB",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 180
   },
   {
    "id": "cVOPAQf8fzw",
@@ -533,7 +599,8 @@
    "channel": "1Ryan",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 168
   },
   {
    "id": "NTeTP7WyGSs",
@@ -541,7 +608,8 @@
    "channel": "CHEGELA",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 202
   },
   {
    "id": "AAfZC0Ovq50",
@@ -549,7 +617,8 @@
    "channel": "Barrys Record Store",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 263
   },
   {
    "id": "qUdMu9aZtQU",
@@ -557,7 +626,8 @@
    "channel": "ITB",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 150
   },
   {
    "id": "2UElHx9d2OQ",
@@ -565,7 +635,8 @@
    "channel": "yogic beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 257
   },
   {
    "id": "APcFypgNN4Y",
@@ -573,7 +644,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 263
   },
   {
    "id": "asFsirbXLbM",
@@ -581,7 +653,8 @@
    "channel": "Harpoeth Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 122
   },
   {
    "id": "yBaIGCgMPYY",
@@ -589,7 +662,8 @@
    "channel": "Milanmadeit x3",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 206
   },
   {
    "id": "V-GsMAGt5FY",
@@ -597,7 +671,8 @@
    "channel": "Milanmadeit x3",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 218
   },
   {
    "id": "RtYnbazb1hw",
@@ -605,7 +680,8 @@
    "channel": "junk",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 219
   },
   {
    "id": "5d-dgORZdlg",
@@ -613,7 +689,8 @@
    "channel": "davidtamas",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 171
   },
   {
    "id": "6JRKuzHO15Q",
@@ -621,7 +698,8 @@
    "channel": "davidtamas",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 182
   },
   {
    "id": "QKwtETQ1v5c",
@@ -629,7 +707,8 @@
    "channel": "TRECI +",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 161
   },
   {
    "id": "7V4JuG1t490",
@@ -637,7 +716,8 @@
    "channel": "Jayzz",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 152
   },
   {
    "id": "yyI9rn0ovVU",
@@ -645,7 +725,8 @@
    "channel": "Dee B",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 147
   },
   {
    "id": "oveDfjZWx3s",
@@ -653,7 +734,8 @@
    "channel": "Milanmadeit x3",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 177
   },
   {
    "id": "4LCGtYEZ49I",
@@ -661,7 +743,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 183
   },
   {
    "id": "GPJ2cJdEVCI",
@@ -669,7 +752,8 @@
    "channel": "junk",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 194
   },
   {
    "id": "GDGVfmHbRP4",
@@ -677,7 +761,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 230
   },
   {
    "id": "-0qgZma-fWE",
@@ -685,7 +770,8 @@
    "channel": "Wayto!",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 120
   },
   {
    "id": "P95RiBV9MKo",
@@ -693,7 +779,8 @@
    "channel": "OFFSNEAK",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 135
   },
   {
    "id": "3fsdG0n6p6Q",
@@ -701,7 +788,8 @@
    "channel": "SickBeatprince",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 203
   },
   {
    "id": "ck6MUSns63o",
@@ -709,7 +797,8 @@
    "channel": "TNYPOP",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 195
   },
   {
    "id": "JzyGta89dTs",
@@ -717,7 +806,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 217
   },
   {
    "id": "n89dJL1koEU",
@@ -725,7 +815,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 208
   },
   {
    "id": "Wq3JESsHlS0",
@@ -733,7 +824,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 207
   },
   {
    "id": "R3HcdqgzFa4",
@@ -741,7 +833,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 195
   },
   {
    "id": "1Nf5y8AiJZ4",
@@ -749,7 +842,8 @@
    "channel": "junk",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 189
   },
   {
    "id": "amPNJVX4o6M",
@@ -757,7 +851,8 @@
    "channel": "Toddy",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 158
   },
   {
    "id": "2RRC8KP56m0",
@@ -765,7 +860,8 @@
    "channel": "NB Collective",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 262
   },
   {
    "id": "6EH5bxU5f84",
@@ -773,7 +869,8 @@
    "channel": "BSM MUSIC",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 182
   },
   {
    "id": "R4n0KYclhUE",
@@ -781,7 +878,8 @@
    "channel": "docent ",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 183
   },
   {
    "id": "wXCPPteE47w",
@@ -789,7 +887,8 @@
    "channel": "docent ",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 218
   },
   {
    "id": "49wJNL7Scss",
@@ -797,7 +896,8 @@
    "channel": "JOHANMOBU",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 205
   },
   {
    "id": "AWqpxLYEQcU",
@@ -805,7 +905,8 @@
    "channel": "SWAY WASSUP (BRAZZIER)",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 180
   },
   {
    "id": "aHBqt4-lAfo",
@@ -813,7 +914,8 @@
    "channel": "Flintana",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 120
   },
   {
    "id": "B388qKXVqgA",
@@ -821,7 +923,8 @@
    "channel": "Prod. by Cezar",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 123
   },
   {
    "id": "Fl1T03hAkj8",
@@ -829,7 +932,8 @@
    "channel": "Optics Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 155
   },
   {
    "id": "YyHCm9xcwtA",
@@ -837,7 +941,8 @@
    "channel": "BAYDEN",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 171
   },
   {
    "id": "L-6Grj22Cdw",
@@ -845,7 +950,8 @@
    "channel": "Tal6y Beats II",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 160
   },
   {
    "id": "mVNyRbMAGUc",
@@ -853,7 +959,8 @@
    "channel": "JOHANMOBU",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 220
   },
   {
    "id": "tlLt0UBDdaI",
@@ -861,7 +968,8 @@
    "channel": "Cash App",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 144
   },
   {
    "id": "AWmeda3cPEg",
@@ -869,7 +977,8 @@
    "channel": "Venus",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 119
   },
   {
    "id": "RKUAJ9pmuHs",
@@ -877,7 +986,8 @@
    "channel": "nᴀyz",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 166
   },
   {
    "id": "imrW-3iU9Uo",
@@ -885,7 +995,8 @@
    "channel": "CLASSY",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 129
   },
   {
    "id": "LEWs1-D2VRQ",
@@ -893,7 +1004,8 @@
    "channel": "Fready!",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 132
   },
   {
    "id": "vMtbqk1lVes",
@@ -901,7 +1013,8 @@
    "channel": "E L I",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 173
   },
   {
    "id": "inXLeGQedN8",
@@ -909,7 +1022,8 @@
    "channel": "E L I",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 192
   },
   {
    "id": "5WfHkQ-0rcs",
@@ -917,7 +1031,8 @@
    "channel": "tim.p",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 168
   },
   {
    "id": "jmpAfEjvv6c",
@@ -925,7 +1040,8 @@
    "channel": "MORDWEY",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 163
   },
   {
    "id": "4OgngSo5jk4",
@@ -933,7 +1049,8 @@
    "channel": "flowers in narnia",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 168
   },
   {
    "id": "6esYtgMY7QQ",
@@ -941,7 +1058,8 @@
    "channel": "Yung Nickz",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 175
   },
   {
    "id": "Keh745xnz3o",
@@ -949,7 +1067,8 @@
    "channel": "Encore",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 245
   },
   {
    "id": "eNTd9WBpcSo",
@@ -957,7 +1076,8 @@
    "channel": "Sound by Justin",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 202
   },
   {
    "id": "Ju5axCGDTSA",
@@ -965,7 +1085,8 @@
    "channel": "KINGXMAGS",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 152
   },
   {
    "id": "JmDah4JMIOg",
@@ -973,7 +1094,8 @@
    "channel": "Morgan and 29thegod",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 196
   },
   {
    "id": "NKwMu-Yjzn8",
@@ -981,7 +1103,8 @@
    "channel": "Morgan and 29thegod",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 231
   },
   {
    "id": "qGm1m643kYA",
@@ -989,7 +1112,8 @@
    "channel": "producerX",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 223
   },
   {
    "id": "yCcvpI-8E4I",
@@ -997,7 +1121,8 @@
    "channel": "MD XXL Vol. 3",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 176
   },
   {
    "id": "8hbfICSyF8o",
@@ -1005,7 +1130,8 @@
    "channel": "Bargholz II",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 147
   },
   {
    "id": "dDVS7XJ-JFs",
@@ -1013,7 +1139,8 @@
    "channel": "levitate!",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 153
   },
   {
    "id": "C61erTEFVak",
@@ -1021,7 +1148,8 @@
    "channel": "Stoic",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 185
   },
   {
    "id": "mju_-Z6Q1Nk",
@@ -1029,7 +1157,8 @@
    "channel": "Rezzy",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 110
   },
   {
    "id": "VlwI2yr0gO8",
@@ -1037,7 +1166,8 @@
    "channel": "Toddy",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 168
   },
   {
    "id": "bnRAQqkxgcA",
@@ -1045,7 +1175,8 @@
    "channel": "Zodd",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 184
   },
   {
    "id": "8GrP4k0PB_I",
@@ -1053,7 +1184,8 @@
    "channel": "prod. idontworry",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 150
   },
   {
    "id": "gul3_-rDq1A",
@@ -1061,7 +1193,8 @@
    "channel": "noizy",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 155
   },
   {
    "id": "81FyLb1diGQ",
@@ -1069,7 +1202,8 @@
    "channel": "Leo",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 261
   },
   {
    "id": "ocJiCrZzsWc",
@@ -1077,7 +1211,8 @@
    "channel": "808LEEK 3",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 150
   },
   {
    "id": "_zs5ZoDoMCg",
@@ -1085,7 +1220,8 @@
    "channel": "isaiah 22",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 183
   },
   {
    "id": "SpFs8RtXi9Y",
@@ -1093,7 +1229,8 @@
    "channel": "Markmywords Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 188
   },
   {
    "id": "7yn8YhR8qkg",
@@ -1101,7 +1238,8 @@
    "channel": "DW Beats",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 170
   },
   {
    "id": "m5Ns0o_NKZM",
@@ -1109,7 +1247,8 @@
    "channel": "isaiah 22",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 226
   },
   {
    "id": "w_6RO-ieEuc",
@@ -1117,7 +1256,8 @@
    "channel": "ManuGTB",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 144
   },
   {
    "id": "EJe0iIXYHhs",
@@ -1125,7 +1265,8 @@
    "channel": "Prod. Antiquant ",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 150
   },
   {
    "id": "dqFiskSAcIk",
@@ -1133,7 +1274,8 @@
    "channel": "PUIA",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 162
   },
   {
    "id": "yHnjLFWjIN8",
@@ -1141,7 +1283,8 @@
    "channel": "Black Eagle",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 162
   },
   {
    "id": "dqy4SaxLx9I",
@@ -1149,7 +1292,8 @@
    "channel": "tim.p",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 131
   },
   {
    "id": "iATGuMXQNNM",
@@ -1157,7 +1301,8 @@
    "channel": "K. English Unlocked",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 260
   },
   {
    "id": "q8IUsQnAANA",
@@ -1165,7 +1310,8 @@
    "channel": "butterwrld",
    "source": "liked",
    "liked": true,
-   "added": "2026-09-25T18:41:04.276Z"
+   "added": "2026-09-25T18:41:04.276Z",
+   "dur": 137
   },
   {
    "id": "x2_oZ0dOpZU",
@@ -1173,7 +1319,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-09-24T16:00:13+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 232
   },
   {
    "id": "0ASHgEd64WE",
@@ -1181,7 +1328,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-24T03:51:10+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 128
   },
   {
    "id": "CUYzvEU8ry0",
@@ -1189,7 +1337,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-23T02:15:35+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 115
   },
   {
    "id": "k3EyPJCD6wc",
@@ -1197,7 +1346,8 @@
    "channel": "LethalNeedle",
    "published": "2026-09-21T14:24:46+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 150
   },
   {
    "id": "sqUNNc-gOfA",
@@ -1205,7 +1355,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-21T02:15:08+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 138
   },
   {
    "id": "olAP-t4-DfE",
@@ -1213,7 +1364,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-09-20T20:12:16+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 170
   },
   {
    "id": "LbJ5Rkbu1vI",
@@ -1221,7 +1373,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-18T18:30:36+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 129
   },
   {
    "id": "9M7Hg1yqEx0",
@@ -1229,7 +1382,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-09-17T16:00:00+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 213
   },
   {
    "id": "anmITC1TX-A",
@@ -1237,7 +1391,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-16T18:30:10+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 143
   },
   {
    "id": "3KaZKGJ53_Y",
@@ -1245,7 +1400,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-09-15T21:54:07+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "TZw6x0dYHqw",
@@ -1253,7 +1409,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-14T18:30:37+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 169
   },
   {
    "id": "0fBUaWELqpw",
@@ -1261,7 +1418,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-12T18:30:08+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 133
   },
   {
    "id": "kHRz13iPu5w",
@@ -1269,7 +1427,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-09-11T16:00:10+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 224
   },
   {
    "id": "bpWTXq9kK9M",
@@ -1277,7 +1436,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-10T18:30:24+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 106
   },
   {
    "id": "rKQMVH9nTF8",
@@ -1285,7 +1445,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-09T05:29:57+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 148
   },
   {
    "id": "Wy5HgoOaw30",
@@ -1293,7 +1454,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-06T18:30:09+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 164
   },
   {
    "id": "H1PjQz8xU48",
@@ -1301,7 +1463,8 @@
    "channel": "LethalNeedle",
    "published": "2026-09-05T21:14:44+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "urOCZm7d1FM",
@@ -1309,7 +1472,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-04T18:30:05+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 148
   },
   {
    "id": "kwYnnf0MgSQ",
@@ -1317,7 +1481,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-09-03T16:00:19+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 219
   },
   {
    "id": "hVn5jL9RBPU",
@@ -1325,7 +1490,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-09-02T20:37:40+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 190
   },
   {
    "id": "zXFZO9QLBW8",
@@ -1333,7 +1499,8 @@
    "channel": "PRXPHECY",
    "published": "2026-09-01T18:30:22+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 124
   },
   {
    "id": "jq6w4j1LYAs",
@@ -1341,7 +1508,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-30T16:48:19+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 192
   },
   {
    "id": "Dr2Ngv-oT3M",
@@ -1349,7 +1517,8 @@
    "channel": "PRXPHECY",
    "published": "2026-08-29T18:30:15+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 137
   },
   {
    "id": "3A-W1QdEFXo",
@@ -1357,7 +1526,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-08-29T16:00:06+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 241
   },
   {
    "id": "ICfX2Wg9R7w",
@@ -1365,7 +1535,8 @@
    "channel": "LethalNeedle",
    "published": "2026-08-29T00:32:02+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 186
   },
   {
    "id": "BpH7eAxwWck",
@@ -1373,7 +1544,8 @@
    "channel": "PRXPHECY",
    "published": "2026-08-26T18:30:24+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 136
   },
   {
    "id": "H2_Vb9Y-sfo",
@@ -1381,7 +1553,8 @@
    "channel": "PRXPHECY",
    "published": "2026-08-23T18:30:29+00:00",
    "source": "@beatzbyprophecy",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 137
   },
   {
    "id": "wdw0dy41ef4",
@@ -1389,7 +1562,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-21T13:09:58+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "lbPiDTiU1xE",
@@ -1397,7 +1571,8 @@
    "channel": "LethalNeedle",
    "published": "2026-08-21T00:03:31+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 207
   },
   {
    "id": "3SqCfIfvwuA",
@@ -1405,7 +1580,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-08-20T16:00:07+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 209
   },
   {
    "id": "-jYTRXUHPyc",
@@ -1413,7 +1589,8 @@
    "channel": "LethalNeedle",
    "published": "2026-08-19T18:22:48+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 171
   },
   {
    "id": "qO_Y7YCHQrw",
@@ -1421,7 +1598,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-08-15T17:00:06+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 213
   },
   {
    "id": "KrveN2Cu1OU",
@@ -1429,7 +1607,8 @@
    "channel": "LethalNeedle",
    "published": "2026-08-13T21:14:21+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 173
   },
   {
    "id": "5i5N3A0Ox8M",
@@ -1437,7 +1616,8 @@
    "channel": "LethalNeedle",
    "published": "2026-08-11T07:16:53+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 203
   },
   {
    "id": "7GNYx90fUA4",
@@ -1445,7 +1625,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-10T19:22:06+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "067XftnWnYU",
@@ -1453,7 +1634,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-08T17:00:44+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "cf1dksQMYbk",
@@ -1461,7 +1643,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-06T19:18:11+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "5NYH9I2L7Xc",
@@ -1469,7 +1652,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-04T17:27:07+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "Wpi__4a5SnA",
@@ -1477,7 +1661,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-08-02T16:16:00+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "juFqfaAF2vE",
@@ -1485,7 +1670,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-07-31T16:58:39+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 190
   },
   {
    "id": "S0cxNNbUI4Q",
@@ -1493,7 +1679,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-07-30T17:00:12+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 281
   },
   {
    "id": "wcy7OPIARVU",
@@ -1501,7 +1688,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-07-28T18:56:46+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 207
   },
   {
    "id": "S8g0ZGtHPQ0",
@@ -1509,7 +1697,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-07-27T19:33:46+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 200
   },
   {
    "id": "yqJhHTmncwo",
@@ -1517,7 +1706,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-07-26T18:36:13+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 190
   },
   {
    "id": "McAQAXpNvH0",
@@ -1525,7 +1715,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-07-25T16:00:29+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 232
   },
   {
    "id": "ebj7e8aGYFs",
@@ -1533,7 +1724,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-07-24T16:35:46+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 190
   },
   {
    "id": "9TSmxd3x_R4",
@@ -1541,7 +1733,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-07-24T14:13:25+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 195
   },
   {
    "id": "vNn5lg9tA1E",
@@ -1549,7 +1742,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-23T18:59:07+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 135
   },
   {
    "id": "XVL337GFG9Q",
@@ -1557,7 +1751,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-22T08:44:48+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 138
   },
   {
    "id": "yEVkj1bz97c",
@@ -1565,7 +1760,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-20T21:17:55+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 197
   },
   {
    "id": "XlLh4OZS88o",
@@ -1573,7 +1769,8 @@
    "channel": "VintageMan Beats",
    "published": "2026-07-20T18:12:27+00:00",
    "source": "@vintagemanbeats",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 190
   },
   {
    "id": "oRYcZ-wGAp4",
@@ -1581,7 +1778,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-19T19:16:13+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 165
   },
   {
    "id": "c-BG7D38eJ4",
@@ -1589,7 +1787,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-07-18T16:00:05+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 213
   },
   {
    "id": "4g9WxTDMkHA",
@@ -1597,7 +1796,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-17T18:11:42+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 187
   },
   {
    "id": "XcwyMytK2N0",
@@ -1605,7 +1805,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-16T08:53:42+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 204
   },
   {
    "id": "SlpnNFLfXz8",
@@ -1613,7 +1814,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-15T04:32:22+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 155
   },
   {
    "id": "uBYKCEvL7rI",
@@ -1621,7 +1823,8 @@
    "channel": "LethalNeedle",
    "published": "2026-07-13T16:28:19+00:00",
    "source": "@lethalneedle",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 160
   },
   {
    "id": "9hhvV0o4JS8",
@@ -1629,7 +1832,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-07-09T18:00:20+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 232
   },
   {
    "id": "Fj17ZOo-D5Q",
@@ -1637,7 +1841,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-07-02T18:00:11+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 240
   },
   {
    "id": "zDF1dTGM8O0",
@@ -1645,7 +1850,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-06-25T18:36:04+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 180
   },
   {
    "id": "stUnjXS6S98",
@@ -1653,7 +1859,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-06-20T20:22:49+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 234
   },
   {
    "id": "HWS8tn4R7OE",
@@ -1661,7 +1868,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-06-18T18:00:14+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 324
   },
   {
    "id": "tc8WQ20UEeA",
@@ -1669,7 +1877,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-06-15T18:00:10+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 240
   },
   {
    "id": "vtp3uAqoHzY",
@@ -1677,7 +1886,8 @@
    "channel": "Templum Boom Bap",
    "published": "2026-06-11T19:30:33+00:00",
    "source": "@TemplumBoomBap",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 245
   },
   {
    "id": "bzV53BH4M_Q",
@@ -1685,7 +1895,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-21T14:01:01+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 117
   },
   {
    "id": "ghRH7NJMcwk",
@@ -1693,7 +1904,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-19T14:01:13+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 129
   },
   {
    "id": "eV79rRD2PBM",
@@ -1701,7 +1913,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-17T14:01:04+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 119
   },
   {
    "id": "gj-1bkcJIk4",
@@ -1709,7 +1922,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-14T14:01:00+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 123
   },
   {
    "id": "oGb2TzLh4qo",
@@ -1717,7 +1931,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-12T14:01:16+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 127
   },
   {
    "id": "TmC8PgoBeYo",
@@ -1725,7 +1940,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-10T14:00:47+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 135
   },
   {
    "id": "6LvaaA8sn1w",
@@ -1733,7 +1949,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-07T14:00:13+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 124
   },
   {
    "id": "-X0QxN8Ysew",
@@ -1741,7 +1958,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-05T14:00:00+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 129
   },
   {
    "id": "Udbq-sK10YY",
@@ -1749,7 +1967,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-03-03T14:00:54+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 131
   },
   {
    "id": "dsx8IUqSKxQ",
@@ -1757,7 +1976,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2026-02-24T20:58:34+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 122
   },
   {
    "id": "UQdpbLgw8tk",
@@ -1765,7 +1985,8 @@
    "channel": "MY Space Prod. (Beats) ",
    "published": "2025-12-22T14:54:54+00:00",
    "source": "@myspaceproduction",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "dur": 124
   },
   {
    "id": "HRcV_rwcwJk",
@@ -1773,7 +1994,8 @@
    "channel": "Mixla",
    "published": "2025-10-15T15:10:07+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 150
   },
   {
    "id": "jMjb6EEApf0",
@@ -1781,7 +2003,8 @@
    "channel": "Mixla",
    "published": "2025-10-11T14:56:30+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 206
   },
   {
    "id": "5oq9d6aLYSo",
@@ -1789,7 +2012,8 @@
    "channel": "Mixla",
    "published": "2025-04-09T13:21:15+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 201
   },
   {
    "id": "SQg1cztO3P8",
@@ -1797,7 +2021,8 @@
    "channel": "Mixla",
    "published": "2025-04-04T19:26:50+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 168
   },
   {
    "id": "WtjU2hQgYHg",
@@ -1805,7 +2030,8 @@
    "channel": "Mixla",
    "published": "2025-03-29T18:30:21+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 194
   },
   {
    "id": "ff4sCaqyUcI",
@@ -1813,7 +2039,8 @@
    "channel": "Mixla",
    "published": "2025-03-27T19:00:38+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 165
   },
   {
    "id": "Mbtqc1602YY",
@@ -1821,7 +2048,8 @@
    "channel": "Mixla",
    "published": "2025-03-25T14:00:24+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 214
   },
   {
    "id": "WznY-xbcFV0",
@@ -1829,7 +2057,8 @@
    "channel": "Mixla",
    "published": "2025-03-20T15:21:49+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 213
   },
   {
    "id": "W92SZLPBV6g",
@@ -1837,7 +2066,8 @@
    "channel": "Mixla",
    "published": "2025-03-19T19:36:21+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 215
   },
   {
    "id": "s84HsiaLbjI",
@@ -1845,7 +2075,8 @@
    "channel": "Mixla",
    "published": "2025-03-18T14:46:34+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 180
   },
   {
    "id": "mNhO0s4G36Q",
@@ -1853,7 +2084,8 @@
    "channel": "Mixla",
    "published": "2025-03-15T17:50:25+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 201
   },
   {
    "id": "uTNSgis1T4c",
@@ -1861,7 +2093,8 @@
    "channel": "Mixla",
    "published": "2025-03-14T19:02:10+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 227
   },
   {
    "id": "xrx-IIioykQ",
@@ -1869,7 +2102,8 @@
    "channel": "Mixla",
    "published": "2025-03-13T16:19:27+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 234
   },
   {
    "id": "DLKGFOHoZK0",
@@ -1877,7 +2111,8 @@
    "channel": "Mixla",
    "published": "2025-03-11T16:05:03+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T17:55:32.668Z"
+   "added": "2026-09-25T17:55:32.668Z",
+   "dur": 1905
   },
   {
    "id": "-jc93jAkEYk",
@@ -1885,7 +2120,8 @@
    "channel": "Mixla",
    "published": "2025-03-07T15:55:59+00:00",
    "source": "@mixlaproduction",
-   "added": "2026-09-25T22:07:34.050Z"
+   "added": "2026-09-25T22:07:34.050Z",
+   "dur": 171
   }
  ],
  "learn": [
@@ -1896,7 +2132,8 @@
    "published": "2026-09-25T18:23:26+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 16343
   },
   {
    "id": "AgaY0Zvkd8I",
@@ -1905,7 +2142,18 @@
    "published": "2026-09-25T17:15:16+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 559
+  },
+  {
+   "id": "txf8CrI5z-k",
+   "title": "The Missing Half of Music History | Gabriella Di Laccio | TED",
+   "channel": "TED",
+   "published": "2026-09-25T15:00:29+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 470,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "WVxfkDrfouo",
@@ -1914,7 +2162,8 @@
    "published": "2026-09-25T12:00:14+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2461
   },
   {
    "id": "3nTpW52nioI",
@@ -1923,7 +2172,28 @@
    "published": "2026-09-24T23:00:30+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1253
+  },
+  {
+   "id": "jG7ULeWUfDw",
+   "title": "Why magnets stumped scientists for so long - Rachel Yang",
+   "channel": "TED-Ed",
+   "published": "2026-09-24T15:01:19+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 347,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "270q4aF0qU8",
+   "title": "The Energy Mess AI Is Creating — and How to Fix It | Ari Matusiak | TED",
+   "channel": "TED",
+   "published": "2026-09-24T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 757,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "ZaGZYXgMtgA",
@@ -1932,7 +2202,28 @@
    "published": "2026-09-24T12:59:51+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1104
+  },
+  {
+   "id": "Zgu97mCGS74",
+   "title": "How to Escape Your Obsession with Productivity | TED Intersections",
+   "channel": "TED",
+   "published": "2026-09-22T18:00:37+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1609,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "N2uQWfV6Jr4",
+   "title": "4 ways to fix your attention span - Shannon Odell",
+   "channel": "TED-Ed",
+   "published": "2026-09-22T15:00:51+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 326,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "QW_jlUn4gA8",
@@ -1941,7 +2232,8 @@
    "published": "2026-09-22T14:00:01+00:00",
    "source": "@kurzgesagt",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 852
   },
   {
    "id": "e_CItReyz_0",
@@ -1950,7 +2242,8 @@
    "published": "2026-09-22T13:22:33+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1213
   },
   {
    "id": "iqoN-7okyHk",
@@ -1959,7 +2252,8 @@
    "published": "2026-09-22T00:10:00+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 1995
   },
   {
    "id": "JsBZOcqZerk",
@@ -1968,7 +2262,18 @@
    "published": "2026-09-21T17:49:57+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2861
+  },
+  {
+   "id": "PRmIrFhce04",
+   "title": "The Infodemic — and the Scientists Fighting Against It | Jessica Malaty Rivera | TED",
+   "channel": "TED",
+   "published": "2026-09-21T15:00:23+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1174,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "XsfJTbdVFo0",
@@ -1977,7 +2282,8 @@
    "published": "2026-09-21T12:00:03+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 3269
   },
   {
    "id": "A2BsmrnegrY",
@@ -1986,7 +2292,8 @@
    "published": "2026-09-20T23:00:19+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1785
   },
   {
    "id": "o9sr8sviSIs",
@@ -1995,7 +2302,18 @@
    "published": "2026-09-20T16:57:48+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 694
+  },
+  {
+   "id": "SD1MypHgAwc",
+   "title": "Why You Fear the Unknown — and What It Can Teach You | Maya Shankar and Simone Stolzoff | TED",
+   "channel": "TED",
+   "published": "2026-09-20T15:00:22+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 2942,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "kN2yEEMeIFA",
@@ -2004,7 +2322,18 @@
    "published": "2026-09-20T12:59:46+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1348
+  },
+  {
+   "id": "e0Q_TcQUCks",
+   "title": "The Wiggly Wonder of Music | Jacob Collier | TED",
+   "channel": "TED",
+   "published": "2026-09-19T15:00:36+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 631,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "OGixndAvyKw",
@@ -2013,7 +2342,8 @@
    "published": "2026-09-19T12:00:32+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 1807
   },
   {
    "id": "Nbwv5wHQoj0",
@@ -2022,7 +2352,18 @@
    "published": "2026-09-18T17:12:53+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 3115
+  },
+  {
+   "id": "X6hstmAa0cg",
+   "title": "Meet the Youngest-Ever Mayor in Japan’s History | Ryosuke Takashima | TED",
+   "channel": "TED",
+   "published": "2026-09-18T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 339,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "Qeunu8YkuOk",
@@ -2031,7 +2372,28 @@
    "published": "2026-09-17T23:00:39+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1539
+  },
+  {
+   "id": "bHB5iiDDJ-s",
+   "title": "Everything you need to know about bird flu - Benjamin Anderson",
+   "channel": "TED-Ed",
+   "published": "2026-09-17T15:01:23+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 390,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "zc_eKn13GQU",
+   "title": "This Is What the Birth of the Universe Sounded Like | Mark Whittle | TED",
+   "channel": "TED",
+   "published": "2026-09-17T15:00:19+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 745,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "lkPZPu7t38c",
@@ -2040,7 +2402,28 @@
    "published": "2026-09-17T12:59:58+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1409
+  },
+  {
+   "id": "EMbZ72cCAzI",
+   "title": "How to explain something complicated",
+   "channel": "TED-Ed",
+   "published": "2026-09-15T15:00:40+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 569,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "4qtsOh2FwIs",
+   "title": "How Tech Will (and Won’t) Replace Your Doctor | TED Intersections",
+   "channel": "TED",
+   "published": "2026-09-15T15:00:24+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1555,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "0NY2gAftzJE",
@@ -2049,7 +2432,8 @@
    "published": "2026-09-15T14:00:02+00:00",
    "source": "@kurzgesagt",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 914
   },
   {
    "id": "n_1wzYQwnts",
@@ -2058,7 +2442,8 @@
    "published": "2026-09-15T13:00:35+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1293
   },
   {
    "id": "4baAU3bs-AI",
@@ -2067,7 +2452,18 @@
    "published": "2026-09-15T12:59:48+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1295
+  },
+  {
+   "id": "zYO9UbpEC9Y",
+   "title": "How Bullying Spreads — and How Social Bravery Stops It | Amy Cuddy | TED",
+   "channel": "TED",
+   "published": "2026-09-14T15:00:24+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 864,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "l6Jidmgwpa0",
@@ -2076,7 +2472,8 @@
    "published": "2026-09-14T12:00:06+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 3309
   },
   {
    "id": "x8QP9oXgahA",
@@ -2085,7 +2482,18 @@
    "published": "2026-09-13T23:00:33+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1254
+  },
+  {
+   "id": "owRN5fVLoEk",
+   "title": "The Four Steps to Hearing Hard Feedback Gracefully | Chris Wheatley | TED",
+   "channel": "TED",
+   "published": "2026-09-13T15:00:26+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 749,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "5ij0tDYhIhg",
@@ -2094,7 +2502,8 @@
    "published": "2026-09-13T12:59:54+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 17412
   },
   {
    "id": "FZ34RCZTmS4",
@@ -2103,7 +2512,18 @@
    "published": "2026-09-12T12:00:26+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 1841
+  },
+  {
+   "id": "4WUVkpC8MKs",
+   "title": "A New Take on an Ancient Sound | Tina Lajevardian | TED",
+   "channel": "TED",
+   "published": "2026-09-11T15:00:29+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 201,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "go_G8hgqMmA",
@@ -2112,7 +2532,8 @@
    "published": "2026-09-11T12:00:23+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 3079
   },
   {
    "id": "DNKfD1PC68E",
@@ -2121,7 +2542,28 @@
    "published": "2026-09-10T23:00:09+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1262
+  },
+  {
+   "id": "I8XaYkRW1tA",
+   "title": "Why do some people have a better sense of direction than others? - Oliver Baumann",
+   "channel": "TED-Ed",
+   "published": "2026-09-10T15:00:58+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 353,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "u3qlbHrB7KI",
+   "title": "How to Fix Africa’s Learning Crisis | Rapelang Rabana | TED",
+   "channel": "TED",
+   "published": "2026-09-10T15:00:25+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 621,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "f7KjbemUhkw",
@@ -2130,7 +2572,28 @@
    "published": "2026-09-10T12:59:52+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1203
+  },
+  {
+   "id": "1r2fqbD0KZ4",
+   "title": "The Secret to Deeper Conversations | TED Intersections",
+   "channel": "TED",
+   "published": "2026-09-08T15:30:00+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1686,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "_gP3aXvNmv8",
+   "title": "Ever walk into a room and forget what you were doing? - Gabriel Radvansky",
+   "channel": "TED-Ed",
+   "published": "2026-09-08T15:00:17+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 344,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "N4zI_oNsdgg",
@@ -2139,7 +2602,18 @@
    "published": "2026-09-08T12:59:57+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1327
+  },
+  {
+   "id": "5vwbbLB3Uww",
+   "title": "How I’m Helping Thousands Rebuild Their Lives After Prison | Susan Burton | TED",
+   "channel": "TED",
+   "published": "2026-09-07T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 739,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "U_ezGNRvvYs",
@@ -2148,7 +2622,8 @@
    "published": "2026-09-07T12:00:03+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2227
   },
   {
    "id": "flkcHcpdRX0",
@@ -2157,7 +2632,8 @@
    "published": "2026-09-06T23:00:19+00:00",
    "source": "@Asianometry",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1176
   },
   {
    "id": "AKAJOrbYVS8",
@@ -2166,7 +2642,8 @@
    "published": "2026-09-06T12:59:52+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 20459
   },
   {
    "id": "-B1emleGujk",
@@ -2175,7 +2652,8 @@
    "published": "2026-09-05T02:27:53+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1191
   },
   {
    "id": "HvrhW4vEUsQ",
@@ -2184,7 +2662,18 @@
    "published": "2026-09-04T12:00:16+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2510
+  },
+  {
+   "id": "BSdEiOYvKpE",
+   "title": "What are tariffs, and how do they work?",
+   "channel": "TED-Ed",
+   "published": "2026-09-03T15:00:10+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 339,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "weBFFygUxxc",
@@ -2193,7 +2682,8 @@
    "published": "2026-09-03T12:59:53+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1400
   },
   {
    "id": "Z0VJFcpVLm0",
@@ -2202,7 +2692,8 @@
    "published": "2026-09-02T12:00:33+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 505
   },
   {
    "id": "GXJRAFgqxDU",
@@ -2211,7 +2702,18 @@
    "published": "2026-09-01T19:45:19+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2070
+  },
+  {
+   "id": "JOs-q7rXqdk",
+   "title": "4 ways to tell a great story",
+   "channel": "TED-Ed",
+   "published": "2026-09-01T15:00:06+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 306,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "-17mPnFxi30",
@@ -2220,7 +2722,8 @@
    "published": "2026-09-01T13:00:00+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 945
   },
   {
    "id": "8bHCPc-hZWQ",
@@ -2229,7 +2732,8 @@
    "published": "2026-09-01T12:59:53+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 3356
   },
   {
    "id": "H63wgtmW8fQ",
@@ -2238,7 +2742,8 @@
    "published": "2026-08-31T17:15:15+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 540
   },
   {
    "id": "8gkSNzZpJxQ",
@@ -2247,7 +2752,8 @@
    "published": "2026-08-31T12:00:24+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2830
   },
   {
    "id": "MSaVL1JAoIc",
@@ -2256,7 +2762,8 @@
    "published": "2026-08-30T13:00:00+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1178
   },
   {
    "id": "yxoHOPOM0Ok",
@@ -2265,7 +2772,8 @@
    "published": "2026-08-29T12:00:25+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2050
   },
   {
    "id": "CtPGZxaSnv4",
@@ -2274,7 +2782,8 @@
    "published": "2026-08-28T16:24:07+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 573
   },
   {
    "id": "NVNAdjF5uhQ",
@@ -2283,7 +2792,8 @@
    "published": "2026-08-28T12:00:10+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 2542
   },
   {
    "id": "t5hhOOMUjZQ",
@@ -2292,7 +2802,8 @@
    "published": "2026-08-27T12:51:38+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1255
   },
   {
    "id": "A-FPvbskBjk",
@@ -2301,7 +2812,18 @@
    "published": "2026-08-26T12:00:08+00:00",
    "source": "@Vox",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Society"
+   "topic": "Society",
+   "dur": 474
+  },
+  {
+   "id": "QyRqlTV60zM",
+   "title": "Plato’s infamous Ship of State thought experiment - Michael Vazquez",
+   "channel": "TED-Ed",
+   "published": "2026-08-25T15:01:09+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 339,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "0RDCTHMXjgg",
@@ -2310,7 +2832,8 @@
    "published": "2026-08-25T13:18:48+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1283
   },
   {
    "id": "Rk7QV9Gto-c",
@@ -2319,7 +2842,18 @@
    "published": "2026-08-23T12:57:54+00:00",
    "source": "@KingsandGenerals",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1309
+  },
+  {
+   "id": "l29K-ZkARmE",
+   "title": "The tragedy of Cassandra, the princess who predicted the fall of Troy - Iseult Gillespie",
+   "channel": "TED-Ed",
+   "published": "2026-08-18T15:00:37+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 280,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "r1wwtGgnzg4",
@@ -2328,7 +2862,8 @@
    "published": "2026-08-18T13:00:21+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1155
   },
   {
    "id": "J1WoNuemKOg",
@@ -2337,7 +2872,8 @@
    "published": "2026-08-17T14:30:16+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1365
   },
   {
    "id": "CoxRduAbxRs",
@@ -2346,7 +2882,28 @@
    "published": "2026-08-16T17:15:28+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 490
+  },
+  {
+   "id": "2A1IEBFt6Xg",
+   "title": "How do Maglev trains work? - Ning Zhao",
+   "channel": "TED-Ed",
+   "published": "2026-08-11T15:01:10+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 387,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "-61qDRPG3to",
+   "title": "The fastest way to board a plane, according to mathematics - Rachel Yang",
+   "channel": "TED-Ed",
+   "published": "2026-08-04T15:00:09+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 357,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "Cyl3X88KEgg",
@@ -2355,7 +2912,8 @@
    "published": "2026-08-04T13:59:53+00:00",
    "source": "@kurzgesagt",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 848
   },
   {
    "id": "stQfGfUSLQg",
@@ -2364,7 +2922,8 @@
    "published": "2026-08-04T13:00:39+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1108
   },
   {
    "id": "wt4p2oalmRY",
@@ -2373,7 +2932,8 @@
    "published": "2026-08-02T13:21:11+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1617
   },
   {
    "id": "J9H_BOe5suY",
@@ -2382,7 +2942,18 @@
    "published": "2026-08-01T21:29:55+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 3132
+  },
+  {
+   "id": "krNP8RlDsbw",
+   "title": "Red gold: The world's most expensive spice - Carolyn Beans",
+   "channel": "TED-Ed",
+   "published": "2026-07-28T15:00:28+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 401,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "tL9Lw250spc",
@@ -2391,7 +2962,18 @@
    "published": "2026-07-25T17:29:09+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2132
+  },
+  {
+   "id": "5jPCAlE0z7I",
+   "title": "The magical forest realm hiding at the bottom of the ocean - Luka Seamus Wright and Salomé Buglass",
+   "channel": "TED-Ed",
+   "published": "2026-07-21T15:01:01+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 351,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "Iclf_JnPkKw",
@@ -2400,7 +2982,8 @@
    "published": "2026-07-21T13:02:12+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1351
   },
   {
    "id": "QFrzGhlRAkw",
@@ -2409,7 +2992,8 @@
    "published": "2026-07-20T17:15:10+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 513
   },
   {
    "id": "GlYgs6v2YfU",
@@ -2418,7 +3002,8 @@
    "published": "2026-07-16T11:56:04+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2031
   },
   {
    "id": "GK2pZ_oVU1o",
@@ -2427,7 +3012,18 @@
    "published": "2026-07-14T18:03:28+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2384
+  },
+  {
+   "id": "JhxuP0AuRPA",
+   "title": "When did we start using passports? - Kristin Surak",
+   "channel": "TED-Ed",
+   "published": "2026-07-14T15:00:42+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 369,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "Ku_ockR2t44",
@@ -2436,7 +3032,8 @@
    "published": "2026-07-07T13:00:05+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-25T17:55:32.668Z",
-   "topic": "Engineering & Tech"
+   "topic": "Engineering & Tech",
+   "dur": 1474
   },
   {
    "id": "0s0N8BrxCok",
@@ -2445,7 +3042,8 @@
    "published": "2026-07-04T20:54:41+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1176
   },
   {
    "id": "49s1EHBzmFQ",
@@ -2454,7 +3052,8 @@
    "published": "2026-06-30T17:15:21+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 573
   },
   {
    "id": "mvcesPWvUIc",
@@ -2463,7 +3062,8 @@
    "published": "2026-06-22T14:40:50+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1402
   },
   {
    "id": "b_aL0-R2z3Y",
@@ -2472,7 +3072,8 @@
    "published": "2026-06-21T00:29:23+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1029
   },
   {
    "id": "8HBDE-msUjw",
@@ -2481,7 +3082,8 @@
    "published": "2026-06-14T15:18:45+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2490
   },
   {
    "id": "0cxMrCykadY",
@@ -2490,7 +3092,8 @@
    "published": "2026-06-13T17:15:30+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 529
   },
   {
    "id": "l6DKRf-fAAM",
@@ -2499,7 +3102,8 @@
    "published": "2026-06-07T11:49:51+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1939
   },
   {
    "id": "tz23G_UXCGA",
@@ -2508,7 +3112,8 @@
    "published": "2026-06-05T07:09:17+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2057
   },
   {
    "id": "pp7l-JQQ2IY",
@@ -2517,7 +3122,8 @@
    "published": "2026-06-01T21:06:30+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 3297
   },
   {
    "id": "zIknCgPbRyc",
@@ -2526,7 +3132,8 @@
    "published": "2026-05-30T17:15:15+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 501
   },
   {
    "id": "kS-CGkiPetQ",
@@ -2535,7 +3142,8 @@
    "published": "2026-05-30T14:46:43+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1794
   },
   {
    "id": "hqt96HLH6PM",
@@ -2544,7 +3152,8 @@
    "published": "2026-05-24T17:07:37+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1108
   },
   {
    "id": "vcg1WMzr9xw",
@@ -2553,7 +3162,8 @@
    "published": "2026-05-17T11:56:59+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 803
   },
   {
    "id": "YuYDi5dh_70",
@@ -2562,7 +3172,8 @@
    "published": "2026-05-14T17:15:35+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 537
   },
   {
    "id": "SVTPv4sI_Jc",
@@ -2571,7 +3182,8 @@
    "published": "2026-05-03T19:26:56+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:34.050Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1278
   },
   {
    "id": "_W91vYZETPM",
@@ -2580,7 +3192,8 @@
    "published": "2026-05-03T17:15:00+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 520
   },
   {
    "id": "ksn5yrsC3Wg",
@@ -2589,7 +3202,8 @@
    "published": "2026-04-29T20:30:53+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2004
   },
   {
    "id": "nc4tcJL6-W0",
@@ -2598,7 +3212,8 @@
    "published": "2026-04-26T21:20:54+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 823
   },
   {
    "id": "ynhI5fZ_Uhk",
@@ -2607,7 +3222,8 @@
    "published": "2026-04-19T17:15:00+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 514
   },
   {
    "id": "872JcpP3FEM",
@@ -2616,7 +3232,8 @@
    "published": "2026-04-18T17:00:16+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2028
   },
   {
    "id": "PPJ6NJkmDAo",
@@ -2625,7 +3242,8 @@
    "published": "2026-04-15T16:40:38+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1544
   },
   {
    "id": "-sJhk8qscSs",
@@ -2634,7 +3252,8 @@
    "published": "2026-04-11T22:26:33+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 703
   },
   {
    "id": "jjp3WC8Unj8",
@@ -2643,7 +3262,8 @@
    "published": "2026-04-05T20:07:08+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 3533
   },
   {
    "id": "HZpyTTsx0xw",
@@ -2652,7 +3272,8 @@
    "published": "2026-03-27T18:15:00+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 494
   },
   {
    "id": "YSJY3DvnybE",
@@ -2661,7 +3282,8 @@
    "published": "2026-03-26T17:47:09+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1722
   },
   {
    "id": "p-gleC7WxNY",
@@ -2670,7 +3292,8 @@
    "published": "2026-03-22T19:12:44+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1112
   },
   {
    "id": "ldxFjLJ3rVY",
@@ -2679,7 +3302,8 @@
    "published": "2026-03-22T12:59:00+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:05:44.662Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2692
   },
   {
    "id": "9szhjhO9epA",
@@ -2688,7 +3312,8 @@
    "published": "2026-03-19T21:12:24+00:00",
    "source": "@veritasium",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1244
   },
   {
    "id": "cqMouZcoWMA",
@@ -2697,7 +3322,8 @@
    "published": "2026-03-07T19:06:06+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 766
   },
   {
    "id": "uw8sjn7z0Ls",
@@ -2706,7 +3332,8 @@
    "published": "2026-03-03T18:15:00+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 532
   },
   {
    "id": "fsLh-NYhOoU",
@@ -2715,7 +3342,8 @@
    "published": "2026-02-27T15:14:23+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:07:43.771Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 3623
   },
   {
    "id": "RSjMtbHBJDQ",
@@ -2724,7 +3352,8 @@
    "published": "2026-02-22T23:44:05+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 954
   },
   {
    "id": "kbrjnNq3aoQ",
@@ -2733,7 +3362,8 @@
    "published": "2026-02-22T23:43:46+00:00",
    "source": "@TheArmchairHistorian",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 610
   },
   {
    "id": "T_OqU3ONq3w",
@@ -2742,7 +3372,8 @@
    "published": "2026-02-07T18:15:00+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 502
   },
   {
    "id": "BHdbsHFs2P0",
@@ -2751,7 +3382,8 @@
    "published": "2026-01-31T14:57:42+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1779
   },
   {
    "id": "nVFqq1a1r_s",
@@ -2760,7 +3392,8 @@
    "published": "2026-01-09T18:15:07+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 526
   },
   {
    "id": "DvVqcgBiddc",
@@ -2769,7 +3402,8 @@
    "published": "2025-12-19T18:15:01+00:00",
    "source": "@HistoryMatters",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 490
   },
   {
    "id": "CAsKpXoxZAQ",
@@ -2778,7 +3412,8 @@
    "published": "2025-12-16T15:04:49+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 19760
   },
   {
    "id": "FE-hM1kRK4Y",
@@ -2787,7 +3422,8 @@
    "published": "2025-11-05T13:09:45+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1385
   },
   {
    "id": "j0wJBEZdwLs",
@@ -2796,7 +3432,8 @@
    "published": "2025-10-12T11:19:53+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2080
   },
   {
    "id": "-j8PzkZ70Lg",
@@ -2805,7 +3442,8 @@
    "published": "2025-10-05T13:53:28+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 1669
   },
   {
    "id": "M-MgQC6z3VU",
@@ -2814,7 +3452,8 @@
    "published": "2025-09-18T14:13:05+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 2008
   },
   {
    "id": "_BrFKp-U8GI",
@@ -2823,7 +3462,8 @@
    "published": "2025-09-07T12:25:03+00:00",
    "source": "@3blue1brown",
    "added": "2026-09-25T22:44:51.754Z",
-   "topic": "Science"
+   "topic": "Science",
+   "dur": 3131
   },
   {
    "id": "h6E4_Bcmscg",
@@ -2832,7 +3472,18 @@
    "published": "2025-08-30T16:01:09+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 3450
+  },
+  {
+   "id": "xHd4zsIbXJ0",
+   "title": "All The Ghosts You Will Be",
+   "channel": "Vsauce",
+   "published": "2025-07-16T01:00:01+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1320,
+   "topic": "Science"
   },
   {
    "id": "PdFwMDuAnS4",
@@ -2841,7 +3492,8 @@
    "published": "2025-04-02T19:35:09+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 24480
   },
   {
    "id": "1BVJzaXv3rk",
@@ -2850,7 +3502,8 @@
    "published": "2025-01-18T19:30:06+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2946
   },
   {
    "id": "Qw7xXYypFQ0",
@@ -2859,7 +3512,8 @@
    "published": "2024-11-23T17:00:11+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2812
   },
   {
    "id": "YpKej05RgsY",
@@ -2868,7 +3522,8 @@
    "published": "2024-04-30T15:25:46+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 14293
   },
   {
    "id": "R0wwuj0sTyY",
@@ -2877,7 +3532,8 @@
    "published": "2024-03-16T16:00:13+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2564
   },
   {
    "id": "Q-nWA0WeF98",
@@ -2886,7 +3542,8 @@
    "published": "2024-01-19T19:45:11+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2257
   },
   {
    "id": "lsbcN9-jU1Y",
@@ -2895,7 +3552,8 @@
    "published": "2024-01-19T19:00:08+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1695
   },
   {
    "id": "805SIqgDZIE",
@@ -2904,7 +3562,8 @@
    "published": "2024-01-19T17:22:31+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 128
   },
   {
    "id": "hvk_XylEmLo",
@@ -2913,7 +3572,8 @@
    "published": "2023-09-29T16:00:16+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1996
   },
   {
    "id": "6dbdVhVSat8",
@@ -2922,7 +3582,8 @@
    "published": "2023-06-18T17:22:14+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 13144
   },
   {
    "id": "EezHXh-UG-c",
@@ -2931,7 +3592,8 @@
    "published": "2023-05-20T16:00:14+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1567
   },
   {
    "id": "t7Y-1qMKY_0",
@@ -2940,7 +3602,18 @@
    "published": "2022-12-17T20:15:07+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1349
+  },
+  {
+   "id": "mMaBVfIedFw",
+   "title": "Selfie Waves",
+   "channel": "Vsauce",
+   "published": "2022-11-17T15:01:24+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1512,
+   "topic": "Science"
   },
   {
    "id": "0MtIVJ2lcu8",
@@ -2949,7 +3622,8 @@
    "published": "2022-11-03T17:38:39+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 7626
   },
   {
    "id": "HURI6EHXybc",
@@ -2958,7 +3632,8 @@
    "published": "2022-09-30T19:00:13+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1541
   },
   {
    "id": "hRSGxw2AQnk",
@@ -2967,7 +3642,8 @@
    "published": "2022-09-02T19:45:08+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1324
   },
   {
    "id": "yRmOWcWdQAo",
@@ -2976,7 +3652,8 @@
    "published": "2022-09-02T19:15:10+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1654
   },
   {
    "id": "qSfFq02pK4s",
@@ -2985,7 +3662,18 @@
    "published": "2022-07-17T12:40:03+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 7295
+  },
+  {
+   "id": "vjqt8T3tJIE",
+   "title": "Did People Used To Look Older?",
+   "channel": "Vsauce",
+   "published": "2022-07-11T15:09:07+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1374,
+   "topic": "Science"
   },
   {
    "id": "uFU7--7Zy9s",
@@ -2994,7 +3682,8 @@
    "published": "2022-06-15T15:01:19+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 7277
   },
   {
    "id": "nlMpxUYKTcU",
@@ -3003,7 +3692,8 @@
    "published": "2022-04-22T14:28:34+00:00",
    "source": "@FallofCivilizations",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 11639
   },
   {
    "id": "OGJHE6O7Mhk",
@@ -3012,7 +3702,8 @@
    "published": "2022-04-02T16:32:00+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 3072
   },
   {
    "id": "QtOXq9SwarQ",
@@ -3021,7 +3712,8 @@
    "published": "2022-01-29T16:15:19+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2806
   },
   {
    "id": "QLq6GEiHqR8",
@@ -3030,7 +3722,28 @@
    "published": "2021-12-06T23:30:10+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2323
+  },
+  {
+   "id": "GYlMID6G4Gc",
+   "title": "Giving Away My Beard For Charity!",
+   "channel": "Vsauce",
+   "published": "2021-10-12T18:09:16+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 59,
+   "topic": "Science"
+  },
+  {
+   "id": "fXW-QjBsruE",
+   "title": "Do Chairs Exist?",
+   "channel": "Vsauce",
+   "published": "2021-09-14T13:30:21+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 2273,
+   "topic": "Science"
   },
   {
    "id": "CH1oYhTigyA",
@@ -3039,7 +3752,8 @@
    "published": "2021-07-18T13:56:36+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1159
   },
   {
    "id": "mY3SEMTROas",
@@ -3048,7 +3762,8 @@
    "published": "2021-05-29T00:30:11+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1872
   },
   {
    "id": "zqllxbPWKNI",
@@ -3057,7 +3772,18 @@
    "published": "2021-05-28T23:45:09+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1781
+  },
+  {
+   "id": "_ArVh3Cj9rw",
+   "title": "The Future Of Reasoning",
+   "channel": "Vsauce",
+   "published": "2021-04-28T21:53:46+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1802,
+   "topic": "Science"
   },
   {
    "id": "POHNhn3WcCc",
@@ -3066,7 +3792,8 @@
    "published": "2021-04-24T14:00:31+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1824
   },
   {
    "id": "8rt67AqrR74",
@@ -3075,7 +3802,18 @@
    "published": "2021-01-16T17:16:28+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2291
+  },
+  {
+   "id": "zHL9GP_B30E",
+   "title": "Illusions of Time",
+   "channel": "Vsauce",
+   "published": "2021-01-08T20:38:36+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1868,
+   "topic": "Science"
   },
   {
    "id": "AAGIi62-sAU",
@@ -3084,7 +3822,8 @@
    "published": "2020-12-16T02:30:09+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 2023
   },
   {
    "id": "gdavaK3d4Pc",
@@ -3093,7 +3832,8 @@
    "published": "2020-09-22T13:48:35+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1310
   },
   {
    "id": "b1reY72ktEc",
@@ -3102,7 +3842,8 @@
    "published": "2020-08-18T00:00:10+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1461
   },
   {
    "id": "Cqbleas1mmo",
@@ -3111,7 +3852,18 @@
    "published": "2020-08-17T23:30:09+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1264
+  },
+  {
+   "id": "U6VBV4QUMu0",
+   "title": "The Odd Number Rule",
+   "channel": "Vsauce",
+   "published": "2020-07-29T20:26:40+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1327,
+   "topic": "Science"
   },
   {
    "id": "aq4G-7v-_xI",
@@ -3120,7 +3872,8 @@
    "published": "2020-07-25T13:18:15+00:00",
    "source": "@HistoriaCivilis",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1431
   },
   {
    "id": "ewLpXw6uN28",
@@ -3129,7 +3882,18 @@
    "published": "2020-05-04T21:45:11+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1606
+  },
+  {
+   "id": "egEraZP9yXQ",
+   "title": "How Many Holes Does a Human Have?",
+   "channel": "Vsauce",
+   "published": "2020-02-17T15:02:34+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1287,
+   "topic": "Science"
   },
   {
    "id": "sV6uuMAnJUE",
@@ -3138,7 +3902,8 @@
    "published": "2020-01-31T23:32:33+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1363
   },
   {
    "id": "tsxmyL7TUJg",
@@ -3147,7 +3912,1030 @@
    "published": "2020-01-31T23:00:10+00:00",
    "source": "@OverSimplified",
    "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History"
+   "topic": "History",
+   "dur": 1793
+  },
+  {
+   "id": "9Vmwsg8Eabo",
+   "title": "What Is The Scariest Thing?",
+   "channel": "Vsauce",
+   "published": "2019-10-24T13:00:04+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 2441,
+   "topic": "Science"
+  },
+  {
+   "id": "b0cakXwiZ8s",
+   "title": "I Watch 3 Episodes of Mind Field With Our Experts & Researchers",
+   "channel": "Vsauce",
+   "published": "2019-10-14T16:00:06+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 10816,
+   "topic": "Science"
+  },
+  {
+   "id": "_WHRWLnVm_M",
+   "title": "Laws & Causes",
+   "channel": "Vsauce",
+   "published": "2019-10-01T12:58:46+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1341,
+   "topic": "Science"
+  },
+  {
+   "id": "AgbeGFYluEA",
+   "title": "Mind Reading",
+   "channel": "Vsauce",
+   "published": "2019-01-16T17:00:03+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1342,
+   "topic": "Science"
+  },
+  {
+   "id": "BR-eMMCp7tg",
+   "title": "Behavior and Belief",
+   "channel": "Vsauce",
+   "published": "2019-01-09T17:00:02+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1707,
+   "topic": "Science"
+  },
+  {
+   "id": "xna-kdXZQHQ",
+   "title": "How to Talk to Aliens",
+   "channel": "Vsauce",
+   "published": "2019-01-02T17:00:06+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z",
+   "dur": 1566,
+   "topic": "Science"
+  }
+ ],
+ "shorts": [
+  {
+   "id": "vLDplW8cw4A",
+   "title": "Being a person is better than being perfect all the time #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-25T19:00:03+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "ausLKMojXaY",
+   "title": "The Phone Number puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-09-25T13:35:02+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "gehcm3Hx2lI",
+   "title": "One Gurkha vs. 40 Armed Bandits: The 2010 Train Fight",
+   "channel": "Kings and Generals",
+   "published": "2026-09-25T13:00:06+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "ABZRjXb58Oo",
+   "title": "The first TED Talks Test starts Sept 28 — you in? #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-24T20:30:11+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "QT3e6x5CZC8",
+   "title": "What if AI wasn’t a shortcut, but a learning partner? #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-24T19:00:28+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "RQprZZJIb6Y",
+   "title": "Your Skeleton Is Electric",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-09-24T17:30:19+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "VKlulHwMxgU",
+   "title": "What happens when you open the valve?",
+   "channel": "Veritasium",
+   "published": "2026-09-24T13:00:24+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "h4dBRGZOUuU",
+   "title": "The 3,000 vs 60,000 \"Battle\" That Conquered India",
+   "channel": "Kings and Generals",
+   "published": "2026-09-23T13:00:34+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "V6HRAcwFyec",
+   "title": "How To Fix ROCK HARD Brown Sugar",
+   "channel": "Vsauce",
+   "published": "2026-09-22T21:42:44+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "RZvHtAXF-D0",
+   "title": "Keep showing up not just for the Earth, but for each other #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-22T20:00:03+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "kvGePorewUM",
+   "title": "The Scandalous Origin of the First Gallic Sack of Rome",
+   "channel": "Kings and Generals",
+   "published": "2026-09-21T13:00:08+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "EIsm03Y-cDA",
+   "title": "Play is what happens when you stop trying to optimize everything #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-20T19:00:07+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Fob38Jo9F_k",
+   "title": "The Ontological Status of Phenylalanine In Sugar Free Sodas",
+   "channel": "Vsauce",
+   "published": "2026-09-20T16:14:03+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "DnUAXX41KJ8",
+   "title": "Health decisions are often risk vs. reward — but what if we don't have all the information? #TEDTalk",
+   "channel": "TED",
+   "published": "2026-09-18T19:00:11+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "bRQEWPA832A",
+   "title": "The last IMO problem AI could not solve",
+   "channel": "3Blue1Brown",
+   "published": "2026-09-18T17:14:08+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "6TvDUYm4YnQ",
+   "title": "Why English Has Two Words for Every Meat",
+   "channel": "Kings and Generals",
+   "published": "2026-09-18T13:00:39+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "hPoJWjJ9Ao8",
+   "title": "Heating A Ball Just By Squeezing It",
+   "channel": "Veritasium",
+   "published": "2026-09-18T13:00:00+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "zAGWmkA1Y10",
+   "title": "AI is good at seeing patterns, but it’s humans who figure out what to do next #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-17T22:00:15+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "4SKpHDjf6_Q",
+   "title": "Who Said The First Bad Word On The Moon?",
+   "channel": "Vsauce",
+   "published": "2026-09-16T18:43:12+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "f6ATxxu1pac",
+   "title": "Why England Banned Peasants from Wearing Pointy Shoes",
+   "channel": "Kings and Generals",
+   "published": "2026-09-16T13:00:14+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "NswrHx9ljk0",
+   "title": "This iconic wildlife spectacle isn't just beautiful— it tells us vital information about our planet",
+   "channel": "TED",
+   "published": "2026-09-15T19:00:15+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "wirKMAMC2YA",
+   "title": "Why Rome’s Greatest Threat Was Its Own Settler Legions",
+   "channel": "Kings and Generals",
+   "published": "2026-09-14T13:00:37+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "WFr9Z01sKGg",
+   "title": "Chasing external validation can leave you feeling empty — try this instead #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-13T19:00:36+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "3XsRc_ggCp4",
+   "title": "What’s harder: Asking for help or offering it? #TEDTalks #TEDIntersections",
+   "channel": "TED",
+   "published": "2026-09-11T22:00:18+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "yzIUbsJDy50",
+   "title": "How 60,000 French Controlled Half of North America",
+   "channel": "Kings and Generals",
+   "published": "2026-09-11T13:00:12+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "1LZX3l8TKl4",
+   "title": "We're more connected than ever — so why are we lonelier than ever? #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-10T19:45:36+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "O3a99HNskNk",
+   "title": "The Scariest Chart In Engineering",
+   "channel": "Veritasium",
+   "published": "2026-09-10T13:00:12+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "7p73VjD6U-Y",
+   "title": "How Mehmet II Transformed the Ottoman Army Forever",
+   "channel": "Kings and Generals",
+   "published": "2026-09-09T13:00:13+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "ZpXe7KMyLU8",
+   "title": "Hip-hop gets blamed for being a bad influence — but the data shows a different story #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-08T23:15:17+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "WQgxsXiP5WI",
+   "title": "The African Kingdom Where Women Held Real Power",
+   "channel": "Kings and Generals",
+   "published": "2026-09-07T13:00:23+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Cfma1_w5U4Q",
+   "title": "This new way of treating depression starts with rewiring the brain #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-06T19:00:11+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "oR94cicO7xM",
+   "title": "The Most Dangerous Escalator In Europe",
+   "channel": "Veritasium",
+   "published": "2026-09-06T13:00:26+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "HL9pJtDtt2A",
+   "title": "Humans are wired for deep connection. So what happens when devices disrupt that? #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-05T19:00:43+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "NIifnIP_NnQ",
+   "title": "How ADHD Medication Works",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-09-05T14:00:06+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "49V4EsM6UmY",
+   "title": "Shoot for the moon — so we can help the Earth #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-04T20:00:18+00:00",
+   "source": "@TED",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "jUOLQwyt42k",
+   "title": "How Robert Clive Retook Calcutta in 1756",
+   "channel": "Kings and Generals",
+   "published": "2026-09-04T13:00:09+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "hiIIGMeMEuE",
+   "title": "What If You Never Slept?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-09-03T14:00:25+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "430TRqgPrFs",
+   "title": "When Celtic Warriors Conquered Northern Italy",
+   "channel": "Kings and Generals",
+   "published": "2026-09-02T13:00:14+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "F5_G0AHfYhI",
+   "title": "A Physics Professor Bet Me $10,000 I'm Wrong...",
+   "channel": "Veritasium",
+   "published": "2026-09-02T13:00:04+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "tZ8i1RxGSYM",
+   "title": "Can Earth Run Out of Water?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-31T14:00:04+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "A2amW6KR2l0",
+   "title": "The Bizarre Insult Hurled at William the Conqueror",
+   "channel": "Kings and Generals",
+   "published": "2026-08-31T13:00:39+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "EqkRVbaBxtg",
+   "title": "What If Gravity Was 10% Stronger?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-29T14:00:15+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "4N9fQRo_DiQ",
+   "title": "Disease, Plagues, and 28-Year Lifespans in Roman Britain",
+   "channel": "Kings and Generals",
+   "published": "2026-08-28T13:00:22+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Yhg-DtVUO4A",
+   "title": "The Ambitrope Coin",
+   "channel": "Vsauce",
+   "published": "2026-08-27T23:02:45+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "YqAI0oqtt7w",
+   "title": "Dust Is Not What You Think",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-27T14:00:06+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "b3KpFdb1pW8",
+   "title": "We Took $10,000 From @mkbhd's Locked iPhone",
+   "channel": "Veritasium",
+   "published": "2026-08-26T15:00:02+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "HNVSu5es49o",
+   "title": "Why the Vikings Buried Their Longships",
+   "channel": "Kings and Generals",
+   "published": "2026-08-26T13:00:20+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "J9Y8TG7luec",
+   "title": "Audio Palindromes",
+   "channel": "Vsauce",
+   "published": "2026-08-26T01:03:39+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "OKsWuqNjomQ",
+   "title": "Why Ebola Keeps Coming Back",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-24T14:00:33+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "5U-V0y-fkSw",
+   "title": "It's impossible to choose a number at random",
+   "channel": "Veritasium",
+   "published": "2026-08-24T13:08:34+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "oetbFj6dJNk",
+   "title": "Did Vikings Really Burn Their Ships at Funerals?",
+   "channel": "Kings and Generals",
+   "published": "2026-08-24T13:00:39+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "i0mqdRGYgbU",
+   "title": "The Singularity Disc",
+   "channel": "Vsauce",
+   "published": "2026-08-22T21:51:23+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "IvtsVHzMLwY",
+   "title": "How Stress Changes Your Brain",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-22T14:00:02+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "dG7pemDgwmc",
+   "title": "How Many Letters Are In The Answer?",
+   "channel": "Vsauce",
+   "published": "2026-08-21T00:44:31+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "w5RZfxQHxyY",
+   "title": "How Antidepressants Work",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-20T14:00:18+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "rYyJm1tD3d0",
+   "title": "The jumping pegs puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-08-18T14:54:17+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "nHAFnH3xRl4",
+   "title": "Could identical twins commit the perfect crime?",
+   "channel": "Veritasium",
+   "published": "2026-08-18T11:33:08+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "axILrr1GgMs",
+   "title": "Some Obscure Sorrows",
+   "channel": "Vsauce",
+   "published": "2026-08-17T22:44:35+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "U5-dE2nCzjM",
+   "title": "What the Flu Does to Your Body",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-08-17T14:00:07+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "moKQ4klRARw",
+   "title": "I Built A \"Swing Thing\"",
+   "channel": "Vsauce",
+   "published": "2026-08-14T20:56:53+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "rPmypttutJk",
+   "title": "Can I Crack This Lock?",
+   "channel": "Vsauce",
+   "published": "2026-08-12T22:06:49+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "nAA_4TxqWTE",
+   "title": "What You See When You Look Away",
+   "channel": "Vsauce",
+   "published": "2026-08-10T21:55:21+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "_1G8nrmBKeY",
+   "title": "How do submarines know where they are?",
+   "channel": "Veritasium",
+   "published": "2026-08-06T13:00:34+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "4DaETxhoAxg",
+   "title": "One Dimensional Balls",
+   "channel": "Vsauce",
+   "published": "2026-08-05T23:42:31+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "laSCmjoYQdM",
+   "title": "This Is Not Yellow",
+   "channel": "Vsauce",
+   "published": "2026-08-03T20:47:24+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "3HQkVfZ4DNY",
+   "title": "The World's Heaviest Weight",
+   "channel": "Veritasium",
+   "published": "2026-07-30T13:00:16+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "y-TQq6sQ4Z0",
+   "title": "Butt Head Doublers",
+   "channel": "Vsauce",
+   "published": "2026-07-29T00:47:41+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "AWUYE6eJO3k",
+   "title": "Building a Secret Moon Base",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-07-27T14:00:04+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "cDotce_yZAI",
+   "title": "The Hockney–Falco Thesis",
+   "channel": "Vsauce",
+   "published": "2026-07-25T23:47:25+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "6XPlmCDNLNc",
+   "title": "The 64 sugar cubes puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-07-24T15:05:39+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "2cK8l5Yg5w8",
+   "title": "The Deadliest Thing in Your Kitchen",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-07-23T14:00:17+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "2_VB-oc_pmk",
+   "title": "The Most Controversial Thought Experiment In Physics",
+   "channel": "Veritasium",
+   "published": "2026-07-21T15:31:18+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "RmHcX5oVzvs",
+   "title": "Why Waves Travel Faster At The Top",
+   "channel": "Veritasium",
+   "published": "2026-07-17T13:28:38+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "kP7l1agsTzQ",
+   "title": "The Google Interview Question Everyone Gets Wrong",
+   "channel": "Veritasium",
+   "published": "2026-07-13T13:57:42+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "h1YeIE0vEIs",
+   "title": "How does light 'know' the shortest path?",
+   "channel": "Veritasium",
+   "published": "2026-07-09T13:00:07+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Xhl5TzKZbpw",
+   "title": "AD - Why are plants colder than their surroundings?",
+   "channel": "Veritasium",
+   "published": "2026-07-07T13:04:35+00:00",
+   "source": "@veritasium",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "uVlMWVP5GJk",
+   "title": "The True Cost of War",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-07-06T14:00:09+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "N2FOxjtv5ns",
+   "title": "What is El Niño?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-07-01T14:00:35+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Gn-KqiRv0XI",
+   "title": "The World’s Most Average Person",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-06-29T14:00:17+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "wGffBCfrAsE",
+   "title": "100 random chords, how many intersections?",
+   "channel": "3Blue1Brown",
+   "published": "2026-06-16T18:04:05+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "-7etvZSBxlk",
+   "title": "Measuring the entropy of English",
+   "channel": "3Blue1Brown",
+   "published": "2026-06-12T13:22:02+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "7L_eTem1SQ4",
+   "title": "What's the perfect encoding? How do you know?",
+   "channel": "3Blue1Brown",
+   "published": "2026-06-10T13:26:34+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "ZHXt0-_gSj4",
+   "title": "Tie random ends: How many loops?",
+   "channel": "3Blue1Brown",
+   "published": "2026-05-21T21:49:47+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "QRA1-6imP3s",
+   "title": "How can you overcome writer’s block?",
+   "channel": "TED-Ed",
+   "published": "2026-04-23T17:45:26+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "QLu_ZsRc_G0",
+   "title": "Covering 10 points, a surprisingly tricky puzzle.",
+   "channel": "3Blue1Brown",
+   "published": "2026-04-16T16:08:21+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Y7ImxZ_YhJk",
+   "title": "Escher's most mind-bending piece",
+   "channel": "3Blue1Brown",
+   "published": "2026-03-27T20:56:02+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "4h5BEALuh44",
+   "title": "The subset sum puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-03-25T20:59:04+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Qoes9bTJtn0",
+   "title": "Bacteria Grid Puzzle Solution",
+   "channel": "3Blue1Brown",
+   "published": "2026-03-21T11:42:53+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "d0ai33oqqDE",
+   "title": "The lattice bacteria puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-02-18T06:02:59+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "7gG91SZwBoE",
+   "title": "Solution to the ladybug clock puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-02-16T14:08:37+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "t3jZ2xGOvYg",
+   "title": "The ladybug clock puzzle",
+   "channel": "3Blue1Brown",
+   "published": "2026-01-16T14:16:12+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "ALWp-RMMP5k",
+   "title": "What inspired us to create Pandora’s Legacy? #shorts #puzzle #escaperoom #boardgames",
+   "channel": "TED-Ed",
+   "published": "2025-05-16T18:32:57+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "g-Ff2A4B358",
+   "title": "Behind-the-scenes look at illustrator Senne Trip creating the art of Pandora’s Legacy",
+   "channel": "TED-Ed",
+   "published": "2025-05-14T17:52:03+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "i13h9MO4Zuk",
+   "title": "It’s not your typical jigsaw puzzle — it’s your next great adventure",
+   "channel": "TED-Ed",
+   "published": "2025-05-09T15:18:42+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "5XrS3DHMFeY",
+   "title": "Happy Teacher Appreciation Week!",
+   "channel": "TED-Ed",
+   "published": "2025-05-05T16:46:35+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "17yqQJLQN_4",
+   "title": "Do you dare open Pandora’s box?",
+   "channel": "TED-Ed",
+   "published": "2025-03-21T17:36:13+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "RSbi3BC-N9k",
+   "title": "Changing the future, one student voice at a time #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-10-06T17:56:03+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "MdM6osj5Jlg",
+   "title": "Do you ever feel isolated amongst your peers? #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-09-18T17:14:28+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Xn2H8oaeUgg",
+   "title": "Become a patron of TED-Ed! #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-07-21T18:25:16+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "uDaFgNcTVSE",
+   "title": "3 ways to choose a sunscreen #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-07-14T16:15:01+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "xDNzz8yAH7I",
+   "title": "3 things you may not know about the Declaration of Independence #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-07-04T13:00:43+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "_XQTOuSw3d4",
+   "title": "What is Juneteenth, and why is it important? #shorts #juneteenth",
+   "channel": "TED-Ed",
+   "published": "2023-06-19T13:00:32+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "tJU3Q9nOPuc",
+   "title": "Do your students have big ideas? #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-06-15T20:30:09+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "Pw40-IoL5kY",
+   "title": "Trust the process #shorts",
+   "channel": "TED-Ed",
+   "published": "2023-04-28T21:00:03+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "jC6574N5SAA",
+   "title": "Together, we can save the planet #shorts #earthday",
+   "channel": "TED-Ed",
+   "published": "2023-04-22T13:00:34+00:00",
+   "source": "@TEDEd",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "oEV3FYaRULQ",
+   "title": "3 Million!",
+   "channel": "Practical Engineering",
+   "published": "2022-11-28T18:02:46+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "3GUpquh6ctc",
+   "title": "Name That Infrastructure (Ep. 16) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-10-25T12:30:03+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "CTX8BKeoey0",
+   "title": "Name That Infrastructure (Ep. 15) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-10-11T14:59:33+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "MJt1fOLuaZc",
+   "title": "Name That Infrastructure (Ep. 14) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-09-27T15:06:27+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "DES25ImqaG4",
+   "title": "Name That Infrastructure (Ep. 13) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-09-14T15:56:27+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "PLTtER9eLM8",
+   "title": "Name That Infrastructure (Ep. 12) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-08-24T15:26:04+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "JD4r6cpumak",
+   "title": "Name That Infrastructure (Ep. 11) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-08-09T14:41:17+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "bc9-etZuONY",
+   "title": "Name That Infrastructure (Ep. 10) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-07-26T14:00:00+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "O8KbfUzVsAU",
+   "title": "Name That Infrastructure (Ep. 9) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-07-12T13:55:02+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "h1paF7mVmrw",
+   "title": "Name That Infrastructure (Ep. 8) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-06-28T14:26:56+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "MR3BY6dQW2Q",
+   "title": "Name That Infrastructure (Ep. 7) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-06-14T15:19:12+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "1A0CQ8chInk",
+   "title": "Name That Infrastructure (Ep. 6) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-05-31T19:50:15+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "zFbG6KLzWaE",
+   "title": "Name That Infrastructure (Ep. 5) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-05-24T15:04:49+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "wMblXtms2UI",
+   "title": "Name That Infrastructure (Ep. 4) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-05-10T14:06:38+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "6oIc-mxUSDc",
+   "title": "Name That Infrastructure (Ep. 3) #shorts",
+   "channel": "Practical Engineering",
+   "published": "2022-04-26T15:38:52+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:21:25.578Z"
   }
  ]
 }

@@ -754,7 +754,8 @@
       "Science": [
         "@veritasium",
         "@3blue1brown",
-        "@kurzgesagt"
+        "@kurzgesagt",
+        "@Vsauce"
       ],
       "Engineering & Tech": [
         "@PracticalEngineeringChannel",
@@ -762,6 +763,10 @@
       ],
       "Society": [
         "@Vox"
+      ],
+      "Ideas & Talks": [
+        "@TED",
+        "@TEDEd"
       ]
     },
     "playlists": [],
@@ -789,5 +794,19 @@
     "prank",
     "livestream",
     "live stream"
-  ]
+  ],
+  "shorts": {
+    "channels": [
+      "@TEDEd",
+      "@kurzgesagt",
+      "@veritasium",
+      "@3blue1brown",
+      "@Vsauce",
+      "@KingsandGenerals",
+      "@PracticalEngineeringChannel",
+      "@TED"
+    ],
+    "maxPerChannel": 15,
+    "maxTotal": 300
+  }
 }
