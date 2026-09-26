@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-26T01:33:07.169Z",
+ "updatedAt": "2026-09-26T01:41:24.506Z",
  "topics": [
   "History",
   "Science",
@@ -3076,6 +3076,16 @@
    "dur": 1029
   },
   {
+   "id": "7oi4yMr8Rjk",
+   "title": "Bridge Demolition is Complicated",
+   "channel": "Practical Engineering",
+   "published": "2026-06-16T11:37:54+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "8HBDE-msUjw",
    "title": "We're 99.9% sure this pattern is true, but no one can prove it",
    "channel": "Veritasium",
@@ -3114,6 +3124,16 @@
    "added": "2026-09-25T22:07:34.050Z",
    "topic": "Science",
    "dur": 2057
+  },
+  {
+   "id": "3YvwqMDDb3k",
+   "title": "Why Roads Get Washboards",
+   "channel": "Practical Engineering",
+   "published": "2026-06-02T13:00:23+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "pp7l-JQQ2IY",
@@ -3156,6 +3176,16 @@
    "dur": 1108
   },
   {
+   "id": "DWLcmq_DiaA",
+   "title": "Fixing the Most Dangerous Dam in the World",
+   "channel": "Practical Engineering",
+   "published": "2026-05-19T13:00:31+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "vcg1WMzr9xw",
    "title": "U.S. Island Hopping Strategy",
    "channel": "The Armchair Historian",
@@ -3174,6 +3204,16 @@
    "added": "2026-09-25T22:37:17.125Z",
    "topic": "History",
    "dur": 537
+  },
+  {
+   "id": "fKuIJ_z2Y6A",
+   "title": "The Physics Behind the Thumb Trick",
+   "channel": "Practical Engineering",
+   "published": "2026-05-05T13:01:16+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "SVTPv4sI_Jc",
@@ -3216,6 +3256,16 @@
    "dur": 823
   },
   {
+   "id": "J7ieKmP96Hc",
+   "title": "The Wild Story of the Teton Dam Failure",
+   "channel": "Practical Engineering",
+   "published": "2026-04-21T13:00:28+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "ynhI5fZ_Uhk",
    "title": "Why didn't the Boers ever unite against the British? (Short Animated Documentary)",
    "channel": "History Matters",
@@ -3254,6 +3304,16 @@
    "added": "2026-09-25T22:37:17.125Z",
    "topic": "History",
    "dur": 703
+  },
+  {
+   "id": "UF63eFJmbrQ",
+   "title": "This Spillway Failed On Purpose",
+   "channel": "Practical Engineering",
+   "published": "2026-04-07T13:01:01+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-09-26T01:41:24.506Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "jjp3WC8Unj8",
