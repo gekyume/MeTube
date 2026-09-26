@@ -219,33 +219,41 @@
   .shorts-view { position: fixed; inset: 0; z-index: 70; background: #000; }
   body.view-shorts { overflow: hidden; }
   body.view-shorts .appbar, body.view-shorts .page { visibility: hidden; }
-  .shorts-scroller { position: absolute; inset: 0; overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; scrollbar-width: none; }
-  .shorts-scroller::-webkit-scrollbar { display: none; }
-  .short-card { height: 100%; scroll-snap-align: start; scroll-snap-stop: always; display: grid; place-items: center; cursor: pointer; }
-  .short-media { height: 100%; width: min(100%, 56.25dvh); background: #111; }
-  .short-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .shorts-player { position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100vw, 56.25dvh);
-    pointer-events: none; transition: opacity .15s; }
-  .shorts-player.moving { opacity: 0; }
-  .shorts-player iframe { width: 100%; height: 100%; border: 0; display: block; }
-  .shorts-player:not(.started) { pointer-events: auto; } /* the very first start needs a tap on the video itself */
-  .shorts-player:not(.started) .shield { display: block; }
-  .shorts-player .shield { display: none; }
-  .shorts-player .shield.top { height: 16%; }
-  .shorts-player .shield.bottom { height: 22%; }
-  .shorts-meta { position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; width: min(100vw, 56.25dvh); pointer-events: none;
+  /* one centered 9:16 player; a poster image shows while the next Short loads */
+  .shorts-stage { position: absolute; top: 0; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100vw, 56.25dvh); background: #000; }
+  .shorts-stage img.poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .shorts-stage iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; transition: opacity .15s; }
+  .shorts-stage.loading iframe { opacity: 0; }
+  .shorts-stage .shield.top { height: 14%; }
+  .shorts-stage .shield.bottom { height: 18%; }
+  .shorts-view.started .shorts-stage .shield { display: none; }
+  /* after the first tap starts playback, this layer takes every touch: tap = pause/play, swipe = next/previous */
+  .shorts-touch { position: absolute; inset: 0; z-index: 5; display: none; touch-action: none; cursor: pointer; }
+  .shorts-view.started .shorts-touch { display: block; }
+  .shorts-nav { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); z-index: 8; display: flex; flex-direction: column; gap: 12px; }
+  .shorts-nav button { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: rgba(0,0,0,.45); color: #fff;
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+  .shorts-nav button:disabled { opacity: .3; }
+  .shorts-nav .ico { width: 24px; height: 24px; }
+  .shorts-nav .up .ico { transform: rotate(-90deg); }
+  .shorts-nav .down .ico { transform: rotate(90deg); }
+  .shorts-slide-up { animation: slideUp .22s ease; }
+  .shorts-slide-down { animation: slideDown .22s ease; }
+  @keyframes slideUp { from { transform: translate(-50%, 40px); opacity: .4; } to { transform: translate(-50%, 0); opacity: 1; } }
+  @keyframes slideDown { from { transform: translate(-50%, -40px); opacity: .4; } to { transform: translate(-50%, 0); opacity: 1; } }
+  .shorts-meta { position: absolute; z-index: 6; left: 50%; transform: translateX(-50%); bottom: 0; width: min(100vw, 56.25dvh); pointer-events: none;
     padding: 60px 16px calc(var(--safe-b) + 20px); background: linear-gradient(transparent, rgba(0,0,0,.75)); }
   .shorts-meta .t { font-weight: 650; font-size: 15px; line-height: 1.3; text-shadow: 0 1px 3px rgba(0,0,0,.6); }
   .shorts-meta .c { color: rgba(255,255,255,.8); font-size: 13px; margin-top: 4px; }
-  .shorts-top { position: absolute; top: calc(var(--safe-t) + 8px); left: 8px; right: 8px; display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
+  .shorts-top { position: absolute; z-index: 8; top: calc(var(--safe-t) + 8px); left: 8px; right: 8px; display: flex; align-items: center; justify-content: space-between; pointer-events: none; }
   .shorts-top > * { pointer-events: auto; }
   .shorts-top .icon-btn { background: rgba(0,0,0,.35); }
   .shorts-top .count { font-size: 12.5px; font-weight: 600; color: rgba(255,255,255,.8); background: rgba(0,0,0,.35); padding: 5px 10px; border-radius: 999px; }
-  .shorts-center { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 72px; height: 72px; border-radius: 50%;
+  .shorts-center { position: absolute; z-index: 6; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 72px; height: 72px; border-radius: 50%;
     display: none; place-items: center; background: rgba(0,0,0,.45); pointer-events: none; }
   .shorts-center .ico { width: 36px; height: 36px; }
   .shorts-view.paused .shorts-center { display: grid; }
-  .shorts-hint { position: absolute; left: 50%; bottom: calc(var(--safe-b) + 110px); transform: translateX(-50%); pointer-events: none;
+  .shorts-hint { position: absolute; z-index: 6; left: 50%; bottom: calc(var(--safe-b) + 110px); transform: translateX(-50%); pointer-events: none;
     font-size: 12.5px; font-weight: 600; background: rgba(0,0,0,.6); padding: 5px 12px; border-radius: 999px; white-space: nowrap; }
 
   /* ---------- mini player ---------- */
@@ -397,14 +405,19 @@
   <div id="viewRoot"></div>
 </main>
 <div class="shorts-view" id="shortsView" hidden>
-  <div class="shorts-scroller" id="shortsScroller"></div>
-  <div class="shorts-player moving" id="shortsPlayer">
+  <div class="shorts-stage" id="shortsStage">
+    <img class="poster" id="shortsPoster" alt="">
     <iframe id="syt" allow="autoplay; encrypted-media" title="Short"></iframe>
     <div class="shield top"></div><div class="shield bottom"></div>
   </div>
+  <div class="shorts-touch" id="shortsTouch"></div>
   <div class="shorts-center"><svg class="ico"><use href="#i-play"/></svg></div>
   <div class="shorts-meta"><div class="t" id="shortsTitle"></div><div class="c" id="shortsChannel"></div></div>
-  <div class="shorts-hint" id="shortsHint">Tap the video to start · then swipe up</div>
+  <div class="shorts-hint" id="shortsHint">Tap ▶ on the video to start</div>
+  <div class="shorts-nav">
+    <button class="up" id="shortsPrev" aria-label="Previous Short"><svg class="ico"><use href="#i-chev"/></svg></button>
+    <button class="down" id="shortsNext" aria-label="Next Short"><svg class="ico"><use href="#i-chev"/></svg></button>
+  </div>
   <div class="shorts-top">
     <button class="icon-btn" id="shortsBack" aria-label="Back"><svg class="ico"><use href="#i-back"/></svg></button>
     <span class="count" id="shortsCount"></span>
@@ -892,59 +905,61 @@
     clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), 2600);
   }
 
-  // ---------- shorts feed: one reused player floats over a snap-scrolling list of thumbnails ----------
-  const sframe = $("syt"), sbox = $("shortsPlayer"), scroller = $("shortsScroller");
-  let shortsList = [], shortsIdx = -1, sp = freshPlayer(), settleTimer, builtFor = null;
+  // ---------- shorts feed: one player, paged with swipes (after the first tap) or the ▲/▼ buttons ----------
+  const sframe = $("syt"), sstage = $("shortsStage"), sview = $("shortsView");
+  let shortsList = [], shortsIdx = -1, sp = freshPlayer(), loadTimer;
   const ssend = (func, args = []) => sframe.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args, id: 2, channel: "widget" }), ORIGIN);
+  // YouTube's own controls are on so there's a real ▶ button to tap for the first start (iOS requires a tap inside the video).
+  const shortsEmbedUrl = (id) => `${ORIGIN}/embed/${id}?` + new URLSearchParams({
+    enablejsapi: 1, controls: 1, playsinline: 1, rel: 0, iv_load_policy: 3, fs: 0, modestbranding: 1, autoplay: 1, origin: location.origin,
+  });
 
   function openShorts(v, list) {
     shortsList = list.slice();
-    builtFor = null;
     go({ view: "shorts", id: v.id });
   }
 
   function renderShorts(r) {
     const on = r.view === "shorts";
-    $("shortsView").hidden = !on;
+    sview.hidden = !on;
     if (!on) { ssend("pauseVideo"); shortsIdx = -1; return; }
-    if (wantPlaying) { wantPlaying = false; send("pauseVideo"); } // pause the regular player while scrolling Shorts
+    if (wantPlaying) { wantPlaying = false; send("pauseVideo"); } // pause the regular player while watching Shorts
     if (!shortsList.some((x) => x.id === r.id)) shortsList = allItems("shorts");
-    if (builtFor !== shortsList) {
-      builtFor = shortsList;
-      scroller.innerHTML = "";
-      for (const v of shortsList) {
-        const card = document.createElement("div");
-        card.className = "short-card";
-        card.innerHTML = `<div class="short-media"><img loading="lazy" alt="" src="${shortThumb(v.id)}" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'"></div>`;
-        card.onclick = () => { if (sp.started) ssend(sp.state === 1 ? "pauseVideo" : "playVideo"); };
-        scroller.append(card);
-      }
-    }
-    const i = Math.max(0, shortsList.findIndex((x) => x.id === r.id));
-    requestAnimationFrame(() => { scroller.scrollTop = i * scroller.clientHeight; activateShort(i); });
+    showShort(Math.max(0, shortsList.findIndex((x) => x.id === r.id)), 0);
   }
 
-  function activateShort(i) {
-    if (i === shortsIdx || !shortsList[i]) { if (sp.started && sp.state === 1) sbox.classList.remove("moving"); return; }
+  function showShort(i, dir) {
+    if (!shortsList[i] || (i === shortsIdx && dir)) return;
     shortsIdx = i;
     const v = shortsList[i];
     $("shortsTitle").textContent = v.title.replace(/#\S+/g, "").trim();
     $("shortsChannel").textContent = v.channel;
     $("shortsCount").textContent = `${i + 1} / ${shortsList.length}`;
+    $("shortsPrev").disabled = i === 0;
+    $("shortsNext").disabled = i === shortsList.length - 1;
+    const poster = $("shortsPoster");
+    poster.onerror = () => { poster.onerror = null; poster.src = `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`; };
+    poster.src = shortThumb(v.id);
     history.replaceState({ ...history.state, view: "shorts", id: v.id }, "", hashFor({ view: "shorts", id: v.id }));
     route.id = v.id;
     watched.add(v.id); store.set("watched", [...watched].slice(-3000));
-    $("shortsView").classList.remove("paused");
-    if (sp.ready && sp.started) { sbox.classList.add("moving"); ssend("loadVideoById", [v.id]); }
-    else { sp = freshPlayer(); sbox.classList.remove("started"); sbox.classList.remove("moving"); sframe.src = embedUrl(v.id); }
+    sview.classList.remove("paused");
+    if (dir) { sstage.classList.remove("shorts-slide-up", "shorts-slide-down"); void sstage.offsetWidth; sstage.classList.add(dir > 0 ? "shorts-slide-up" : "shorts-slide-down"); }
+    if (sp.ready && sp.started) {
+      // Same player, already unlocked by your first tap, so iOS lets the next Short play by itself.
+      sstage.classList.add("loading");
+      ssend("loadVideoById", [v.id]);
+      clearTimeout(loadTimer);
+      loadTimer = setTimeout(() => sstage.classList.remove("loading"), 2500);
+    } else {
+      sp = freshPlayer();
+      sview.classList.remove("started");
+      sstage.classList.remove("loading");
+      sframe.src = shortsEmbedUrl(v.id);
+    }
     $("shortsHint").hidden = sp.started;
   }
-
-  scroller.addEventListener("scroll", () => {
-    if (sp.started) sbox.classList.add("moving");
-    clearTimeout(settleTimer);
-    settleTimer = setTimeout(() => activateShort(Math.round(scroller.scrollTop / scroller.clientHeight)), 120);
-  }, { passive: true });
+  const stepShort = (d) => showShort(shortsIdx + d, d);
 
   sframe.addEventListener("load", () => {
     if (!sframe.src.startsWith(ORIGIN)) return;
@@ -964,16 +979,39 @@
     sp.state = s;
     if (s === 1) {
       sp.started = true;
-      sbox.classList.add("started");
-      sbox.classList.remove("moving");
+      sview.classList.add("started");
+      sstage.classList.remove("loading");
+      clearTimeout(loadTimer);
       $("shortsHint").hidden = true;
     }
     if (s === 0) { ssend("seekTo", [0, true]); ssend("playVideo"); } // Shorts loop
-    $("shortsView").classList.toggle("paused", s === 2 && sp.started && !sbox.classList.contains("moving"));
+    sview.classList.toggle("paused", s === 2 && sp.started);
   }
 
+  // Touch layer: tap toggles play, vertical swipe changes Short. Only active once a Short has started.
+  (() => {
+    const layer = $("shortsTouch");
+    let y0 = 0, x0 = 0, t0 = 0, wheelLock = 0;
+    const toggle = () => ssend(sp.state === 1 ? "pauseVideo" : "playVideo");
+    layer.addEventListener("touchstart", (e) => { const t = e.touches[0]; y0 = t.clientY; x0 = t.clientX; t0 = Date.now(); }, { passive: true });
+    layer.addEventListener("touchmove", (e) => e.preventDefault(), { passive: false });
+    layer.addEventListener("touchend", (e) => {
+      const t = e.changedTouches[0], dy = t.clientY - y0, dx = t.clientX - x0;
+      e.preventDefault();
+      if (Math.abs(dy) > 45 && Math.abs(dy) > Math.abs(dx)) stepShort(dy < 0 ? 1 : -1);
+      else if (Math.abs(dy) < 12 && Math.abs(dx) < 12 && Date.now() - t0 < 500) toggle();
+    });
+    layer.addEventListener("click", (e) => { if (e.pointerType !== "touch" && !("ontouchstart" in window)) toggle(); });
+    sview.addEventListener("wheel", (e) => {
+      if (Math.abs(e.deltaY) < 20 || Date.now() < wheelLock) return;
+      wheelLock = Date.now() + 600;
+      stepShort(e.deltaY > 0 ? 1 : -1);
+    }, { passive: true });
+  })();
+
+  $("shortsPrev").onclick = () => stepShort(-1);
+  $("shortsNext").onclick = () => stepShort(1);
   $("shortsBack").onclick = goBack;
-  const stepShort = (d) => scroller.scrollTo({ top: (shortsIdx + d) * scroller.clientHeight, behavior: "smooth" });
 
   // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
   const ORIGIN = "https://www.youtube-nocookie.com";
