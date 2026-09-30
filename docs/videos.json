@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T16:48:36.678Z",
+ "updatedAt": "2026-09-30T16:41:44.961Z",
  "topics": [
   "History",
   "Science",
@@ -4075,6 +4075,38 @@
   }
  ],
  "shorts": [
+  {
+   "id": "yjpe9h3ojBE",
+   "title": "The Mutiny That Dethroned Mehmet the Conqueror",
+   "channel": "Kings and Generals",
+   "published": "2026-09-30T13:00:36+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-09-30T16:41:44.961Z"
+  },
+  {
+   "id": "kO1ASsAuc1Y",
+   "title": "The Ruler Of The Universe",
+   "channel": "Vsauce",
+   "published": "2026-09-29T23:17:37+00:00",
+   "source": "@Vsauce",
+   "added": "2026-09-30T16:41:44.961Z"
+  },
+  {
+   "id": "f6VgtBnARG0",
+   "title": "Would you try this reading challenge? #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-29T23:00:39+00:00",
+   "source": "@TED",
+   "added": "2026-09-30T16:41:44.961Z"
+  },
+  {
+   "id": "CT-YEIOjL9U",
+   "title": "Turns out, moving more is not so easy. #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-29T17:00:36+00:00",
+   "source": "@TED",
+   "added": "2026-09-30T16:41:44.961Z"
+  },
   {
    "id": "1bCXyU2BNZ0",
    "title": "Moving more frequently can help your body and mind — but is it too tricky to put into practice? #TED",
