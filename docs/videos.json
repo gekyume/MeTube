@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-30T16:41:44.961Z",
+ "updatedAt": "2026-10-01T17:17:16.124Z",
  "topics": [
   "History",
   "Science",
@@ -1314,6 +1314,15 @@
    "dur": 144
   },
   {
+   "id": "cQjnNU1e8x8",
+   "title": "Boom Bap Beat \"RESPECT YOURSELF\" | Free Type Beat 2026 | Old School Rap Instrumental",
+   "channel": "VintageMan Beats",
+   "published": "2026-10-01T01:48:51+00:00",
+   "source": "@vintagemanbeats",
+   "added": "2026-10-01T17:17:16.124Z",
+   "dur": null
+  },
+  {
    "id": "RDuH78WYhVo",
    "title": "\"TRENCHES\" | Trap Type Beat | Rap Type Beat | Freestyle Beat | Hard Type Beat | Type Beat 2026",
    "channel": "PRXPHECY",
@@ -2143,6 +2152,16 @@
   }
  ],
  "learn": [
+  {
+   "id": "meSctH_a7HM",
+   "title": "Carthage vs Greece: The War Before Rome - Sicilian Wars DOCUMENTARY",
+   "channel": "Kings and Generals",
+   "published": "2026-10-01T12:59:47+00:00",
+   "source": "@KingsandGenerals",
+   "added": "2026-10-01T17:17:16.124Z",
+   "dur": null,
+   "topic": "History"
+  },
   {
    "id": "iBRNkJfW7Qw",
    "title": "Why the British Empire Fell Apart - Won Two Wars, Then Lost Its Empire",
@@ -4075,6 +4094,30 @@
   }
  ],
  "shorts": [
+  {
+   "id": "fxV2ywZfBV0",
+   "title": "Tips for combating our culture of sitting most of the day #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-30T22:00:35+00:00",
+   "source": "@TED",
+   "added": "2026-10-01T17:17:16.124Z"
+  },
+  {
+   "id": "wCuKZWKlD7M",
+   "title": "Lean into your curiosity #TEDTalks #TEDPodcasts",
+   "channel": "TED",
+   "published": "2026-09-30T21:30:31+00:00",
+   "source": "@TED",
+   "added": "2026-10-01T17:17:16.124Z"
+  },
+  {
+   "id": "N8J-PIunXBM",
+   "title": "Banning social media may not be the fix you think it is #TEDTalks",
+   "channel": "TED",
+   "published": "2026-09-30T20:30:09+00:00",
+   "source": "@TED",
+   "added": "2026-10-01T17:17:16.124Z"
+  },
   {
    "id": "yjpe9h3ojBE",
    "title": "The Mutiny That Dethroned Mehmet the Conqueror",
