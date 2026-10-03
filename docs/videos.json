@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-02T16:31:22.377Z",
+ "updatedAt": "2026-10-03T15:04:14.122Z",
  "topics": [
   "History",
   "Science",
@@ -1312,6 +1312,15 @@
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
    "dur": 144
+  },
+  {
+   "id": "rssPT6XC2-A",
+   "title": "[FREE] Boom Bap Type Beat – \"Planet Reggae\" | Hip Hop Reggae Instrumental",
+   "channel": "Templum Boom Bap",
+   "published": "2026-10-02T17:00:38+00:00",
+   "source": "@TemplumBoomBap",
+   "added": "2026-10-03T15:04:14.122Z",
+   "dur": null
   },
   {
    "id": "cQjnNU1e8x8",
@@ -4094,6 +4103,30 @@
   }
  ],
  "shorts": [
+  {
+   "id": "Pnwuw5UyU0s",
+   "title": "Making My Perfect Pencil",
+   "channel": "Vsauce",
+   "published": "2026-10-02T23:18:58+00:00",
+   "source": "@Vsauce",
+   "added": "2026-10-03T15:04:14.122Z"
+  },
+  {
+   "id": "QyVlUmluLhs",
+   "title": "Life, like music, was never made to run in straight lines #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-02T19:00:23+00:00",
+   "source": "@TED",
+   "added": "2026-10-03T15:04:14.122Z"
+  },
+  {
+   "id": "N6O8b7U6Ti8",
+   "title": "Good news: Even moving as little as 1 minute every 60 minutes can have health benefits #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-02T18:30:09+00:00",
+   "source": "@TED",
+   "added": "2026-10-03T15:04:14.122Z"
+  },
   {
    "id": "dfQOGqQglCo",
    "title": "\"You Have Not Conquered Us\": The Warning That Shook Britain",
