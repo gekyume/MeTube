@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T00:33:21.951Z",
+ "updatedAt": "2026-10-04T00:34:25.540Z",
  "topics": [
   "Science",
   "History",
@@ -2661,6 +2661,16 @@
    "dur": 2510
   },
   {
+   "id": "GzhfZy8-CjU",
+   "title": "AI EDAs: Is It Real?",
+   "channel": "Asianometry",
+   "published": "2026-09-03T23:00:09+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "BSdEiOYvKpE",
    "title": "What are tariffs, and how do they work?",
    "channel": "TED-Ed",
@@ -2721,6 +2731,16 @@
    "dur": 2830
   },
   {
+   "id": "SwYDxh3PQJ0",
+   "title": "The Little Ceiling Robots Inside a Semiconductor Fab",
+   "channel": "Asianometry",
+   "published": "2026-08-30T23:00:33+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "yxoHOPOM0Ok",
    "title": "Gen Z is done with both political parties | America, Actually",
    "channel": "Vox",
@@ -2761,6 +2781,26 @@
    "topic": "Ideas & Talks"
   },
   {
+   "id": "Oytqz3zuB7w",
+   "title": "Has the Solid State Transformer’s Time Finally Come?",
+   "channel": "Asianometry",
+   "published": "2026-08-24T14:00:11+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "AuIEBSb2xiE",
+   "title": "China's Fiery Incinerator Boom",
+   "channel": "Asianometry",
+   "published": "2026-08-20T23:00:24+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "l29K-ZkARmE",
    "title": "The tragedy of Cassandra, the princess who predicted the fall of Troy - Iseult Gillespie",
    "channel": "TED-Ed",
@@ -2789,6 +2829,26 @@
    "added": "2026-09-25T22:05:44.662Z",
    "topic": "Science",
    "dur": 1365
+  },
+  {
+   "id": "cDxVYQrxeiQ",
+   "title": "How TSMC Uses Old Fabs to Make New Chips",
+   "channel": "Asianometry",
+   "published": "2026-08-16T23:00:31+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "Cg5tAujp6Go",
+   "title": "SK hynix and the HBM Revolution",
+   "channel": "Asianometry",
+   "published": "2026-08-13T23:00:03+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:34:25.540Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "2A1IEBFt6Xg",
