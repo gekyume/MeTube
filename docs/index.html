@@ -535,8 +535,17 @@
     return moodCache.get(v.id);
   }
 
+  // Round-robin across channels so the Shorts feed keeps changing topic instead of 12 in a row from one channel.
+  function interleave(items) {
+    const by = new Map();
+    for (const v of items) { if (!by.has(v.channel)) by.set(v.channel, []); by.get(v.channel).push(v); }
+    const lanes = [...by.values()], out = [];
+    for (let i = 0; out.length < items.length; i++) for (const l of lanes) if (l[i]) out.push(l[i]);
+    return out;
+  }
+
   function listFor(section, f = filter[section]) {
-    const items = allItems(section);
+    const items = section === "shorts" ? interleave(allItems(section)) : allItems(section);
     if (query) {
       const words = query.toLowerCase().split(/\s+/).filter(Boolean);
       return items.filter((v) => { const hay = `${v.title} ${v.channel} ${v.topic || ""} ${v.series || ""}`.toLowerCase(); return words.every((w) => hay.includes(w)); });

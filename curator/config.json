@@ -761,6 +761,12 @@
       ],
       "Society": [
         "@Vox"
+      ],
+      "People & World": [
+        "@SpecialBooksbySpecialKids",
+        "@StoryCorps",
+        "@johnnyharris",
+        "@RealLifeLore"
       ]
     },
     "playlists": [],
@@ -836,9 +842,23 @@
       "@3blue1brown",
       "@Vsauce",
       "@PracticalEngineeringChannel",
-      "@TED"
+      "@TED",
+      "@StarTalk",
+      "@SciShow",
+      "@MinuteEarth",
+      "@MarkRober",
+      "@RealEngineering",
+      "@TheActionLab",
+      "@NileRed",
+      "@TheHistoryGuyChannel",
+      "@NatGeo",
+      "@OceanX",
+      "@StoryCorps",
+      "@RealLifeLore",
+      "@UNICEF",
+      "@PBSNewsHour"
     ],
-    "maxPerChannel": 15,
-    "maxTotal": 300
+    "maxPerChannel": 12,
+    "maxTotal": 500
   }
 }

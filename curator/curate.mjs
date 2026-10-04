@@ -46,6 +46,8 @@ async function resolveChannelId(ref) {
   const id = html.match(/"externalId":"(UC[\w-]{22})"/)?.[1] || html.match(/"channelId":"(UC[\w-]{22})"/)?.[1];
   if (!id) throw new Error(`could not resolve channel ${ref}`);
   state.channelIds[ref] = id;
+  const name = html.match(/<meta property="og:title" content="([^"]*)"/)?.[1];
+  if (name) (state.channelNames ||= {})[ref] = decode(name);
   return id;
 }
 
@@ -86,7 +88,14 @@ async function collectFeeds(section, { list = "UULF" } = {}) {
       if (src.kind === "channel") {
         const id = await resolveChannelId(src.ref);
         // UULF… is the channel's long-form-only uploads list (no Shorts), UUSH… its Shorts-only list.
-        entries = await readFeed(`playlist_id=${list}${id.slice(2)}`).catch((e) => (list === "UULF" ? readFeed(`channel_id=${id}`) : Promise.reject(e)));
+        entries = await readFeed(`playlist_id=${list}${id.slice(2)}`)
+          .catch(() => (list === "UULF" ? readFeed(`channel_id=${id}`) : Promise.reject()))
+          .catch(async () => {
+            // RSS feeds are sometimes down; the playlist page has the same videos (without dates).
+            if (!state.channelNames?.[src.ref]) { delete state.channelIds[src.ref]; await resolveChannelId(src.ref); }
+            const name = state.channelNames?.[src.ref] || src.ref;
+            return (await readPlaylistPage(`${list}${id.slice(2)}`)).map((v) => ({ ...v, channel: name }));
+          });
       } else {
         entries = await readFeed(`playlist_id=${src.ref.match(/list=([\w-]+)/)?.[1] || src.ref}`);
       }
@@ -273,6 +282,9 @@ async function readPlaylistOnce(listId) {
     if (!o || typeof o !== "object") return;
     const r = o.playlistVideoRenderer;
     if (r?.videoId) push(r.videoId, r.title?.runs?.map((x) => x.text).join(""), +r.lengthSeconds || null);
+    const sl = o.shortsLockupViewModel; // Shorts lists use their own card type
+    const sid = sl?.onTap?.innertubeCommand?.reelWatchEndpoint?.videoId;
+    if (sid) push(sid, sl.overlayMetadata?.primaryText?.content, null);
     const l = o.lockupViewModel;
     if (l?.contentId && /^[\w-]{11}$/.test(l.contentId)) {
       const badge = JSON.stringify(l.contentImage || {}).match(/"text":"(\d+(?::\d{2}){1,2})"/)?.[1];

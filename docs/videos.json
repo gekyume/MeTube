@@ -1,12 +1,13 @@
 {
- "updatedAt": "2026-10-04T00:34:25.540Z",
+ "updatedAt": "2026-10-04T00:41:04.221Z",
  "topics": [
   "Science",
   "History",
   "Philosophy",
   "Ideas & Talks",
   "Engineering & Tech",
-  "Society"
+  "Society",
+  "People & World"
  ],
  "series": [
   {
@@ -2231,6 +2232,16 @@
    "topic": "Science"
   },
   {
+   "id": "U_UoAZrOTNU",
+   "title": "Why Everything is Going Wrong for Saudi Arabia",
+   "channel": "RealLifeLore",
+   "published": "2026-09-30T16:51:41+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1520,
+   "topic": "People & World"
+  },
+  {
    "id": "z3Y-gsBKChc",
    "title": "Why are AI data centers using so much electricity? - Sajan Saini",
    "channel": "TED-Ed",
@@ -2401,6 +2412,16 @@
    "topic": "Ideas & Talks"
   },
   {
+   "id": "WiRLNEl-4bk",
+   "title": "Why The Nepal Flood Was WAY Scarier Than You Think",
+   "channel": "RealLifeLore",
+   "published": "2026-09-19T14:41:39+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1810,
+   "topic": "People & World"
+  },
+  {
    "id": "OGixndAvyKw",
    "title": "Why Latino voters have turned on Trump | America, Actually",
    "channel": "Vox",
@@ -2559,6 +2580,16 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 201,
    "topic": "Ideas & Talks"
+  },
+  {
+   "id": "NQSndaDIvcs",
+   "title": "Why The Taliban Are Begging The US To Come Back",
+   "channel": "RealLifeLore",
+   "published": "2026-09-11T12:43:43+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 2331,
+   "topic": "People & World"
   },
   {
    "id": "go_G8hgqMmA",
@@ -2721,6 +2752,16 @@
    "dur": 945
   },
   {
+   "id": "YSBh_TPIwHY",
+   "title": "Why 600,000 People Live On This Rock With No Resources",
+   "channel": "RealLifeLore",
+   "published": "2026-08-31T15:32:43+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1900,
+   "topic": "People & World"
+  },
+  {
    "id": "8gkSNzZpJxQ",
    "title": "Why we can’t stop thinking about aliens | The Gray Area",
    "channel": "Vox",
@@ -2781,24 +2822,14 @@
    "topic": "Ideas & Talks"
   },
   {
-   "id": "Oytqz3zuB7w",
-   "title": "Has the Solid State Transformer’s Time Finally Come?",
-   "channel": "Asianometry",
-   "published": "2026-08-24T14:00:11+00:00",
-   "source": "@Asianometry",
-   "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
-   "topic": "Engineering & Tech"
-  },
-  {
-   "id": "AuIEBSb2xiE",
-   "title": "China's Fiery Incinerator Boom",
-   "channel": "Asianometry",
-   "published": "2026-08-20T23:00:24+00:00",
-   "source": "@Asianometry",
-   "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
-   "topic": "Engineering & Tech"
+   "id": "UHsSZ7lUvKM",
+   "title": "New Somali Piracy Situation is Insane",
+   "channel": "RealLifeLore",
+   "published": "2026-08-21T17:39:04+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 2675,
+   "topic": "People & World"
   },
   {
    "id": "l29K-ZkARmE",
@@ -2831,24 +2862,14 @@
    "dur": 1365
   },
   {
-   "id": "cDxVYQrxeiQ",
-   "title": "How TSMC Uses Old Fabs to Make New Chips",
-   "channel": "Asianometry",
-   "published": "2026-08-16T23:00:31+00:00",
-   "source": "@Asianometry",
-   "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
-   "topic": "Engineering & Tech"
-  },
-  {
-   "id": "Cg5tAujp6Go",
-   "title": "SK hynix and the HBM Revolution",
-   "channel": "Asianometry",
-   "published": "2026-08-13T23:00:03+00:00",
-   "source": "@Asianometry",
-   "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
-   "topic": "Engineering & Tech"
+   "id": "JjhyYOKmFGM",
+   "title": "How China Keeps Winning by Doing Nothing",
+   "channel": "RealLifeLore",
+   "published": "2026-08-12T17:27:43+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1752,
+   "topic": "People & World"
   },
   {
    "id": "2A1IEBFt6Xg",
@@ -2901,6 +2922,16 @@
    "dur": 1617
   },
   {
+   "id": "zkbgLhBmzGo",
+   "title": "What's Hidden Under the Sands of the Sahara Desert?",
+   "channel": "RealLifeLore",
+   "published": "2026-07-30T14:17:48+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 2888,
+   "topic": "People & World"
+  },
+  {
    "id": "krNP8RlDsbw",
    "title": "Red gold: The world's most expensive spice - Carolyn Beans",
    "channel": "TED-Ed",
@@ -2919,6 +2950,16 @@
    "added": "2026-09-25T22:05:44.662Z",
    "topic": "Science",
    "dur": 2132
+  },
+  {
+   "id": "ZPu3kezlC08",
+   "title": "The Hormuz Situation Keeps Getting More Insane",
+   "channel": "RealLifeLore",
+   "published": "2026-07-22T16:44:25+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1842,
+   "topic": "People & World"
   },
   {
    "id": "5jPCAlE0z7I",
@@ -2971,6 +3012,16 @@
    "topic": "Ideas & Talks"
   },
   {
+   "id": "QjhqB3tC1Ko",
+   "title": "Crimea Situation Is Insane",
+   "channel": "RealLifeLore",
+   "published": "2026-07-09T17:22:11+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1287,
+   "topic": "People & World"
+  },
+  {
    "id": "Ku_ockR2t44",
    "title": "The Mind-Blowing Flaw That Flooded New Orleans",
    "channel": "Practical Engineering",
@@ -2981,6 +3032,16 @@
    "dur": 1474
   },
   {
+   "id": "nEBcD6sFDpY",
+   "title": "Caspian Sea Situation Is Insane",
+   "channel": "RealLifeLore",
+   "published": "2026-06-30T16:29:45+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1153,
+   "topic": "People & World"
+  },
+  {
    "id": "mvcesPWvUIc",
    "title": "We've Been Using The Wrong Science In Court For 50 years",
    "channel": "Veritasium",
@@ -2989,6 +3050,16 @@
    "added": "2026-09-25T22:07:34.050Z",
    "topic": "Science",
    "dur": 1402
+  },
+  {
+   "id": "V14RCK_QiG0",
+   "title": "The Incredible Logistics Behind the World's Longest Flight",
+   "channel": "RealLifeLore",
+   "published": "2026-06-19T17:17:13+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1636,
+   "topic": "People & World"
   },
   {
    "id": "PqtggjVAi8M",
@@ -3019,6 +3090,16 @@
    "added": "2026-09-25T22:07:34.050Z",
    "topic": "Science",
    "dur": 2490
+  },
+  {
+   "id": "T8y7ZIq4jXY",
+   "title": "Why Russia is Suddenly Losing in Ukraine",
+   "channel": "RealLifeLore",
+   "published": "2026-06-12T16:55:44+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1565,
+   "topic": "People & World"
   },
   {
    "id": "l6DKRf-fAAM",
@@ -3061,6 +3142,16 @@
    "dur": 1794
   },
   {
+   "id": "VkYWW95eSLs",
+   "title": "A European Ice Age is Coming Sooner Than We Thought...",
+   "channel": "RealLifeLore",
+   "published": "2026-05-29T17:14:35+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 1451,
+   "topic": "People & World"
+  },
+  {
    "id": "8qQW4LTWgtc",
    "title": "Why Earth Sucks Compared to the Planet Hestia",
    "channel": "Kurzgesagt – In a Nutshell",
@@ -3069,6 +3160,16 @@
    "added": "2026-10-04T00:31:03.751Z",
    "dur": 893,
    "topic": "Science"
+  },
+  {
+   "id": "O3dSjY4j7Ak",
+   "title": "Why Life in Louisiana has Become Impossible",
+   "channel": "RealLifeLore",
+   "published": "2026-05-22T16:23:15+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 2438,
+   "topic": "People & World"
   },
   {
    "id": "TYhNHX372ek",
@@ -3089,6 +3190,16 @@
    "added": "2026-09-26T01:41:24.506Z",
    "dur": 1343,
    "topic": "Engineering & Tech"
+  },
+  {
+   "id": "Km2A-9DwzeM",
+   "title": "Why Britain Pays So Much to Defend the Falklands",
+   "channel": "RealLifeLore",
+   "published": "2026-05-16T16:28:27+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z",
+   "dur": 3189,
+   "topic": "People & World"
   },
   {
    "id": "n-gYFcVx-8Y",
@@ -3569,6 +3680,465 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 1566,
    "topic": "Science"
+  },
+  {
+   "id": "y64RDBeR19c",
+   "title": "The Shape-Shifting Sounds of the Accordion | Maria Telesheva | TED",
+   "dur": 486,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "r63spwe1LCI",
+   "title": "The Gravity-Defying Future of Manufacturing | Schendy Kernizan | TED",
+   "dur": 288,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "Hd8npxrnpuo",
+   "title": "How AI Unleashed (Not Replaced) My Creativity | Kelly A. Boesch | TED",
+   "dur": 423,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "1qmF_znXxrE",
+   "title": "The Pursuit of Happiness Requires Free Time | Danielle Roberts | TED",
+   "dur": 234,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "9Ff4S1FJdRM",
+   "title": "Is AI Turning Us All into the Same Person? | Sandra Matz | TED",
+   "dur": 818,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "jCbITOCoxpo",
+   "title": "Why I Draw the People Living Through War | George Butler | TED",
+   "dur": 499,
+   "channel": "TED",
+   "source": "@TED",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "VnuuIU70lYE",
+   "title": "She Was Suddenly Paralyzed from the Neck Down at 8 (Acute Flaccid Myelitis)",
+   "dur": 1911,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "W2FGLB-fa7Y",
+   "title": "Nonspeaking Best Friends with the Same Rare Syndrome (Rett)",
+   "dur": 1460,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "frQCPKv-Fqo",
+   "title": "Living with Borderline Personality Disorder and Autism",
+   "dur": 2600,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "SWmOgJKAQvk",
+   "title": "She Watches Our First Interview Every Day (Reunited with Sweet P)",
+   "dur": 1956,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "si77jAOtNoc",
+   "title": "The 6-Year-Old Twins Everyone Mistakes for Babies (Brittle Bone Disease)",
+   "dur": 1702,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "SCIwLrb1W7Y",
+   "title": "Paralyzed by Lyme Disease",
+   "dur": 1585,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "40IDEwQYMqg",
+   "title": "The Boy With Butterfly Skin and Profound Autism",
+   "dur": 1957,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "D_PPbTtT60M",
+   "title": "A Teenager with \"The Cat Cry\" Syndrome",
+   "dur": 1217,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "ArWhh55_J-s",
+   "title": "He's Missing Most of His Brain But Surprised Everyone",
+   "dur": 1684,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "hpcbY_fCXfk",
+   "title": "Born Without a Nose and Rejected by His Parents (Now He's 50)",
+   "dur": 1239,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "_eZYIeRh0CE",
+   "title": "An Autistic Nonspeaking Teen (And We Bonded Instantly)",
+   "dur": 1746,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "4vP7n-0o_UQ",
+   "title": "YouTube Disabled Our Comments Again (Are Any Humans Left at YouTube?)",
+   "dur": 342,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "nrC6s5MT39c",
+   "title": "She's Nonverbal but Loves Making Friends (Pfeiffer Syndrome)",
+   "dur": 1291,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "rWSpA8JD5TA",
+   "title": "Autistic Twins Who Are Gentle Giants",
+   "dur": 1795,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "efdtRgSVinY",
+   "title": "I Am Not a Saint",
+   "dur": 419,
+   "channel": "Special Books by Special Kids",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "1MzqJv2NwnY",
+   "title": "She Barely Survived 9/11, Then She Had To Identify Those Who Hadn’t",
+   "dur": 332,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "xprvuirn-Zc",
+   "title": "Our Paul",
+   "dur": 202,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "2k7v3bmwa7U",
+   "title": "One Year After the Annunciation Shooting, Remembering Harper Moyski | Story of the Week",
+   "dur": 148,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "yMxAHG_OiGE",
+   "title": "Reflections on the End of Life | Story of the Week",
+   "dur": 171,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "cKl9JP0PHsA",
+   "title": "Richard Jewell and the Cost of Being Called a Hero | Story of the Week",
+   "dur": 172,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "PA-q67AdXyk",
+   "title": "Connect250 | Steve Inskeep Video",
+   "dur": 136,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "ch59I1K42Go",
+   "title": "Connect 250 | Explainer Video",
+   "dur": 88,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "gWl9PCLUpeY",
+   "title": "Remembering a Son and Brother, Murdered at Pulse",
+   "dur": 158,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "7_c0tOEuEhQ",
+   "title": "A Daughter Remembers her Father, A Pulse Shooting Victim | Story of the Week",
+   "dur": 118,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "03pRqOoLoIU",
+   "title": "What Will Your StoryCorps Recording Experience Be Like?",
+   "dur": 75,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "iIBxGioPfpQ",
+   "title": "Record on the StoryCorps Southeast Sprinter Tour or the App! Your Story Deserves a Mic!",
+   "dur": 46,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "5rMMO9G8Tq0",
+   "title": "StoryCorps' Southeast Sprinter Tour is Rolling Now! Record on the Road or StoryCorps App!",
+   "dur": 92,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "nJ27EGguZj4",
+   "title": "From a Young Age He Struggled, But His Mom Never Gave Up | Story of the Week",
+   "dur": 168,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "Cbb3f-ewSck",
+   "title": "A Mother Saw Her Son in George Floyd. But He Didn’t Want to Hide | Story of the Week",
+   "dur": 173,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "ynANH38-KnE",
+   "title": "\"Prince Was My Babysitter\" | Remembering a Musical Icon",
+   "dur": 163,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "WFzFT2wW9sI",
+   "title": "The world's most extreme places, explained",
+   "dur": 10824,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "O7LvhSQ5Te4",
+   "title": "I don't get democracy",
+   "dur": 3071,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "XXpqejgnaB0",
+   "title": "How Money Actually Works",
+   "dur": 10711,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "T0oqR_IimvA",
+   "title": "The American war machine, explained",
+   "dur": 11596,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "-DDbYSg0Alw",
+   "title": "The REAL reason the US can’t beat Iran",
+   "dur": 2371,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "4S25FfbFw4M",
+   "title": "Oligarchy is worse than you think",
+   "dur": 2927,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "Pc6sCGS6Jfc",
+   "title": "The Real Story Behind the Mormon Church",
+   "dur": 7808,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "nAFw5i39m9I",
+   "title": "China’s Dirty Money Problem, Explained",
+   "dur": 1998,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "bLOEhycMG78",
+   "title": "The Modern Middle East, Explained",
+   "dur": 11178,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "vmGm8xn_1Ro",
+   "title": "Talking news and media with Max Fisher",
+   "dur": 2590,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "GV8KGcFqeLc",
+   "title": "Is Fascism Back?",
+   "dur": 3708,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "0rKDo3hKbVk",
+   "title": "The Internet Didn't Fail. It Was Taken.",
+   "dur": 782,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "rPckDuTaSnw",
+   "title": "India vs China, Explained",
+   "dur": 1898,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "x-XdOaZPhBw",
+   "title": "Why This Island Could Trigger World War 3",
+   "dur": 1743,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
+  },
+  {
+   "id": "OMbV1rIPhCg",
+   "title": "How Switzerland Engineered the Perfect Country",
+   "dur": 2586,
+   "channel": "Johnny Harris",
+   "source": "@johnnyharris",
+   "added": "2026-10-04T00:41:04.221Z",
+   "topic": "People & World"
   },
   {
    "id": "zozEm4f_dlw",
@@ -8260,6 +8830,1342 @@
    "published": "2022-04-26T15:38:52+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "bgFT8xPWkww",
+   "title": "What happens if you break the cosmic speed limit? 💫",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "xag0UZDBVLw",
+   "title": "Why Do Our Brains Look Like the Universe 🧠",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "V69GcWlJ2TE",
+   "title": "How much of our universe can we actually see? 👀",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "tceEJ7xKh4Y",
+   "title": "What's bright enough to be seen from billions of light-years away? ✨",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "z2RV0xZh3os",
+   "title": "Are We Too Small to Understand the Universe? 🌌",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "LGW0tcAerw4",
+   "title": "Why Can't We Travel Back in Time? ⏳",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "xKeF9_SSz8o",
+   "title": "Why Isn't There an Element Named After Newton? 🤨",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "TItc13Y5GM0",
+   "title": "Humans Are Basically Complicated Worms 🪱",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "YKb1DKtwHQI",
+   "title": "How Much Water Is Hiding Beneath Europa’s Ice? 🧊",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "PUJYf-wNU50",
+   "title": "Neil Has a New Name for Everyone Born After 1995 🔭",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vPCe6dulXXg",
+   "title": "Are Multiverses Actually Real? 🌌",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Q3C7LRKvdKU",
+   "title": "Why Does Uranus Rotate on Its Side?",
+   "dur": null,
+   "channel": "StarTalk",
+   "source": "@StarTalk",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "mcl19kck9QE",
+   "title": "SciShow is in the field NOW!",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "A1NAK_XShyA",
+   "title": "SciShow is heading into the field TOMORROW with the all new Field Trips mini series.",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "sgbuZli_hDI",
+   "title": "What Made The Bahamas’s “Atlantis” Rocks?",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "gHzXraNg2hI",
+   "title": "What Dinosaurs, Pyramids, and the Atomic Bomb Have in Common",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "GhduhIbH-iM",
+   "title": "Germ Theory Is Older Than You Think",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "p2e8bp8onO8",
+   "title": "Rock, paper, scissors to defend alchemy",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "WqmGecLEYOY",
+   "title": "FULL METAL ALCHEMY (ft. Sir Isaac Newton)",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "YIO0shDPsdA",
+   "title": "What The Heck Is Tuberculosis? #science #scishow #medicine #johngreen",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "7odqXVLSkOg",
+   "title": "How Did Tuberculosis Get So Bad? #science #scishow #tuberculosis #health",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "-YWWzPiaJlE",
+   "title": "GREAT White Shark News! #science #scishow #shark #marine",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "QZKwBpVRVRQ",
+   "title": "Is There A Shortcut To Treating Tuberculosis? #science #scishow #tuberculosis #health",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "rbAHejdvpMg",
+   "title": "Sex-Triggered Asthma?! #science #scishow #asthma #romance",
+   "dur": null,
+   "channel": "SciShow",
+   "source": "@SciShow",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "u8zr-9CUgzg",
+   "title": "What's The Fewest People That Could Repopulate Earth?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "nQ8NFMGXNV8",
+   "title": "The black death sucks for fleas, too #plague #fleas",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "aOiH-SSnyHs",
+   "title": "How do volcanos die?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "TY3s3VOHB9s",
+   "title": "Rabies isn't trying to kill - it's trying to control!",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ubPmwKeVLpo",
+   "title": "Why are the biggest animals herbivores?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "fm-wXcnB_eA",
+   "title": "How DO nature documentaries get those shots?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "OqWEFV87urg",
+   "title": "Why do bees dance?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "WIJpPUkYzLI",
+   "title": "What actually kills us when we die?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "8-xBKMAFlqE",
+   "title": "How can Giant Pterosaurs even fly?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "SLI6s0supF8",
+   "title": "Why would these animals kill their siblings?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "HjBbm9dWVac",
+   "title": "Where have all the antibiotics gone?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "CQ81O60sv0M",
+   "title": "Why is it so hard to make Fake Feathers?",
+   "dur": null,
+   "channel": "MinuteEarth",
+   "source": "@MinuteEarth",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "tbWTiZlwJ3M",
+   "title": "You Have Spiders on Your Face RIGHT NOW!",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "NUVkpWAD548",
+   "title": "Chivalry or Engineering?",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "67LFeTgFv3Y",
+   "title": "Why Do People Pass Out On Roller Coasters?",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "KLJxCWeYGoE",
+   "title": "Why the Moon Never Changes",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "KwqeKTM9M_8",
+   "title": "$100 Slime Challenge",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "0BAkKJ_3Tic",
+   "title": "Lowest Heart Rate Wins!",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "GRbokvmv-2M",
+   "title": "Stop Your Car From Getting Stolen!",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "q3nD5qD758o",
+   "title": "I Discovered a Lost Plane",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "eMG3FWEwJnk",
+   "title": "How To Crush an Egg with Your Bare Hand",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "--LXDh44cBQ",
+   "title": "3 Levels of Car Theft",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "L0R-Ac1XRyk",
+   "title": "Do YouTubers know about the Magnus Effect?",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "GF_qEM_vUwo",
+   "title": "My $60,000,000 Experiment",
+   "dur": null,
+   "channel": "Mark Rober",
+   "source": "@MarkRober",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "rW_tgmNIh9Y",
+   "title": "The Forbidden Alloy of WW2",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "znYh3kFZ2C4",
+   "title": "This isn’t the original Statue of Liberty",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "VzZQz0cOMsc",
+   "title": "$1 vs $50 Phone Charger. What’s the difference?",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "9IYRd5TnC5M",
+   "title": "The V-22’s prototype was even more dangerous",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "jAaw0vn7eLs",
+   "title": "Why the Nokia 3310 was so Durable",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "NujewcM8Ebw",
+   "title": "How American Tanks are being Destroyed in Ukraine",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "leRkyaveMLE",
+   "title": "Tank Engines are Weird",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ZJuI5fImD3U",
+   "title": "The ISS would be uninhabitable without this",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "dIWKhUnqa5s",
+   "title": "Dude where’s my space station?",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "gEYRIpIfnQc",
+   "title": "The Weird Orbit of the ISS",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "7i5aK7NCp-U",
+   "title": "The Most Dangerous Space Walk",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ERI8zTmBYWk",
+   "title": "Project Orion: A Nuclear Pulse Rocket",
+   "dur": null,
+   "channel": "Real Engineering",
+   "source": "@RealEngineering",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "tjEe4UOlbic",
+   "title": "Do What The Fire Says…",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "mg2jWBlTyt0",
+   "title": "The bounciest ball",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "-bThN0otPMI",
+   "title": "A feather and a cube fall at the same rate",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "2w_uiLdmIXA",
+   "title": "Opening a bottle of liquid nitrogen under water",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "fJuyonpe7EA",
+   "title": "Diamond vs Lava",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "jBB3gCl1AA4",
+   "title": "Spontaneous Organization",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "sNuIUSUB9uc",
+   "title": "Very Cold Balls",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "I3DTbmYelJs",
+   "title": "Self-Pouring Fluid",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ZyOhpG6FXwE",
+   "title": "Triangle Wheels Are The Future",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "PEy6Fu7e76U",
+   "title": "How does the reverse domino effect work?",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "s7UGsrOIRBw",
+   "title": "Freezing Fire",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ZEGazGMEhtw",
+   "title": "The Fastest Heat Conductor",
+   "dur": null,
+   "channel": "The Action Lab",
+   "source": "@TheActionLab",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "5OcnO7U0VeA",
+   "title": "Making nasty soap",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "K56LuXCQ0ik",
+   "title": "Making color changing mercury",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "QNPrHtcn6nM",
+   "title": "These metals melt when pushed together",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "2VV9m_S410I",
+   "title": "Extracting the soul from coffee",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vUeY-SU4i04",
+   "title": "Dissolving glass in scary hydrofluoric acid",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "VoHsFiwtxVc",
+   "title": "Turning regular sand into an explosive gas",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "tERigvFwLrM",
+   "title": "Making a bouncy ball from scratch",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "E37B-7OizLs",
+   "title": "Potassium metal is like weird butter",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "3Kv82RM2tic",
+   "title": "The clear ice myth",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "NDxrme-S2cE",
+   "title": "Liquefying nails is crazy",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "0msK5m7rbQE",
+   "title": "Making a bouncy egg by dissolving its shell",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "1TNBFcxLG0g",
+   "title": "Mixing sodium and potassium is crazy",
+   "dur": null,
+   "channel": "NileRed",
+   "source": "@NileRed",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "k4xCoGiS51g",
+   "title": "Making Money Obsolete",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "TnafP9-l0-c",
+   "title": "The Shakespeare Riot",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "SS4iDz7igjE",
+   "title": "Shortened The War",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "zZeKJ6jtad8",
+   "title": "Paul Revere's Ride",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "HUus3xNFzYc",
+   "title": "A Brazen Murder Within Sight of The White House",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Or-05A0jZNg",
+   "title": "First Bombardment of the Mainland US During WW2",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "cLeiATecoxA",
+   "title": "The Twisted Tale of the First Valentine",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "PZhGAIFiYTo",
+   "title": "The Norwegian Rocket Incident",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Xf_C_59gyvY",
+   "title": "The Day the Air Force Dropped Nuclear Bombs on North Carolina",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ccoTDFlwmrc",
+   "title": "A Threat to Public Decency.",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "RFBBKJjhHOM",
+   "title": "Soviet Submarine B-37",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "b_f6RX9UTpQ",
+   "title": "At the time, the most advanced vehicle ever created.",
+   "dur": null,
+   "channel": "The History Guy: History Deserves to Be Remembered",
+   "source": "@TheHistoryGuyChannel",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "mFqEuafQwD8",
+   "title": "Foraging with pangolins #Rolex #PerpetualPlanet #AfricaEarthsWildHome",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "zRFazjinxMc",
+   "title": "What animals does Paige Tingey want to see in the wild? #NatGeo9",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "xA7YwSTO4_I",
+   "title": "The world watched as rescuers searched for ways to bring 33 miners back to safety #ChileanMineRescue",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "WLXQVHrblns",
+   "title": "Life lessons with Paige Tingey #NatGeo9",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "-KrQVflAW4Q",
+   "title": "How do you travel faster than light? You have to take one of the universe's back doorways.",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "IbBzAD4k7OY",
+   "title": "Paid content for @debeers",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "mxK4rsDGS4E",
+   "title": "Paid content for @waitroseandpartners.",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "oSJqyD9vxac",
+   "title": "From the Savanna to the Stage | LION | National Geographic",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "YvQDdRvRcs4",
+   "title": "Paid content for @VISITSEATTLEtv",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "llFdUjgb1oI",
+   "title": "Paid content for @waitroseandpartners",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "fetjDn1pTCw",
+   "title": "Do the 🫰 #PompeiiOutOfTime",
+   "dur": null,
+   "channel": "National Geographic",
+   "source": "@NatGeo",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "r294w0or3-E",
+   "title": "What Happens During a Bioblitz?",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "IS0maB_285E",
+   "title": "A shark. A crab. One bait bucket.",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "DqftCjjLXaU",
+   "title": "Mapping Explained",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "IjuSimRn974",
+   "title": "What is a bongo net?",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vEliVUGWW0E",
+   "title": "Inside the dive center aboard OceanXplorer 🤿",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "OkPZIeFXQrI",
+   "title": "We spotted 20 dumbo octopus in a single dive",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "gv2pGsfopA0",
+   "title": "From Young Explorer to Digital Correspondent | Emma Batty | OceanX",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "0bdfAVtzM7E",
+   "title": "World Oceans Day",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "aE9rFaFKuOE",
+   "title": "Reading a blue whale's health from its dive | Christy Judd, PhD student at KAUST",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "N07aNcfq9tg",
+   "title": "Watch Pygmy Blue Whales migrate through Timor-Leste's corridor with us",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "cxYxOA9o_JY",
+   "title": "Meet Andrew Craig, expedition leader for the Timor-Leste mission.",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "wjs6XKz5OGY",
+   "title": "Deep Sea Mission with National University of Singapore",
+   "dur": null,
+   "channel": "OceanX",
+   "source": "@OceanX",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "9z6x1I0b1_Y",
+   "title": "Remembering A Son Killed in the 9/11 Attacks | Our Paul",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "BNhZp53zsDE",
+   "title": "More Than a Pizza Shop, A Slice of Family History | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "qQuOAf3W_T0",
+   "title": "A Place to Belong, A Place to Give Back | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Ck-j81w6xnI",
+   "title": "He Flew High in His Sport, He Wasn't Sure His Son Would Follow | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "E5tGYATAb6A",
+   "title": "She Inherited Her Father’s Mission. Now She’s Carrying Juneteenth Forward.",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "3hRj5x-mtss",
+   "title": "Telling Stories Changes Lives, Record with StoryCorps",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "oM92AfLJngM",
+   "title": "For This Homebound Senior, A Volunteer Turned Loneliness Into Light | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "2b_x7cG6hTY",
+   "title": "History Out the Gate: The First Black Female Jockey | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "VsglnoXcERk",
+   "title": "Voices from the Tracks: The Legends of NYC Transit",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "8ZoG2WhRV5M",
+   "title": "A Nun Reflects on Her Life Caring for Kansas City Kids | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "op1syYUvpyg",
+   "title": "Oldest Living Married Couple | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vKbKvMXIDcw",
+   "title": "60 Years of Never Missing a Super Bowl | Story of the Week",
+   "dur": null,
+   "channel": "StoryCorps",
+   "source": "@StoryCorps",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "dF_f92aW2TI",
+   "title": "Why Morocco & Algeria Hate Each Other",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "OSa4wP0hJRI",
+   "title": "Africa’s Biggest Territorial Dispute",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "fhR6yMIU3pM",
+   "title": "Why Southern Italy Is More Dangerous Than North Italy",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vVevDmyyqFE",
+   "title": "Why North Italy is Richer Than South Italy",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "0nJTKs8qKn4",
+   "title": "Southern Italy Wasn’t Italian for 1,200 Years",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "aDa69k0hXbA",
+   "title": "Why North Italy Has WAY More People Than South Italy",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "eAR4yrcLxbE",
+   "title": "The Real Reason Singapore is SO Rich",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "d702dwHwPa0",
+   "title": "Why Singapore Has Super OP Geography",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "sEIvZD5Ih5I",
+   "title": "How Crazy Rich is Singapore Actually?",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "LrrRovex7L4",
+   "title": "Singapore Is Not a Small Country",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "tO8NK8uN-eY",
+   "title": "How the US Secretly Created Panama",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "xDDkVlhyhsw",
+   "title": "How the Panama Canal Turbocharges US Naval Power",
+   "dur": null,
+   "channel": "RealLifeLore",
+   "source": "@RealLifeLore",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "8-jIj0mG64w",
+   "title": "The lives of at least 17,000 children in Nepal have been drastically changed by the flash floods.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Muhld73Ipl0",
+   "title": "Children’s rights are everyone's responsibility. Join us in calling for their protection.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "lcTIzMsIIiE",
+   "title": "Humanitarians in Gaza risked their lives to vaccinate nearly 600,000 children against polio in 2024.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ChSCgKz6zL0",
+   "title": "Lorna dreams of being a pilot. First, she has to cross this river | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "jknp3K3oqR0",
+   "title": "Mireille is a doctor and a mother in DR Congo. She and her son, Miki, are survivors of Ebola.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "3p5XfTTK4v8",
+   "title": "Turning streets into playgrounds | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "8w__rCSNmLA",
+   "title": "Watch and share the story of Roa'a, 12, West Bank, State of Palestine.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "wMY0pcarZuY",
+   "title": "A demolition of homes, of schools, and of childhood.",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "zZSKO9OfIn4",
+   "title": "A vaccine today for a healthy tomorrow | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "LOHwmfzfksU",
+   "title": "Teaming up to #EndPolio across borders | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "34UClArm-X0",
+   "title": "Vaccines and their good side effects | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "0JBHnHnjDNI",
+   "title": "Bombardments in #Lebanon exact a devastating toll on children | UNICEF",
+   "dur": null,
+   "channel": "UNICEF",
+   "source": "@UNICEF",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "ewC34rEXwdo",
+   "title": "New York AG named special prosecutor in Cornell rape case",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "KAe41Z6wR7U",
+   "title": "The 'unstable dynamic' in the U.S.-China AI race",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "yvpO0rrhvT8",
+   "title": "G7 countries will release 100 million barrels of oil, diesel",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "uL1RlxJj-0o",
+   "title": "What FTD patients reveal about consciousness",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "vmQIkczBCtg",
+   "title": "Why achieving the American Dream feels harder now",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "IrEgGFOjVnw",
+   "title": "Why this expert says AI 'will never be safe 100%'",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "qAw2qd9Dwgo",
+   "title": "How the brain disorder FTD impacts personality",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "Q2uIagfxszk",
+   "title": "Renee Good's family files lawsuits against U.S. government",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "1ByxFDcIg7Q",
+   "title": "UK-Iranian citizen arrested over air base terror plot",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "w6o-cotfs14",
+   "title": "SpaceX launches 4 astronauts to space station",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "SRi8YlStkWs",
+   "title": "Odds of Americans outearning their parents drops",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
+  },
+  {
+   "id": "fKak5SBv0iA",
+   "title": "CNN barred from Air Force One despite judge order",
+   "dur": null,
+   "channel": "PBS NewsHour",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T00:41:04.221Z"
   }
  ]
 }
