@@ -51,6 +51,7 @@ After step 2, open MeTube and play one Beat and one Learn video to confirm every
 - The first video of a session: tap the video itself to start (iOS rule). After that, the buttons do everything.
 - **Auto-next / Loop / Stop at end** is a button on the watch page; each tab remembers its own setting.
 - **Not for me** on the watch page hides a video on this device. **♥** saves a beat to Liked.
+- **Open a link (🔗 at the top of Home):** the only way to watch something outside your library, and it's a hassle on purpose. You write why it's essential (20+ characters), type the phrase "this is absolutely essential" (pasting is blocked), and wait out a 15-second countdown. Then you paste a single YouTube video link: typed words, channels, playlists and search pages are refused. It's capped at 3 per day, and every link is logged with its reason. Change the limits in `LINK` in `docs/index.html`.
 - **Search** only looks through your MeTube library (titles, channels, topics), never all of YouTube.
 - **Shorts tab:** educational Shorts (TED-Ed, Kurzgesagt, Veritasium, 3Blue1Brown, Vsauce, Kings and Generals, Practical Engineering, TED). Tap one, tap the video once to start, then swipe up and down. They loop, and tapping pauses. Change the channels under `shorts.channels` in `curator/config.json`.
 - **Video lengths** show on every thumbnail. Learn has a **Quick (≤10 min)** filter and a Quick watches shelf.

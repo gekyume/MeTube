@@ -201,6 +201,32 @@
   .upnext-head h3 { margin: 0; font-size: 17px; }
   .upnext-head span { color: var(--muted); font-size: 13px; }
 
+  /* ---------- "open a link" gate ---------- */
+  .sheet-bg { position: fixed; inset: 0; z-index: 80; background: rgba(0,0,0,.6); display: grid; place-items: end center;
+    -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); animation: fade .15s ease; }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  .sheet { width: min(100%, 520px); max-height: 92dvh; overflow-y: auto; background: var(--bg-2); border: 1px solid var(--line);
+    border-radius: 20px 20px 0 0; padding: 20px 20px calc(var(--safe-b) + 20px); animation: pop .2s ease both; }
+  @media (min-width: 760px) { .sheet-bg { place-items: center; } .sheet { border-radius: 20px; padding-bottom: 20px; } }
+  .sheet h2 { margin: 0 0 4px; font-size: 20px; letter-spacing: -0.02em; }
+  .sheet p { margin: 0 0 14px; color: var(--muted); font-size: 14px; }
+  .sheet label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
+  .sheet label .req { color: var(--muted); font-weight: 500; }
+  .sheet textarea, .sheet input { width: 100%; font: inherit; font-size: 16px; color: var(--text); background: var(--surface);
+    border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; outline: none; -webkit-appearance: none; }
+  .sheet textarea { min-height: 84px; resize: vertical; }
+  .sheet textarea:focus, .sheet input:focus { border-color: var(--surface-3); }
+  .sheet .phrase { font-weight: 700; color: var(--text); user-select: none; -webkit-user-select: none; }
+  .sheet .err { color: #ff7a7a; font-size: 13px; margin-top: 6px; min-height: 18px; }
+  .sheet .actions { display: flex; gap: 10px; margin-top: 18px; }
+  .sheet .actions .btn { flex: 1; justify-content: center; }
+  .sheet .btn:disabled { opacity: .4; cursor: not-allowed; }
+  .sheet .quota { display: inline-block; font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--muted); margin-bottom: 10px; }
+  .sheet .log { list-style: none; margin: 8px 0 0; padding: 0; font-size: 13px; color: var(--muted); }
+  .sheet .log li { padding: 8px 0; border-top: 1px solid var(--line); }
+  .sheet .log b { color: var(--text); font-weight: 600; }
+  .ext-badge { position: absolute; left: 6px; top: 6px; font-size: 10px; font-weight: 800; letter-spacing: .04em; padding: 2px 6px; border-radius: 5px; background: var(--surface-3); color: var(--text); }
+
   .toast { position: fixed; z-index: 60; left: 50%; bottom: calc(var(--safe-b) + 96px); transform: translate(-50%, 20px);
     background: var(--text); color: var(--bg); font-size: 14px; font-weight: 600; padding: 10px 16px; border-radius: 999px;
     box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; white-space: nowrap; }
@@ -334,6 +360,7 @@
   <symbol id="i-stop" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"/></symbol>
   <symbol id="i-hide" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM4 12a8 8 0 0 1 12.9-6.3L5.7 16.9A7.9 7.9 0 0 1 4 12zm8 8a7.9 7.9 0 0 1-4.9-1.7L18.3 7.1A8 8 0 0 1 12 20z"/></symbol>
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 4h2v8.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3zM5 18h14v2H5z"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a1 1 0 1 1 1.4 1.4L12 13.4a1 1 0 0 1-1.4 0zM8.5 17.6a3 3 0 0 1-4.2-4.2l2.8-2.8 1.4 1.4-2.8 2.8a1 1 0 1 0 1.4 1.4l2.8-2.8 1.4 1.4zm7.8-4.8-1.4-1.4 2.8-2.8a1 1 0 1 0-1.4-1.4l-2.8 2.8L12 8.6l2.8-2.8a3 3 0 0 1 4.2 4.2z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -346,6 +373,7 @@
     </button>
     <div class="bar-title" id="barTitle" hidden></div>
     <div class="grow"></div>
+    <button class="icon-btn" id="linkBtn" aria-label="Open a YouTube link" title="Open a YouTube link"><svg class="ico"><use href="#i-link"/></svg></button>
     <div class="search search-desktop" data-search>
       <svg class="ico"><use href="#i-search"/></svg>
       <input type="search" placeholder="Search your library" autocomplete="off" autocorrect="off" enterkeyhint="search" aria-label="Search your library">
@@ -463,7 +491,10 @@
 
   const allItems = (section) => (data[section] || []).filter((v) => !hidden.has(v.id));
   const sectionOf = (id) => ((data.beats || []).some((x) => x.id === id) ? "beats" : "learn");
-  const findVideo = (id) => (data.beats || []).find((x) => x.id === id) || (data.learn || []).find((x) => x.id === id);
+  // Videos opened through the "Open a link" gate live only in this device's log, not in the library.
+  let linkLog = store.get("linklog", []); // [{id, title, channel, reason, at}], newest first
+  const externalVideo = (id) => { const e = linkLog.find((x) => x.id === id); return e && { ...e, title: e.title || "Linked video", external: true }; };
+  const findVideo = (id) => (data.beats || []).find((x) => x.id === id) || (data.learn || []).find((x) => x.id === id) || externalVideo(id);
 
   // Beat moods, guessed from the "type beat" artists and style words in each title (a beat can have several).
   const MOODS = [
@@ -546,7 +577,7 @@
       if (!v) return go({ view: "home" }, { replace: true });
       if (current?.id !== v.id) {
         const section = sectionOf(v.id);
-        const q = queue.some((x) => x.id === v.id) ? queue : listFor(section, section === "beats" ? "all" : "all");
+        const q = v.external ? [v] : queue.some((x) => x.id === v.id) ? queue : listFor(section, "all");
         startVideo(v, q);
       }
     }
@@ -570,6 +601,7 @@
     $("back").hidden = home;
     $("brand").hidden = !home;
     $("barTitle").hidden = home;
+    $("linkBtn").hidden = !home;
     $("barTitle").textContent =
       route.view === "channel" ? route.name :
       route.view === "channels" ? (tab === "beats" ? "Producers" : "Channels") :
@@ -736,6 +768,7 @@
     const p = progressOf(v.id);
     return `<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
       ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}
+      ${v.external ? '<span class="ext-badge">LINK</span>' : ""}
       ${current?.id === v.id ? '<span class="now-badge">NOW PLAYING</span>' : ""}
       ${p && current?.id !== v.id ? `<span class="progress-track"></span><span class="progress" style="width:${p}%"></span>` : ""}
       ${v.dur && current?.id !== v.id ? `<span class="dur">${fmt(v.dur)}</span>` : ""}</div>`;
@@ -825,6 +858,118 @@
     });
     el.querySelector(".clear").onclick = () => { query = ""; renderChrome(); renderView(); };
   });
+
+  // ---------- "Open a link": the only way to reach a video outside the library, on purpose a hassle ----------
+  const LINK = { perDay: 3, waitSec: 15, minReason: 20, phrase: "this is absolutely essential" };
+  const todayKey = () => new Date().toLocaleDateString("en-CA");
+  const usedToday = () => linkLog.filter((x) => new Date(x.at).toLocaleDateString("en-CA") === todayKey()).length;
+
+  // Accepts only single-video links (watch, youtu.be, shorts, embed, live). Words, channels, playlists and search pages are refused.
+  function parseVideoLink(text) {
+    let u;
+    try { u = new URL(text.trim()); } catch { return { error: "That's not a link. MeTube only opens pasted video links. It doesn't search." }; }
+    const host = u.hostname.replace(/^www\.|^m\.|^music\./, "");
+    if (!["youtube.com", "youtu.be", "youtube-nocookie.com"].includes(host)) return { error: "Only YouTube video links work here." };
+    let id = null;
+    if (host === "youtu.be") id = u.pathname.slice(1).split("/")[0];
+    else if (u.pathname === "/watch") id = u.searchParams.get("v");
+    else { const m = u.pathname.match(/^\/(shorts|embed|live)\/([\w-]{11})/); if (m) id = m[2]; }
+    if (!id || !/^[\w-]{11}$/.test(id)) return { error: "That link isn't a single video. Channels, playlists and search pages aren't allowed." };
+    return { id };
+  }
+
+  function openLinkGate() {
+    const left = LINK.perDay - usedToday();
+    const bg = document.createElement("div");
+    bg.className = "sheet-bg";
+    const close = () => { clearInterval(timer); bg.remove(); };
+    bg.addEventListener("click", (e) => { if (e.target === bg) close(); });
+    const logHTML = linkLog.length
+      ? `<label>Your recent link opens</label><ul class="log">${linkLog.slice(0, 5).map((x) =>
+          `<li><b>${esc(x.title || x.id)}</b><br>“${esc(x.reason)}” · ${agoTime(x.at)}</li>`).join("")}</ul>` : "";
+
+    if (left <= 0) {
+      bg.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Open a link">
+        <h2>That's today's limit</h2>
+        <p>You've opened ${LINK.perDay} outside links today. The library will still be here. Try again tomorrow.</p>
+        ${logHTML}
+        <div class="actions"><button class="btn primary" data-close>OK</button></div></div>`;
+      bg.querySelector("[data-close]").onclick = close;
+      document.body.append(bg);
+      var timer;
+      return;
+    }
+
+    bg.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Open a link">
+      <span class="quota">${left} of ${LINK.perDay} left today</span>
+      <h2>Is this absolutely essential?</h2>
+      <p>This is the only way out of your library. Take a breath first.</p>
+      <label for="lgReason">Why do you need this video? <span class="req">(at least ${LINK.minReason} characters)</span></label>
+      <textarea id="lgReason" placeholder="e.g. My professor assigned this lecture for Thursday"></textarea>
+      <label for="lgPhrase">Type “<span class="phrase">${LINK.phrase}</span>” to confirm</label>
+      <input id="lgPhrase" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <div class="err" id="lgErr1"></div>
+      <div class="actions">
+        <button class="btn" data-close>Never mind</button>
+        <button class="btn primary" id="lgNext" disabled>Wait ${LINK.waitSec}s</button>
+      </div>
+      ${logHTML}
+    </div>`;
+    document.body.append(bg);
+    const reason = bg.querySelector("#lgReason"), phrase = bg.querySelector("#lgPhrase"), nextBtn = bg.querySelector("#lgNext");
+    phrase.addEventListener("paste", (e) => e.preventDefault()); // you have to actually type it
+    let wait = LINK.waitSec;
+    const ok = () => reason.value.trim().length >= LINK.minReason && phrase.value.trim().toLowerCase() === LINK.phrase;
+    const paint = () => {
+      nextBtn.disabled = wait > 0 || !ok();
+      nextBtn.textContent = wait > 0 ? `Wait ${wait}s` : "Continue";
+      const r = reason.value.trim().length;
+      bg.querySelector("#lgErr1").textContent = r && r < LINK.minReason ? `${LINK.minReason - r} more characters` : "";
+    };
+    var timer = setInterval(() => { wait = Math.max(0, wait - 1); paint(); if (!wait) clearInterval(timer); }, 1000);
+    reason.addEventListener("input", paint); phrase.addEventListener("input", paint);
+    bg.querySelector("[data-close]").onclick = close;
+    nextBtn.onclick = () => { if (ok() && wait === 0) step2(reason.value.trim()); };
+    setTimeout(() => reason.focus(), 50);
+
+    function step2(why) {
+      const sheet = bg.querySelector(".sheet");
+      sheet.innerHTML = `
+        <span class="quota">${left} of ${LINK.perDay} left today</span>
+        <h2>Paste the video link</h2>
+        <p>Links only. Typing words won't search YouTube.</p>
+        <label for="lgUrl">YouTube video link</label>
+        <input id="lgUrl" type="url" inputmode="url" placeholder="https://youtu.be/…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+        <div class="err" id="lgErr2"></div>
+        <div class="actions">
+          <button class="btn" data-close>Never mind</button>
+          <button class="btn primary" id="lgOpen" disabled>Open video</button>
+        </div>`;
+      const url = sheet.querySelector("#lgUrl"), open = sheet.querySelector("#lgOpen"), err = sheet.querySelector("#lgErr2");
+      sheet.querySelector("[data-close]").onclick = close;
+      url.addEventListener("input", () => {
+        const r = url.value.trim() ? parseVideoLink(url.value) : {};
+        err.textContent = r.error || "";
+        open.disabled = !r.id;
+      });
+      open.onclick = () => {
+        const r = parseVideoLink(url.value);
+        if (!r.id) return;
+        const existing = findVideo(r.id);
+        if (!existing || existing.external) {
+          linkLog = [{ id: r.id, title: "", channel: "", reason: why, at: Date.now() }, ...linkLog.filter((x) => x.id !== r.id)].slice(0, 100);
+        } else {
+          linkLog = [{ id: r.id, title: existing.title, channel: existing.channel, reason: why, at: Date.now() }, ...linkLog].slice(0, 100);
+        }
+        store.set("linklog", linkLog);
+        close();
+        const v = findVideo(r.id);
+        playFrom(v, [v]);
+      };
+      setTimeout(() => url.focus(), 50);
+    }
+  }
+  $("linkBtn").onclick = openLinkGate;
 
   $("back").onclick = goBack;
   $("brand").onclick = () => { query = ""; renderChrome(); renderView(); window.scrollTo({ top: 0, behavior: "smooth" }); };
@@ -1077,6 +1222,15 @@
     if (msg.event === "onReady") player.ready = true;
     if (msg.event === "infoDelivery" && info) {
       player.ready = true;
+      // Linked videos aren't in the library, so take their title from the player itself.
+      const vd = info.videoData;
+      if (current?.external && vd?.title && current.title !== vd.title && vd.video_id === current.id) {
+        current.title = vd.title; current.channel = vd.author || "";
+        linkLog = linkLog.map((x) => (x.id === current.id ? { ...x, title: vd.title, channel: vd.author || "" } : x));
+        store.set("linklog", linkLog);
+        if (route.view === "watch") { renderInfo(); renderChrome(); }
+        $("miniTitle").textContent = current.title; $("miniSub").textContent = current.channel;
+      }
       if (typeof info.currentTime === "number") player.time = info.currentTime;
       if (typeof info.duration === "number" && info.duration) player.dur = info.duration;
       if (typeof info.playerState === "number") onState(info.playerState);
