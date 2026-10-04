@@ -743,19 +743,17 @@
   "learn": {
     "channels": [],
     "topics": {
-      "History": [
-        "@OverSimplified",
-        "@KingsandGenerals",
-        "@HistoriaCivilis",
-        "@FallofCivilizations",
-        "@HistoryMatters",
-        "@TheArmchairHistorian"
-      ],
       "Science": [
         "@veritasium",
         "@3blue1brown",
         "@kurzgesagt",
         "@Vsauce"
+      ],
+      "History": [],
+      "Philosophy": [],
+      "Ideas & Talks": [
+        "@TED",
+        "@TEDEd"
       ],
       "Engineering & Tech": [
         "@PracticalEngineeringChannel",
@@ -763,10 +761,6 @@
       ],
       "Society": [
         "@Vox"
-      ],
-      "Ideas & Talks": [
-        "@TED",
-        "@TEDEd"
       ]
     },
     "playlists": [],
@@ -785,7 +779,46 @@
       "minMinutes": 10,
       "maxNewPerDay": 3,
       "tasteProfile": "Long-form, substantive explainers and lectures on science, engineering, AI, economics, and history. Calm and well-researched, from creators who teach rather than hype. No clickbait titles, no reaction videos, no drama or commentary on YouTubers, no news hot takes, no listicles, no 'I tried X for 30 days', no get-rich-quick or productivity-guru content."
-    }
+    },
+    "collections": [
+      {
+        "channel": "@kurzgesagt",
+        "topic": "Science",
+        "max": 100
+      }
+    ],
+    "series": [
+      {
+        "name": "Crash Course Philosophy",
+        "playlist": "PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR",
+        "topic": "Philosophy"
+      },
+      {
+        "name": "Crash Course World History",
+        "playlist": "PLBDA2E52FB1EF80C9",
+        "topic": "History"
+      },
+      {
+        "name": "Crash Course World History 2",
+        "playlist": "PL8dPuuaLjXtNjasccl-WajpONGX3zoY4M",
+        "topic": "History"
+      },
+      {
+        "name": "Crash Course US History",
+        "playlist": "PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s",
+        "topic": "History"
+      },
+      {
+        "name": "Crash Course European History",
+        "playlist": "PL8dPuuaLjXtMsMTfmRomkVQG8AqrAmJFX",
+        "topic": "History"
+      },
+      {
+        "name": "Crash Course History of Science",
+        "playlist": "PL8dPuuaLjXtNppY8ZHMPDH5TKK2UpU8Ng",
+        "topic": "History"
+      }
+    ]
   },
   "blockedTitleWords": [
     "reaction",
@@ -802,7 +835,6 @@
       "@veritasium",
       "@3blue1brown",
       "@Vsauce",
-      "@KingsandGenerals",
       "@PracticalEngineeringChannel",
       "@TED"
     ],

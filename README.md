@@ -58,6 +58,8 @@ After step 2, open MeTube and play one Beat and one Learn video to confirm every
 - **Recent** lists what you've watched, newest first. Learn videos resume where you left off.
 - **On a computer:** space plays or pauses, ←/→ skip 10s, `n` goes to the next video, `/` jumps to search.
 - **Background / screen off (best effort):** iOS normally pauses web video when you leave the app or lock the screen. MeTube immediately asks the player to keep going. If it still pauses, press play on the lock screen or in Control Center's media player.
+- **Series:** Learn → Browse has a **Series** row (Crash Course Philosophy, World History 1 & 2, US History, European History, History of Science). Each series page shows every episode in order, with **Continue** from your first unwatched episode. Add a series under `learn.series` in `curator/config.json` with its YouTube playlist ID.
+- **Back catalogs:** `learn.collections` pulls up to 100 of a channel's past videos (Kurzgesagt is set up this way).
 - **Topics:** edit `learn.topics` in `curator/config.json` to add a channel to a shelf, or to add a new shelf.
 
 ## Local dev

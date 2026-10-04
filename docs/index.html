@@ -232,6 +232,19 @@
     box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; white-space: nowrap; }
   .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
+  /* ---------- series ---------- */
+  .scover { position: relative; }
+  .scover .stack { position: absolute; inset: -6px 10px auto 10px; height: 6px; border-radius: 8px 8px 0 0; background: var(--surface-3); }
+  .series-meta { color: var(--muted); font-size: 12.5px; margin-top: 3px; }
+  .series-bar { height: 3px; border-radius: 3px; background: var(--surface-3); margin-top: 8px; overflow: hidden; }
+  .series-bar span { display: block; height: 100%; background: var(--accent); }
+  .series-hero { display: flex; gap: 16px; padding: 16px; align-items: center; }
+  .series-hero .thumb { width: 168px; }
+  .series-hero h2 { margin: 0 0 4px; font-size: 21px; letter-spacing: -0.02em; line-height: 1.2; }
+  .ep-num { color: var(--accent); font-weight: 700; }
+  .series-link { color: var(--accent); font-weight: 600; }
+  @media (max-width: 480px) { .series-hero { flex-direction: column; align-items: stretch; } .series-hero .thumb { width: 100%; } }
+
   /* ---------- shorts ---------- */
   .sgrid { list-style: none; margin: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 8px 16px; }
   .scard { position: relative; aspect-ratio: 9 / 16; border-radius: 12px; overflow: hidden; background: var(--surface-2); cursor: pointer; }
@@ -464,7 +477,7 @@
   };
 
   // ---------- state ----------
-  let data = { beats: [], learn: [], shorts: [], topics: [] };
+  let data = { beats: [], learn: [], shorts: [], topics: [], series: [] };
   let tab = store.get("tab", "beats");
   const filter = { beats: "liked", learn: "browse", shorts: "new" };
   const likeOverrides = store.get("likes", {}); // hearts tapped on this phone override the curator's list
@@ -486,7 +499,7 @@
   // ---------- data ----------
   fetch("videos.json", { cache: "no-store" })
     .then((r) => r.json())
-    .then((d) => { data = { topics: [], shorts: [], ...d }; applyRoute(parseHash(), false); })
+    .then((d) => { data = { topics: [], shorts: [], series: [], ...d }; applyRoute(parseHash(), false); })
     .catch(() => { $("viewRoot").innerHTML = `<div class="empty"><strong>Couldn't load your library</strong>Check your connection and reopen MeTube.</div>`; });
 
   const allItems = (section) => (data[section] || []).filter((v) => !hidden.has(v.id));
@@ -526,7 +539,7 @@
     const items = allItems(section);
     if (query) {
       const words = query.toLowerCase().split(/\s+/).filter(Boolean);
-      return items.filter((v) => { const hay = `${v.title} ${v.channel} ${v.topic || ""}`.toLowerCase(); return words.every((w) => hay.includes(w)); });
+      return items.filter((v) => { const hay = `${v.title} ${v.channel} ${v.topic || ""} ${v.series || ""}`.toLowerCase(); return words.every((w) => hay.includes(w)); });
     }
     if (f === "recent") { const byId = new Map(items.map((v) => [v.id, v])); return recent.map((h) => byId.get(h.id)).filter(Boolean); }
     if (f === "liked") return items.filter(isLiked);
@@ -536,6 +549,7 @@
     if (f.startsWith("mood:")) return items.filter((v) => moodsOf(v).includes(f.slice(5)));
     if (f.startsWith("topic:")) return items.filter((v) => v.topic === f.slice(6));
     if (f.startsWith("channel:")) return items.filter((v) => v.channel === f.slice(8));
+    if (f.startsWith("series:")) return items.filter((v) => v.series === f.slice(7)).sort((a, b) => (a.pos ?? a.ep) - (b.pos ?? b.ep));
     return items;
   }
 
@@ -545,6 +559,7 @@
     if (r.view === "channel") return `#/channel/${r.tab}/${encodeURIComponent(r.name)}`;
     if (r.view === "channels") return `#/channels/${r.tab}`;
     if (r.view === "shorts") return `#/shorts/${r.id}`;
+    if (r.view === "series") return `#/series/${encodeURIComponent(r.name)}`;
     return "#/";
   }
   function parseHash() {
@@ -553,6 +568,7 @@
     if (view === "channel" && a && b) return { view: "channel", tab: a, name: decodeURIComponent(b) };
     if (view === "channels" && a) return { view: "channels", tab: a };
     if (view === "shorts" && a) return { view: "shorts", id: a };
+    if (view === "series" && a) return { view: "series", name: decodeURIComponent(a) };
     return { view: "home" };
   }
   function go(r, { replace = false } = {}) {
@@ -582,6 +598,7 @@
       }
     }
     if ((r.view === "channel" || r.view === "channels") && r.tab !== tab) setTab(r.tab);
+    if (r.view === "series" && tab !== "learn") setTab("learn");
     if (r.view === "shorts" && !(data.shorts || []).some((v) => v.id === r.id)) return go({ view: "home" }, { replace: true });
     route = { view: r.view, id: r.id, tab: r.tab, name: r.name };
     document.body.className = `view-${r.view}` + (current && r.view !== "watch" ? " has-mini" : "");
@@ -604,6 +621,7 @@
     $("linkBtn").hidden = !home;
     $("barTitle").textContent =
       route.view === "channel" ? route.name :
+      route.view === "series" ? "Series" :
       route.view === "channels" ? (tab === "beats" ? "Producers" : "Channels") :
       route.view === "watch" ? (queueTab === "beats" ? "Beats" : "Learn") : "";
     document.querySelectorAll("[data-search]").forEach((el) => {
@@ -622,6 +640,7 @@
     if (route.view === "home") renderHome(root);
     else if (route.view === "channels") renderChannels(root);
     else if (route.view === "channel") renderChannel(root);
+    else if (route.view === "series") renderSeries(root);
   }
 
   function renderHome(root) {
@@ -708,6 +727,17 @@
       const items = learn.filter((v) => v.topic === t);
       if (items.length) shelves.push([t, items.slice(0, 14), `topic:${t}`, items.length]);
     }
+    const seriesShelf = () => {
+      if (!(data.series || []).length) return;
+      const head = document.createElement("div");
+      head.className = "section-head";
+      head.innerHTML = `<h2>Series</h2><span class="sub">Watch in order</span>`;
+      const shelf = document.createElement("div");
+      shelf.className = "shelf";
+      for (const se of data.series) shelf.append(seriesCard(se));
+      root.append(head, shelf);
+    };
+    if (!cont.length) seriesShelf();
     for (const [name, items, key, total] of shelves) {
       const head = document.createElement("div");
       head.className = "section-head";
@@ -717,6 +747,7 @@
       shelf.className = "shelf";
       for (const v of items) shelf.append(card(v, items));
       root.append(head, shelf);
+      if (key === "recent") seriesShelf(); // Series sits right after Continue watching
     }
     footer(root);
   }
@@ -774,7 +805,48 @@
       ${v.dur && current?.id !== v.id ? `<span class="dur">${fmt(v.dur)}</span>` : ""}</div>`;
   }
 
+  const epLabel = (v) => (v.ep ? `Ep ${v.ep}` : "Extra");
+  function seriesEpisodes(name) { return listFor("learn", `series:${name}`); }
+  function seriesProgress(name) {
+    const eps = seriesEpisodes(name);
+    const done = eps.filter((v) => watched.has(v.id)).length;
+    const nextEp = eps.find((v) => !watched.has(v.id)) || eps[0];
+    return { eps, done, nextEp };
+  }
+  function seriesCard(se) {
+    const { eps, done } = seriesProgress(se.name);
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML = `<div class="scover"><span class="stack"></span><div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${se.cover}/mqdefault.jpg">
+        <span class="dur">${eps.length} episodes</span></div></div>
+      <div class="vtitle">${esc(se.name.replace(/^Crash Course /, ""))}</div>
+      <div class="series-meta">Crash Course · ${done ? `${done} of ${eps.length} watched` : "Not started"}</div>
+      <div class="series-bar"><span style="width:${eps.length ? Math.round((done / eps.length) * 100) : 0}%"></span></div>`;
+    el.onclick = () => go({ view: "series", name: se.name });
+    return el;
+  }
+  function renderSeries(root) {
+    const se = (data.series || []).find((x) => x.name === route.name);
+    if (!se) { root.insertAdjacentHTML("beforeend", `<div class="empty"><strong>Series not found</strong></div>`); return; }
+    const { eps, done, nextEp } = seriesProgress(se.name);
+    root.insertAdjacentHTML("beforeend", `
+      <div class="series-hero">
+        <div class="thumb"><img alt="" src="https://i.ytimg.com/vi/${se.cover}/mqdefault.jpg"></div>
+        <div><h2>${esc(se.name)}</h2>
+          <div class="vsub">${eps.length} episodes · ${esc(se.topic || "")}${done ? ` · ${done} watched` : ""}</div>
+          <div class="series-bar"><span style="width:${Math.round((done / Math.max(1, eps.length)) * 100)}%"></span></div></div>
+      </div>
+      <div class="btn-row">
+        <button class="btn primary" data-act="continue">${icon("play")}${done ? `Continue · ${epLabel(nextEp)}` : "Start from the beginning"}</button>
+        ${done ? `<button class="btn" data-act="restart">${icon("loop")}From the start</button>` : ""}
+      </div>`);
+    root.querySelector('[data-act="continue"]').onclick = () => playFrom(nextEp, eps);
+    root.querySelector('[data-act="restart"]')?.addEventListener("click", () => playFrom(eps[0], eps));
+    root.append(videoList(eps, { grid: true, section: "learn" }));
+  }
+
   function subText(v, showWhen) {
+    if (v.series && !showWhen) return `${epLabel(v)} · ${v.series.replace(/^Crash Course /, "")}`;
     const seenAt = showWhen && recent.find((h) => h.id === v.id)?.at;
     return [v.channel, seenAt ? `watched ${agoTime(seenAt)}` : ago(v.published)].filter(Boolean).join(" · ");
   }
@@ -994,6 +1066,7 @@
       <h1>${esc(v.title)}</h1>
       ${v.why ? `<div class="why">${esc(v.why)}</div>` : ""}
       <div class="info-row">
+        ${v.series ? `<button class="pill on" data-act="series">${icon("grid")}${esc(v.series.replace(/^Crash Course /, ""))} · ${epLabel(v)}</button>` : ""}
         <button class="chan-btn" data-act="channel"><span class="avatar">${esc(initial(v.channel))}</span><span class="name">${esc(v.channel)}</span></button>
         ${queueTab === "beats" ? `<button class="pill${isLiked(v) ? " on" : ""}" data-act="like">${icon(isLiked(v) ? "heart" : "heart-o")}${isLiked(v) ? "Liked" : "Like"}</button>` : ""}
         ${queueTab === "beats" ? `<button class="pill" data-act="mp3">${icon("download")}MP3</button>` : ""}
@@ -1001,6 +1074,7 @@
         <button class="pill" data-act="hide">${icon("hide")}Not for me</button>
       </div>`;
     el.querySelector('[data-act="channel"]').onclick = () => go({ view: "channel", tab: queueTab, name: v.channel });
+    el.querySelector('[data-act="series"]')?.addEventListener("click", () => go({ view: "series", name: v.series }));
     el.querySelector('[data-act="like"]')?.addEventListener("click", () => { toggleLike(v); renderInfo(); });
     el.querySelector('[data-act="mp3"]')?.addEventListener("click", () => copyAndConvert(v));
     el.querySelector('[data-act="mode"]').onclick = () => {

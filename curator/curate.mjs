@@ -250,6 +250,39 @@ async function fillDurations(items, known) {
   if (todo.length) log(`durations: ${found}/${Math.min(todo.length, 600)} looked up`);
 }
 
+// Full playlist page (up to 100 videos, in playlist order). Used for series and channel back catalogs.
+const toSec = (t) => t.split(":").reduce((a, n) => a * 60 + +n, 0);
+async function readPlaylistPage(listId, tries = 3) {
+  for (let t = 1; t < tries; t++) {
+    try { const r = await readPlaylistOnce(listId); if (r.length) return r; } catch {}
+    await new Promise((res) => setTimeout(res, 1500 * t));
+  }
+  return readPlaylistOnce(listId);
+}
+async function readPlaylistOnce(listId) {
+  const html = await (await fetch(`https://www.youtube.com/playlist?list=${listId}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
+  const json = html.match(/var ytInitialData = (\{.*?\});<\/script>/s)?.[1];
+  if (!json) throw new Error(`playlist ${listId}: no data`);
+  const out = [], ids = new Set();
+  const push = (id, title, dur) => {
+    if (!title || ids.has(id) || /^\[(deleted|private) video\]$/i.test(title)) return;
+    ids.add(id); out.push({ id, title, dur });
+  };
+  (function walk(o) {
+    if (Array.isArray(o)) return o.forEach(walk);
+    if (!o || typeof o !== "object") return;
+    const r = o.playlistVideoRenderer;
+    if (r?.videoId) push(r.videoId, r.title?.runs?.map((x) => x.text).join(""), +r.lengthSeconds || null);
+    const l = o.lockupViewModel;
+    if (l?.contentId && /^[\w-]{11}$/.test(l.contentId)) {
+      const badge = JSON.stringify(l.contentImage || {}).match(/"text":"(\d+(?::\d{2}){1,2})"/)?.[1];
+      push(l.contentId, l.metadata?.lockupMetadataViewModel?.title?.content, badge ? toSec(badge) : null);
+    }
+    Object.values(o).forEach(walk);
+  })(JSON.parse(json));
+  return out;
+}
+
 // ---------- run ----------
 
 // Liked beats are hand-picked: always kept, never trimmed, listed in your order.
@@ -262,6 +295,12 @@ const beats = {
   items: [...liked.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...feedBeats.items.filter((v) => !likedIds.has(v.id))],
   added: feedBeats.added,
 };
+
+// Drop videos from channels you've removed from the config, and rebuild series/collections fresh below.
+const learnSources = new Set(config.learn.channels);
+library.learn = (library.learn || []).filter((v) => !v.series && !v.collection && (learnSources.has(v.source) || ["discovery", "manual"].includes(v.source)));
+library.shorts = (library.shorts || []).filter((v) => (config.shorts?.channels || []).includes(v.source));
+const prevLearn = await readJson(OUT_PATH, { learn: [] }).then((d) => d.learn || []);
 
 // Existing libraries predate seeding; treat their channels as already seeded.
 const seededSources = new Set(state.seeded || ((library.learn || []).length ? config.learn.channels.filter((c) => (library.learn || []).some((v) => v.source === c)) : []));
@@ -281,6 +320,39 @@ try {
 }
 const learn = await merge(learnSubs.items, discovered, { maxTotal: config.learn.maxTotal });
 
+// Series (e.g. Crash Course Philosophy): every episode, in order, kept permanently.
+const seriesItems = [], seriesMeta = [];
+for (const se of config.learn.series || []) {
+  let eps = [];
+  try { eps = await readPlaylistPage(se.playlist); } catch (e) { log("series", se.name, e.message); }
+  // pos = playlist order; ep = the episode number in the title ("#12"), if it has one.
+  if (eps.length) eps = eps.map((v, i) => ({ ...v, channel: se.channel || "CrashCourse", series: se.name, pos: i + 1,
+    ep: +(v.title.match(/#\s?(\d+)\b/)?.[1] || 0) || null, topic: se.topic, source: `series:${se.name}` }));
+  if (eps.length && eps.filter((v) => v.ep).length < eps.length * 0.8) {
+    // Titles don't carry numbers: count by playlist position, skipping previews/trailers.
+    let n = 0;
+    eps = eps.map((v) => ({ ...v, ep: /preview|trailer/i.test(v.title) ? null : ++n }));
+  }
+  if (!eps.length) eps = prevLearn.filter((v) => v.series === se.name); // scrape failed: keep yesterday's copy
+  if (!eps.length) continue;
+  seriesItems.push(...eps);
+  seriesMeta.push({ name: se.name, topic: se.topic, count: eps.length, cover: eps[0].id });
+}
+
+// Collections: a channel's long-form back catalog (up to 100 videos), e.g. more Kurzgesagt.
+const collectionItems = [];
+for (const co of config.learn.collections || []) {
+  let vids = [];
+  try {
+    const id = await resolveChannelId(co.channel);
+    const name = (await readFeed(`playlist_id=UULF${id.slice(2)}`))[0]?.channel || co.channel;
+    vids = (await readPlaylistPage(`UULF${id.slice(2)}`)).slice(0, co.max || 100)
+      .map((v) => ({ ...v, channel: name, topic: co.topic, collection: co.channel, source: co.channel }));
+  } catch (e) { log("collection", co.channel, e.message); }
+  if (!vids.length) vids = prevLearn.filter((v) => v.collection === co.channel);
+  collectionItems.push(...vids);
+}
+
 // Shorts: educational channels' Shorts-only feeds, for the swipe feed.
 const shortsCfg = config.shorts || { channels: [] };
 const shortsIn = await collectFeeds(shortsCfg, { list: "UUSH" });
@@ -289,12 +361,18 @@ const shorts = await merge(library.shorts || [], shortsIn, { maxTotal: shortsCfg
 // Some channels upload the same episode twice (e.g. video + podcast version); keep one per channel+title.
 const dedupe = (items) => { const seenKey = new Set(); return items.filter((v) => { const k = `${v.channel}|${v.title.toLowerCase().trim()}`; if (seenKey.has(k)) return false; seenKey.add(k); return true; }); };
 beats.items = dedupe(beats.items);
-learn.items = dedupe(learn.items);
+{
+  // Feed videos first (they have dates), then back-catalog extras, then series episodes in order.
+  const have = new Set(learn.items.map((v) => v.id));
+  const extras = collectionItems.filter((v) => !have.has(v.id) && have.add(v.id));
+  const eps = seriesItems.filter((v) => !have.has(v.id) && have.add(v.id));
+  learn.items = [...dedupe(learn.items), ...dedupe(extras), ...eps];
+}
 shorts.items = dedupe(shorts.items);
-const knownDur = new Map([...(library.beats || []), ...(library.learn || [])].filter((v) => v.dur != null).map((v) => [v.id, v.dur]));
+const knownDur = new Map([...(library.beats || []), ...(library.learn || []), ...prevLearn].filter((v) => v.dur != null).map((v) => [v.id, v.dur]));
 await fillDurations([...beats.items, ...learn.items], knownDur);
-const learnOut = learn.items.map((v) => (topicOf[v.source] ? { ...v, topic: topicOf[v.source] } : v));
-await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), beats: beats.items, learn: learnOut, shorts: shorts.items }, null, 1) + "\n");
+const learnOut = learn.items.map((v) => (!v.topic && topicOf[v.source] ? { ...v, topic: topicOf[v.source] } : v));
+await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), series: seriesMeta, beats: beats.items, learn: learnOut, shorts: shorts.items }, null, 1) + "\n");
 state.seen = [...seen].slice(-5000);
 state.seeded = [...seededSources];
 await writeFile(STATE_PATH, JSON.stringify(state, null, 1) + "\n");

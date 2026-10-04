@@ -1,11 +1,50 @@
 {
- "updatedAt": "2026-10-04T00:16:08.530Z",
+ "updatedAt": "2026-10-04T00:33:21.951Z",
  "topics": [
-  "History",
   "Science",
+  "History",
+  "Philosophy",
+  "Ideas & Talks",
   "Engineering & Tech",
-  "Society",
-  "Ideas & Talks"
+  "Society"
+ ],
+ "series": [
+  {
+   "name": "Crash Course Philosophy",
+   "topic": "Philosophy",
+   "count": 47,
+   "cover": "BNYJQaZUDrI"
+  },
+  {
+   "name": "Crash Course World History",
+   "topic": "History",
+   "count": 43,
+   "cover": "Yocja_N5s1I"
+  },
+  {
+   "name": "Crash Course World History 2",
+   "topic": "History",
+   "count": 31,
+   "cover": "SKj4cr2C-3o"
+  },
+  {
+   "name": "Crash Course US History",
+   "topic": "History",
+   "count": 49,
+   "cover": "u4b_KmmUR8Q"
+  },
+  {
+   "name": "Crash Course European History",
+   "topic": "History",
+   "count": 51,
+   "cover": "WhtuC9dp0Hk"
+  },
+  {
+   "name": "Crash Course History of Science",
+   "topic": "History",
+   "count": 47,
+   "cover": "-hjGgFgnYIA"
+  }
  ],
  "beats": [
   {
@@ -1320,7 +1359,7 @@
    "published": "2026-10-02T17:00:38+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-03T15:04:14.122Z",
-   "dur": null
+   "dur": 255
   },
   {
    "id": "cQjnNU1e8x8",
@@ -1329,7 +1368,7 @@
    "published": "2026-10-01T01:48:51+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-10-01T17:17:16.124Z",
-   "dur": null
+   "dur": 210
   },
   {
    "id": "RDuH78WYhVo",
@@ -1338,7 +1377,7 @@
    "published": "2026-09-28T04:07:17+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-28T18:30:58.674Z",
-   "dur": null
+   "dur": 136
   },
   {
    "id": "LT4ZHf5Cegk",
@@ -2162,54 +2201,54 @@
  ],
  "learn": [
   {
-   "id": "meSctH_a7HM",
-   "title": "Carthage vs Greece: The War Before Rome - Sicilian Wars DOCUMENTARY",
-   "channel": "Kings and Generals",
-   "published": "2026-10-01T12:59:47+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-10-01T17:17:16.124Z",
-   "dur": null,
-   "topic": "History"
+   "id": "B7KcQ2yE6pM",
+   "title": "EUV Photomasks Are Getting Bigger",
+   "channel": "Asianometry",
+   "published": "2026-10-01T23:00:30+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 1034,
+   "topic": "Engineering & Tech"
   },
   {
-   "id": "iBRNkJfW7Qw",
-   "title": "Why the British Empire Fell Apart - Won Two Wars, Then Lost Its Empire",
-   "channel": "Kings and Generals",
-   "published": "2026-09-29T12:59:56+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-29T16:48:36.678Z",
-   "dur": null,
-   "topic": "History"
+   "id": "G3hXvByzLHs",
+   "title": "6 ways to be more persuasive",
+   "channel": "TED-Ed",
+   "published": "2026-10-01T15:00:32+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 362,
+   "topic": "Ideas & Talks"
   },
   {
-   "id": "3Z5P_TZ0d4o",
-   "title": "Skanderbeg’s 25-Year War Against the Ottomans - All Battles EXPLAINED",
-   "channel": "Kings and Generals",
-   "published": "2026-09-27T12:59:54+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-27T15:22:58.961Z",
-   "dur": 3677,
-   "topic": "History"
+   "id": "ONAuUyml0yI",
+   "title": "We're trying something new...",
+   "channel": "Veritasium",
+   "published": "2026-09-30T19:19:10+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 307,
+   "topic": "Science"
   },
   {
-   "id": "wP14-UMT3dk",
-   "title": "21. Majapahit - Empire of the Islands",
-   "channel": "Fall of Civilizations",
-   "published": "2026-09-25T18:23:26+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 16343
+   "id": "z3Y-gsBKChc",
+   "title": "Why are AI data centers using so much electricity? - Sajan Saini",
+   "channel": "TED-Ed",
+   "published": "2026-09-29T15:00:44+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 396,
+   "topic": "Ideas & Talks"
   },
   {
-   "id": "AgaY0Zvkd8I",
-   "title": "Why did Charles V split up his empire? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-09-25T17:15:16+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 559
+   "id": "-XqyBEm3oeI",
+   "title": "The Dramatic Birth of the DVD Boom",
+   "channel": "Asianometry",
+   "published": "2026-09-27T23:00:27+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 1545,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "txf8CrI5z-k",
@@ -2262,16 +2301,6 @@
    "topic": "Ideas & Talks"
   },
   {
-   "id": "ZaGZYXgMtgA",
-   "title": "What Did the Ancient Greeks and Romans Know About Britain?",
-   "channel": "Kings and Generals",
-   "published": "2026-09-24T12:59:51+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1104
-  },
-  {
    "id": "Zgu97mCGS74",
    "title": "How to Escape Your Obsession with Productivity | TED Intersections",
    "channel": "TED",
@@ -2300,16 +2329,6 @@
    "added": "2026-09-25T17:55:32.668Z",
    "topic": "Science",
    "dur": 852
-  },
-  {
-   "id": "e_CItReyz_0",
-   "title": "Why the Pope Crowned Charlemagne Emperor - How Papacy Survived",
-   "channel": "Kings and Generals",
-   "published": "2026-09-22T13:22:33+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1213
   },
   {
    "id": "iqoN-7okyHk",
@@ -2362,16 +2381,6 @@
    "dur": 1785
   },
   {
-   "id": "o9sr8sviSIs",
-   "title": "Mỹ Lai Massacre",
-   "channel": "The Armchair Historian",
-   "published": "2026-09-20T16:57:48+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 694
-  },
-  {
    "id": "SD1MypHgAwc",
    "title": "Why You Fear the Unknown — and What It Can Teach You | Maya Shankar and Simone Stolzoff | TED",
    "channel": "TED",
@@ -2380,16 +2389,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 2942,
    "topic": "Ideas & Talks"
-  },
-  {
-   "id": "kN2yEEMeIFA",
-   "title": "World War I: Fate of Armenians, Georgians, Azerbaijanis, Kurds and Assyrians",
-   "channel": "Kings and Generals",
-   "published": "2026-09-20T12:59:46+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1348
   },
   {
    "id": "e0Q_TcQUCks",
@@ -2462,16 +2461,6 @@
    "topic": "Ideas & Talks"
   },
   {
-   "id": "lkPZPu7t38c",
-   "title": "How a Company Hooked China on Opium - Tea Led to the Opium War",
-   "channel": "Kings and Generals",
-   "published": "2026-09-17T12:59:58+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1409
-  },
-  {
    "id": "EMbZ72cCAzI",
    "title": "How to explain something complicated",
    "channel": "TED-Ed",
@@ -2512,16 +2501,6 @@
    "dur": 1293
   },
   {
-   "id": "4baAU3bs-AI",
-   "title": "Ancient Law That Created the Greek Mediterranean World - Zeus' Law",
-   "channel": "Kings and Generals",
-   "published": "2026-09-15T12:59:48+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1295
-  },
-  {
    "id": "zYO9UbpEC9Y",
    "title": "How Bullying Spreads — and How Social Bravery Stops It | Amy Cuddy | TED",
    "channel": "TED",
@@ -2560,16 +2539,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 749,
    "topic": "Ideas & Talks"
-  },
-  {
-   "id": "5ij0tDYhIhg",
-   "title": "War of the Spanish Succession: All Battles and Events - FULL DOCUMENTARY",
-   "channel": "Kings and Generals",
-   "published": "2026-09-13T12:59:54+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 17412
   },
   {
    "id": "FZ34RCZTmS4",
@@ -2632,16 +2601,6 @@
    "topic": "Ideas & Talks"
   },
   {
-   "id": "f7KjbemUhkw",
-   "title": "The Greatest Peasant Uprising in English History",
-   "channel": "Kings and Generals",
-   "published": "2026-09-10T12:59:52+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1203
-  },
-  {
    "id": "1r2fqbD0KZ4",
    "title": "The Secret to Deeper Conversations | TED Intersections",
    "channel": "TED",
@@ -2660,16 +2619,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 344,
    "topic": "Ideas & Talks"
-  },
-  {
-   "id": "N4zI_oNsdgg",
-   "title": "Ukraine Hits Putin Where It Hurts - CIA in Moscow",
-   "channel": "Kings and Generals",
-   "published": "2026-09-08T12:59:57+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1327
   },
   {
    "id": "5vwbbLB3Uww",
@@ -2702,26 +2651,6 @@
    "dur": 1176
   },
   {
-   "id": "AKAJOrbYVS8",
-   "title": "Alexander the Great - All Battles and Conquests EXPLAINED in 6 Hours",
-   "channel": "Kings and Generals",
-   "published": "2026-09-06T12:59:52+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 20459
-  },
-  {
-   "id": "-B1emleGujk",
-   "title": "Soviets Who Helped the Nazis (Uncensored Version)",
-   "channel": "The Armchair Historian",
-   "published": "2026-09-05T02:27:53+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1191
-  },
-  {
    "id": "HvrhW4vEUsQ",
    "title": "How to undo the damage of sitting all day | The Gray Area",
    "channel": "Vox",
@@ -2740,16 +2669,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 339,
    "topic": "Ideas & Talks"
-  },
-  {
-   "id": "weBFFygUxxc",
-   "title": "Who Was Really Roman? When Did Romans Stop Being Roman?",
-   "channel": "Kings and Generals",
-   "published": "2026-09-03T12:59:53+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1400
   },
   {
    "id": "Z0VJFcpVLm0",
@@ -2792,26 +2711,6 @@
    "dur": 945
   },
   {
-   "id": "8bHCPc-hZWQ",
-   "title": "Sudan’s Three Civil Wars Explained",
-   "channel": "Kings and Generals",
-   "published": "2026-09-01T12:59:53+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 3356
-  },
-  {
-   "id": "H63wgtmW8fQ",
-   "title": "Why did Britain join WW1? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-08-31T17:15:15+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 540
-  },
-  {
    "id": "8gkSNzZpJxQ",
    "title": "Why we can’t stop thinking about aliens | The Gray Area",
    "channel": "Vox",
@@ -2820,16 +2719,6 @@
    "added": "2026-09-25T22:07:43.771Z",
    "topic": "Society",
    "dur": 2830
-  },
-  {
-   "id": "MSaVL1JAoIc",
-   "title": "The Battle That Changed the Middle East - Ottomans Broke the Mamluks",
-   "channel": "Kings and Generals",
-   "published": "2026-08-30T13:00:00+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1178
   },
   {
    "id": "yxoHOPOM0Ok",
@@ -2842,16 +2731,6 @@
    "dur": 2050
   },
   {
-   "id": "CtPGZxaSnv4",
-   "title": "Malmedy Massacre",
-   "channel": "The Armchair Historian",
-   "published": "2026-08-28T16:24:07+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 573
-  },
-  {
    "id": "NVNAdjF5uhQ",
    "title": "Why straight dating feels like a battleground | The Gray Area",
    "channel": "Vox",
@@ -2860,16 +2739,6 @@
    "added": "2026-09-25T22:07:43.771Z",
    "topic": "Society",
    "dur": 2542
-  },
-  {
-   "id": "t5hhOOMUjZQ",
-   "title": "Why the Pope Stayed Silent - Vatican Wouldn’t Condemn Hitler",
-   "channel": "Kings and Generals",
-   "published": "2026-08-27T12:51:38+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1255
   },
   {
    "id": "A-FPvbskBjk",
@@ -2890,26 +2759,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 339,
    "topic": "Ideas & Talks"
-  },
-  {
-   "id": "0RDCTHMXjgg",
-   "title": "Were the Sea Peoples Actually Greek? Did Greeks Destroy the Bronze Age?",
-   "channel": "Kings and Generals",
-   "published": "2026-08-25T13:18:48+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1283
-  },
-  {
-   "id": "Rk7QV9Gto-c",
-   "title": "Fall of Jerusalem - How Britain Broke the Ottoman Front",
-   "channel": "Kings and Generals",
-   "published": "2026-08-23T12:57:54+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1309
   },
   {
    "id": "l29K-ZkARmE",
@@ -2940,16 +2789,6 @@
    "added": "2026-09-25T22:05:44.662Z",
    "topic": "Science",
    "dur": 1365
-  },
-  {
-   "id": "CoxRduAbxRs",
-   "title": "Why didn't the Dutch also scramble Africa? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-08-16T17:15:28+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 490
   },
   {
    "id": "2A1IEBFt6Xg",
@@ -3002,16 +2841,6 @@
    "dur": 1617
   },
   {
-   "id": "J9H_BOe5suY",
-   "title": "Boer Wars (Full Documentary)",
-   "channel": "The Armchair Historian",
-   "published": "2026-08-01T21:29:55+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 3132
-  },
-  {
    "id": "krNP8RlDsbw",
    "title": "Red gold: The world's most expensive spice - Carolyn Beans",
    "channel": "TED-Ed",
@@ -3050,16 +2879,6 @@
    "added": "2026-09-25T17:55:32.668Z",
    "topic": "Engineering & Tech",
    "dur": 1351
-  },
-  {
-   "id": "QFrzGhlRAkw",
-   "title": "Why did the Treaty of Versailles Fail? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-07-20T17:15:10+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 513
   },
   {
    "id": "GlYgs6v2YfU",
@@ -3102,26 +2921,6 @@
    "dur": 1474
   },
   {
-   "id": "0s0N8BrxCok",
-   "title": "Germany's Last Ditch 1945 Units (Uncensored Version)",
-   "channel": "The Armchair Historian",
-   "published": "2026-07-04T20:54:41+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1176
-  },
-  {
-   "id": "49s1EHBzmFQ",
-   "title": "When did the Cold War actually start? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-06-30T17:15:21+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 573
-  },
-  {
    "id": "mvcesPWvUIc",
    "title": "We've Been Using The Wrong Science In Court For 50 years",
    "channel": "Veritasium",
@@ -3132,14 +2931,14 @@
    "dur": 1402
   },
   {
-   "id": "b_aL0-R2z3Y",
-   "title": "Wars of South American Independence",
-   "channel": "The Armchair Historian",
-   "published": "2026-06-21T00:29:23+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1029
+   "id": "PqtggjVAi8M",
+   "title": "How Are Memories Stored Inside Your Brain?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-06-16T14:00:03+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 836,
+   "topic": "Science"
   },
   {
    "id": "7oi4yMr8Rjk",
@@ -3160,16 +2959,6 @@
    "added": "2026-09-25T22:07:34.050Z",
    "topic": "Science",
    "dur": 2490
-  },
-  {
-   "id": "0cxMrCykadY",
-   "title": "Why wasn't Japan allowed to keep Taiwan after WW2? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-06-13T17:15:30+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 529
   },
   {
    "id": "l6DKRf-fAAM",
@@ -3202,26 +2991,6 @@
    "topic": "Engineering & Tech"
   },
   {
-   "id": "pp7l-JQQ2IY",
-   "title": "The Great Northern War",
-   "channel": "The Armchair Historian",
-   "published": "2026-06-01T21:06:30+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 3297
-  },
-  {
-   "id": "zIknCgPbRyc",
-   "title": "Why did the Spanish choose to fight the USA in 1898? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-05-30T17:15:15+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 501
-  },
-  {
    "id": "kS-CGkiPetQ",
    "title": "Google Maps is unreasonably fast. Let me explain",
    "channel": "Veritasium",
@@ -3232,14 +3001,24 @@
    "dur": 1794
   },
   {
-   "id": "hqt96HLH6PM",
-   "title": "WW1's Forgotten Middle Eastern Theater (Uncensored Version)",
-   "channel": "The Armchair Historian",
-   "published": "2026-05-24T17:07:37+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1108
+   "id": "8qQW4LTWgtc",
+   "title": "Why Earth Sucks Compared to the Planet Hestia",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-05-26T14:00:08+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 893,
+   "topic": "Science"
+  },
+  {
+   "id": "TYhNHX372ek",
+   "title": "The Uncomfortable Truth About Ozempic (Updated Version)",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-05-19T14:00:15+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 953,
+   "topic": "Science"
   },
   {
    "id": "DWLcmq_DiaA",
@@ -3252,24 +3031,14 @@
    "topic": "Engineering & Tech"
   },
   {
-   "id": "vcg1WMzr9xw",
-   "title": "U.S. Island Hopping Strategy",
-   "channel": "The Armchair Historian",
-   "published": "2026-05-17T11:56:59+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 803
-  },
-  {
-   "id": "YuYDi5dh_70",
-   "title": "Why didn't Germany stop expanding in 1939? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-05-14T17:15:35+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 537
+   "id": "n-gYFcVx-8Y",
+   "title": "GERMANY IS OVER",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-05-05T14:00:01+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 845,
+   "topic": "Science"
   },
   {
    "id": "fKuIJ_z2Y6A",
@@ -3292,16 +3061,6 @@
    "dur": 1278
   },
   {
-   "id": "_W91vYZETPM",
-   "title": "Why didn't the other Central Powers have to pay reparations too? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-05-03T17:15:00+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 520
-  },
-  {
    "id": "ksn5yrsC3Wg",
    "title": "The Crystal That Could Destroy All Medicine",
    "channel": "Veritasium",
@@ -3312,14 +3071,14 @@
    "dur": 2004
   },
   {
-   "id": "nc4tcJL6-W0",
-   "title": "British Tank Development in WWI",
-   "channel": "The Armchair Historian",
-   "published": "2026-04-26T21:20:54+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 823
+   "id": "dl0-TveDDGA",
+   "title": "Our Minds Are Weirder than You Think",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-04-21T14:00:01+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 742,
+   "topic": "Science"
   },
   {
    "id": "J7ieKmP96Hc",
@@ -3332,26 +3091,6 @@
    "topic": "Engineering & Tech"
   },
   {
-   "id": "ynhI5fZ_Uhk",
-   "title": "Why didn't the Boers ever unite against the British? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-04-19T17:15:00+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 514
-  },
-  {
-   "id": "872JcpP3FEM",
-   "title": "The City.",
-   "channel": "Historia Civilis",
-   "published": "2026-04-18T17:00:16+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2028
-  },
-  {
    "id": "PPJ6NJkmDAo",
    "title": "How easy is it to steal $10,000 from a locked phone?",
    "channel": "Veritasium",
@@ -3360,16 +3099,6 @@
    "added": "2026-09-25T22:07:43.771Z",
    "topic": "Science",
    "dur": 1544
-  },
-  {
-   "id": "-sJhk8qscSs",
-   "title": "India's Annexation of Portuguese Goa",
-   "channel": "The Armchair Historian",
-   "published": "2026-04-11T22:26:33+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 703
   },
   {
    "id": "UF63eFJmbrQ",
@@ -3392,14 +3121,14 @@
    "dur": 3533
   },
   {
-   "id": "HZpyTTsx0xw",
-   "title": "Why wasn't Teddy Roosevelt allowed to fight in World War One? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-03-27T18:15:00+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 494
+   "id": "h3DCdWyb0cc",
+   "title": "The Most Insane Megaproject You Never Heard About",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-03-30T14:00:12+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 786,
+   "topic": "Science"
   },
   {
    "id": "YSJY3DvnybE",
@@ -3410,16 +3139,6 @@
    "added": "2026-09-25T22:07:43.771Z",
    "topic": "Science",
    "dur": 1722
-  },
-  {
-   "id": "p-gleC7WxNY",
-   "title": "Life in German-Occupied Poland (Uncensored Version)",
-   "channel": "The Armchair Historian",
-   "published": "2026-03-22T19:12:44+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1112
   },
   {
    "id": "ldxFjLJ3rVY",
@@ -3442,24 +3161,34 @@
    "dur": 1244
   },
   {
-   "id": "cqMouZcoWMA",
-   "title": "The Rwandan Genocide",
-   "channel": "The Armchair Historian",
-   "published": "2026-03-07T19:06:06+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 766
+   "id": "PhW2BjFQCZM",
+   "title": "The Los Angeles Aqueduct is Wild",
+   "channel": "Practical Engineering",
+   "published": "2026-03-17T13:00:44+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 1379,
+   "topic": "Engineering & Tech"
   },
   {
-   "id": "uw8sjn7z0Ls",
-   "title": "Why couldn't the Mongols conquer Japan? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-03-03T18:15:00+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 532
+   "id": "yDAAlojz8NU",
+   "title": "This Is the Scariest Place in The Universe",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-03-10T15:00:01+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:31:03.751Z",
+   "dur": 554,
+   "topic": "Science"
+  },
+  {
+   "id": "qt2j2gn0yWc",
+   "title": "How Earthquake Bearings Work",
+   "channel": "Practical Engineering",
+   "published": "2026-03-03T14:01:26+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 1083,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "fsLh-NYhOoU",
@@ -3472,34 +3201,14 @@
    "dur": 3623
   },
   {
-   "id": "RSjMtbHBJDQ",
-   "title": "Peasants vs Knights: Battle of Hemmingstedt",
-   "channel": "The Armchair Historian",
-   "published": "2026-02-22T23:44:05+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 954
-  },
-  {
-   "id": "kbrjnNq3aoQ",
-   "title": "Retiring End of 2026 - My Last Year on YouTube",
-   "channel": "The Armchair Historian",
-   "published": "2026-02-22T23:43:46+00:00",
-   "source": "@TheArmchairHistorian",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 610
-  },
-  {
-   "id": "T_OqU3ONq3w",
-   "title": "Why did Mao win the Chinese Civil War?",
-   "channel": "History Matters",
-   "published": "2026-02-07T18:15:00+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 502
+   "id": "Ssw5bdx1HKw",
+   "title": "So You Want to Build a Tunnel...",
+   "channel": "Practical Engineering",
+   "published": "2026-02-17T14:00:50+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-10-04T00:33:21.951Z",
+   "dur": 1242,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "BHdbsHFs2P0",
@@ -3512,34 +3221,54 @@
    "dur": 1779
   },
   {
-   "id": "nVFqq1a1r_s",
-   "title": "Why did Austria-Hungary do so poorly in World War One? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2026-01-09T18:15:07+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 526
+   "id": "D0WQK7cMJn8",
+   "title": "We Made A New Channel!",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-01-16T15:30:05+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 183,
+   "topic": "Science"
   },
   {
-   "id": "DvVqcgBiddc",
-   "title": "Why didn't the US focus on Japan first in WW2? (Short Animated Documentary)",
-   "channel": "History Matters",
-   "published": "2025-12-19T18:15:01+00:00",
-   "source": "@HistoryMatters",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 490
+   "id": "pHJIhxZEoxg",
+   "title": "Why Are There No Holes Around Trees?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-01-07T15:00:13+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 681,
+   "topic": "Science"
   },
   {
-   "id": "CAsKpXoxZAQ",
-   "title": "20. Persia - An Empire in Ashes",
-   "channel": "Fall of Civilizations",
-   "published": "2025-12-16T15:04:49+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 19760
+   "id": "UnrtLi7YIY4",
+   "title": "We Made A New Journal",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2025-12-30T15:01:04+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 77,
+   "topic": "Science"
+  },
+  {
+   "id": "H4KMQuyxH_Y",
+   "title": "Tattoo Removal Is Insane",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2025-12-12T15:00:02+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 774,
+   "topic": "Science"
+  },
+  {
+   "id": "KNwMiydCYA4",
+   "title": "All Of Human History In One Hour",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2025-12-05T15:00:03+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-04T00:32:42.169Z",
+   "dur": 3803,
+   "topic": "Science"
   },
   {
    "id": "FE-hM1kRK4Y",
@@ -3592,14 +3321,34 @@
    "dur": 3131
   },
   {
-   "id": "h6E4_Bcmscg",
-   "title": "Reform or Revolution? (1830 to 1832)",
-   "channel": "Historia Civilis",
-   "published": "2025-08-30T16:01:09+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 3450
+   "id": "itRV2jEtV8Q",
+   "title": "Simulating and understanding phase change | Guest video by Vilas Winstein",
+   "channel": "3Blue1Brown",
+   "published": "2025-08-28T14:00:47+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 2463,
+   "topic": "Science"
+  },
+  {
+   "id": "4NlrfOl0l8U",
+   "title": "The AI that solved IMO Geometry Problems | Guest video by @Aleph0",
+   "channel": "3Blue1Brown",
+   "published": "2025-08-17T13:02:50+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 810,
+   "topic": "Science"
+  },
+  {
+   "id": "iv-5mZ_9CPY",
+   "title": "But how do AI images and videos actually work? | Guest video by Welch Labs",
+   "channel": "3Blue1Brown",
+   "published": "2025-07-25T12:14:11+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 2240,
+   "topic": "Science"
   },
   {
    "id": "xHd4zsIbXJ0",
@@ -3612,124 +3361,14 @@
    "topic": "Science"
   },
   {
-   "id": "PdFwMDuAnS4",
-   "title": "19. The Mongols - Terror of the Steppe",
-   "channel": "Fall of Civilizations",
-   "published": "2025-04-02T19:35:09+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 24480
-  },
-  {
-   "id": "1BVJzaXv3rk",
-   "title": "The Second Punic War  - OverSimplified (Part 3)",
-   "channel": "OverSimplified",
-   "published": "2025-01-18T19:30:06+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2946
-  },
-  {
-   "id": "Qw7xXYypFQ0",
-   "title": "The July Revolution (1820 to 1830)",
-   "channel": "Historia Civilis",
-   "published": "2024-11-23T17:00:11+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2812
-  },
-  {
-   "id": "YpKej05RgsY",
-   "title": "18. Egypt - Fall of the Pharaohs",
-   "channel": "Fall of Civilizations",
-   "published": "2024-04-30T15:25:46+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 14293
-  },
-  {
-   "id": "R0wwuj0sTyY",
-   "title": "The Year Without a Summer (1816 to 1824)",
-   "channel": "Historia Civilis",
-   "published": "2024-03-16T16:00:13+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2564
-  },
-  {
-   "id": "Q-nWA0WeF98",
-   "title": "The Second Punic War - OverSimplified (Part 2)",
-   "channel": "OverSimplified",
-   "published": "2024-01-19T19:45:11+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2257
-  },
-  {
-   "id": "lsbcN9-jU1Y",
-   "title": "The Second Punic War - OverSimplified (Part 1)",
-   "channel": "OverSimplified",
-   "published": "2024-01-19T19:00:08+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1695
-  },
-  {
-   "id": "805SIqgDZIE",
-   "title": "RECAP: First Punic War",
-   "channel": "OverSimplified",
-   "published": "2024-01-19T17:22:31+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 128
-  },
-  {
-   "id": "hvk_XylEmLo",
-   "title": "Work.",
-   "channel": "Historia Civilis",
-   "published": "2023-09-29T16:00:16+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1996
-  },
-  {
-   "id": "6dbdVhVSat8",
-   "title": "17. Carthage - Empire of the Phoenicians",
-   "channel": "Fall of Civilizations",
-   "published": "2023-06-18T17:22:14+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 13144
-  },
-  {
-   "id": "EezHXh-UG-c",
-   "title": "The Death of Antony & Cleopatra (30 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2023-05-20T16:00:14+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1567
-  },
-  {
-   "id": "t7Y-1qMKY_0",
-   "title": "The Battle of Actium (31 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2022-12-17T20:15:07+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1349
+   "id": "Dlsa9EBKDGI",
+   "title": "Where my explanation of Grover’s algorithm failed",
+   "channel": "3Blue1Brown",
+   "published": "2025-05-04T11:45:24+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-10-04T00:30:27.395Z",
+   "dur": 983,
+   "topic": "Science"
   },
   {
    "id": "mMaBVfIedFw",
@@ -3742,56 +3381,6 @@
    "topic": "Science"
   },
   {
-   "id": "0MtIVJ2lcu8",
-   "title": "16. Bagan - City of Temples",
-   "channel": "Fall of Civilizations",
-   "published": "2022-11-03T17:38:39+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 7626
-  },
-  {
-   "id": "HURI6EHXybc",
-   "title": "War and Peace ...and War (35 to 32 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2022-09-30T19:00:13+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1541
-  },
-  {
-   "id": "hRSGxw2AQnk",
-   "title": "The First Punic War - OverSimplified (Part 2)",
-   "channel": "OverSimplified",
-   "published": "2022-09-02T19:45:08+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1324
-  },
-  {
-   "id": "yRmOWcWdQAo",
-   "title": "The First Punic War - OverSimplified (Part 1)",
-   "channel": "OverSimplified",
-   "published": "2022-09-02T19:15:10+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1654
-  },
-  {
-   "id": "qSfFq02pK4s",
-   "title": "15. The Nabataeans - The Last Days Of Petra",
-   "channel": "Fall of Civilizations",
-   "published": "2022-07-17T12:40:03+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 7295
-  },
-  {
    "id": "vjqt8T3tJIE",
    "title": "Did People Used To Look Older?",
    "channel": "Vsauce",
@@ -3800,56 +3389,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 1374,
    "topic": "Science"
-  },
-  {
-   "id": "uFU7--7Zy9s",
-   "title": "15. The Nabataeans - The Final Days Of Petra",
-   "channel": "Fall of Civilizations",
-   "published": "2022-06-15T15:01:19+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 7277
-  },
-  {
-   "id": "nlMpxUYKTcU",
-   "title": "14. Vijayanagara - The Last Emperors of South India",
-   "channel": "Fall of Civilizations",
-   "published": "2022-04-22T14:28:34+00:00",
-   "source": "@FallofCivilizations",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 11639
-  },
-  {
-   "id": "OGJHE6O7Mhk",
-   "title": "The Congress of Vienna (Part 2) (1814 to 1815)",
-   "channel": "Historia Civilis",
-   "published": "2022-04-02T16:32:00+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 3072
-  },
-  {
-   "id": "QtOXq9SwarQ",
-   "title": "The Congress of Vienna (Part 1) (1814)",
-   "channel": "Historia Civilis",
-   "published": "2022-01-29T16:15:19+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2806
-  },
-  {
-   "id": "QLq6GEiHqR8",
-   "title": "The Pig War - OverSimplified",
-   "channel": "OverSimplified",
-   "published": "2021-12-06T23:30:10+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2323
   },
   {
    "id": "GYlMID6G4Gc",
@@ -3872,36 +3411,6 @@
    "topic": "Science"
   },
   {
-   "id": "CH1oYhTigyA",
-   "title": "Peace...? (1814)",
-   "channel": "Historia Civilis",
-   "published": "2021-07-18T13:56:36+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1159
-  },
-  {
-   "id": "mY3SEMTROas",
-   "title": "The Napoleonic Wars - OverSimplified (Part 2)",
-   "channel": "OverSimplified",
-   "published": "2021-05-29T00:30:11+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1872
-  },
-  {
-   "id": "zqllxbPWKNI",
-   "title": "The Napoleonic Wars  - OverSimplified (Part 1)",
-   "channel": "OverSimplified",
-   "published": "2021-05-28T23:45:09+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1781
-  },
-  {
    "id": "_ArVh3Cj9rw",
    "title": "The Future Of Reasoning",
    "channel": "Vsauce",
@@ -3910,26 +3419,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 1802,
    "topic": "Science"
-  },
-  {
-   "id": "POHNhn3WcCc",
-   "title": "Antony's Invasion of Parthia (42 to 33 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2021-04-24T14:00:31+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1824
-  },
-  {
-   "id": "8rt67AqrR74",
-   "title": "Sextus Pompeius and the Sicilian War (42 to 36 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2021-01-16T17:16:28+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2291
   },
   {
    "id": "zHL9GP_B30E",
@@ -3942,46 +3431,6 @@
    "topic": "Science"
   },
   {
-   "id": "AAGIi62-sAU",
-   "title": "Prohibition - OverSimplified",
-   "channel": "OverSimplified",
-   "published": "2020-12-16T02:30:09+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 2023
-  },
-  {
-   "id": "gdavaK3d4Pc",
-   "title": "The Battle of Philippi (42 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2020-09-22T13:48:35+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1310
-  },
-  {
-   "id": "b1reY72ktEc",
-   "title": "The Russian Revolution - OverSimplified (Part 2)",
-   "channel": "OverSimplified",
-   "published": "2020-08-18T00:00:10+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1461
-  },
-  {
-   "id": "Cqbleas1mmo",
-   "title": "The Russian Revolution - OverSimplified (Part 1)",
-   "channel": "OverSimplified",
-   "published": "2020-08-17T23:30:09+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1264
-  },
-  {
    "id": "U6VBV4QUMu0",
    "title": "The Odd Number Rule",
    "channel": "Vsauce",
@@ -3992,26 +3441,6 @@
    "topic": "Science"
   },
   {
-   "id": "aq4G-7v-_xI",
-   "title": "The Bronze Age Collapse (approximately 1200 B.C.E.)",
-   "channel": "Historia Civilis",
-   "published": "2020-07-25T13:18:15+00:00",
-   "source": "@HistoriaCivilis",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1431
-  },
-  {
-   "id": "ewLpXw6uN28",
-   "title": "Henry VIII - OverSimplified",
-   "channel": "OverSimplified",
-   "published": "2020-05-04T21:45:11+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1606
-  },
-  {
    "id": "egEraZP9yXQ",
    "title": "How Many Holes Does a Human Have?",
    "channel": "Vsauce",
@@ -4020,26 +3449,6 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 1287,
    "topic": "Science"
-  },
-  {
-   "id": "sV6uuMAnJUE",
-   "title": "The American Civil War  - OverSimplified (Part 2)",
-   "channel": "OverSimplified",
-   "published": "2020-01-31T23:32:33+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1363
-  },
-  {
-   "id": "tsxmyL7TUJg",
-   "title": "The American Civil War - OverSimplified (Part 1)",
-   "channel": "OverSimplified",
-   "published": "2020-01-31T23:00:10+00:00",
-   "source": "@OverSimplified",
-   "added": "2026-09-25T22:37:17.125Z",
-   "topic": "History",
-   "dur": 1793
   },
   {
    "id": "9Vmwsg8Eabo",
@@ -4100,6 +3509,3719 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 1566,
    "topic": "Science"
+  },
+  {
+   "id": "zozEm4f_dlw",
+   "title": "Astronomy Is In Crisis...And It's Incredibly Exciting",
+   "dur": 688,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "ZSch_NgZpQs",
+   "title": "Trees Are So Weird",
+   "dur": 687,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "sOsqXKr4l30",
+   "title": "The Fat Problem",
+   "dur": 696,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Mo1A45ShcMo",
+   "title": "You're More Stressed Than Ever - Let's Change That",
+   "dur": 718,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Brm71uCWr-I",
+   "title": "You Need To Quit Weed.",
+   "dur": 762,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "_zfN9wnPvU0",
+   "title": "AI Slop Is Destroying The Internet",
+   "dur": 592,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "VMm-U2pHrXE",
+   "title": "We Found a Loophole to Survive the End of the Universe",
+   "dur": 762,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Zpq1GbPqhy4",
+   "title": "Pregnancy is Insane",
+   "dur": 796,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "dKm7T13X7n4",
+   "title": "Can Humanity Stop A Planet-Killing Asteroid?",
+   "dur": 764,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "XunabxHzMuM",
+   "title": "This Game Took Us Two Years To Make",
+   "dur": 69,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "gtDKKJq9u30",
+   "title": "The Dumbest Animal Alive",
+   "dur": 665,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "u4LUix-BU0s",
+   "title": "The Drug To Master Reality",
+   "dur": 679,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "aOwmt39L2IQ",
+   "title": "Alcohol is AMAZING",
+   "dur": 852,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "7wK4peez9zE",
+   "title": "Let's Kill You a Billion Times to Make You Immortal",
+   "dur": 710,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "efOW5NUTYB8",
+   "title": "When Your Body Attacks Itself – Autoimmune",
+   "dur": 655,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "zxq60I5RSW8",
+   "title": "How Nuclear Flies Protect You from Flesh-Eating Parasites",
+   "dur": 680,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "m6KnVTYtSc0",
+   "title": "Why Does Fentanyl Feel So Good?",
+   "dur": 898,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "tRXy-b6_lBc",
+   "title": "What If It Rains Bananas For A Single Day? (Spoiler: It's Bad)",
+   "dur": 676,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "NYNBAxDfgrY",
+   "title": "Your Time Machine Broke - At The Worst Time In History",
+   "dur": 773,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Ufmu1WD2TSk",
+   "title": "SOUTH KOREA IS OVER",
+   "dur": 887,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "wo_e0EvEZn8",
+   "title": "Why Your Brain Blinds You For 2 Hours Every Day",
+   "dur": 754,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "5sVfTPaxRwk",
+   "title": "If You Eat Meat You Should Know This",
+   "dur": 930,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "dCiMUWw1BBc",
+   "title": "What Actual Aliens Might Look Like",
+   "dur": 953,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "9zCH37330f8",
+   "title": "The Real Reason Why You Have Allergies",
+   "dur": 750,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "reSfF60-2S4",
+   "title": "Is The World Getting More Violent?",
+   "dur": 777,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "BmUZ2wp1lM8",
+   "title": "Black Hole's Evil Twin - Gravastars Explained",
+   "dur": 811,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "cHEOsKddURQ",
+   "title": "Vaping Is Too Good To Be True",
+   "dur": 834,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "qBRaI0ZeAf8",
+   "title": "We Have To Talk About Weed",
+   "dur": 882,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "E55uSCO5D2w",
+   "title": "The Most Insane Weapon You Never Heard About",
+   "dur": 836,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "bgo7rm5Maqg",
+   "title": "We Fell For The Oldest Lie On The Internet",
+   "dur": 788,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "c1nYtX-NUsc",
+   "title": "Tired of Doomscrolling?",
+   "dur": 554,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "VD6xJq8NguY",
+   "title": "There Is Life Hiding Inside Earth",
+   "dur": 688,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "oTx-GSF3cts",
+   "title": "This Video Might Save 58 Lives Next Week",
+   "dur": 819,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "SbvAaDN1bpE",
+   "title": "Why Scientists Are Puzzled By This Virus",
+   "dur": 644,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "vSSkDos2hzo",
+   "title": "We Need to Rethink Exercise (Updated Version)",
+   "dur": 788,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "dBxxi5XAm3U",
+   "title": "We Traveled Back in Time. Now Physicists Are Angry.",
+   "dur": 680,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "cRZOUcpiOxY",
+   "title": "Fever Feels Horrible, but is Actually Awesome!",
+   "dur": 668,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "fa8k8IQ1_X0",
+   "title": "A.I. ‐ Humanity's Final Invention?",
+   "dur": 1003,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "GFLb5h2O2Ww",
+   "title": "This Disease is Deadlier Than The Plague",
+   "dur": 653,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "UebSfjmQNvs",
+   "title": "Do You Have a Free Will?",
+   "dur": 738,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "3DFE8gZe9bA",
+   "title": "We Are Making a VIDEO GAME",
+   "dur": 61,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "itBBsQRv0EU",
+   "title": "Your Hidden Superpower",
+   "dur": 107,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "71eUes30gwc",
+   "title": "This Black Hole Could be Bigger Than The Universe",
+   "dur": 704,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "_rBPwu2uS-w",
+   "title": "Smoking is Awesome",
+   "dur": 705,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "OvKr6loCciE",
+   "title": "What Makes Kurzgesagt So Special?",
+   "dur": 130,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "L_JQOH1tEEA",
+   "title": "There Are Thousands of Alien Empires in The Milky Way",
+   "dur": 839,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "pjoQdz0nxf4",
+   "title": "How The Dinosaurs Actually Died",
+   "dur": 700,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "isdLel273rQ",
+   "title": "The Paradox of an Infinite Universe",
+   "dur": 681,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "LrIRuqr_Ozg",
+   "title": "What Happens AFTER Nuclear War?",
+   "dur": 671,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "wwSzpaTHyS8",
+   "title": "Did The Future Already Happen? - The Paradox of Time",
+   "dur": 755,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Z_1Q0XB4X0Y",
+   "title": "You Are The Center of The Universe (Literally)",
+   "dur": 751,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "nGggU-Cxhv0",
+   "title": "Your Tattoo is INSIDE Your Immune System. Literally",
+   "dur": 549,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "HR2C_7G_yRQ",
+   "title": "How To Destroy The Universe",
+   "dur": 603,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "yDMZJ7LgrGY",
+   "title": "The Moment kurzgesagt Changed Forever",
+   "dur": 129,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "fuFlMtZmvY0",
+   "title": "The Internet is Worse Than Ever – Now What?",
+   "dur": 692,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "FgnjdW-x7mQ",
+   "title": "The Last Thing To Ever Happen In The Universe",
+   "dur": 665,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "tybKnGZRwcU",
+   "title": "How to Win an Interstellar War",
+   "dur": 665,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "S7TUe5w6RHo",
+   "title": "4.5 Billion Years in 1 Hour",
+   "dur": 3811,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "JOiGEI9pQBs",
+   "title": "Ancient Life as Old as the Universe",
+   "dur": 575,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "LBudghsdByQ",
+   "title": "Why Humans Are Vanishing",
+   "dur": 787,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "4Stzj2_Rlo4",
+   "title": "Are You A Dream Of The Universe?",
+   "dur": 616,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "wmP3MBjsx20",
+   "title": "How A Nuclear War Will Start - Minute by Minute",
+   "dur": 534,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "cFslUSyfZPc",
+   "title": "What Happens If You Destroy A Black Hole?",
+   "dur": 653,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Kr57ax0OWMk",
+   "title": "The (Second) Deadliest Virus",
+   "dur": 669,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "9FppammO1zk",
+   "title": "The Most Dangerous Weapon Is Not Nuclear",
+   "dur": 665,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "uoJwt9l-XhQ",
+   "title": "The Reason Why Cancer is so Hard to Beat",
+   "dur": 625,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "V4Z8EdiJxgk",
+   "title": "The Black Hole That Kills Galaxies - Quasars",
+   "dur": 650,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "zFhYJRqz_xk",
+   "title": "Your Body Killed Cancer 5 Minutes Ago",
+   "dur": 554,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "GDSf2h9_39I",
+   "title": "Why Aliens Might Already Be On Their Way To Us",
+   "dur": 658,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "1x-i9z617z4",
+   "title": "How We Make Money on YouTube with 20M Subs",
+   "dur": 598,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "M-K7mxdN62M",
+   "title": "What Actually Happens When You Are Sick?",
+   "dur": 672,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "TYPFenJQciw",
+   "title": "The Most Complex Language in the World",
+   "dur": 715,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "aeWyp2vXxqA",
+   "title": "Black Hole Star – The Star That Shouldn't Exist",
+   "dur": 597,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "HpcTJW4ur54",
+   "title": "How to Terraform Mars - WITH LASERS",
+   "dur": 677,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Qsbe1pD8ocE",
+   "title": "The Horror of the Slaver Ant",
+   "dur": 539,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "q4DF3j4saCE",
+   "title": "The Most Extreme Explosion in the Universe",
+   "dur": 569,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Us2Z-WC9rao",
+   "title": "Why Don't We Shoot Nuclear Waste Into Space?",
+   "dur": 635,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "fXb02MQ78yQ",
+   "title": "The Biggest Eruptions That Changed Earth Forever",
+   "dur": 599,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "FfWtIaDtfYk",
+   "title": "Let’s Travel to The Most Extreme Place in The Universe",
+   "dur": 694,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "I9hJ_Rux9y0",
+   "title": "How To Make Friends",
+   "dur": 729,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "W93XyXHI8Nw",
+   "title": "Is Civilization on the Brink of Collapse?",
+   "dur": 595,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "4u5I8GYB79Y",
+   "title": "The Deadliest Virus on Earth",
+   "dur": 540,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "LEENEFaVUzU",
+   "title": "The Last Human – A Glimpse Into The Far Future",
+   "dur": 751,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "75d_29QWELk",
+   "title": "Change Your Life – One Tiny Step at a Time",
+   "dur": 691,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "Pj-h6MEgE7I",
+   "title": "You Are Not Where You Think You Are",
+   "dur": 466,
+   "channel": "Kurzgesagt – In a Nutshell",
+   "topic": "Science",
+   "collection": "@kurzgesagt",
+   "source": "@kurzgesagt"
+  },
+  {
+   "id": "BNYJQaZUDrI",
+   "title": "Crash Course Philosophy Preview",
+   "dur": 133,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 1,
+   "ep": null,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "1A_CAkYt3GY",
+   "title": "What is Philosophy?: Crash Course Philosophy #1",
+   "dur": 635,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 2,
+   "ep": 1,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "NKEhdsnKKHs",
+   "title": "How to Argue - Philosophical Reasoning: Crash Course Philosophy #2",
+   "dur": 583,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 3,
+   "ep": 2,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "-wrCpLJ1XAw",
+   "title": "How to Argue - Induction & Abduction: Crash Course Philosophy #3",
+   "dur": 618,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 4,
+   "ep": 3,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "IV-8YsyghbU",
+   "title": "Leonardo DiCaprio & The Nature of Reality: Crash Course Philosophy #4",
+   "dur": 543,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 5,
+   "ep": 4,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "MLKrmw906TM",
+   "title": "Cartesian Skepticism - Neo, Meet Rene: Crash Course Philosophy #5",
+   "dur": 601,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 6,
+   "ep": 5,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "5C-s4JrymKM",
+   "title": "Locke, Berkeley, & Empiricism: Crash Course Philosophy #6",
+   "dur": 592,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 7,
+   "ep": 6,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "kXhJ3hHK9hQ",
+   "title": "The Meaning of Knowledge: Crash Course Philosophy #7",
+   "dur": 612,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 8,
+   "ep": 7,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "-X8Xfl0JdTQ",
+   "title": "Karl Popper, Science, & Pseudoscience: Crash Course Philosophy #8",
+   "dur": 537,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 9,
+   "ep": 8,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "FmTsS5xFA6k",
+   "title": "Anselm & the Argument for God: Crash Course Philosophy #9",
+   "dur": 553,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 10,
+   "ep": 9,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "TgisehuGOyY",
+   "title": "Aquinas & the Cosmological Arguments: Crash Course Philosophy #10",
+   "dur": 626,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 11,
+   "ep": 10,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "7e9v_fsZB6A",
+   "title": "Intelligent Design: Crash Course Philosophy #11",
+   "dur": 574,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 12,
+   "ep": 11,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "gs_gY1K1AMU",
+   "title": "What Is God Like?: Crash Course Philosophy #12",
+   "dur": 632,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 13,
+   "ep": 12,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "9AzNEG1GB-k",
+   "title": "The Problem of Evil: Crash Course Philosophy #13",
+   "dur": 604,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 14,
+   "ep": 13,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "AYkhlXronNk",
+   "title": "Anti-Vaxxers, Conspiracy Theories, & Epistemic Responsibility: Crash Course Philosophy #14",
+   "dur": 587,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 15,
+   "ep": 14,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "S93jMOqF-oE",
+   "title": "Indiana Jones & Pascal's Wager: Crash Course Philosophy #15",
+   "dur": 553,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 16,
+   "ep": 15,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "YaDvRdLMkHs",
+   "title": "Existentialism: Crash Course Philosophy #16",
+   "dur": 534,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 17,
+   "ep": 16,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "mjQwedC1WzI",
+   "title": "Perspectives on Death: Crash Course Philosophy #17",
+   "dur": 541,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 18,
+   "ep": 17,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "-TFCMK4i2lo",
+   "title": "Batman & Identity: Crash Course Philosophy #18",
+   "dur": 549,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 19,
+   "ep": 18,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "trqDnLNRuSc",
+   "title": "Personal Identity: Crash Course Philosophy #19",
+   "dur": 513,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 20,
+   "ep": 19,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "17WiQ_tNld4",
+   "title": "Arguments Against Personal Identity: Crash Course Philosophy #20",
+   "dur": 584,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 21,
+   "ep": 20,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "GxM9BZeRrUI",
+   "title": "Personhood: Crash Course Philosophy #21",
+   "dur": 554,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 22,
+   "ep": 21,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "3SJROTXnmus",
+   "title": "Where Does Your Mind Reside?: Crash Course Philosophy #22",
+   "dur": 547,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 23,
+   "ep": 22,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "39EdqUbj92U",
+   "title": "Artificial Intelligence & Personhood: Crash Course Philosophy #23",
+   "dur": 566,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 24,
+   "ep": 23,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "vCGtkDzELAI",
+   "title": "Determinism vs Free Will: Crash Course Philosophy #24",
+   "dur": 626,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 25,
+   "ep": 24,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "KETTtiprINU",
+   "title": "Compatibilism: Crash Course Philosophy #25",
+   "dur": 535,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 26,
+   "ep": 25,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "zmwgmt7wcv8",
+   "title": "Language & Meaning: Crash Course Philosophy #26",
+   "dur": 572,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 27,
+   "ep": 26,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "G30m6XDBTh4",
+   "title": "Netflix & Chill: Crash Course Philosophy #27",
+   "dur": 551,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 28,
+   "ep": 27,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "1ESU5ONMMxs",
+   "title": "How Words Can Harm: Crash Course Philosophy #28",
+   "dur": 646,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 29,
+   "ep": 28,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "Y7v2kESrqDQ",
+   "title": "Nonexistent Objects & Imaginary Worlds: Crash Course Philosophy #29",
+   "dur": 561,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 30,
+   "ep": 29,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "NZ5duzln2wI",
+   "title": "Aesthetic Appreciation: Crash Course Philosophy #30",
+   "dur": 566,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 31,
+   "ep": 30,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "gDL4Zf2yEa4",
+   "title": "Aesthetics: Crash Course Philosophy #31",
+   "dur": 638,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 32,
+   "ep": 31,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "FOoffXFpAlU",
+   "title": "Metaethics: Crash Course Philosophy #32",
+   "dur": 574,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 33,
+   "ep": 32,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "wRHBwxC8b8I",
+   "title": "Divine Command Theory: Crash Course Philosophy #33",
+   "dur": 542,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 34,
+   "ep": 33,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "r_UfYY7aWKo",
+   "title": "Natural Law Theory: Crash Course Philosophy #34",
+   "dur": 579,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 35,
+   "ep": 34,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "8bIys6JoEDw",
+   "title": "Kant & Categorical Imperatives: Crash Course Philosophy #35",
+   "dur": 627,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 36,
+   "ep": 35,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "-a739VjqdSI",
+   "title": "Utilitarianism: Crash Course Philosophy #36",
+   "dur": 601,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 37,
+   "ep": 36,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "2Co6pNvd9mc",
+   "title": "Contractarianism: Crash Course Philosophy #37",
+   "dur": 571,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 38,
+   "ep": 37,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "PrvtOWEXDIQ",
+   "title": "Aristotle & Virtue Theory: Crash Course Philosophy #38",
+   "dur": 562,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 39,
+   "ep": 38,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "DpDSPVv8lUE",
+   "title": "Moral Luck: Crash Course Philosophy #39",
+   "dur": 586,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 40,
+   "ep": 39,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "H0CTHVCkm90",
+   "title": "What Is Justice?: Crash Course Philosophy #40",
+   "dur": 615,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 41,
+   "ep": 40,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "RsldtV4jWA0",
+   "title": "Discrimination: Crash Course Philosophy #41",
+   "dur": 547,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 42,
+   "ep": 41,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "y3-BX-jN_Ac",
+   "title": "Non-Human Animals: Crash Course Philosophy #42",
+   "dur": 587,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 43,
+   "ep": 42,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "p7cOwQQDI7o",
+   "title": "Family Obligations: Crash Course Philosophy #43",
+   "dur": 563,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 44,
+   "ep": 43,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "D5sknLy7Smo",
+   "title": "Poverty & Our Response to It: Crash Course Philosophy #44",
+   "dur": 534,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 45,
+   "ep": 44,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "3IsloHmKvWA",
+   "title": "Assisted Death & the Value of Life: Crash Course Philosophy #45",
+   "dur": 594,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 46,
+   "ep": 45,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "Ra1Dmz-5HjU",
+   "title": "What Is a Good Life?: Crash Course Philosophy #46",
+   "dur": 558,
+   "channel": "CrashCourse",
+   "series": "Crash Course Philosophy",
+   "pos": 47,
+   "ep": 46,
+   "topic": "Philosophy",
+   "source": "series:Crash Course Philosophy"
+  },
+  {
+   "id": "Yocja_N5s1I",
+   "title": "The Agricultural Revolution: Crash Course World History #1",
+   "dur": 671,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 1,
+   "ep": 1,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "n7ndRwqJYDM",
+   "title": "Indus Valley Civilization: Crash Course World History #2",
+   "dur": 575,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 2,
+   "ep": 2,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "sohXPx_XZ6Y",
+   "title": "Mesopotamia: Crash Course World History #3",
+   "dur": 726,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 3,
+   "ep": 3,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "Z3Wvw6BivVI",
+   "title": "Ancient Egypt: Crash Course World History #4",
+   "dur": 715,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 4,
+   "ep": 4,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "Q-mkVSasZIM",
+   "title": "The Persians & Greeks: Crash Course World History #5",
+   "dur": 699,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 5,
+   "ep": 5,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "8Nn5uqE3C9w",
+   "title": "Buddha and Ashoka: Crash Course World History #6",
+   "dur": 737,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 6,
+   "ep": 6,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "ylWORyToTo4",
+   "title": "2,000 Years of Chinese History! The Mandate of Heaven and Confucius: World History #7",
+   "dur": 732,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 7,
+   "ep": 7,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "0LsrkWDCvxg",
+   "title": "Alexander the Great: Crash Course World History #8",
+   "dur": 662,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 8,
+   "ep": 8,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "vfe-eNq-Qyg",
+   "title": "The Silk Road and Ancient Trade: Crash Course World History #9",
+   "dur": 631,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 9,
+   "ep": 9,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "oPf27gAup9U",
+   "title": "The Roman Empire. Or Republic. Or...Which Was It?: Crash Course World History #10",
+   "dur": 746,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 10,
+   "ep": 10,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "TG55ErfdaeY",
+   "title": "Christianity from Judaism to Constantine: Crash Course World History #11",
+   "dur": 697,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 11,
+   "ep": 11,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "3PszVWZNWVA",
+   "title": "Fall of The Roman Empire...in the 15th Century: Crash Course World History #12",
+   "dur": 764,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 12,
+   "ep": 12,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "TpcbfxtdoI8",
+   "title": "Islam, the Quran, and the Five Pillars: Crash Course World History #13",
+   "dur": 773,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 13,
+   "ep": 13,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "QV7CanyzhZg",
+   "title": "The Dark Ages...How Dark Were They, Really?: Crash Course World History #14",
+   "dur": 728,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 14,
+   "ep": 14,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "X0zudTQelzI",
+   "title": "The Crusades - Pilgrimage or Holy War?: Crash Course World History #15",
+   "dur": 693,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 15,
+   "ep": 15,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "jvnU0v6hcUo",
+   "title": "Mansa Musa and Islam in Africa: Crash Course World History #16",
+   "dur": 631,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 16,
+   "ep": 16,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "szxPar0BcMo",
+   "title": "Wait For It...The Mongols!: Crash Course World History #17",
+   "dur": 691,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 17,
+   "ep": 17,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "a6XtBLDmPA0",
+   "title": "Int'l Commerce, Snorkeling Camels, and The Indian Ocean Trade: Crash Course World History #18",
+   "dur": 615,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 18,
+   "ep": 18,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "UN-II_jBzzo",
+   "title": "Venice and the Ottoman Empire: Crash Course World History #19",
+   "dur": 612,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 19,
+   "ep": 19,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "etmRI2_9Q_A",
+   "title": "Russia, the Kievan Rus, and the Mongols: Crash Course World History #20",
+   "dur": 647,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 20,
+   "ep": 20,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "NjEGncridoQ",
+   "title": "Columbus, Vasco da Gama, and Zheng He - 15th Century Mariners: Crash Course World History #21",
+   "dur": 638,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 21,
+   "ep": 21,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "Vufba_ZcoR0",
+   "title": "The Renaissance: Was it a Thing? - Crash Course World History #22",
+   "dur": 693,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 22,
+   "ep": 22,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "HQPA5oNpfM4",
+   "title": "The Columbian Exchange: Crash Course World History #23",
+   "dur": 729,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 23,
+   "ep": 23,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "dnV_MTFEGIY",
+   "title": "The Atlantic Slave Trade: Crash Course World History #24",
+   "dur": 668,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 24,
+   "ep": 24,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "rjhIzemLdos",
+   "title": "The Spanish Empire, Silver, & Runaway Inflation: Crash Course World History #25",
+   "dur": 646,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 25,
+   "ep": 25,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "j0qbzNHmfW0",
+   "title": "The Seven Years War: Crash Course World History #26",
+   "dur": 740,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 26,
+   "ep": 26,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "2yXNrLTddME",
+   "title": "The Amazing Life and Strange Death of Captain Cook: Crash Course World History #27",
+   "dur": 633,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 27,
+   "ep": 27,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "HlUiSBXQHCw",
+   "title": "Tea, Taxes, and The American Revolution: Crash Course World History #28",
+   "dur": 687,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 28,
+   "ep": 28,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "lTTvKwCylFY",
+   "title": "The French Revolution: Crash Course World History #29",
+   "dur": 714,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 29,
+   "ep": 29,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "5A_o-nU5s2U",
+   "title": "Haitian Revolutions: Crash Course World History #30",
+   "dur": 755,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 30,
+   "ep": 30,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "ZBw35Ze3bg8",
+   "title": "Latin American Revolutions: Crash Course World History #31",
+   "dur": 823,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 31,
+   "ep": 31,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "zhL5DCizj5c",
+   "title": "Coal, Steam, and The Industrial Revolution: Crash Course World History #32",
+   "dur": 665,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 32,
+   "ep": 32,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "B3u4EFTwprM",
+   "title": "Capitalism and Socialism: Crash Course World History #33",
+   "dur": 843,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 33,
+   "ep": 33,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "Nosq94oCl_M",
+   "title": "Samurai, Daimyo, Matthew Perry, and Nationalism: Crash Course World History #34",
+   "dur": 713,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 34,
+   "ep": 34,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "alJaltUmrGo",
+   "title": "Imperialism: Crash Course World History #35",
+   "dur": 826,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 35,
+   "ep": 35,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "_XPZQ0LAlR4",
+   "title": "Archdukes, Cynicism, and World War I: Crash Course World History #36",
+   "dur": 705,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 36,
+   "ep": 36,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "UUCEeC4f6ts",
+   "title": "Communists, Nationalists, and China's Revolutions: Crash Course World History #37",
+   "dur": 731,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 37,
+   "ep": 37,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "Q78COTwT7nE",
+   "title": "World War II: Crash Course World History #38",
+   "dur": 793,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 38,
+   "ep": 38,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "y9HjvHZfCUI",
+   "title": "USA vs USSR Fight! The Cold War: Crash Course World History #39",
+   "dur": 736,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 39,
+   "ep": 39,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "T_sGTspaF4Y",
+   "title": "Decolonization and Nationalism Triumphant: Crash Course World History #40",
+   "dur": 769,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 40,
+   "ep": 40,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "5SnR-e0S6Ic",
+   "title": "Globalization I - The Upside: Crash Course World History #41",
+   "dur": 711,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 41,
+   "ep": 41,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "s_iwrt7D5OA",
+   "title": "Globalization II - Good or Bad?: Crash Course World History #42",
+   "dur": 835,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 42,
+   "ep": 42,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "3k0v5ZvZrVQ",
+   "title": "Crash Course Office Hours: World History",
+   "dur": 3472,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History",
+   "pos": 43,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course World History"
+  },
+  {
+   "id": "SKj4cr2C-3o",
+   "title": "World History, Year 2 Preview",
+   "dur": 156,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 1,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "wyzi9GNZFMU",
+   "title": "Rethinking Civilization - Crash Course World History 201",
+   "dur": 822,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 2,
+   "ep": 1,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "94BtOtGVqLw",
+   "title": "Money & Debt: Crash Course World History 202",
+   "dur": 844,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 3,
+   "ep": 2,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "1PLBmUVYYeg",
+   "title": "Disease! Crash Course World History 203",
+   "dur": 697,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 4,
+   "ep": 3,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "2NIgqS47m5k",
+   "title": "War & Human Nature: Crash Course World History 204",
+   "dur": 637,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 5,
+   "ep": 4,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "jdVLAG_ptQM",
+   "title": "War and Civilization: Crash Course World History 205",
+   "dur": 768,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 6,
+   "ep": 5,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "YF8AAJSTJoM",
+   "title": "Climate Change, Chaos, and The Little Ice Age: Crash Course World History #206",
+   "dur": 608,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 7,
+   "ep": 6,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "EM1IyIyr-Zc",
+   "title": "Humans and Energy: Crash Course World History 207",
+   "dur": 441,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 8,
+   "ep": 7,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "Sgae8SA-rcI",
+   "title": "Drought and Famine: Crash Course World History #208",
+   "dur": 630,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 9,
+   "ep": 8,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "Cd2ch4XV84s",
+   "title": "How World War I Started: Crash Course World History 209",
+   "dur": 550,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 10,
+   "ep": 9,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "_pFCpKtwCkI",
+   "title": "Who Started World War I: Crash Course World History 210",
+   "dur": 656,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 11,
+   "ep": 10,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "ErOitC7OyHk",
+   "title": "The End of Civilization (In the Bronze Age): Crash Course World History 211",
+   "dur": 778,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 12,
+   "ep": 11,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "nosJVTuCHFk",
+   "title": "The Rise of the West and Historical Methodology: Crash Course World History #212",
+   "dur": 713,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 13,
+   "ep": 12,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "nxmWfbXS4Pw",
+   "title": "Asian Responses to Imperialism: Crash Course World History #213",
+   "dur": 775,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 14,
+   "ep": 13,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "GYAk5jCTQ3s",
+   "title": "The Railroad Journey and the Industrial Revolution: Crash Course World History 214",
+   "dur": 751,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 15,
+   "ep": 14,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "QAkW_i0bDpQ",
+   "title": "Population, Sustainability, and Malthus: Crash Course World History 215",
+   "dur": 771,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 16,
+   "ep": 15,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "ka8csjsmX6I",
+   "title": "Islam and Politics: Crash Course World History 216",
+   "dur": 808,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 17,
+   "ep": 16,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "nbuM0aJjVgE",
+   "title": "The Mughal Empire and Historical Reputation: Crash Course World History #217",
+   "dur": 704,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 18,
+   "ep": 17,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "1o8oIELbNxE",
+   "title": "Luther and the Protestant Reformation: Crash Course World History #218",
+   "dur": 907,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 19,
+   "ep": 18,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "MRYzW3BSj0I",
+   "title": "Charles V and the Holy Roman Empire: Crash Course World History #219",
+   "dur": 796,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 20,
+   "ep": 19,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "H-2q-QMUIgY",
+   "title": "World War II, A War for Resources: Crash Course World History #220",
+   "dur": 662,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 21,
+   "ep": 20,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "4uArRzwKHvE",
+   "title": "Congo and Africa's World War: Crash Course World History 221",
+   "dur": 777,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 22,
+   "ep": 21,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "rP54LFFSZ1Q",
+   "title": "Water and Classical Civilizations: Crash Course World History 222",
+   "dur": 669,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 23,
+   "ep": 22,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "1wo2TLlMhiw",
+   "title": "Conflict in Israel and Palestine through 2015: Crash Course World History #223",
+   "dur": 773,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 24,
+   "ep": 23,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "Wc5zUK2MKNY",
+   "title": "The Vikings! - Crash Course World History 224",
+   "dur": 678,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 25,
+   "ep": 24,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "v6xi8_7Fy6Y",
+   "title": "War and Nation Building in Latin America: Crash Course World History 225",
+   "dur": 734,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 26,
+   "ep": 25,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "8w4Ku6l7OEI",
+   "title": "Iran's Revolutions: Crash Course World History 226",
+   "dur": 821,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 27,
+   "ep": 26,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "ZnZEoOJ-cxE",
+   "title": "Japan in the Heian Period and Cultural History: Crash Course World History 227",
+   "dur": 813,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 28,
+   "ep": 27,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "eP-mv5IjFzY",
+   "title": "Nonviolence and Peace Movements: Crash Course World History 228",
+   "dur": 769,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 29,
+   "ep": 28,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "zPIhMJGWiM8",
+   "title": "Capitalism and the Dutch East India Company: Crash Course World History 229",
+   "dur": 940,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 30,
+   "ep": 29,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "k7dTDjRnBqU",
+   "title": "Democracy, Authoritarian Capitalism, and China: Crash Course World History 230",
+   "dur": 932,
+   "channel": "CrashCourse",
+   "series": "Crash Course World History 2",
+   "pos": 31,
+   "ep": 30,
+   "topic": "History",
+   "source": "series:Crash Course World History 2"
+  },
+  {
+   "id": "u4b_KmmUR8Q",
+   "title": "Crash Course US History Preview",
+   "dur": 63,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 1,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "6E9WU9TGrec",
+   "title": "The Black Legend, Native Americans, and Spaniards: Crash Course US History #1",
+   "dur": 680,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 2,
+   "ep": 1,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "o69TvQqyGdg",
+   "title": "When is Thanksgiving? Colonizing America: Crash Course US History #2",
+   "dur": 746,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 3,
+   "ep": 2,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "TTYOQ05oDOI",
+   "title": "The Natives and the English - Crash Course US History #3",
+   "dur": 687,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 4,
+   "ep": 3,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "p47tZLJbdag",
+   "title": "The Quakers, the Dutch, and the Ladies: Crash Course US History #4",
+   "dur": 698,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 5,
+   "ep": 4,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "5vKGU3aEGss",
+   "title": "The Seven Years War and the Great Awakening: Crash Course US History #5",
+   "dur": 640,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 6,
+   "ep": 5,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Eytc9ZaNWyc",
+   "title": "Taxes & Smuggling - Prelude to Revolution: Crash Course US History #6",
+   "dur": 739,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 7,
+   "ep": 6,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "3EiSymRrKI4",
+   "title": "Who Won the American Revolution?: Crash Course US History #7",
+   "dur": 761,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 8,
+   "ep": 7,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "bO7FQsCcbD8",
+   "title": "The Constitution, the Articles, and Federalism: Crash Course US History #8",
+   "dur": 784,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 9,
+   "ep": 8,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "r161cLYzuDI",
+   "title": "Where US Politics Came From: Crash Course US History #9",
+   "dur": 837,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 10,
+   "ep": 9,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "_3Ox6vGteek",
+   "title": "Thomas Jefferson & His Democracy: Crash Course US History #10",
+   "dur": 799,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 11,
+   "ep": 10,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "qMXqg2PKJZU",
+   "title": "The War of 1812 - Crash Course US History #11",
+   "dur": 763,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 12,
+   "ep": 11,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "RNftCCwAol0",
+   "title": "The Market Revolution: Crash Course US History #12",
+   "dur": 851,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 13,
+   "ep": 12,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Ajn9g5Gsv98",
+   "title": "Slavery - Crash Course US History #13",
+   "dur": 865,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 14,
+   "ep": 13,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "beN4qE-e5O8",
+   "title": "Age of Jackson: Crash Course US History #14",
+   "dur": 905,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 15,
+   "ep": 14,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "t62fUZJvjOs",
+   "title": "19th Century Reforms: Crash Course US History #15",
+   "dur": 887,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 16,
+   "ep": 15,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "fM1czS_VYDI",
+   "title": "Women in the 19th Century: Crash Course US History #16",
+   "dur": 791,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 17,
+   "ep": 16,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "tkdF8pOFUfI",
+   "title": "War & Expansion: Crash Course US History #17",
+   "dur": 767,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 18,
+   "ep": 17,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "roNmeOOJCDY",
+   "title": "The Election of 1860 & the Road to Disunion: Crash Course US History #18",
+   "dur": 856,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 19,
+   "ep": 18,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "25HHVDOaGeE",
+   "title": "Battles of the Civil War: Crash Course US History #19",
+   "dur": 445,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 20,
+   "ep": 19,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "rY9zHNOjGrs",
+   "title": "The Civil War, Part I: Crash Course US History #20",
+   "dur": 721,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 21,
+   "ep": 20,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "iIoYdC1Gkq8",
+   "title": "History of the 4th of July: Crash Course US History Special",
+   "dur": 328,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 22,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "GzTrKccmj_I",
+   "title": "The Civil War Part 2: Crash Course US History #21",
+   "dur": 654,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 23,
+   "ep": 21,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "nowsS7pMApI",
+   "title": "Reconstruction and 1876: Crash Course US History #22",
+   "dur": 780,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 24,
+   "ep": 22,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "r6tRp-zRUJs",
+   "title": "The Industrial Economy: Crash Course US History #23",
+   "dur": 752,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 25,
+   "ep": 23,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Q16OZkgSXfM",
+   "title": "Westward Expansion: Crash Course US History #24",
+   "dur": 764,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 26,
+   "ep": 24,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "RRhjqqe750A",
+   "title": "Growth, Cities, and Immigration: Crash Course US History #25",
+   "dur": 765,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 27,
+   "ep": 25,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Spgdy3HkcSs",
+   "title": "Gilded Age Politics: Crash Course US History #26",
+   "dur": 831,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 28,
+   "ep": 26,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "i0Q4zPR4G7M",
+   "title": "The Progressive Era: Crash Course US History #27",
+   "dur": 901,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 29,
+   "ep": 27,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "QfsfoFqsFk4",
+   "title": "American Imperialism: Crash Course US History #28",
+   "dur": 844,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 30,
+   "ep": 28,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "F7flSW1PGsA",
+   "title": "Progressive Presidents: Crash Course US History #29",
+   "dur": 907,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 31,
+   "ep": 29,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "y59wErqg4Xg",
+   "title": "America in World War I: Crash Course US History #30",
+   "dur": 820,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 32,
+   "ep": 30,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "HGEMscZE5dY",
+   "title": "Women's Suffrage: Crash Course US History #31",
+   "dur": 811,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 33,
+   "ep": 31,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "VfOR1XCMf7A",
+   "title": "The Roaring 20's: Crash Course US History #32",
+   "dur": 792,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 34,
+   "ep": 32,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "GCQfMWAikyU",
+   "title": "The Great Depression: Crash Course US History #33",
+   "dur": 867,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 35,
+   "ep": 33,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "6bMq9Ek6jnA",
+   "title": "The New Deal: Crash Course US History #34",
+   "dur": 897,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 36,
+   "ep": 34,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Objoad6rG6U",
+   "title": "World War II Part 1: Crash Course US History #35",
+   "dur": 807,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 37,
+   "ep": 35,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "HofnGQwPgqs",
+   "title": "World War II Part 2 - The Homefront: Crash Course US History #36",
+   "dur": 863,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 38,
+   "ep": 36,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "9C72ISMF_D0",
+   "title": "The Cold War: Crash Course US History #37",
+   "dur": 814,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 39,
+   "ep": 37,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "Y2IcmLkuhG0",
+   "title": "The Cold War in Asia: Crash Course US History #38",
+   "dur": 822,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 40,
+   "ep": 38,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "S64zRnnn4Po",
+   "title": "Civil Rights and the 1950s: Crash Course US History #39",
+   "dur": 718,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 41,
+   "ep": 39,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "lkXFb1sMa38",
+   "title": "The 1960s in America: Crash Course US History #40",
+   "dur": 915,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 42,
+   "ep": 40,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "OCrxD19DHA8",
+   "title": "The Rise of Conservatism: Crash Course US History #41",
+   "dur": 891,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 43,
+   "ep": 41,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "pyN5LPHEQ_0",
+   "title": "Ford, Carter, and the Economic Malaise: Crash Course US History #42",
+   "dur": 803,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 44,
+   "ep": 42,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "2h4DkpFP_aw",
+   "title": "The Reagan Revolution: Crash Course US History #43",
+   "dur": 860,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 45,
+   "ep": 43,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "L-K19rVDxoM",
+   "title": "George HW Bush and the End of the Cold War: Crash Course US History #44",
+   "dur": 833,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 46,
+   "ep": 44,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "-rboN6F2g-k",
+   "title": "The Clinton Years, or the 1990s: Crash Course US History #45",
+   "dur": 938,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 47,
+   "ep": 45,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "nlsnnhn3VWE",
+   "title": "Terrorism, War, and Bush 43: Crash Course US History #46",
+   "dur": 927,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 48,
+   "ep": 46,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "lUfh2ebjLOg",
+   "title": "Obamanation: Crash Course US History #47",
+   "dur": 940,
+   "channel": "CrashCourse",
+   "series": "Crash Course US History",
+   "pos": 49,
+   "ep": 47,
+   "topic": "History",
+   "source": "series:Crash Course US History"
+  },
+  {
+   "id": "WhtuC9dp0Hk",
+   "title": "Crash Course European History Preview",
+   "dur": 396,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 1,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "rNCw2MOfnLQ",
+   "title": "Medieval Europe: Crash Course European History #1",
+   "dur": 849,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 2,
+   "ep": 1,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "tecocKSclwc",
+   "title": "Florence and the Renaissance: Crash Course European History #2",
+   "dur": 874,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 3,
+   "ep": 2,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "EuzAbE-kPkM",
+   "title": "The Northern Renaissance: Crash Course European History #3",
+   "dur": 842,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 4,
+   "ep": 3,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "wOclF9eP5uM",
+   "title": "The Age of Exploration: Crash Course European History #4",
+   "dur": 940,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 5,
+   "ep": 4,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "AcphphFoijY",
+   "title": "Expansion and Consequences: Crash Course European History #5",
+   "dur": 994,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 6,
+   "ep": 5,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "0eO0pPrGi6o",
+   "title": "The Protestant Reformation: Crash Course European History #6",
+   "dur": 944,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 7,
+   "ep": 6,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "PbBDP1Elbbg",
+   "title": "Reformation and Consequences: Crash Course European History #7",
+   "dur": 818,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 8,
+   "ep": 7,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "mU2dhPlJWyY",
+   "title": "Commerce, Agriculture, and Slavery: Crash Course European History #8",
+   "dur": 934,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 9,
+   "ep": 8,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "xy_M4pDjafo",
+   "title": "Catholic Counter-Reformation: Crash Course European History #9",
+   "dur": 824,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 10,
+   "ep": 9,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "rW4XFiHUQAs",
+   "title": "Witchcraft: Crash Course European History #10",
+   "dur": 933,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 11,
+   "ep": 10,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "cmKHYpC_jVs",
+   "title": "The 17th Century Crisis: Crash Course European History #11",
+   "dur": 810,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 12,
+   "ep": 11,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "w70BkCqgyyI",
+   "title": "Scientific Revolution: Crash Course European History #12",
+   "dur": 908,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 13,
+   "ep": 12,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "YYPAFqQgbqE",
+   "title": "Absolute Monarchy: Crash Course European History #13",
+   "dur": 796,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 14,
+   "ep": 13,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "dyk3bI_Y68Y",
+   "title": "English Civil War: Crash Course European History #14",
+   "dur": 876,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 15,
+   "ep": 14,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "35PinDPNPw0",
+   "title": "Dutch Golden Age: Crash Course European History #15",
+   "dur": 824,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 16,
+   "ep": 15,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "VwlrvAvcO28",
+   "title": "Eastern Europe Consolidates: Crash Course European History #16",
+   "dur": 918,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 17,
+   "ep": 16,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "FBzRaxLdjZE",
+   "title": "The Rise of Russia and Prussia: Crash Course European History #17",
+   "dur": 896,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 18,
+   "ep": 17,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "NnoFj2cMRLY",
+   "title": "The Enlightenment: Crash Course European History #18",
+   "dur": 983,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 19,
+   "ep": 18,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "k108xCzJhbs",
+   "title": "Enlightened Monarchs: Crash Course European History #19",
+   "dur": 821,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 20,
+   "ep": 19,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "xbbYCe2o1SI",
+   "title": "18th Century Warfare: Crash Course European History #20",
+   "dur": 899,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 21,
+   "ep": 20,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "5fJl_ZX91l0",
+   "title": "The French Revolution: Crash Course European History #21",
+   "dur": 929,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 22,
+   "ep": 21,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "Pd6E38FfuMg",
+   "title": "Napoleon Bonaparte: Crash Course European History #22",
+   "dur": 954,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 23,
+   "ep": 22,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "DuVw9sGpWUc",
+   "title": "The Congress of Vienna: Crash Course European History #23",
+   "dur": 841,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 24,
+   "ep": 23,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "zjK7PWmRRyg",
+   "title": "The Industrial Revolution: Crash Course European History #24",
+   "dur": 1026,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 25,
+   "ep": 24,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "_uKp4FHPjHU",
+   "title": "Reform and Revolution 1815-1848: Crash Course European History #25",
+   "dur": 846,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 26,
+   "ep": 25,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "cXTaP1BD1YY",
+   "title": "Revolutions of 1848: Crash Course European History #26",
+   "dur": 985,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 27,
+   "ep": 26,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "KSjDe9_jZk8",
+   "title": "Italian and German Unification: Crash Course European History #27",
+   "dur": 862,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 28,
+   "ep": 27,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "eBA7P-zKbi8",
+   "title": "Expansion and Resistance: Crash Course European History #28",
+   "dur": 794,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 29,
+   "ep": 28,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "MN8fjAjLLpg",
+   "title": "Migration: Crash Course European History #29",
+   "dur": 838,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 30,
+   "ep": 29,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "meC5Zl5PC1U",
+   "title": "Modern Life: Crash Course European History #30",
+   "dur": 873,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 31,
+   "ep": 30,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "xGjpTjeGuZc",
+   "title": "Modern Thought and Culture in 1900: Crash Course European History #31",
+   "dur": 909,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 32,
+   "ep": 31,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "KGlmlSTn-eM",
+   "title": "The Roads to World War I: Crash Course European History #32",
+   "dur": 901,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 33,
+   "ep": 32,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "IIiDULrXaqQ",
+   "title": "World War I Battlefields: Crash Course European History #33",
+   "dur": 856,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 34,
+   "ep": 33,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "dPXNZkGYJHM",
+   "title": "WWI's Civilians, the Homefront, and an Uneasy Peace: Crash Course European History #34",
+   "dur": 847,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 35,
+   "ep": 34,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "U6KR4cLLVzQ",
+   "title": "Russian Revolution and Civil War: Crash Course European History #35",
+   "dur": 856,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 36,
+   "ep": 35,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "xzWL2XPBHMk",
+   "title": "Post-World War I Recovery: Crash Course European History #36",
+   "dur": 888,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 37,
+   "ep": 36,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "Ojo8-GhhQcA",
+   "title": "Economic Depression and Dictators: Crash Course European History #37",
+   "dur": 994,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 38,
+   "ep": 37,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "Hs_JMydrxZM",
+   "title": "World War II: Crash Course European History #38",
+   "dur": 975,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 39,
+   "ep": 38,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "rlx6ur_D51s",
+   "title": "World War II Civilians and Soldiers: Crash Course European History #39",
+   "dur": 865,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 40,
+   "ep": 39,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "iQeDvnapdlg",
+   "title": "The Holocaust,Genocides, and Mass Murder of WWII: Crash Course European History #40",
+   "dur": 819,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 41,
+   "ep": 40,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "-rkIqtV07HE",
+   "title": "Post-War Rebuilding and the Cold War: Crash Course European History #41",
+   "dur": 886,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 42,
+   "ep": 41,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "nlp068CmQaE",
+   "title": "Post-World War II Recovery: Crash Course European History #42",
+   "dur": 957,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 43,
+   "ep": 42,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "FlMKqRCNX9c",
+   "title": "Decolonization: Crash Course European History #43",
+   "dur": 803,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 44,
+   "ep": 43,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "zDEmHQhGkBg",
+   "title": "Revolutions in Science and Tech: Crash Course European History #44",
+   "dur": 914,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 45,
+   "ep": 44,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "fs_SvMr5IPE",
+   "title": "Protests East and West: Crash Course European History #45",
+   "dur": 748,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 46,
+   "ep": 45,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "aStaPgdvIdI",
+   "title": "The Soviet Bloc Unwinds: Crash Course European History #46",
+   "dur": 839,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 47,
+   "ep": 46,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "OfJ8Wzanhr4",
+   "title": "The Fall of Communism: Crash Course European History #47",
+   "dur": 805,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 48,
+   "ep": 47,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "UauE2FUQYH0",
+   "title": "Europe in the Global Age: Crash Course European History #48",
+   "dur": 717,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 49,
+   "ep": 48,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "-_6978boAQ8",
+   "title": "21st Century Challenges: Crash Course European History #49",
+   "dur": 766,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 50,
+   "ep": 49,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "1hAraGgEiAo",
+   "title": "What History Was, Is, and Will Be: Crash Course European History #50",
+   "dur": 907,
+   "channel": "CrashCourse",
+   "series": "Crash Course European History",
+   "pos": 51,
+   "ep": 50,
+   "topic": "History",
+   "source": "series:Crash Course European History"
+  },
+  {
+   "id": "-hjGgFgnYIA",
+   "title": "Crash Course History of Science Preview",
+   "dur": 123,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 1,
+   "ep": null,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "YvtCLceNf30",
+   "title": "Intro to History of Science: Crash Course History of Science #1",
+   "dur": 740,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 2,
+   "ep": 1,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "epCOGAa7tRQ",
+   "title": "The Presocratics: Crash Course History of Science #2",
+   "dur": 752,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 3,
+   "ep": 2,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "rh0fxJkvL44",
+   "title": "Plato and Aristotle: Crash Course History of Science #3",
+   "dur": 749,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 4,
+   "ep": 3,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "bDQkpNbsly4",
+   "title": "India: Crash Course History of Science #4",
+   "dur": 795,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 5,
+   "ep": 4,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "dCBDUDwaeCA",
+   "title": "The Americas and Time Keeping: Crash Course History of Science #5",
+   "dur": 769,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 6,
+   "ep": 5,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "GcReek3z_38",
+   "title": "Roman Engineering: Crash Course History of Science #6",
+   "dur": 749,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 7,
+   "ep": 6,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "bkVsus8Ehxs",
+   "title": "The Medieval Islamicate World: Crash Course History of Science #7",
+   "dur": 784,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 8,
+   "ep": 7,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "F6Su3rBxea8",
+   "title": "Medieval China: Crash Course History of Science #8",
+   "dur": 755,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 9,
+   "ep": 8,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "iGiZXQVGpbY",
+   "title": "Ancient & Medieval Medicine: Crash Course History of Science #9",
+   "dur": 726,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 10,
+   "ep": 9,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "gxiLuz9kHi0",
+   "title": "Alchemy: History of Science #10",
+   "dur": 770,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 11,
+   "ep": 10,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "0wDlLwLIFeI",
+   "title": "Cathedrals and Universities: Crash Course History of Science #11",
+   "dur": 801,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 12,
+   "ep": 11,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "vzo8vnxSARg",
+   "title": "The Scientific Revolution: Crash Course History of Science #12",
+   "dur": 766,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 13,
+   "ep": 12,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "-FYvy3_egHw",
+   "title": "The New Astronomy: Crash Course History of Science #13",
+   "dur": 755,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 14,
+   "ep": 13,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "UdQreBq6MOY",
+   "title": "The Scientific Methods: Crash Course History of Science #14",
+   "dur": 784,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 15,
+   "ep": 14,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "3FX07HzYyqI",
+   "title": "The New Anatomy: Crash Course History of Science #15",
+   "dur": 736,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 16,
+   "ep": 15,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "UC5km6-o2oM",
+   "title": "The Columbian Exchange: Crash Course History of Science #16",
+   "dur": 778,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 17,
+   "ep": 16,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "9UKGPOwR-iw",
+   "title": "Newton and Leibniz: Crash Course History of Science #17",
+   "dur": 830,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 18,
+   "ep": 17,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "_M694ED8GtI",
+   "title": "The New Chemistry: Crash Course History of Science #18",
+   "dur": 795,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 19,
+   "ep": 18,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "K4CKmYSMT_0",
+   "title": "Biology Before Darwin: Crash Course History of Science #19",
+   "dur": 771,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 20,
+   "ep": 19,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "V2381lUhqc0",
+   "title": "Earth Science: Crash Course History of Science #20",
+   "dur": 824,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 21,
+   "ep": 20,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "FCpqN7GmLYk",
+   "title": "The Industrial Revolution: Crash Course History of Science #21",
+   "dur": 749,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 22,
+   "ep": 21,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "dfsUz2O2jww",
+   "title": "Darwin and Natural Selection: Crash Course History of Science #22",
+   "dur": 790,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 23,
+   "ep": 22,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "JeCKftkNKJ0",
+   "title": "Eugenics and Francis Galton: Crash Course History of Science #23",
+   "dur": 750,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 24,
+   "ep": 23,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "2JdBH2tys6M",
+   "title": "Micro-Biology: Crash Course History of Science #24",
+   "dur": 732,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 25,
+   "ep": 24,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "QmiwQ0Kosa8",
+   "title": "Genetics - Lost and Found: Crash Course History of Science #25",
+   "dur": 722,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 26,
+   "ep": 25,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "VpiLucwH-AQ",
+   "title": "Thermodynamics: Crash Course History of Science #26",
+   "dur": 749,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 27,
+   "ep": 26,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "JoscDcbAjbY",
+   "title": "Electricity: Crash Course History of Science #27",
+   "dur": 753,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 28,
+   "ep": 27,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "UPvwpYeOJnI",
+   "title": "Ford, Cars, and a New Revolution: Crash Course History of Science #28",
+   "dur": 718,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 29,
+   "ep": 28,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "go3AwYghhdI",
+   "title": "Cinema, Radio, and Television: Crash Course History of Science #29",
+   "dur": 727,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 30,
+   "ep": 29,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "bmsTvIJamIs",
+   "title": "The Mind/Brain: Crash Course History of Science #30",
+   "dur": 767,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 31,
+   "ep": 30,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "7qlRjqUMX4E",
+   "title": "Marie Curie and Spooky Rays: Crash Course History of Science #31",
+   "dur": 708,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 32,
+   "ep": 31,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "NgVSHXOz3jI",
+   "title": "Einstein's Revolution: Crash Course History of Science #32",
+   "dur": 727,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 33,
+   "ep": 32,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "w4q1fG1vh5I",
+   "title": "The Atomic Bomb: Crash Course History of Science #33",
+   "dur": 725,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 34,
+   "ep": 33,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "gQGWqA22s5s",
+   "title": "Biomedicine: Crash Course History of Science #34",
+   "dur": 757,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 35,
+   "ep": 34,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "aax12eYKd4s",
+   "title": "Genetics and The Modern Synthesis: Crash Course History of Science #35",
+   "dur": 754,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 36,
+   "ep": 35,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "3xdmEwTIsd0",
+   "title": "The Computer and Turing: Crash Course History of Science #36",
+   "dur": 714,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 37,
+   "ep": 36,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "QhULJr-LKbg",
+   "title": "Air Travel and The Space Race: Crash Course History of Science #37",
+   "dur": 742,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 38,
+   "ep": 37,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "KrwtWKPAcRs",
+   "title": "Ecology: Crash Course History of Science #38",
+   "dur": 743,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 39,
+   "ep": 38,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "b51G5sB2_hM",
+   "title": "Controlling the Environment: Crash Course History of Science #39",
+   "dur": 808,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 40,
+   "ep": 39,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "Qo9gcZ0r8k8",
+   "title": "Biotechnology: Crash Course History of Science #40",
+   "dur": 733,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 41,
+   "ep": 40,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "RZvvZslgEWk",
+   "title": "Bodies and Dollars: Crash Course History of Science #41",
+   "dur": 777,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 42,
+   "ep": 41,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "TUvquCOGs3U",
+   "title": "The Century of the Gene: Crash Course History of Science #42",
+   "dur": 805,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 43,
+   "ep": 42,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "ur9aGqcmq8M",
+   "title": "The Internet and Computing: Crash Course History of Science #43",
+   "dur": 748,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 44,
+   "ep": 43,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "JlfFcPYaJIc",
+   "title": "Life and Longevity: Crash Course History of Science #44",
+   "dur": 771,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 45,
+   "ep": 44,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "LsFdROZ2OdA",
+   "title": "Climate Science: Crash Course History of Science #45",
+   "dur": 694,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 46,
+   "ep": 45,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
+  },
+  {
+   "id": "EhBhP-zk0_I",
+   "title": "The Limits of History: Crash Course History of Science #46",
+   "dur": 652,
+   "channel": "CrashCourse",
+   "series": "Crash Course History of Science",
+   "pos": 47,
+   "ep": 46,
+   "topic": "History",
+   "source": "series:Crash Course History of Science"
   }
  ],
  "shorts": [
@@ -4126,14 +7248,6 @@
    "published": "2026-10-02T18:30:09+00:00",
    "source": "@TED",
    "added": "2026-10-03T15:04:14.122Z"
-  },
-  {
-   "id": "dfQOGqQglCo",
-   "title": "\"You Have Not Conquered Us\": The Warning That Shook Britain",
-   "channel": "Kings and Generals",
-   "published": "2026-10-02T13:00:34+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-10-02T16:31:22.377Z"
   },
   {
    "id": "0qRcIglHBxE",
@@ -4184,14 +7298,6 @@
    "added": "2026-10-01T17:17:16.124Z"
   },
   {
-   "id": "yjpe9h3ojBE",
-   "title": "The Mutiny That Dethroned Mehmet the Conqueror",
-   "channel": "Kings and Generals",
-   "published": "2026-09-30T13:00:36+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-30T16:41:44.961Z"
-  },
-  {
    "id": "kO1ASsAuc1Y",
    "title": "The Ruler Of The Universe",
    "channel": "Vsauce",
@@ -4240,14 +7346,6 @@
    "added": "2026-09-28T18:30:58.674Z"
   },
   {
-   "id": "QOLrTZmV5Fo",
-   "title": "The Extinction of Africa’s 1,000-Year Christian Empire",
-   "channel": "Kings and Generals",
-   "published": "2026-09-28T13:00:36+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-28T18:30:58.674Z"
-  },
-  {
    "id": "DBhAROQM51E",
    "title": "Is this why adult friendships feel so hard?",
    "channel": "TED",
@@ -4277,14 +7375,6 @@
    "channel": "3Blue1Brown",
    "published": "2026-09-25T13:35:02+00:00",
    "source": "@3blue1brown",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "gehcm3Hx2lI",
-   "title": "One Gurkha vs. 40 Armed Bandits: The 2010 Train Fight",
-   "channel": "Kings and Generals",
-   "published": "2026-09-25T13:00:06+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4320,14 +7410,6 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "h4dBRGZOUuU",
-   "title": "The 3,000 vs 60,000 \"Battle\" That Conquered India",
-   "channel": "Kings and Generals",
-   "published": "2026-09-23T13:00:34+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "V6HRAcwFyec",
    "title": "How To Fix ROCK HARD Brown Sugar",
    "channel": "Vsauce",
@@ -4341,14 +7423,6 @@
    "channel": "TED",
    "published": "2026-09-22T20:00:03+00:00",
    "source": "@TED",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "kvGePorewUM",
-   "title": "The Scandalous Origin of the First Gallic Sack of Rome",
-   "channel": "Kings and Generals",
-   "published": "2026-09-21T13:00:08+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4384,14 +7458,6 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "6TvDUYm4YnQ",
-   "title": "Why English Has Two Words for Every Meat",
-   "channel": "Kings and Generals",
-   "published": "2026-09-18T13:00:39+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "hPoJWjJ9Ao8",
    "title": "Heating A Ball Just By Squeezing It",
    "channel": "Veritasium",
@@ -4416,27 +7482,11 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "f6ATxxu1pac",
-   "title": "Why England Banned Peasants from Wearing Pointy Shoes",
-   "channel": "Kings and Generals",
-   "published": "2026-09-16T13:00:14+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "NswrHx9ljk0",
    "title": "This iconic wildlife spectacle isn't just beautiful— it tells us vital information about our planet",
    "channel": "TED",
    "published": "2026-09-15T19:00:15+00:00",
    "source": "@TED",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "wirKMAMC2YA",
-   "title": "Why Rome’s Greatest Threat Was Its Own Settler Legions",
-   "channel": "Kings and Generals",
-   "published": "2026-09-14T13:00:37+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4456,14 +7506,6 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "yzIUbsJDy50",
-   "title": "How 60,000 French Controlled Half of North America",
-   "channel": "Kings and Generals",
-   "published": "2026-09-11T13:00:12+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "1LZX3l8TKl4",
    "title": "We're more connected than ever — so why are we lonelier than ever? #TEDTalks",
    "channel": "TED",
@@ -4480,27 +7522,11 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "7p73VjD6U-Y",
-   "title": "How Mehmet II Transformed the Ottoman Army Forever",
-   "channel": "Kings and Generals",
-   "published": "2026-09-09T13:00:13+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "ZpXe7KMyLU8",
    "title": "Hip-hop gets blamed for being a bad influence — but the data shows a different story #TEDTalks",
    "channel": "TED",
    "published": "2026-09-08T23:15:17+00:00",
    "source": "@TED",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "WQgxsXiP5WI",
-   "title": "The African Kingdom Where Women Held Real Power",
-   "channel": "Kings and Generals",
-   "published": "2026-09-07T13:00:23+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4544,27 +7570,11 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "jUOLQwyt42k",
-   "title": "How Robert Clive Retook Calcutta in 1756",
-   "channel": "Kings and Generals",
-   "published": "2026-09-04T13:00:09+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "hiIIGMeMEuE",
    "title": "What If You Never Slept?",
    "channel": "Kurzgesagt – In a Nutshell",
    "published": "2026-09-03T14:00:25+00:00",
    "source": "@kurzgesagt",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "430TRqgPrFs",
-   "title": "When Celtic Warriors Conquered Northern Italy",
-   "channel": "Kings and Generals",
-   "published": "2026-09-02T13:00:14+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4584,27 +7594,11 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "A2amW6KR2l0",
-   "title": "The Bizarre Insult Hurled at William the Conqueror",
-   "channel": "Kings and Generals",
-   "published": "2026-08-31T13:00:39+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "EqkRVbaBxtg",
    "title": "What If Gravity Was 10% Stronger?",
    "channel": "Kurzgesagt – In a Nutshell",
    "published": "2026-08-29T14:00:15+00:00",
    "source": "@kurzgesagt",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "4N9fQRo_DiQ",
-   "title": "Disease, Plagues, and 28-Year Lifespans in Roman Britain",
-   "channel": "Kings and Generals",
-   "published": "2026-08-28T13:00:22+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
@@ -4632,14 +7626,6 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
-   "id": "HNVSu5es49o",
-   "title": "Why the Vikings Buried Their Longships",
-   "channel": "Kings and Generals",
-   "published": "2026-08-26T13:00:20+00:00",
-   "source": "@KingsandGenerals",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
    "id": "J9Y8TG7luec",
    "title": "Audio Palindromes",
    "channel": "Vsauce",
@@ -4661,14 +7647,6 @@
    "channel": "Veritasium",
    "published": "2026-08-24T13:08:34+00:00",
    "source": "@veritasium",
-   "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "oetbFj6dJNk",
-   "title": "Did Vikings Really Burn Their Ships at Funerals?",
-   "channel": "Kings and Generals",
-   "published": "2026-08-24T13:00:39+00:00",
-   "source": "@KingsandGenerals",
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
