@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T00:41:04.221Z",
+ "updatedAt": "2026-10-04T00:43:50.004Z",
  "topics": [
   "Science",
   "History",
@@ -2822,6 +2822,16 @@
    "topic": "Ideas & Talks"
   },
   {
+   "id": "Oytqz3zuB7w",
+   "title": "Has the Solid State Transformer’s Time Finally Come?",
+   "channel": "Asianometry",
+   "published": "2026-08-24T14:00:11+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:43:50.004Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "UHsSZ7lUvKM",
    "title": "New Somali Piracy Situation is Insane",
    "channel": "RealLifeLore",
@@ -2830,6 +2840,16 @@
    "added": "2026-10-04T00:41:04.221Z",
    "dur": 2675,
    "topic": "People & World"
+  },
+  {
+   "id": "AuIEBSb2xiE",
+   "title": "China's Fiery Incinerator Boom",
+   "channel": "Asianometry",
+   "published": "2026-08-20T23:00:24+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:43:50.004Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "l29K-ZkARmE",
@@ -2862,6 +2882,26 @@
    "dur": 1365
   },
   {
+   "id": "cDxVYQrxeiQ",
+   "title": "How TSMC Uses Old Fabs to Make New Chips",
+   "channel": "Asianometry",
+   "published": "2026-08-16T23:00:31+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:43:50.004Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "Cg5tAujp6Go",
+   "title": "SK hynix and the HBM Revolution",
+   "channel": "Asianometry",
+   "published": "2026-08-13T23:00:03+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:43:50.004Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "JjhyYOKmFGM",
    "title": "How China Keeps Winning by Doing Nothing",
    "channel": "RealLifeLore",
@@ -2880,6 +2920,16 @@
    "added": "2026-09-26T01:21:25.578Z",
    "dur": 387,
    "topic": "Ideas & Talks"
+  },
+  {
+   "id": "8939X_kFwG4",
+   "title": "The Dark Fiber Listening Network",
+   "channel": "Asianometry",
+   "published": "2026-08-09T23:00:07+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-04T00:43:50.004Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
   },
   {
    "id": "-61qDRPG3to",
@@ -4139,6 +4189,15 @@
    "source": "@johnnyharris",
    "added": "2026-10-04T00:41:04.221Z",
    "topic": "People & World"
+  },
+  {
+   "id": "9MRpUg4jizI",
+   "title": "The GOP strategy: Ignore Trump | America, Actually",
+   "dur": 1153,
+   "channel": "Vox",
+   "source": "@Vox",
+   "added": "2026-10-04T00:43:50.004Z",
+   "topic": "Society"
   },
   {
    "id": "zozEm4f_dlw",
