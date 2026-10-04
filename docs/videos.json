@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T00:43:50.004Z",
+ "updatedAt": "2026-10-04T15:41:06.249Z",
  "topics": [
   "Science",
   "History",
@@ -1354,6 +1354,15 @@
    "dur": 144
   },
   {
+   "id": "S7268BlYeq4",
+   "title": "(FREE) Boom Bap Freestyle Type Beat | Old School Hip Hop Instrumental [2026] - Switchblade",
+   "channel": "LethalNeedle",
+   "published": "2026-10-04T12:48:41+00:00",
+   "source": "@lethalneedle",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null
+  },
+  {
    "id": "rssPT6XC2-A",
    "title": "[FREE] Boom Bap Type Beat – \"Planet Reggae\" | Hip Hop Reggae Instrumental",
    "channel": "Templum Boom Bap",
@@ -2202,6 +2211,26 @@
  ],
  "learn": [
   {
+   "id": "81iS7JsTGmk",
+   "title": "How 180 Strangers Built a Library Together | Rebecca Toh | TED",
+   "channel": "TED",
+   "published": "2026-10-04T15:00:02+00:00",
+   "source": "@TED",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "5VxI0nFnsQw",
+   "title": "The ethics of killing bugs | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-02T12:00:22+00:00",
+   "source": "@Vox",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
    "id": "B7KcQ2yE6pM",
    "title": "EUV Photomasks Are Getting Bigger",
    "channel": "Asianometry",
@@ -2220,6 +2249,16 @@
    "added": "2026-10-04T00:32:42.169Z",
    "dur": 362,
    "topic": "Ideas & Talks"
+  },
+  {
+   "id": "B9tbTY6dtG8",
+   "title": "How new wearable tech is changing horse racing",
+   "channel": "Vox",
+   "published": "2026-10-01T12:00:35+00:00",
+   "source": "@Vox",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Society"
   },
   {
    "id": "ONAuUyml0yI",
@@ -2252,6 +2291,26 @@
    "topic": "Ideas & Talks"
   },
   {
+   "id": "zLK4HT6Ksec",
+   "title": "Democrats could win 2026 and still lose the bigger fight | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-29T14:00:18+00:00",
+   "source": "@Vox",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "JysbLAm7uL4",
+   "title": "The dark side of modern therapy culture | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-09-28T12:00:39+00:00",
+   "source": "@Vox",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
    "id": "-XqyBEm3oeI",
    "title": "The Dramatic Birth of the DVD Boom",
    "channel": "Asianometry",
@@ -2260,6 +2319,16 @@
    "added": "2026-10-04T00:33:21.951Z",
    "dur": 1545,
    "topic": "Engineering & Tech"
+  },
+  {
+   "id": "bt0rtqYTE-Q",
+   "title": "“Spark!” |  Bulldog Brass Society Quintet | TED",
+   "channel": "TED",
+   "published": "2026-09-26T15:00:05+00:00",
+   "source": "@TED",
+   "added": "2026-10-04T15:41:06.249Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
   },
   {
    "id": "txf8CrI5z-k",
@@ -7915,6 +7984,22 @@
  ],
  "shorts": [
   {
+   "id": "Wh1_J0bBOXY",
+   "title": "Kennedy Center Honors will move to Capital One Arena",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-04T15:00:13+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T15:41:06.249Z"
+  },
+  {
+   "id": "GKiKhgsbzOc",
+   "title": "How Gen Z struggles with the American Dream",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-04T12:00:24+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-04T15:41:06.249Z"
+  },
+  {
    "id": "Pnwuw5UyU0s",
    "title": "Making My Perfect Pencil",
    "channel": "Vsauce",
@@ -8217,6 +8302,14 @@
    "published": "2026-09-08T23:15:17+00:00",
    "source": "@TED",
    "added": "2026-09-26T01:21:25.578Z"
+  },
+  {
+   "id": "BnNYSwcLRds",
+   "title": "Paid content for @waitroseandpartners",
+   "channel": "National Geographic",
+   "published": "2026-09-08T14:30:17+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-04T15:41:06.249Z"
   },
   {
    "id": "Cfma1_w5U4Q",
@@ -9725,14 +9818,6 @@
   {
    "id": "YvQDdRvRcs4",
    "title": "Paid content for @VISITSEATTLEtv",
-   "dur": null,
-   "channel": "National Geographic",
-   "source": "@NatGeo",
-   "added": "2026-10-04T00:41:04.221Z"
-  },
-  {
-   "id": "llFdUjgb1oI",
-   "title": "Paid content for @waitroseandpartners",
    "dur": null,
    "channel": "National Geographic",
    "source": "@NatGeo",
