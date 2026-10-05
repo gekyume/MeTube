@@ -50,6 +50,7 @@ After step 2, open MeTube and play one Beat and one Learn video to confirm every
 - **Mini player:** leave the watch page and the video keeps playing in a bar at the bottom. Tap it to return; ✕ closes it.
 - The first video of a session: tap the video itself to start (iOS rule). After that, the buttons do everything.
 - **Auto-next / Loop / Stop at end** is a button on the watch page; each tab remembers its own setting.
+- **Share** (watch page, Shorts player, series pages): opens the iPhone share sheet, or copies the link on a computer. The link opens that exact video, Short or series in MeTube. Videos opened through 🔗 share their YouTube link instead.
 - **Not for me** on the watch page hides a video on this device. **♥** saves a beat to Liked.
 - **Open a link (🔗 at the top of Home):** the only way to watch something outside your library, and it's a hassle on purpose. You write why it's essential (20+ characters), type the phrase "this is absolutely essential" (pasting is blocked), and wait out a 15-second countdown. Then you paste a single YouTube video link: typed words, channels, playlists and search pages are refused. It's capped at 3 per day, and every link is logged with its reason. Change the limits in `LINK` in `docs/index.html`.
 - **Search** only looks through your MeTube library (titles, channels, topics), never all of YouTube.

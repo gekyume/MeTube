@@ -374,6 +374,7 @@
   <symbol id="i-hide" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM4 12a8 8 0 0 1 12.9-6.3L5.7 16.9A7.9 7.9 0 0 1 4 12zm8 8a7.9 7.9 0 0 1-4.9-1.7L18.3 7.1A8 8 0 0 1 12 20z"/></symbol>
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 4h2v8.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3zM5 18h14v2H5z"/></symbol>
   <symbol id="i-link" viewBox="0 0 24 24"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a1 1 0 1 1 1.4 1.4L12 13.4a1 1 0 0 1-1.4 0zM8.5 17.6a3 3 0 0 1-4.2-4.2l2.8-2.8 1.4 1.4-2.8 2.8a1 1 0 1 0 1.4 1.4l2.8-2.8 1.4 1.4zm7.8-4.8-1.4-1.4 2.8-2.8a1 1 0 1 0-1.4-1.4l-2.8 2.8L12 8.6l2.8-2.8a3 3 0 0 1 4.2 4.2z"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 2.6 7.3 7.3l1.4 1.4L11 6.4V15h2V6.4l2.3 2.3 1.4-1.4zM5 11v9.5A1.5 1.5 0 0 0 6.5 22h11a1.5 1.5 0 0 0 1.5-1.5V11h-2v9H7v-9z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -461,7 +462,10 @@
   </div>
   <div class="shorts-top">
     <button class="icon-btn" id="shortsBack" aria-label="Back"><svg class="ico"><use href="#i-back"/></svg></button>
-    <span class="count" id="shortsCount"></span>
+    <span style="display:flex;gap:8px;align-items:center">
+      <span class="count" id="shortsCount"></span>
+      <button class="icon-btn" id="shortsShare" aria-label="Share this Short"><svg class="ico"><use href="#i-share"/></svg></button>
+    </span>
   </div>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -848,8 +852,10 @@
       <div class="btn-row">
         <button class="btn primary" data-act="continue">${icon("play")}${done ? `Continue · ${epLabel(nextEp)}` : "Start from the beginning"}</button>
         ${done ? `<button class="btn" data-act="restart">${icon("loop")}From the start</button>` : ""}
+        <button class="btn" data-act="share">${icon("share")}Share</button>
       </div>`);
     root.querySelector('[data-act="continue"]').onclick = () => playFrom(nextEp, eps);
+    root.querySelector('[data-act="share"]').onclick = () => shareLink(se.name, appLink({ view: "series", name: se.name }));
     root.querySelector('[data-act="restart"]')?.addEventListener("click", () => playFrom(eps[0], eps));
     root.append(videoList(eps, { grid: true, section: "learn" }));
   }
@@ -1078,6 +1084,7 @@
         ${v.series ? `<button class="pill on" data-act="series">${icon("grid")}${esc(v.series.replace(/^Crash Course /, ""))} · ${epLabel(v)}</button>` : ""}
         <button class="chan-btn" data-act="channel"><span class="avatar">${esc(initial(v.channel))}</span><span class="name">${esc(v.channel)}</span></button>
         ${queueTab === "beats" ? `<button class="pill${isLiked(v) ? " on" : ""}" data-act="like">${icon(isLiked(v) ? "heart" : "heart-o")}${isLiked(v) ? "Liked" : "Like"}</button>` : ""}
+        <button class="pill" data-act="share">${icon("share")}Share</button>
         ${queueTab === "beats" ? `<button class="pill" data-act="mp3">${icon("download")}MP3</button>` : ""}
         <button class="pill${mode !== "stop" ? " on" : ""}" data-act="mode">${icon(MODES[mode][0])}${MODES[mode][1]}</button>
         <button class="pill" data-act="hide">${icon("hide")}Not for me</button>
@@ -1091,6 +1098,7 @@
       modes[queueTab] = order[(order.indexOf(modes[queueTab]) + 1) % 3];
       store.set("modes", modes); renderInfo();
     };
+    el.querySelector('[data-act="share"]').onclick = () => shareVideo(v);
     el.querySelector('[data-act="hide"]').onclick = () => {
       hidden.add(v.id); store.set("hidden", [...hidden]);
       if (queue.length > 1) next(); else closePlayer();
@@ -1115,6 +1123,21 @@
     copyText(url);
     toast("Link copied. Paste it into the converter.");
     window.open(CONVERTER, "_blank", "noopener"); // must happen in the same tap, or iOS blocks it
+  }
+  // Share: the iPhone share sheet when available, otherwise copy the link.
+  const appLink = (r) => location.origin + location.pathname + hashFor(r);
+  function shareVideo(v) {
+    // Library videos open inside MeTube for the other person; one-off linked videos only exist on this phone, so share YouTube's link.
+    const url = v.external ? `https://youtu.be/${v.id}` : appLink({ view: "watch", id: v.id });
+    shareLink(v.title, url);
+  }
+  async function shareLink(title, url) {
+    if (navigator.share) {
+      try { await navigator.share({ title, text: title, url }); return; }
+      catch (e) { if (e.name === "AbortError") return; }
+    }
+    copyText(url);
+    toast("Link copied");
   }
   function copyText(text) {
     const fallback = () => {
@@ -1240,6 +1263,7 @@
   $("shortsPrev").onclick = () => stepShort(-1);
   $("shortsNext").onclick = () => stepShort(1);
   $("shortsBack").onclick = goBack;
+  $("shortsShare").onclick = () => { const v = shortsList[shortsIdx]; if (v) shareLink(v.title, appLink({ view: "shorts", id: v.id })); };
 
   // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
   const ORIGIN = "https://www.youtube-nocookie.com";
