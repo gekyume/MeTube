@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T15:41:06.249Z",
+ "updatedAt": "2026-10-05T01:19:15.463Z",
  "topics": [
   "Science",
   "History",
@@ -2211,6 +2211,16 @@
  ],
  "learn": [
   {
+   "id": "6NCgNU4ALiI",
+   "title": "The Fall of Brazil's Armored Vehicle King",
+   "channel": "Asianometry",
+   "published": "2026-10-04T23:00:28+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-05T01:19:15.463Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
    "id": "81iS7JsTGmk",
    "title": "How 180 Strangers Built a Library Together | Rebecca Toh | TED",
    "channel": "TED",
@@ -2329,6 +2339,16 @@
    "added": "2026-10-04T15:41:06.249Z",
    "dur": null,
    "topic": "Ideas & Talks"
+  },
+  {
+   "id": "KSvWEEktmK4",
+   "title": "The AI election | America, Actually",
+   "channel": "Vox",
+   "published": "2026-09-26T12:00:25+00:00",
+   "source": "@Vox",
+   "added": "2026-10-05T01:19:15.463Z",
+   "dur": null,
+   "topic": "Society"
   },
   {
    "id": "txf8CrI5z-k",
@@ -7984,6 +8004,30 @@
  ],
  "shorts": [
   {
+   "id": "YsDLkGtrUzw",
+   "title": "Africa Earth's Wild Home NOW STREAMING #Rolex #PerpetualPlanet #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-04T18:00:33+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-05T01:19:15.463Z"
+  },
+  {
+   "id": "vJiWIPbjmPQ",
+   "title": "How competitive tension drives the U.S.-China AI race",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-04T17:00:14+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-05T01:19:15.463Z"
+  },
+  {
+   "id": "oWGk2YDQdaY",
+   "title": "Why research doesn't prioritize rare brain diseases",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-04T16:00:18+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-05T01:19:15.463Z"
+  },
+  {
    "id": "Wh1_J0bBOXY",
    "title": "Kennedy Center Honors will move to Capital One Arena",
    "channel": "PBS NewsHour",
@@ -8264,6 +8308,14 @@
    "added": "2026-09-26T01:21:25.578Z"
   },
   {
+   "id": "llFdUjgb1oI",
+   "title": "Paid content for @waitroseandpartners",
+   "channel": "National Geographic",
+   "published": "2026-09-14T14:30:02+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-05T01:19:15.463Z"
+  },
+  {
    "id": "WFr9Z01sKGg",
    "title": "Chasing external validation can leave you feeling empty — try this instead #TEDTalks",
    "channel": "TED",
@@ -8302,14 +8354,6 @@
    "published": "2026-09-08T23:15:17+00:00",
    "source": "@TED",
    "added": "2026-09-26T01:21:25.578Z"
-  },
-  {
-   "id": "BnNYSwcLRds",
-   "title": "Paid content for @waitroseandpartners",
-   "channel": "National Geographic",
-   "published": "2026-09-08T14:30:17+00:00",
-   "source": "@NatGeo",
-   "added": "2026-10-04T15:41:06.249Z"
   },
   {
    "id": "Cfma1_w5U4Q",
