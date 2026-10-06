@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T01:19:15.463Z",
+ "updatedAt": "2026-10-06T17:03:31.738Z",
  "topics": [
   "Science",
   "History",
@@ -1354,6 +1354,15 @@
    "dur": 144
   },
   {
+   "id": "g33rB9pHOfE",
+   "title": "Boom Bap Beat \"STREET CLASSIC\" | Free Type Beat 2026 | Old School Rap Instrumental",
+   "channel": "VintageMan Beats",
+   "published": "2026-10-06T16:43:21+00:00",
+   "source": "@vintagemanbeats",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null
+  },
+  {
    "id": "S7268BlYeq4",
    "title": "(FREE) Boom Bap Freestyle Type Beat | Old School Hip Hop Instrumental [2026] - Switchblade",
    "channel": "LethalNeedle",
@@ -2210,6 +2219,66 @@
   }
  ],
  "learn": [
+  {
+   "id": "JjhrN0FcHpM",
+   "title": "Why is Queen Victoria so controversial? - Carolyn Harris",
+   "channel": "TED-Ed",
+   "published": "2026-10-06T15:01:57+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "oyRxhiAC9u8",
+   "title": "Why the Future is Human … Plus AI | Esther Perel and Sal Khan",
+   "channel": "TED",
+   "published": "2026-10-06T15:00:08+00:00",
+   "source": "@TED",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "5_B1Mq02wcI",
+   "title": "The Hidden Engineering of Pressure Regulators",
+   "channel": "Practical Engineering",
+   "published": "2026-10-06T13:00:17+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "RCNO3k4QL5M",
+   "title": "How to Use Tech to Outsmart Dictators | Leopoldo López | TED",
+   "channel": "TED",
+   "published": "2026-10-05T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "ujkD4SxPKOI",
+   "title": "AI Just Crossed the Terrifying Line - Now What?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-10-05T14:58:58+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Science"
+  },
+  {
+   "id": "Fp5v5Rz5dFc",
+   "title": "Why it’s okay to want more money | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-05T12:00:07+00:00",
+   "source": "@Vox",
+   "added": "2026-10-06T17:03:31.738Z",
+   "dur": null,
+   "topic": "Society"
+  },
   {
    "id": "6NCgNU4ALiI",
    "title": "The Fall of Brazil's Armored Vehicle King",
@@ -5039,15 +5108,6 @@
    "id": "75d_29QWELk",
    "title": "Change Your Life – One Tiny Step at a Time",
    "dur": 691,
-   "channel": "Kurzgesagt – In a Nutshell",
-   "topic": "Science",
-   "collection": "@kurzgesagt",
-   "source": "@kurzgesagt"
-  },
-  {
-   "id": "Pj-h6MEgE7I",
-   "title": "You Are Not Where You Think You Are",
-   "dur": 466,
    "channel": "Kurzgesagt – In a Nutshell",
    "topic": "Science",
    "collection": "@kurzgesagt",
@@ -8003,6 +8063,54 @@
   }
  ],
  "shorts": [
+  {
+   "id": "ZkmWrK3BgxM",
+   "title": "Where would you look for alien-like life on Earth? 👽",
+   "channel": "StarTalk",
+   "published": "2026-10-06T15:00:27+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
+  {
+   "id": "mdhMtWpChHM",
+   "title": "Steve's Story #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-06T14:20:18+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
+  {
+   "id": "1Ppf75AUOfo",
+   "title": "How likely is Trump's arch actually to be built?",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-05T20:30:06+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
+  {
+   "id": "vLHAygVu6-o",
+   "title": "Why the midterms could bring a 'blue wave'",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-05T19:41:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
+  {
+   "id": "QLF_MsJ03wc",
+   "title": "Will Trump's push to tie GOP midterm fate to him backfire?",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-05T18:45:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
+  {
+   "id": "VeqBns83NLQ",
+   "title": "You've never seen a beetle do THIS!",
+   "channel": "MinuteEarth",
+   "published": "2026-10-05T18:17:06+00:00",
+   "source": "@MinuteEarth",
+   "added": "2026-10-06T17:03:31.738Z"
+  },
   {
    "id": "YsDLkGtrUzw",
    "title": "Africa Earth's Wild Home NOW STREAMING #Rolex #PerpetualPlanet #AfricaEarthsWildHome",
