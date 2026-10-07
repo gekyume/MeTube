@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T17:03:31.738Z",
+ "updatedAt": "2026-10-07T17:41:20.525Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,16 @@
   }
  ],
  "learn": [
+  {
+   "id": "17y58f_P82M",
+   "title": "Democrats need a stronger message on abortion | America, Actually",
+   "channel": "Vox",
+   "published": "2026-10-06T19:45:01+00:00",
+   "source": "@Vox",
+   "added": "2026-10-07T17:41:20.525Z",
+   "dur": null,
+   "topic": "Society"
+  },
   {
    "id": "JjhrN0FcHpM",
    "title": "Why is Queen Victoria so controversial? - Carolyn Harris",
@@ -8063,6 +8073,110 @@
   }
  ],
  "shorts": [
+  {
+   "id": "3_Ffp79d2zc",
+   "title": "Remembering legendary actress Eva Marie Saint",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T16:00:28+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "MqX1BCkmhLA",
+   "title": "Francis Halzen wins 2026 Nobel Prize in Physics",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T15:39:27+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "U-LrN7yix6I",
+   "title": "A baby pangolin is rehabilitated #Rolex #PerpetualPlanet #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-07T15:00:37+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "biUUTt1xhJ4",
+   "title": "Christa Pike awake and speaking, lawyers say",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T14:45:29+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "-WdWgx5UaRE",
+   "title": "Paramount finalizes takeover of Warner Bros. Discovery",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T14:26:53+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "8fk6OWouMx0",
+   "title": "Why Can't We Enter Another Dimension? 👀",
+   "channel": "StarTalk",
+   "published": "2026-10-06T22:00:47+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "zOxFAxokWJ8",
+   "title": "Actor Ke Huy Quan on the 'quiet years' of his career",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T21:30:17+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "v2bCFZrNpJA",
+   "title": "After Russian death, a closer look at plague speculation",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T20:49:34+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "nBe8qByfm8I",
+   "title": "Students protest Cornell's handing of sexual assault case",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T20:41:30+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "ZZXqvDyVUM4",
+   "title": "Trump: Iran-linked threat prompted bombers to exit UK",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T19:57:45+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "dFfyoQ8gjFs",
+   "title": "Protests over school conditions sweep France",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T19:07:29+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "dXDGNOzRQIU",
+   "title": "Dennis Hastert, disgraced former House speaker, dies at 84",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T18:26:09+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
+  {
+   "id": "JPK_0A976xA",
+   "title": "3 optogenetics researchers win Nobel Prize",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-06T17:54:45+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-07T17:41:20.525Z"
+  },
   {
    "id": "ZkmWrK3BgxM",
    "title": "Where would you look for alien-like life on Earth? 👽",
