@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T17:41:20.525Z",
+ "updatedAt": "2026-10-08T17:45:34.450Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,56 @@
   }
  ],
  "learn": [
+  {
+   "id": "d4ANQuNszYM",
+   "title": "If Dems take Congress, what can they actually do?",
+   "channel": "Vox",
+   "published": "2026-10-08T17:30:01+00:00",
+   "source": "@Vox",
+   "added": "2026-10-08T17:45:34.450Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "h6CmKF-mN2U",
+   "title": "Which is better: Buying or renting a home? - Ella Feldman",
+   "channel": "TED-Ed",
+   "published": "2026-10-08T15:01:11+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-08T17:45:34.450Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "8WWrNbHvd44",
+   "title": "Why You Need the Growth Mindset of a Weed | Stephen Nobles | TED",
+   "channel": "TED",
+   "published": "2026-10-08T15:00:17+00:00",
+   "source": "@TED",
+   "added": "2026-10-08T17:45:34.450Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "sOz7gG74OIw",
+   "title": "What I've been working on all year",
+   "channel": "Johnny Harris",
+   "published": "2026-10-08T15:00:14+00:00",
+   "source": "@johnnyharris",
+   "added": "2026-10-08T17:45:34.450Z",
+   "dur": null,
+   "topic": "People & World"
+  },
+  {
+   "id": "_y9JuojAIg0",
+   "title": "We Finally Know More About Humanity’s First Civilization",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-10-08T14:07:00+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-08T17:45:34.450Z",
+   "dur": null,
+   "topic": "Science"
+  },
   {
    "id": "17y58f_P82M",
    "title": "Democrats need a stronger message on abortion | America, Actually",
@@ -5109,15 +5159,6 @@
    "id": "LEENEFaVUzU",
    "title": "The Last Human – A Glimpse Into The Far Future",
    "dur": 751,
-   "channel": "Kurzgesagt – In a Nutshell",
-   "topic": "Science",
-   "collection": "@kurzgesagt",
-   "source": "@kurzgesagt"
-  },
-  {
-   "id": "75d_29QWELk",
-   "title": "Change Your Life – One Tiny Step at a Time",
-   "dur": 691,
    "channel": "Kurzgesagt – In a Nutshell",
    "topic": "Science",
    "collection": "@kurzgesagt",
@@ -8073,6 +8114,70 @@
   }
  ],
  "shorts": [
+  {
+   "id": "z9Bzv70ksc4",
+   "title": "Something isn't quite right about Stephan's Quintet 👀",
+   "channel": "StarTalk",
+   "published": "2026-10-08T15:00:19+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "C45inxl6U10",
+   "title": "The Biggest Hug",
+   "channel": "Vsauce",
+   "published": "2026-10-08T00:03:35+00:00",
+   "source": "@Vsauce",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "gduYQKmz05M",
+   "title": "Sometimes common ground starts with what both sides can’t afford to lose. #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-07T21:30:06+00:00",
+   "source": "@TED",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "6NV_eBC_gfE",
+   "title": "One of Slovenia’s last glaciers could be gone in days",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T20:57:22+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "TpN7mlLZLfQ",
+   "title": "Remembering R&B singer Freddie Jackson",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T20:06:37+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "SMp6VdpTPzc",
+   "title": "How NASA tested deflecting an asteroid",
+   "channel": "National Geographic",
+   "published": "2026-10-07T20:00:05+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "j__W3TTwA9E",
+   "title": "TV evangelist Jim Bakker dies at 86",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T19:30:38+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
+  {
+   "id": "wGNnVCTPjG8",
+   "title": "Sally Yates tapped to review Cornell's actions in rape case",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-07T18:58:59+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-08T17:45:34.450Z"
+  },
   {
    "id": "3_Ffp79d2zc",
    "title": "Remembering legendary actress Eva Marie Saint",
