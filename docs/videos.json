@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T17:45:34.450Z",
+ "updatedAt": "2026-10-09T17:21:37.742Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,46 @@
   }
  ],
  "learn": [
+  {
+   "id": "wsstlwuE5XY",
+   "title": "How to Clean Up the World’s Dirtiest Industry | Joojin Kim | TED",
+   "channel": "TED",
+   "published": "2026-10-09T15:00:11+00:00",
+   "source": "@TED",
+   "added": "2026-10-09T17:21:37.742Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "Vq7UR2FuYDk",
+   "title": "The death row assembly line | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-09T12:00:17+00:00",
+   "source": "@Vox",
+   "added": "2026-10-09T17:21:37.742Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "wJRfoWXTU80",
+   "title": "Is TSMC Coming to Texas?",
+   "channel": "Asianometry",
+   "published": "2026-10-08T23:00:23+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-09T17:21:37.742Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "iaNKnZqSnTM",
+   "title": "The Amniotic Sac Attacked Her (Amniotic Band Syndrome)",
+   "channel": "Special Books by Special Kids",
+   "published": "2026-10-08T19:02:15+00:00",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-09T17:21:37.742Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "d4ANQuNszYM",
    "title": "If Dems take Congress, what can they actually do?",
@@ -8114,6 +8154,94 @@
   }
  ],
  "shorts": [
+  {
+   "id": "IaFKzNTA5_A",
+   "title": "10 things Kate learned on safari!",
+   "channel": "MinuteEarth",
+   "published": "2026-10-09T17:00:24+00:00",
+   "source": "@MinuteEarth",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "IPSBO6OkPaI",
+   "title": "Margaret Hamilton, Apollo 11 software lead, dies at 90",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-09T16:58:28+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "XjFrAipZ-Ec",
+   "title": "International Space Station astronauts return to Earth",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-09T16:52:32+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "e-KfK159yFs",
+   "title": "What is the Great Spine of Africa? #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-09T16:43:16+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "sZxCJuTqakY",
+   "title": "Anne Carson wins Nobel Prize in Literature",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-09T15:02:41+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "mjrGTKIizug",
+   "title": "Interactive self-care guide with TOMORROW X TOGETHER | UNICEF",
+   "channel": "UNICEF",
+   "published": "2026-10-09T15:00:14+00:00",
+   "source": "@UNICEF",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "j9p3Sn8ROL4",
+   "title": "What is edge dislocation?",
+   "channel": "Veritasium",
+   "published": "2026-10-09T13:00:03+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "HgitiaAE-gE",
+   "title": "Ke Huy Quan on navigating America as a refugee",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-08T21:24:56+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "_l9hnshN68U",
+   "title": "2 scientists awarded 2026 Nobel Prize for Chemistry",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-08T20:00:14+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "8hyGnJJfFTI",
+   "title": "U.S., WHO press Russia for details on possible plague case",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-08T19:04:04+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
+  {
+   "id": "w6QvPCAUtc0",
+   "title": "House candidate says she was raped while fixing sign",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-08T18:50:58+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-09T17:21:37.742Z"
+  },
   {
    "id": "z9Bzv70ksc4",
    "title": "Something isn't quite right about Stephan's Quintet 👀",
