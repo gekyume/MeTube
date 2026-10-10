@@ -232,6 +232,40 @@
     box-shadow: 0 8px 24px rgba(0,0,0,.4); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; white-space: nowrap; }
   .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
+  /* ---------- studio (lyrics + recording on beats) ---------- */
+  .studio { margin: 8px 16px 4px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .studio-tabs { display: flex; border-bottom: 1px solid var(--line); }
+  .studio-tabs button { flex: 1; padding: 12px 0; font-weight: 650; font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; justify-content: center; }
+  .studio-tabs button[aria-selected="true"] { color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+  .studio-tabs .ico { width: 18px; height: 18px; }
+  .studio-body { padding: 12px 14px 14px; }
+  .lyrics { width: 100%; min-height: 180px; resize: vertical; font: inherit; font-size: 16px; line-height: 1.55; color: var(--text);
+    background: transparent; border: 0; outline: none; padding: 0; }
+  .lyrics::placeholder { color: var(--faint); }
+  .studio-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .studio-row .grow { flex: 1; }
+  .studio-note { color: var(--faint); font-size: 12px; }
+  .small-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 999px; background: var(--surface-2); font-size: 13px; font-weight: 600; }
+  .small-btn:hover { background: var(--surface-3); }
+  .small-btn .ico { width: 16px; height: 16px; }
+  .small-btn.danger { color: #ff7a7a; }
+  .rec-main { display: flex; align-items: center; gap: 14px; }
+  .rec-btn { width: 64px; height: 64px; flex: none; border-radius: 50%; border: 3px solid var(--text); display: grid; place-items: center; }
+  .rec-btn span { width: 26px; height: 26px; border-radius: 50%; background: var(--red); transition: border-radius .15s, transform .15s; }
+  .rec-btn.on span { border-radius: 6px; transform: scale(.8); }
+  .rec-time { font-variant-numeric: tabular-nums; font-size: 22px; font-weight: 700; }
+  .rec-time small { display: block; font-size: 12.5px; font-weight: 500; color: var(--muted); }
+  .rec-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--red); margin-right: 6px; animation: blink 1s infinite; }
+  @keyframes blink { 50% { opacity: .2; } }
+  .takes { list-style: none; margin: 14px 0 0; padding: 0; }
+  .takes li { border-top: 1px solid var(--line); padding: 10px 0; }
+  .takes .t-head { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 600; }
+  .takes .t-head span { color: var(--muted); font-weight: 500; font-size: 12.5px; }
+  .takes .studio-row { margin-top: 8px; }
+  .nb-item .vtitle { -webkit-line-clamp: 1; }
+  .nb-preview { color: var(--muted); font-size: 13px; margin-top: 4px; white-space: pre-line; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  @media (min-width: 1000px) { body.view-watch .studio { margin-left: 0; margin-right: 0; } }
+
   /* ---------- series ---------- */
   .scover { position: relative; }
   .scover .stack { position: absolute; inset: -6px 10px auto 10px; height: 6px; border-radius: 8px 8px 0 0; background: var(--surface-3); }
@@ -375,6 +409,11 @@
   <symbol id="i-download" viewBox="0 0 24 24"><path d="M11 4h2v8.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3zM5 18h14v2H5z"/></symbol>
   <symbol id="i-link" viewBox="0 0 24 24"><path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a1 1 0 1 1 1.4 1.4L12 13.4a1 1 0 0 1-1.4 0zM8.5 17.6a3 3 0 0 1-4.2-4.2l2.8-2.8 1.4 1.4-2.8 2.8a1 1 0 1 0 1.4 1.4l2.8-2.8 1.4 1.4zm7.8-4.8-1.4-1.4 2.8-2.8a1 1 0 1 0-1.4-1.4l-2.8 2.8L12 8.6l2.8-2.8a3 3 0 0 1 4.2 4.2z"/></symbol>
   <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 2.6 7.3 7.3l1.4 1.4L11 6.4V15h2V6.4l2.3 2.3 1.4-1.4zM5 11v9.5A1.5 1.5 0 0 0 6.5 22h11a1.5 1.5 0 0 0 1.5-1.5V11h-2v9H7v-9z"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M3 17.3V21h3.7L17.8 9.9l-3.7-3.7zM20.7 7a1 1 0 0 0 0-1.4l-2.3-2.3a1 1 0 0 0-1.4 0l-1.8 1.8 3.7 3.7z"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1A7 7 0 0 0 19 11z"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM6 4h5v8l-2.5-1.5L6 12z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -440,6 +479,7 @@
         </div>
       </section>
       <section class="info" id="watchInfo" hidden></section>
+      <section class="studio" id="studio" hidden></section>
     </div>
     <aside class="upnext" id="upNext" hidden></aside>
   </div>
@@ -573,6 +613,7 @@
     if (r.view === "channels") return `#/channels/${r.tab}`;
     if (r.view === "shorts") return `#/shorts/${r.id}`;
     if (r.view === "series") return `#/series/${encodeURIComponent(r.name)}`;
+    if (r.view === "notebook") return "#/notebook";
     return "#/";
   }
   function parseHash() {
@@ -582,6 +623,7 @@
     if (view === "channels" && a) return { view: "channels", tab: a };
     if (view === "shorts" && a) return { view: "shorts", id: a };
     if (view === "series" && a) return { view: "series", name: decodeURIComponent(a) };
+    if (view === "notebook") return { view: "notebook" };
     return { view: "home" };
   }
   function go(r, { replace = false } = {}) {
@@ -635,6 +677,7 @@
     $("barTitle").textContent =
       route.view === "channel" ? route.name :
       route.view === "series" ? "Series" :
+      route.view === "notebook" ? "Notebook" :
       route.view === "channels" ? (tab === "beats" ? "Producers" : "Channels") :
       route.view === "watch" ? (queueTab === "beats" ? "Beats" : "Learn") : "";
     document.querySelectorAll("[data-search]").forEach((el) => {
@@ -654,6 +697,7 @@
     else if (route.view === "channels") renderChannels(root);
     else if (route.view === "channel") renderChannel(root);
     else if (route.view === "series") renderSeries(root);
+    else if (route.view === "notebook") renderNotebook(root);
   }
 
   function renderHome(root) {
@@ -681,6 +725,7 @@
       addChip("Liked", f === "liked", setFilter("liked"));
       addChip("Recent", f === "recent", setFilter("recent"));
       addChip("All beats", f === "all", setFilter("all"));
+      addChip(`${icon("book")}Notebook`, false, () => go({ view: "notebook" }), "action");
       chips.insertAdjacentHTML("beforeend", `<span class="chip-sep"></span>`);
       const beats = allItems("beats");
       for (const [m] of MOODS) if (beats.some((v) => moodsOf(v).includes(m))) addChip(m, f === `mood:${m}`, setFilter(`mood:${m}`));
@@ -1070,6 +1115,7 @@
     $("watchInfo").hidden = route.view !== "watch";
     $("upNext").hidden = route.view !== "watch";
     if (route.view === "watch" && current) { renderInfo(); renderUpNext(); }
+    renderStudio();
     if (current) { $("miniTitle").textContent = current.title; $("miniSub").textContent = current.channel; }
   }
 
@@ -1265,6 +1311,255 @@
   $("shortsBack").onclick = goBack;
   $("shortsShare").onclick = () => { const v = shortsList[shortsIdx]; if (v) shareLink(v.title, appLink({ view: "shorts", id: v.id })); };
 
+  // ---------- studio: write lyrics and record vocal takes over a beat ----------
+  const lyrics = store.get("lyrics", {}); // beat id -> {text, at}
+  let studioFor = null, studioTab = store.get("studioTab", "lyrics");
+  let rec = null, takePlayer = null;
+  let fromTop = store.get("recFromTop", true);
+
+  // Takes are audio files, too big for localStorage, so they live in this device's IndexedDB.
+  const idb = (() => {
+    let dbp;
+    const open = () => (dbp ||= new Promise((res, rej) => {
+      const r = indexedDB.open("metube", 1);
+      r.onupgradeneeded = () => r.result.createObjectStore("takes", { keyPath: "id" }).createIndex("beat", "beat");
+      r.onsuccess = () => res(r.result);
+      r.onerror = () => rej(r.error);
+    }));
+    const tx = async (mode, fn) => {
+      const db = await open();
+      return new Promise((res, rej) => {
+        const t = db.transaction("takes", mode);
+        const req = fn(t.objectStore("takes"));
+        t.oncomplete = () => res(req.result);
+        t.onerror = () => rej(t.error);
+      });
+    };
+    return {
+      put: (v) => tx("readwrite", (st) => st.put(v)),
+      del: (id) => tx("readwrite", (st) => st.delete(id)),
+      byBeat: (beat) => tx("readonly", (st) => st.index("beat").getAll(beat)),
+      all: () => tx("readonly", (st) => st.getAll()),
+    };
+  })();
+
+  function renderStudio() {
+    const el = $("studio");
+    const show = route.view === "watch" && !!current && queueTab === "beats";
+    el.hidden = !show;
+    if (!show) { if (rec) stopRecording(); return; }
+    if (studioFor === current.id) return; // don't wipe what you're typing
+    if (rec) stopRecording(); // moved to another beat mid-take: keep what was recorded
+    stopTake();
+    studioFor = current.id;
+    el.innerHTML = `<div class="studio-tabs" role="tablist">
+        <button role="tab" data-st="lyrics" aria-selected="${studioTab === "lyrics"}">${icon("pen")}Lyrics</button>
+        <button role="tab" data-st="record" aria-selected="${studioTab === "record"}">${icon("mic")}Record</button>
+      </div><div class="studio-body" id="studioBody"></div>`;
+    el.querySelectorAll("[data-st]").forEach((b) => (b.onclick = () => {
+      if (rec) return toast("Stop recording first");
+      studioTab = b.dataset.st; store.set("studioTab", studioTab);
+      studioFor = null; renderStudio();
+    }));
+    if (studioTab === "lyrics") renderLyrics(); else renderRecord();
+  }
+
+  function renderLyrics() {
+    const body = $("studioBody"), id = current.id;
+    body.innerHTML = `<textarea class="lyrics" placeholder="Write your bars here. They save as you type." spellcheck="false" autocapitalize="sentences" aria-label="Lyrics"></textarea>
+      <div class="studio-row">
+        <button class="small-btn" data-a="time">${icon("clock")}Insert time</button>
+        <button class="small-btn" data-a="copy">${icon("share")}Copy</button>
+        <span class="grow"></span><span class="studio-note" id="lyrSaved"></span>
+      </div>`;
+    const ta = body.querySelector("textarea");
+    ta.value = lyrics[id]?.text || "";
+    const grow = () => { ta.style.height = "auto"; ta.style.height = Math.max(180, ta.scrollHeight) + "px"; };
+    const save = () => {
+      if (ta.value.trim()) lyrics[id] = { text: ta.value, at: Date.now() }; else delete lyrics[id];
+      store.set("lyrics", lyrics);
+      $("lyrSaved").textContent = lyrics[id] ? "Saved" : "";
+    };
+    let t;
+    ta.addEventListener("input", () => { grow(); clearTimeout(t); t = setTimeout(save, 400); });
+    ta.addEventListener("blur", save);
+    body.querySelector('[data-a="time"]').onclick = () => {
+      const p = ta.selectionStart ?? ta.value.length;
+      const nl = ta.value.slice(0, p) && !ta.value.slice(0, p).endsWith("\n") ? "\n" : "";
+      ta.setRangeText(`${nl}[${fmt(player.time)}] `, p, ta.selectionEnd ?? p, "end");
+      ta.focus(); grow(); save();
+    };
+    body.querySelector('[data-a="copy"]').onclick = () => { copyText(`${current.title}\n\n${ta.value}`); toast("Lyrics copied"); };
+    $("lyrSaved").textContent = lyrics[id] ? `Saved ${agoTime(lyrics[id].at)}` : "";
+    requestAnimationFrame(grow);
+  }
+
+  const canRecord = () => !!(navigator.mediaDevices?.getUserMedia && window.MediaRecorder);
+  async function renderRecord() {
+    const body = $("studioBody"), beat = current;
+    if (!canRecord()) { body.innerHTML = `<div class="studio-note">Recording isn't supported in this browser.</div>`; return; }
+    body.innerHTML = `
+      <div class="rec-main">
+        <button class="rec-btn${rec ? " on" : ""}" id="recBtn" aria-label="Record"><span></span></button>
+        <div class="rec-time" id="recTime">Tap to record<small>The beat plays while you rap. Use headphones so the mic only hears you.</small></div>
+      </div>
+      <div class="studio-row"><button class="small-btn" id="fromTop">${icon(fromTop ? "loop" : "play")}${fromTop ? "Beat starts from 0:00" : "Beat continues from here"}</button></div>
+      <ul class="takes" id="takes"></ul>`;
+    $("recBtn").onclick = () => (rec ? stopRecording() : startRecording(beat));
+    $("fromTop").onclick = () => { fromTop = !fromTop; store.set("recFromTop", fromTop); studioFor = null; renderStudio(); };
+    await renderTakes(beat);
+  }
+
+  async function startRecording(beat) {
+    if (!player.started) return toast("Tap the video to start the beat once, then record");
+    stopTake();
+    let stream;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: true } });
+    } catch {
+      return toast("Microphone blocked. Allow it in Settings → Apps → Safari → Microphone.");
+    }
+    const type = ["audio/mp4", "audio/webm;codecs=opus", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t)) || "";
+    const mr = new MediaRecorder(stream, type ? { mimeType: type } : undefined);
+    const chunks = [];
+    mr.ondataavailable = (e) => e.data.size && chunks.push(e.data);
+    // Remember where in the beat this take starts, so playback can line the vocals back up.
+    const beatTime = fromTop ? 0 : player.time;
+    if (fromTop) send("seekTo", [0, true]);
+    wantPlaying = true; send("playVideo");
+    rec = { mr, chunks, stream, beat, beatTime, startedAt: Date.now(), type: mr.mimeType || type || "audio/webm" };
+    mr.start(250);
+    rec.timer = setInterval(paintRec, 250);
+    paintRec();
+    $("recBtn")?.classList.add("on");
+  }
+
+  function paintRec() {
+    if (!rec || !$("recTime")) return;
+    const el = (Date.now() - rec.startedAt) / 1000;
+    $("recTime").innerHTML = `<span class="rec-dot"></span>${fmt(el)}<small>Recording · tap ■ to stop</small>`;
+  }
+
+  function stopRecording() {
+    if (!rec) return;
+    const r = rec; rec = null;
+    clearInterval(r.timer);
+    const dur = (Date.now() - r.startedAt) / 1000;
+    r.mr.onstop = async () => {
+      r.stream.getTracks().forEach((t) => t.stop());
+      const blob = new Blob(r.chunks, { type: r.type });
+      const take = { id: `${r.beat.id}-${r.startedAt}`, beat: r.beat.id, beatTitle: r.beat.title, at: r.startedAt, beatTime: r.beatTime, dur, type: r.type, blob };
+      try { await idb.put(take); toast("Take saved"); } catch { toast("Couldn't save the take on this device"); }
+      if (current?.id === r.beat.id && studioTab === "record" && route.view === "watch") renderRecord();
+    };
+    r.mr.stop();
+    $("recBtn")?.classList.remove("on");
+  }
+
+  async function renderTakes(beat) {
+    let takes = [];
+    try { takes = (await idb.byBeat(beat.id)).sort((a, b) => b.at - a.at); } catch {}
+    const ul = $("takes");
+    if (!ul || current?.id !== beat.id) return;
+    ul.innerHTML = takes.length ? "" : `<li class="studio-note">No takes yet.</li>`;
+    takes.forEach((t, i) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<div class="t-head">Take ${takes.length - i}<span>${fmt(t.dur)} · from ${fmt(t.beatTime)} · ${agoTime(t.at)}</span></div>
+        <div class="studio-row">
+          <button class="small-btn" data-a="both">${icon("play")}Play with beat</button>
+          <button class="small-btn" data-a="solo">${icon("mic")}Vocals only</button>
+          <button class="small-btn" data-a="save">${icon("download")}Save</button>
+          <button class="small-btn danger" data-a="del" aria-label="Delete take">${icon("trash")}</button>
+        </div>`;
+      li.querySelector('[data-a="both"]').onclick = (e) => playTake(t, true, e.currentTarget);
+      li.querySelector('[data-a="solo"]').onclick = (e) => playTake(t, false, e.currentTarget);
+      li.querySelector('[data-a="save"]').onclick = () => saveTake(t);
+      li.querySelector('[data-a="del"]').onclick = async () => {
+        if (!confirm(`Delete take ${takes.length - i}? This can't be undone.`)) return;
+        stopTake(); await idb.del(t.id).catch(() => {}); renderTakes(beat);
+      };
+      ul.append(li);
+    });
+  }
+
+  function stopTake() {
+    if (!takePlayer) return;
+    clearInterval(takePlayer.wait);
+    takePlayer.audio.pause();
+    URL.revokeObjectURL(takePlayer.url);
+    if (takePlayer.btn) takePlayer.btn.innerHTML = takePlayer.label;
+    takePlayer = null;
+  }
+
+  function playTake(t, withBeat, btn) {
+    const key = t.id + (withBeat ? ":beat" : ":solo");
+    const same = takePlayer?.key === key;
+    stopTake();
+    if (same) { if (withBeat) send("pauseVideo"); return; }
+    if (withBeat && !player.started) return toast("Tap the video to start the beat once, then play the take");
+    const url = URL.createObjectURL(t.blob);
+    const audio = new Audio(url);
+    audio.playsInline = true;
+    takePlayer = { key, audio, url, btn, label: btn.innerHTML };
+    btn.innerHTML = `${icon("pause")}Stop`;
+    audio.onended = () => { stopTake(); if (withBeat) send("pauseVideo"); };
+    if (!withBeat) { if (player.state === 1) send("pauseVideo"); audio.play().catch(() => toast("Couldn't play the take")); return; }
+    // iPhone only lets audio start from a tap, so unlock it now (muted), then start it for real once the beat has caught up.
+    audio.muted = true;
+    audio.play().then(() => { audio.pause(); audio.currentTime = 0; audio.muted = false; }).catch(() => {});
+    send("seekTo", [t.beatTime, true]); send("playVideo"); wantPlaying = true;
+    const t0 = Date.now();
+    takePlayer.wait = setInterval(() => {
+      const ready = player.state === 1 && Math.abs(player.time - t.beatTime) < 1.5;
+      if (!ready && Date.now() - t0 < 3000) return;
+      clearInterval(takePlayer?.wait);
+      audio.currentTime = Math.max(0, player.time - t.beatTime);
+      audio.muted = false;
+      audio.play().catch(() => toast("Couldn't play the take"));
+    }, 50);
+  }
+
+  function saveTake(t) {
+    const ext = t.type.includes("mp4") ? "m4a" : "webm";
+    const name = `${(t.beatTitle || "beat").replace(/[^\w\- ]+/g, "").trim().slice(0, 40) || "beat"} - take.${ext}`;
+    const file = new File([t.blob], name, { type: t.type });
+    if (navigator.canShare?.({ files: [file] })) {
+      navigator.share({ files: [file], title: name }).catch((e) => { if (e.name !== "AbortError") toast("Couldn't share the file"); });
+      return;
+    }
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(file), download: name });
+    document.body.append(a); a.click(); a.remove();
+  }
+
+  async function renderNotebook(root) {
+    let takes = [];
+    try { takes = await idb.all(); } catch {}
+    if (route.view !== "notebook") return;
+    const counts = {}, last = {};
+    for (const t of takes) { counts[t.beat] = (counts[t.beat] || 0) + 1; last[t.beat] = Math.max(last[t.beat] || 0, t.at); }
+    const ids = [...new Set([...Object.keys(lyrics), ...Object.keys(counts)])];
+    const items = ids.map((id) => ({ v: findVideo(id), at: Math.max(lyrics[id]?.at || 0, last[id] || 0) })).filter((x) => x.v).sort((a, b) => b.at - a.at);
+    root.insertAdjacentHTML("beforeend", `<div class="section-head"><h2>Notebook</h2><span class="sub">${items.length} beat${items.length === 1 ? "" : "s"}</span></div>`);
+    if (!items.length) {
+      root.insertAdjacentHTML("beforeend", `<div class="empty"><strong>Nothing written yet</strong>Open any beat and use Lyrics or Record under the video.</div>`);
+      return;
+    }
+    const list = items.map((x) => x.v);
+    const ul = document.createElement("ul");
+    ul.className = "vlist";
+    for (const { v, at } of items) {
+      const li = document.createElement("li");
+      li.className = "vrow nb-item";
+      const preview = (lyrics[v.id]?.text || "").trim().split("\n").slice(0, 2).join("\n");
+      li.innerHTML = `${thumbHTML(v)}<div class="meta"><div class="vtitle">${esc(v.title)}</div>
+        <div class="nb-preview">${preview ? esc(preview) : "<i>No lyrics yet</i>"}</div>
+        <div class="vsub">${counts[v.id] ? `${counts[v.id]} take${counts[v.id] > 1 ? "s" : ""} · ` : ""}${agoTime(at)}</div></div>`;
+      li.onclick = () => { studioTab = lyrics[v.id] ? "lyrics" : "record"; studioFor = null; playFrom(v, list); };
+      ul.append(li);
+    }
+    root.append(ul);
+  }
+
   // ---------- player: youtube-nocookie embed driven by postMessage (no YouTube scripts on this page) ----------
   const ORIGIN = "https://www.youtube-nocookie.com";
   const iframe = $("yt");
@@ -1439,7 +1734,7 @@
 
   // Keyboard on a computer: space/k play-pause, ←/→ or j/l seek 10s, n next, / search, Esc back.
   document.addEventListener("keydown", (e) => {
-    if (e.target.closest("input") || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.target.closest("input, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.key === "/") { e.preventDefault(); document.querySelector(".search-desktop input")?.focus(); return; }
     if (e.key === "Escape" && route.view !== "home") return goBack();
     if (route.view === "shorts") {
