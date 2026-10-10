@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T17:21:37.742Z",
+ "updatedAt": "2026-10-10T16:07:14.319Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,26 @@
   }
  ],
  "learn": [
+  {
+   "id": "tBfHI8sNWVU",
+   "title": "The Three Words That Saved My Life | Blake Mycoskie | TED",
+   "channel": "TED",
+   "published": "2026-10-10T12:00:18+00:00",
+   "source": "@TED",
+   "added": "2026-10-10T16:07:14.319Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "siI_2q_Umhs",
+   "title": "It's not over for Francesca Hong | America, Actually",
+   "channel": "Vox",
+   "published": "2026-10-10T12:00:16+00:00",
+   "source": "@Vox",
+   "added": "2026-10-10T16:07:14.319Z",
+   "dur": null,
+   "topic": "Society"
+  },
   {
    "id": "wsstlwuE5XY",
    "title": "How to Clean Up the World’s Dirtiest Industry | Joojin Kim | TED",
@@ -8154,6 +8174,70 @@
   }
  ],
  "shorts": [
+  {
+   "id": "Hgh8L_aNiCA",
+   "title": "Here’s your reminder that you are enough — and you always will be #WorldMentalHealthDay",
+   "channel": "TED",
+   "published": "2026-10-10T15:00:31+00:00",
+   "source": "@TED",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "aDV1J3sqYC4",
+   "title": "How Hamas' price for hostages created 'moral dilemma'",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-10T01:00:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "pgArpFxkzEE",
+   "title": "Did AI Just Solve a $1 Million Math Problem?",
+   "channel": "StarTalk",
+   "published": "2026-10-09T22:14:48+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "-veUXXYAqxY",
+   "title": "Is Climate Change Making El Niño Stronger? 🌎",
+   "channel": "StarTalk",
+   "published": "2026-10-09T20:57:00+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "ISFqXBiaysM",
+   "title": "Judge extends White House access for 3 news outlets",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-09T20:23:27+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "f2csKPY5ddc",
+   "title": "These are the inherent human skills that machines can’t replace #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-09T19:00:20+00:00",
+   "source": "@TED",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "aHYYqBZV31M",
+   "title": "Guilfoyle accused of asking Trump donor for $100k",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-09T18:28:58+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
+  {
+   "id": "5N17EbYJBwQ",
+   "title": "4 Levels of Satisfying Crunches",
+   "channel": "Mark Rober",
+   "published": "2026-10-09T17:56:55+00:00",
+   "source": "@MarkRober",
+   "added": "2026-10-10T16:07:14.319Z"
+  },
   {
    "id": "IaFKzNTA5_A",
    "title": "10 things Kate learned on safari!",
