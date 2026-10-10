@@ -262,6 +262,8 @@
   .takes .t-head { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 600; }
   .takes .t-head span { color: var(--muted); font-weight: 500; font-size: 12.5px; }
   .takes .studio-row { margin-top: 8px; }
+  .sync-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+  .sync-val { min-width: 92px; text-align: center; font-size: 13px; font-weight: 650; font-variant-numeric: tabular-nums; }
   .nb-item .vtitle { -webkit-line-clamp: 1; }
   .nb-preview { color: var(--muted); font-size: 13px; margin-top: 4px; white-space: pre-line; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   @media (min-width: 1000px) { body.view-watch .studio { margin-left: 0; margin-right: 0; } }
@@ -538,7 +540,9 @@
   let queue = [], queueTab = tab, current = null;
   let player = freshPlayer();
   let seeking = false, wantPlaying = false, pendingSeek = 0, lastSave = 0, hiddenAt = 0;
-  function freshPlayer() { return { state: -1, time: 0, dur: 0, ready: false, started: false }; }
+  function freshPlayer() { return { state: -1, time: 0, timeAt: 0, dur: 0, ready: false, started: false }; }
+  // The player reports its time a few times a second; estimate where the beat is right now between reports.
+  const beatNow = () => (player.state === 1 ? player.time + (performance.now() - player.timeAt) / 1000 : player.time);
 
   // ---------- data ----------
   fetch("videos.json", { cache: "no-store" })
@@ -1316,6 +1320,8 @@
   let studioFor = null, studioTab = store.get("studioTab", "lyrics");
   let rec = null, takePlayer = null;
   let fromTop = store.get("recFromTop", true);
+  const SYNC_STEP = 20; // ms per tap
+  let syncDefault = store.get("syncDefault", 0);
 
   // Takes are audio files, too big for localStorage, so they live in this device's IndexedDB.
   const idb = (() => {
@@ -1427,7 +1433,7 @@
     const beatTime = fromTop ? 0 : player.time;
     if (fromTop) send("seekTo", [0, true]);
     wantPlaying = true; send("playVideo");
-    rec = { mr, chunks, stream, beat, beatTime, startedAt: Date.now(), type: mr.mimeType || type || "audio/webm" };
+    rec = { mr, chunks, stream, beat, beatTime, fromTop, anchor: null, perf: performance.now(), startedAt: Date.now(), type: mr.mimeType || type || "audio/webm" };
     mr.start(250);
     rec.timer = setInterval(paintRec, 250);
     paintRec();
@@ -1448,7 +1454,8 @@
     r.mr.onstop = async () => {
       r.stream.getTracks().forEach((t) => t.stop());
       const blob = new Blob(r.chunks, { type: r.type });
-      const take = { id: `${r.beat.id}-${r.startedAt}`, beat: r.beat.id, beatTitle: r.beat.title, at: r.startedAt, beatTime: r.beatTime, dur, type: r.type, blob };
+      const take = { id: `${r.beat.id}-${r.startedAt}`, beat: r.beat.id, beatTitle: r.beat.title, at: r.startedAt,
+        beatTime: r.anchor ?? r.beatTime, sync: syncDefault, dur, type: r.type, blob };
       try { await idb.put(take); toast("Take saved"); } catch { toast("Couldn't save the take on this device"); }
       if (current?.id === r.beat.id && studioTab === "record" && route.view === "watch") renderRecord();
     };
@@ -1464,13 +1471,32 @@
     ul.innerHTML = takes.length ? "" : `<li class="studio-note">No takes yet.</li>`;
     takes.forEach((t, i) => {
       const li = document.createElement("li");
-      li.innerHTML = `<div class="t-head">Take ${takes.length - i}<span>${fmt(t.dur)} · from ${fmt(t.beatTime)} · ${agoTime(t.at)}</span></div>
+      li.innerHTML = `<div class="t-head">Take ${takes.length - i}<span>${fmt(t.dur)} · from ${fmt(Math.max(0, t.beatTime))} · ${agoTime(t.at)}</span></div>
         <div class="studio-row">
           <button class="small-btn" data-a="both">${icon("play")}Play with beat</button>
           <button class="small-btn" data-a="solo">${icon("mic")}Vocals only</button>
           <button class="small-btn" data-a="save">${icon("download")}Save</button>
           <button class="small-btn danger" data-a="del" aria-label="Delete take">${icon("trash")}</button>
+        </div>
+        <div class="sync-row">
+          <span class="studio-note">Sync</span>
+          <button class="small-btn" data-a="earlier" aria-label="Move vocals earlier">− Earlier</button>
+          <span class="sync-val" data-a="val"></span>
+          <button class="small-btn" data-a="later" aria-label="Move vocals later">Later +</button>
         </div>`;
+      const val = li.querySelector('[data-a="val"]');
+      const paintSync = () => { const ms = t.sync || 0; val.textContent = ms === 0 ? "on time" : `${Math.abs(ms)} ms ${ms > 0 ? "later" : "earlier"}`; };
+      const nudge = (d) => {
+        t.sync = (t.sync || 0) + d;
+        paintSync();
+        // Adjust live if this take is playing with the beat, so you can tune it by ear.
+        if (takePlayer?.key === t.id + ":beat" && !takePlayer.audio.paused) takePlayer.audio.currentTime = Math.max(0, takePlayer.audio.currentTime - d / 1000);
+        syncDefault = t.sync; store.set("syncDefault", syncDefault); // new takes start from your last setting
+        idb.put(t).catch(() => {});
+      };
+      li.querySelector('[data-a="earlier"]').onclick = () => nudge(-SYNC_STEP);
+      li.querySelector('[data-a="later"]').onclick = () => nudge(SYNC_STEP);
+      paintSync();
       li.querySelector('[data-a="both"]').onclick = (e) => playTake(t, true, e.currentTarget);
       li.querySelector('[data-a="solo"]').onclick = (e) => playTake(t, false, e.currentTarget);
       li.querySelector('[data-a="save"]').onclick = () => saveTake(t);
@@ -1484,7 +1510,7 @@
 
   function stopTake() {
     if (!takePlayer) return;
-    clearInterval(takePlayer.wait);
+    clearInterval(takePlayer.wait); clearTimeout(takePlayer.wait);
     takePlayer.audio.pause();
     URL.revokeObjectURL(takePlayer.url);
     if (takePlayer.btn) takePlayer.btn.innerHTML = takePlayer.label;
@@ -1507,15 +1533,19 @@
     // iPhone only lets audio start from a tap, so unlock it now (muted), then start it for real once the beat has caught up.
     audio.muted = true;
     audio.play().then(() => { audio.pause(); audio.currentTime = 0; audio.muted = false; }).catch(() => {});
-    send("seekTo", [t.beatTime, true]); send("playVideo"); wantPlaying = true;
+    const startAt = Math.max(0, t.beatTime);
+    send("seekTo", [startAt, true]); send("playVideo"); wantPlaying = true;
     const t0 = Date.now();
     takePlayer.wait = setInterval(() => {
-      const ready = player.state === 1 && Math.abs(player.time - t.beatTime) < 1.5;
+      const ready = player.state === 1 && player.timeAt > 0 && Math.abs(player.time - startAt) < 1.5;
       if (!ready && Date.now() - t0 < 3000) return;
       clearInterval(takePlayer?.wait);
-      audio.currentTime = Math.max(0, player.time - t.beatTime);
+      // Where the vocals should be right now, given where the beat is and your sync nudge (positive = later).
+      const pos = beatNow() - t.beatTime - (t.sync || 0) / 1000;
       audio.muted = false;
-      audio.play().catch(() => toast("Couldn't play the take"));
+      const go = () => audio.play().catch(() => toast("Couldn't play the take"));
+      if (pos >= 0) { audio.currentTime = pos; go(); }
+      else { audio.currentTime = 0; takePlayer.wait = setTimeout(go, -pos * 1000); }
     }, 50);
   }
 
@@ -1633,10 +1663,14 @@
         if (route.view === "watch") { renderInfo(); renderChrome(); }
         $("miniTitle").textContent = current.title; $("miniSub").textContent = current.channel;
       }
-      if (typeof info.currentTime === "number") player.time = info.currentTime;
+      if (typeof info.currentTime === "number") { player.time = info.currentTime; player.timeAt = performance.now(); }
       if (typeof info.duration === "number" && info.duration) player.dur = info.duration;
       if (typeof info.playerState === "number") onState(info.playerState);
       paintTime();
+      // While recording: work out exactly where the beat was when the mic started (the beat takes a moment to start).
+      if (rec && rec.anchor == null && player.state === 1 && player.timeAt > rec.perf + 100 && (!rec.fromTop || player.time < 3)) {
+        rec.anchor = player.time - (player.timeAt - rec.perf) / 1000;
+      }
       if (current && player.dur && player.time > 5 && Date.now() - lastSave > 5000) {
         lastSave = Date.now();
         positions[current.id] = { t: Math.round(player.time), d: Math.round(player.dur) };
