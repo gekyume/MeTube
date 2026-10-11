@@ -250,6 +250,17 @@
   .small-btn .ico { width: 16px; height: 16px; }
   .small-btn.danger { color: #ff7a7a; }
   .rec-main { display: flex; align-items: center; gap: 14px; }
+  .seg { display: flex; gap: 4px; background: var(--surface); padding: 3px; border-radius: 10px; margin-bottom: 12px; }
+  .seg button { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 7px 0; border-radius: 8px; font-size: 13.5px; font-weight: 650; color: var(--muted); }
+  .seg button[aria-selected="true"] { background: var(--surface-3); color: var(--text); }
+  .seg .ico { width: 16px; height: 16px; }
+  .cam-wrap { position: relative; width: min(100%, 300px); aspect-ratio: 3 / 4; margin: 0 auto 14px; border-radius: 14px; overflow: hidden; background: #000; display: grid; place-items: center; }
+  .cam { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  #camPreview { transform: scaleX(-1); } /* mirror the live preview like a selfie camera */
+  .cam-on { position: relative; z-index: 1; }
+  .mic-pick { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); font-size: 13px; }
+  .mic-pick .ico { width: 16px; height: 16px; color: var(--muted); }
+  .mic-pick select { font: inherit; font-size: 13px; color: var(--text); background: transparent; border: 0; outline: none; max-width: 170px; }
   .rec-btn { width: 64px; height: 64px; flex: none; border-radius: 50%; border: 3px solid var(--text); display: grid; place-items: center; }
   .rec-btn span { width: 26px; height: 26px; border-radius: 50%; background: var(--red); transition: border-radius .15s, transform .15s; }
   .rec-btn.on span { border-radius: 6px; transform: scale(.8); }
@@ -416,6 +427,7 @@
   <symbol id="i-trash" viewBox="0 0 24 24"><path d="M6 19a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"/></symbol>
   <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM6 4h5v8l-2.5-1.5L6 12z"/></symbol>
+  <symbol id="i-cam" viewBox="0 0 24 24"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -1353,7 +1365,7 @@
     const el = $("studio");
     const show = route.view === "watch" && !!current && queueTab === "beats";
     el.hidden = !show;
-    if (!show) { if (rec) stopRecording(); return; }
+    if (!show) { if (rec) stopRecording(); stopTake(); stopCamera(); return; }
     if (studioFor === current.id) return; // don't wipe what you're typing
     if (rec) stopRecording(); // moved to another beat mid-take: keep what was recorded
     stopTake();
@@ -1365,6 +1377,7 @@
     el.querySelectorAll("[data-st]").forEach((b) => (b.onclick = () => {
       if (rec) return toast("Stop recording first");
       studioTab = b.dataset.st; store.set("studioTab", studioTab);
+      if (studioTab !== "record") { stopTake(); stopCamera(); }
       studioFor = null; renderStudio();
     }));
     if (studioTab === "lyrics") renderLyrics(); else renderRecord();
@@ -1401,49 +1414,121 @@
   }
 
   const canRecord = () => !!(navigator.mediaDevices?.getUserMedia && window.MediaRecorder);
+  let recMode = store.get("recMode", "audio"); // "audio" | "video"
+  let micId = store.get("micId", "");
+  let camStream = null; // live front-camera preview (video mode)
+
+  // Music-friendly capture: no phone-call processing (noise suppression / auto volume squash rap vocals).
+  const audioConstraints = () => ({
+    echoCancellation: false, noiseSuppression: false, autoGainControl: false,
+    channelCount: 1, sampleRate: 48000, ...(micId ? { deviceId: { exact: micId } } : {}),
+  });
+  const videoConstraints = { facingMode: "user", width: { ideal: 720 }, height: { ideal: 1280 }, frameRate: { ideal: 30 } };
+
+  function stopCamera() {
+    camStream?.getTracks().forEach((t) => t.stop());
+    camStream = null;
+    const pv = $("camPreview"); if (pv) pv.srcObject = null;
+  }
+
   async function renderRecord() {
     const body = $("studioBody"), beat = current;
     if (!canRecord()) { body.innerHTML = `<div class="studio-note">Recording isn't supported in this browser.</div>`; return; }
     body.innerHTML = `
+      <div class="seg" role="tablist" aria-label="Recording type">
+        <button data-mode="audio" aria-selected="${recMode === "audio"}">${icon("mic")}Audio</button>
+        <button data-mode="video" aria-selected="${recMode === "video"}">${icon("cam")}Video</button>
+      </div>
+      <div class="cam-wrap" id="camWrap" ${recMode === "video" ? "" : "hidden"}>
+        <video id="camPreview" class="cam" playsinline muted autoplay></video>
+        <video id="takeVideo" class="cam take" playsinline hidden></video>
+        <button class="small-btn cam-on" id="camOn">${icon("cam")}Turn on camera</button>
+      </div>
       <div class="rec-main">
         <button class="rec-btn${rec ? " on" : ""}" id="recBtn" aria-label="Record"><span></span></button>
-        <div class="rec-time" id="recTime">Tap to record<small>The beat plays while you rap. Use headphones so the mic only hears you.</small></div>
+        <div class="rec-time" id="recTime">Tap to record<small>The beat plays while you rap. Wired headphones sound best.</small></div>
       </div>
-      <div class="studio-row"><button class="small-btn" id="fromTop">${icon(fromTop ? "loop" : "play")}${fromTop ? "Beat starts from 0:00" : "Beat continues from here"}</button></div>
+      <div class="studio-row">
+        <button class="small-btn" id="fromTop">${icon(fromTop ? "loop" : "play")}${fromTop ? "Beat starts from 0:00" : "Beat continues from here"}</button>
+        <label class="mic-pick" id="micPick" hidden>${icon("mic")}<select id="micSel" aria-label="Microphone"></select></label>
+      </div>
       <ul class="takes" id="takes"></ul>`;
+    body.querySelectorAll("[data-mode]").forEach((b) => (b.onclick = () => {
+      if (rec) return toast("Stop recording first");
+      recMode = b.dataset.mode; store.set("recMode", recMode);
+      if (recMode === "audio") stopCamera();
+      studioFor = null; renderStudio();
+    }));
     $("recBtn").onclick = () => (rec ? stopRecording() : startRecording(beat));
     $("fromTop").onclick = () => { fromTop = !fromTop; store.set("recFromTop", fromTop); studioFor = null; renderStudio(); };
+    $("camOn").onclick = () => startCamera().catch(() => toast("Camera blocked. Allow it in Settings → Apps → Safari → Camera."));
+    if (camStream) showPreview();
+    fillMics();
     await renderTakes(beat);
+  }
+
+  async function startCamera() {
+    if (!camStream) camStream = await navigator.mediaDevices.getUserMedia({ video: videoConstraints, audio: false });
+    showPreview();
+  }
+  function showPreview() {
+    const pv = $("camPreview"); if (!pv) return;
+    pv.srcObject = camStream; pv.hidden = false;
+    $("takeVideo").hidden = true;
+    $("camOn").hidden = true;
+    pv.play().catch(() => {});
+  }
+
+  // Lists microphones once permission is granted, so you can pick e.g. "iPhone Microphone" over AirPods.
+  async function fillMics() {
+    try {
+      const mics = (await navigator.mediaDevices.enumerateDevices()).filter((d) => d.kind === "audioinput" && d.label);
+      const sel = $("micSel"); if (!sel || mics.length < 2) return;
+      sel.innerHTML = `<option value="">Default mic</option>` + mics.map((d) => `<option value="${esc(d.deviceId)}"${d.deviceId === micId ? " selected" : ""}>${esc(d.label)}</option>`).join("");
+      sel.onchange = () => { micId = sel.value; store.set("micId", micId); toast("Mic set for your next take"); };
+      $("micPick").hidden = false;
+    } catch {}
   }
 
   async function startRecording(beat) {
     if (!player.started) return toast("Tap the video to start the beat once, then record");
     stopTake();
-    let stream;
+    const video = recMode === "video";
+    let mic;
     try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: true } });
+      mic = await navigator.mediaDevices.getUserMedia({ audio: audioConstraints() });
     } catch {
+      if (micId) { micId = ""; store.set("micId", ""); } // that mic went away; fall back next time
       return toast("Microphone blocked. Allow it in Settings → Apps → Safari → Microphone.");
     }
-    const type = ["audio/mp4", "audio/webm;codecs=opus", "audio/webm"].find((t) => MediaRecorder.isTypeSupported?.(t)) || "";
-    const mr = new MediaRecorder(stream, type ? { mimeType: type } : undefined);
+    if (video) {
+      try { await startCamera(); } catch { mic.getTracks().forEach((t) => t.stop()); return toast("Camera blocked. Allow it in Settings → Apps → Safari → Camera."); }
+    }
+    const stream = new MediaStream([...mic.getAudioTracks(), ...(video ? camStream.getVideoTracks() : [])]);
+    const types = video ? ["video/mp4", "video/webm;codecs=vp9,opus", "video/webm"] : ["audio/mp4", "audio/webm;codecs=opus", "audio/webm"];
+    const type = types.find((t) => MediaRecorder.isTypeSupported?.(t)) || "";
+    const opts = { audioBitsPerSecond: 192000, ...(video ? { videoBitsPerSecond: 3_000_000 } : {}), ...(type ? { mimeType: type } : {}) };
+    let mr;
+    try { mr = new MediaRecorder(stream, opts); } catch { mr = new MediaRecorder(stream, type ? { mimeType: type } : undefined); }
     const chunks = [];
     mr.ondataavailable = (e) => e.data.size && chunks.push(e.data);
     // Remember where in the beat this take starts, so playback can line the vocals back up.
     const beatTime = fromTop ? 0 : player.time;
     if (fromTop) send("seekTo", [0, true]);
     wantPlaying = true; send("playVideo");
-    rec = { mr, chunks, stream, beat, beatTime, fromTop, anchor: null, perf: performance.now(), startedAt: Date.now(), type: mr.mimeType || type || "audio/webm" };
+    rec = { mr, chunks, mic, video, beat, beatTime, fromTop, anchor: null, perf: performance.now(), startedAt: Date.now(),
+      type: mr.mimeType || type || (video ? "video/mp4" : "audio/mp4") };
     mr.start(250);
     rec.timer = setInterval(paintRec, 250);
     paintRec();
     $("recBtn")?.classList.add("on");
+    fillMics();
   }
 
   function paintRec() {
     if (!rec || !$("recTime")) return;
     const el = (Date.now() - rec.startedAt) / 1000;
-    $("recTime").innerHTML = `<span class="rec-dot"></span>${fmt(el)}<small>Recording · tap ■ to stop</small>`;
+    $("recTime").innerHTML = `<span class="rec-dot"></span>${fmt(el)}<small>Recording ${rec.video ? "video" : "audio"} · tap ■ to stop</small>`;
   }
 
   function stopRecording() {
@@ -1452,11 +1537,11 @@
     clearInterval(r.timer);
     const dur = (Date.now() - r.startedAt) / 1000;
     r.mr.onstop = async () => {
-      r.stream.getTracks().forEach((t) => t.stop());
+      r.mic.getTracks().forEach((t) => t.stop());
       const blob = new Blob(r.chunks, { type: r.type });
-      const take = { id: `${r.beat.id}-${r.startedAt}`, beat: r.beat.id, beatTitle: r.beat.title, at: r.startedAt,
+      const take = { id: `${r.beat.id}-${r.startedAt}`, beat: r.beat.id, beatTitle: r.beat.title, at: r.startedAt, kind: r.video ? "video" : "audio",
         beatTime: r.anchor ?? r.beatTime, sync: syncDefault, dur, type: r.type, blob };
-      try { await idb.put(take); toast("Take saved"); } catch { toast("Couldn't save the take on this device"); }
+      try { await idb.put(take); toast(`Take saved (${(blob.size / 1e6).toFixed(1)} MB)`); } catch { toast("Couldn't save the take: this device may be out of space"); }
       if (current?.id === r.beat.id && studioTab === "record" && route.view === "watch") renderRecord();
     };
     r.mr.stop();
@@ -1471,10 +1556,11 @@
     ul.innerHTML = takes.length ? "" : `<li class="studio-note">No takes yet.</li>`;
     takes.forEach((t, i) => {
       const li = document.createElement("li");
-      li.innerHTML = `<div class="t-head">Take ${takes.length - i}<span>${fmt(t.dur)} · from ${fmt(Math.max(0, t.beatTime))} · ${agoTime(t.at)}</span></div>
+      const isVid = t.kind === "video";
+      li.innerHTML = `<div class="t-head">${isVid ? "🎥 " : ""}Take ${takes.length - i}<span>${fmt(t.dur)} · from ${fmt(Math.max(0, t.beatTime))} · ${agoTime(t.at)}</span></div>
         <div class="studio-row">
           <button class="small-btn" data-a="both">${icon("play")}Play with beat</button>
-          <button class="small-btn" data-a="solo">${icon("mic")}Vocals only</button>
+          <button class="small-btn" data-a="solo">${icon(isVid ? "cam" : "mic")}${isVid ? "Video only" : "Vocals only"}</button>
           <button class="small-btn" data-a="save">${icon("download")}Save</button>
           <button class="small-btn danger" data-a="del" aria-label="Delete take">${icon("trash")}</button>
         </div>
@@ -1490,7 +1576,7 @@
         t.sync = (t.sync || 0) + d;
         paintSync();
         // Adjust live if this take is playing with the beat, so you can tune it by ear.
-        if (takePlayer?.key === t.id + ":beat" && !takePlayer.audio.paused) takePlayer.audio.currentTime = Math.max(0, takePlayer.audio.currentTime - d / 1000);
+        if (takePlayer?.key === t.id + ":beat" && !takePlayer.media.paused) takePlayer.media.currentTime = Math.max(0, takePlayer.media.currentTime - d / 1000);
         syncDefault = t.sync; store.set("syncDefault", syncDefault); // new takes start from your last setting
         idb.put(t).catch(() => {});
       };
@@ -1511,7 +1597,8 @@
   function stopTake() {
     if (!takePlayer) return;
     clearInterval(takePlayer.wait); clearTimeout(takePlayer.wait);
-    takePlayer.audio.pause();
+    takePlayer.media.pause();
+    if (takePlayer.isVideo) { takePlayer.media.removeAttribute("src"); takePlayer.media.load(); if (camStream) showPreview(); }
     URL.revokeObjectURL(takePlayer.url);
     if (takePlayer.btn) takePlayer.btn.innerHTML = takePlayer.label;
     takePlayer = null;
@@ -1523,16 +1610,26 @@
     stopTake();
     if (same) { if (withBeat) send("pauseVideo"); return; }
     if (withBeat && !player.started) return toast("Tap the video to start the beat once, then play the take");
+    const isVideo = t.kind === "video";
     const url = URL.createObjectURL(t.blob);
-    const audio = new Audio(url);
-    audio.playsInline = true;
-    takePlayer = { key, audio, url, btn, label: btn.innerHTML };
+    let media;
+    if (isVideo) {
+      // Video takes play in the box above, where the camera preview is.
+      if (recMode !== "video") { recMode = "video"; store.set("recMode", recMode); studioFor = null; renderStudio(); return setTimeout(() => playTake(t, withBeat, document.querySelector(`#takes [data-a="${withBeat ? "both" : "solo"}"]`)), 50); }
+      media = $("takeVideo");
+      $("camWrap").hidden = false; $("camPreview").hidden = true; $("camOn").hidden = true; media.hidden = false;
+      media.src = url;
+    } else {
+      media = new Audio(url);
+    }
+    media.playsInline = true;
+    takePlayer = { key, media, url, btn, isVideo, label: btn.innerHTML };
     btn.innerHTML = `${icon("pause")}Stop`;
-    audio.onended = () => { stopTake(); if (withBeat) send("pauseVideo"); };
-    if (!withBeat) { if (player.state === 1) send("pauseVideo"); audio.play().catch(() => toast("Couldn't play the take")); return; }
-    // iPhone only lets audio start from a tap, so unlock it now (muted), then start it for real once the beat has caught up.
-    audio.muted = true;
-    audio.play().then(() => { audio.pause(); audio.currentTime = 0; audio.muted = false; }).catch(() => {});
+    media.onended = () => { stopTake(); if (withBeat) send("pauseVideo"); };
+    if (!withBeat) { if (player.state === 1) send("pauseVideo"); media.play().catch(() => toast("Couldn't play the take")); return; }
+    // iPhone only lets media start from a tap, so unlock it now (muted), then start it for real once the beat has caught up.
+    media.muted = true;
+    media.play().then(() => { media.pause(); media.currentTime = 0; }).catch(() => {});
     const startAt = Math.max(0, t.beatTime);
     send("seekTo", [startAt, true]); send("playVideo"); wantPlaying = true;
     const t0 = Date.now();
@@ -1542,15 +1639,15 @@
       clearInterval(takePlayer?.wait);
       // Where the vocals should be right now, given where the beat is and your sync nudge (positive = later).
       const pos = beatNow() - t.beatTime - (t.sync || 0) / 1000;
-      audio.muted = false;
-      const go = () => audio.play().catch(() => toast("Couldn't play the take"));
-      if (pos >= 0) { audio.currentTime = pos; go(); }
-      else { audio.currentTime = 0; takePlayer.wait = setTimeout(go, -pos * 1000); }
+      media.muted = false;
+      const go = () => media.play().catch(() => toast("Couldn't play the take"));
+      if (pos >= 0) { media.currentTime = pos; go(); }
+      else { media.currentTime = 0; takePlayer.wait = setTimeout(go, -pos * 1000); }
     }, 50);
   }
 
   function saveTake(t) {
-    const ext = t.type.includes("mp4") ? "m4a" : "webm";
+    const ext = t.type.includes("mp4") ? (t.kind === "video" ? "mp4" : "m4a") : "webm";
     const name = `${(t.beatTitle || "beat").replace(/[^\w\- ]+/g, "").trim().slice(0, 40) || "beat"} - take.${ext}`;
     const file = new File([t.blob], name, { type: t.type });
     if (navigator.canShare?.({ files: [file] })) {
