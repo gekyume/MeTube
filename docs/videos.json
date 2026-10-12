@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T16:34:23.697Z",
+ "updatedAt": "2026-10-12T20:08:38.405Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,56 @@
   }
  ],
  "learn": [
+  {
+   "id": "NiCgcUTL9_Q",
+   "title": "How We Trapped Light and Built the Internet",
+   "channel": "Veritasium",
+   "published": "2026-10-12T17:11:45+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-12T20:08:38.405Z",
+   "dur": null,
+   "topic": "Science"
+  },
+  {
+   "id": "9i1LVL3_xpU",
+   "title": "Why We Blew Up Four Dams — and Saved a River | Amy Bowers Cordalis | TED",
+   "channel": "TED",
+   "published": "2026-10-12T15:00:34+00:00",
+   "source": "@TED",
+   "added": "2026-10-12T20:08:38.405Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "EfbNa3TBy6M",
+   "title": "Are young men and women giving up on each other? | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-12T12:00:16+00:00",
+   "source": "@Vox",
+   "added": "2026-10-12T20:08:38.405Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "CqPsGYJHozM",
+   "title": "ASML’s New Multibeam Inspection Tool is Familiar",
+   "channel": "Asianometry",
+   "published": "2026-10-11T23:00:38+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-12T20:08:38.405Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "CKAyfGItpgg",
+   "title": "How to Start Any Conversation the Right Way | Chris Fenning | TED",
+   "channel": "TED",
+   "published": "2026-10-11T18:00:21+00:00",
+   "source": "@TED",
+   "added": "2026-10-12T20:08:38.405Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "tBfHI8sNWVU",
    "title": "The Three Words That Saved My Life | Blake Mycoskie | TED",
@@ -8174,6 +8224,30 @@
   }
  ],
  "shorts": [
+  {
+   "id": "eW5Oi91m4SY",
+   "title": "The original cosmic hit #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-12T17:00:07+00:00",
+   "source": "@TED",
+   "added": "2026-10-12T20:08:38.405Z"
+  },
+  {
+   "id": "PSysNY5EIbc",
+   "title": "Meet the Extraordinary Team Behind Africa Earth's Wild Home 🤝 #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-11T18:00:09+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-12T20:08:38.405Z"
+  },
+  {
+   "id": "PdVp6dLxs24",
+   "title": "How the Middle East is in a 'post WWII-like moment'",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-11T17:00:34+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-12T20:08:38.405Z"
+  },
   {
    "id": "0XNccH4PhqE",
    "title": "How exercise, finding purpose in life improves health",
