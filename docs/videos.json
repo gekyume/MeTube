@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T20:08:38.405Z",
+ "updatedAt": "2026-10-13T17:58:14.007Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,26 @@
   }
  ],
  "learn": [
+  {
+   "id": "1uTRlM6MbMo",
+   "title": "How to present your ideas effectively",
+   "channel": "TED-Ed",
+   "published": "2026-10-13T15:00:24+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-13T17:58:14.007Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "PpEUTpzWt2M",
+   "title": "How the Wealth Gap Is Reshaping Politics | Xochitl Gonzalez | TED",
+   "channel": "TED",
+   "published": "2026-10-13T15:00:17+00:00",
+   "source": "@TED",
+   "added": "2026-10-13T17:58:14.007Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "NiCgcUTL9_Q",
    "title": "How We Trapped Light and Built the Internet",
@@ -8224,6 +8244,46 @@
   }
  ],
  "shorts": [
+  {
+   "id": "f6ixh2BFfRM",
+   "title": "Fire destroys historic food market in Paris",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-13T16:22:35+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-13T17:58:14.007Z"
+  },
+  {
+   "id": "h7FhchCq0Ko",
+   "title": "2 American economists win Nobel Prize",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-13T15:52:25+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-13T17:58:14.007Z"
+  },
+  {
+   "id": "cu9KILGrUUQ",
+   "title": "Riyadh airport closed after Houthi strikes kill 13",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-13T15:08:58+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-13T17:58:14.007Z"
+  },
+  {
+   "id": "1sbdO1ndOQg",
+   "title": "What did ancient cultures see when they looked at the Milky Way? 🌌",
+   "channel": "StarTalk",
+   "published": "2026-10-13T15:00:15+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-13T17:58:14.007Z"
+  },
+  {
+   "id": "QCfFbM2yZtc",
+   "title": "Why this Senate race is now a 'toss-up'",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-13T12:32:22+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-13T17:58:14.007Z"
+  },
   {
    "id": "eW5Oi91m4SY",
    "title": "The original cosmic hit #TEDTalks",
