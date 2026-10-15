@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T15:43:10.743Z",
+ "updatedAt": "2026-10-15T15:30:53.757Z",
  "topics": [
   "Science",
   "History",
@@ -2219,6 +2219,46 @@
   }
  ],
  "learn": [
+  {
+   "id": "av3zdxYvCp8",
+   "title": "3 things to never do with a credit card",
+   "channel": "TED-Ed",
+   "published": "2026-10-15T15:00:51+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-15T15:30:53.757Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "ohpIw6iGXNA",
+   "title": "Why I’m Building Libraries Inside Prisons | Reginald Dwayne Betts | TED",
+   "channel": "TED",
+   "published": "2026-10-15T15:00:33+00:00",
+   "source": "@TED",
+   "added": "2026-10-15T15:30:53.757Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "axRhjqd-rus",
+   "title": "The REAL reason China built so much",
+   "channel": "Johnny Harris",
+   "published": "2026-10-15T12:00:21+00:00",
+   "source": "@johnnyharris",
+   "added": "2026-10-15T15:30:53.757Z",
+   "dur": null,
+   "topic": "People & World"
+  },
+  {
+   "id": "CixtNLwmtVg",
+   "title": "A DeafBlind Man Learning to Communicate (Max's Story)",
+   "channel": "Special Books by Special Kids",
+   "published": "2026-10-14T19:01:11+00:00",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-15T15:30:53.757Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "1uTRlM6MbMo",
    "title": "How to present your ideas effectively",
@@ -8244,6 +8284,62 @@
   }
  ],
  "shorts": [
+  {
+   "id": "tXdovxg7zQ8",
+   "title": "Build, test, race a #NationalGeographic marble run!",
+   "channel": "National Geographic",
+   "published": "2026-10-15T15:00:21+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "6U6Z6pb6ewI",
+   "title": "When you lose weight where does it go?",
+   "channel": "Veritasium",
+   "published": "2026-10-15T13:00:26+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "Hpqd6zRh58c",
+   "title": "How social media creates 'distance' from happiness",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T12:00:13+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "2L0GgrejKLY",
+   "title": "The image-based evolution of social media",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-14T22:10:49+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "0_jtJS1IQKE",
+   "title": "Cornell bans fraternity parties, evaluates Greek life",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-14T18:24:02+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "TmymKb6pEvk",
+   "title": "Perseverance rover breaks Mars driving distance record",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-14T17:15:10+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
+  {
+   "id": "4sCm_TkJfis",
+   "title": "Duane Davis gets 40 years to life for murder of Tupac",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-14T16:45:03+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-15T15:30:53.757Z"
+  },
   {
    "id": "7XRAosFeODE",
    "title": "Rider falls to his death from Six Flags roller coaster",
