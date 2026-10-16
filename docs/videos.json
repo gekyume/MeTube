@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T15:30:53.757Z",
+ "updatedAt": "2026-10-16T15:15:31.116Z",
  "topics": [
   "Science",
   "History",
@@ -1354,6 +1354,15 @@
    "dur": 144
   },
   {
+   "id": "o9NHmM5lsgg",
+   "title": "[FREE] Boom Bap Type Beat – \"Pressure Drop\" | Hip Hop Reggae Instrumental",
+   "channel": "Templum Boom Bap",
+   "published": "2026-10-15T16:00:07+00:00",
+   "source": "@TemplumBoomBap",
+   "added": "2026-10-16T15:15:31.116Z",
+   "dur": null
+  },
+  {
    "id": "g33rB9pHOfE",
    "title": "Boom Bap Beat \"STREET CLASSIC\" | Free Type Beat 2026 | Old School Rap Instrumental",
    "channel": "VintageMan Beats",
@@ -2219,6 +2228,46 @@
   }
  ],
  "learn": [
+  {
+   "id": "ny26teC-4bU",
+   "title": "AI and the End of Loneliness | Paul Bloom | TED",
+   "channel": "TED",
+   "published": "2026-10-16T15:00:35+00:00",
+   "source": "@TED",
+   "added": "2026-10-16T15:15:31.116Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "AZ6awe3KF1I",
+   "title": "Prediction markets and the greater good | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-16T12:00:09+00:00",
+   "source": "@Vox",
+   "added": "2026-10-16T15:15:31.116Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "pGQWq_q1gnM",
+   "title": "IGBTs Took Silicon Power to the Next Level",
+   "channel": "Asianometry",
+   "published": "2026-10-15T23:00:03+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-16T15:15:31.116Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "R60ZGwd3n9E",
+   "title": "Why The US Is Suddenly Attacking Canada",
+   "channel": "RealLifeLore",
+   "published": "2026-10-15T16:12:47+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-16T15:15:31.116Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "av3zdxYvCp8",
    "title": "3 things to never do with a credit card",
@@ -8284,6 +8333,54 @@
   }
  ],
  "shorts": [
+  {
+   "id": "zqydcyabedo",
+   "title": "Lending a helping hand to a young pangolin foraging for food #PerpetualPlanet #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-16T15:00:13+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
+  {
+   "id": "lFQTD54ScEg",
+   "title": "Remembering opera singer Martina Arroyo",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T19:45:22+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
+  {
+   "id": "3TyOVQGv278",
+   "title": "Shipwreck believed to be world's oldest found off Turkey",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T19:30:00+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
+  {
+   "id": "QnALstTHgXs",
+   "title": "Pope Leo eating, recovering after cancer surgery",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T19:06:26+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
+  {
+   "id": "4reX9uzTz6A",
+   "title": "How social media alienates us from our own lives",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T18:55:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
+  {
+   "id": "zkdvt6L_Zm8",
+   "title": "Cargo ship sinks in Strait of Hormuz after striking mine",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-15T16:24:51+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-16T15:15:31.116Z"
+  },
   {
    "id": "tXdovxg7zQ8",
    "title": "Build, test, race a #NationalGeographic marble run!",
