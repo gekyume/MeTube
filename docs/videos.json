@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T15:15:31.116Z",
+ "updatedAt": "2026-10-17T14:04:51.966Z",
  "topics": [
   "Science",
   "History",
@@ -2228,6 +2228,36 @@
   }
  ],
  "learn": [
+  {
+   "id": "L39YZQFuKb0",
+   "title": "The GOP’s midterm advantage | America, Actually",
+   "channel": "Vox",
+   "published": "2026-10-17T12:00:15+00:00",
+   "source": "@Vox",
+   "added": "2026-10-17T14:04:51.966Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "fqWG_jIHsvg",
+   "title": "Can we end campus sexual assault?",
+   "channel": "Vox",
+   "published": "2026-10-16T20:00:35+00:00",
+   "source": "@Vox",
+   "added": "2026-10-17T14:04:51.966Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "LKrwhjOI8Nc",
+   "title": "There's never been a better time to go into math",
+   "channel": "3Blue1Brown",
+   "published": "2026-10-16T16:15:20+00:00",
+   "source": "@3blue1brown",
+   "added": "2026-10-17T14:04:51.966Z",
+   "dur": null,
+   "topic": "Science"
+  },
   {
    "id": "ny26teC-4bU",
    "title": "AI and the End of Loneliness | Paul Bloom | TED",
@@ -8333,6 +8363,118 @@
   }
  ],
  "shorts": [
+  {
+   "id": "SLGrBpuDcqA",
+   "title": "The immigration myths Americans have adopted",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T12:00:24+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "L02SweXmB-Q",
+   "title": "Why the FBI called Havana Syndrome 'mass hysteria'",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T01:00:09+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "KSc8IlCNDRI",
+   "title": "How can we ensure human safety while living with robots?",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T00:00:04+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "TVpMka43TFk",
+   "title": "This magnet machine is scary",
+   "channel": "NileRed",
+   "published": "2026-10-16T22:02:57+00:00",
+   "source": "@NileRed",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "XCNbmH5UYiQ",
+   "title": "Florida sees largest Dengue outbreak in years",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T21:31:18+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "hsp6jpZXT5E",
+   "title": "Jackson tells Collins to 'shut up' in Maine Senate debate",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T21:26:29+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "p_Iwb78RbjY",
+   "title": "15 tiny and rare frogs born at London Zoo",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T20:30:23+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "G0Fr9EK5JWE",
+   "title": "Who is Elizabeth Holmes, the subject of Nathan Fielder's new documentary?",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T20:15:39+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "YIrFd4uVwd4",
+   "title": "POV: I'm Your Trip Sitter",
+   "channel": "Vsauce",
+   "published": "2026-10-16T20:10:16+00:00",
+   "source": "@Vsauce",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "fUBRGTKInbI",
+   "title": "Yes, mosquitoes ARE out to get you.",
+   "channel": "MinuteEarth",
+   "published": "2026-10-16T18:00:02+00:00",
+   "source": "@MinuteEarth",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "RDTqR0dD9Xs",
+   "title": "How immigration via Ellis Island was 'simpler' than today",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T17:11:58+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "xYmSeqloXAI",
+   "title": "School roof collapse kills at least 35 in Pakistan",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T17:00:39+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "2qFDJlSVny4",
+   "title": "Violence erupts in anti-government protests in Albania",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T16:00:33+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
+  {
+   "id": "2YUo06QFcQQ",
+   "title": "Trump cancels stream of Fort Hood shooter's execution",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-16T15:38:54+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-17T14:04:51.966Z"
+  },
   {
    "id": "zqydcyabedo",
    "title": "Lending a helping hand to a young pangolin foraging for food #PerpetualPlanet #AfricaEarthsWildHome",
