@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-17T14:04:51.966Z",
+ "updatedAt": "2026-10-18T14:19:47.823Z",
  "topics": [
   "Science",
   "History",
@@ -2228,6 +2228,16 @@
   }
  ],
  "learn": [
+  {
+   "id": "ueOxonBk970",
+   "title": "Campaigns Spend Millions to Influence Voters. This Works Better | Katie Paris | TED",
+   "channel": "TED",
+   "published": "2026-10-17T15:00:35+00:00",
+   "source": "@TED",
+   "added": "2026-10-18T14:19:47.823Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "L39YZQFuKb0",
    "title": "The GOP’s midterm advantage | America, Actually",
@@ -8363,6 +8373,46 @@
   }
  ],
  "shorts": [
+  {
+   "id": "sp_knUtJ29k",
+   "title": "Katie Zacharia out as press secretary after 5 days on job",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T17:30:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-18T14:19:47.823Z"
+  },
+  {
+   "id": "ri0kTdsIe7k",
+   "title": "How Russia could be tied to Havana Syndrome",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T17:00:08+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-18T14:19:47.823Z"
+  },
+  {
+   "id": "p78aEPdNf4A",
+   "title": "Israeli settlers attack Palestinians during olive harvest",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T16:30:00+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-18T14:19:47.823Z"
+  },
+  {
+   "id": "2xfJCMRiL-Q",
+   "title": "The hopes and risks of bringing humanoid robots into our homes",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-17T16:00:36+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-18T14:19:47.823Z"
+  },
+  {
+   "id": "LTZ6neGZmnc",
+   "title": "Is ALL Life Intelligent? 🧠",
+   "channel": "StarTalk",
+   "published": "2026-10-17T15:00:17+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-18T14:19:47.823Z"
+  },
   {
    "id": "SLGrBpuDcqA",
    "title": "The immigration myths Americans have adopted",
