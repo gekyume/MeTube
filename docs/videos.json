@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T14:19:47.823Z",
+ "updatedAt": "2026-10-19T17:21:02.851Z",
  "topics": [
   "Science",
   "History",
@@ -2228,6 +2228,36 @@
   }
  ],
  "learn": [
+  {
+   "id": "UNTZMlgf2To",
+   "title": "The Secret to Lasting Love | Eli J. Finkel | TED",
+   "channel": "TED",
+   "published": "2026-10-19T15:00:33+00:00",
+   "source": "@TED",
+   "added": "2026-10-19T17:21:02.851Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "NYej-KstgTg",
+   "title": "The Birth & Rise of India's IT Outsourcing Industry",
+   "channel": "Asianometry",
+   "published": "2026-10-18T23:00:26+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-19T17:21:02.851Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "TRuu-eZsl1c",
+   "title": "I Thought I Was Lazy. Turns Out I Had a Sleep Disorder | Lindsay Scola | TED",
+   "channel": "TED",
+   "published": "2026-10-18T15:00:30+00:00",
+   "source": "@TED",
+   "added": "2026-10-19T17:21:02.851Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "ueOxonBk970",
    "title": "Campaigns Spend Millions to Influence Voters. This Works Better | Katie Paris | TED",
@@ -8373,6 +8403,46 @@
   }
  ],
  "shorts": [
+  {
+   "id": "gDQB1rGT4pg",
+   "title": "When there's a whale, there's a way",
+   "channel": "TED",
+   "published": "2026-10-19T17:00:08+00:00",
+   "source": "@TED",
+   "added": "2026-10-19T17:21:02.851Z"
+  },
+  {
+   "id": "m65F7Z9PoTQ",
+   "title": "A Time When the Entire Universe Glowed?",
+   "channel": "StarTalk",
+   "published": "2026-10-19T15:00:00+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-19T17:21:02.851Z"
+  },
+  {
+   "id": "bTiXx_AKgCg",
+   "title": "Why a CIA report on Havana Syndrome was rescinded",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-18T17:00:02+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-19T17:21:02.851Z"
+  },
+  {
+   "id": "NyCtgZCYUmY",
+   "title": "Steven Spielberg Asks Why Atoms Don't Collapse",
+   "channel": "StarTalk",
+   "published": "2026-10-18T15:00:38+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-19T17:21:02.851Z"
+  },
+  {
+   "id": "l4zB1FrNjjY",
+   "title": "Hope for Africa's Wild Future #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-18T15:00:20+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-19T17:21:02.851Z"
+  },
   {
    "id": "sp_knUtJ29k",
    "title": "Katie Zacharia out as press secretary after 5 days on job",
