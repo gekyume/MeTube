@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-19T17:21:02.851Z",
+ "updatedAt": "2026-10-20T15:34:14.220Z",
  "topics": [
   "Science",
   "History",
@@ -2228,6 +2228,66 @@
   }
  ],
  "learn": [
+  {
+   "id": "NPJ9KZqrl50",
+   "title": "Meet the hydra: Masters of immortality - Raymond Adkins",
+   "channel": "TED-Ed",
+   "published": "2026-10-20T15:01:00+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "vfbNzpd6cIw",
+   "title": "What Makes a Good Game? | Eric Zimmerman | TED",
+   "channel": "TED",
+   "published": "2026-10-20T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "PXbVn-f_wuM",
+   "title": "You Will Only Like Half of This Video",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-10-20T14:00:11+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Science"
+  },
+  {
+   "id": "awV7FP9sAHE",
+   "title": "Whatever Happened to Fire Escapes?",
+   "channel": "Practical Engineering",
+   "published": "2026-10-20T13:00:19+00:00",
+   "source": "@PracticalEngineeringChannel",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "62aBuDKsiDc",
+   "title": "Introducing Best of Luck with Kyla Scanlon",
+   "channel": "Vox",
+   "published": "2026-10-20T12:00:28+00:00",
+   "source": "@Vox",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "F8Mm4FgIwBg",
+   "title": "Elissa Slotkin says it’s time for new faces | America, Actually",
+   "channel": "Vox",
+   "published": "2026-10-19T21:30:22+00:00",
+   "source": "@Vox",
+   "added": "2026-10-20T15:34:14.220Z",
+   "dur": null,
+   "topic": "Society"
+  },
   {
    "id": "UNTZMlgf2To",
    "title": "The Secret to Lasting Love | Eli J. Finkel | TED",
@@ -5445,15 +5505,6 @@
    "source": "@kurzgesagt"
   },
   {
-   "id": "LEENEFaVUzU",
-   "title": "The Last Human – A Glimpse Into The Far Future",
-   "dur": 751,
-   "channel": "Kurzgesagt – In a Nutshell",
-   "topic": "Science",
-   "collection": "@kurzgesagt",
-   "source": "@kurzgesagt"
-  },
-  {
    "id": "BNYJQaZUDrI",
    "title": "Crash Course Philosophy Preview",
    "dur": 133,
@@ -8403,6 +8454,62 @@
   }
  ],
  "shorts": [
+  {
+   "id": "mpVG9jkECvU",
+   "title": "10 people arrested connected to West bank settler attacks",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T14:35:51+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "vJEA3V8Vlro",
+   "title": "Remembering film critic Ann Hornaday",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T14:34:29+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "blLKSkiT3aQ",
+   "title": "Why IC reports on Havana Syndrome were rescinded",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T13:53:21+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "2McJ8QpzSWo",
+   "title": "The Disturbing Sound The FBI Used At Waco",
+   "channel": "Vsauce",
+   "published": "2026-10-19T23:51:08+00:00",
+   "source": "@Vsauce",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "QQ7jtXEXnwc",
+   "title": "Trump’s ‘dramatic’ U-turn away from Ukraine, to Russia",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-19T20:00:00+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "sow7ncSLBrs",
+   "title": "What has made Trump an enduring political figure",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-19T18:49:08+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
+  {
+   "id": "XrdGM7gNvU8",
+   "title": "Presented by @ROLEX. National Geographic photographer Marcus Westberg filmed a pangolin hydrating.",
+   "channel": "National Geographic",
+   "published": "2026-10-19T18:00:00+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-20T15:34:14.220Z"
+  },
   {
    "id": "gDQB1rGT4pg",
    "title": "When there's a whale, there's a way",
