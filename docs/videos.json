@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-20T15:34:14.220Z",
+ "updatedAt": "2026-10-21T15:51:00.135Z",
  "topics": [
   "Science",
   "History",
@@ -2228,6 +2228,16 @@
   }
  ],
  "learn": [
+  {
+   "id": "YzrVkyDqLcE",
+   "title": "The Magic of The Great Listen",
+   "channel": "StoryCorps",
+   "published": "2026-10-20T20:48:38+00:00",
+   "source": "@StoryCorps",
+   "added": "2026-10-21T15:51:00.135Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "NPJ9KZqrl50",
    "title": "Meet the hydra: Masters of immortality - Raymond Adkins",
@@ -8454,6 +8464,78 @@
   }
  ],
  "shorts": [
+  {
+   "id": "t_P0La5o6Tc",
+   "title": "Vance not endorsing Netanyahu ahead of Israeli elections",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T14:56:58+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "gnJiW5m0gd0",
+   "title": "Why haven't we found any evidence of alien civilizations? The answer could be simple.",
+   "channel": "National Geographic",
+   "published": "2026-10-21T13:00:20+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "eXv6fWonvUM",
+   "title": "Can You Scientifically Measure Fun?",
+   "channel": "Mark Rober",
+   "published": "2026-10-21T13:00:01+00:00",
+   "source": "@MarkRober",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "QdUGDEkRMME",
+   "title": "There are more than 6,000 exoplanets",
+   "channel": "National Geographic",
+   "published": "2026-10-20T19:00:04+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "T188i_SVLVI",
+   "title": "Trump says DC golf course to close despite court case #shorts",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T18:47:15+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "jk0t12N7fV0",
+   "title": "Explore the world of romance scams with Mariana van Zeller #SuperScamMe",
+   "channel": "National Geographic",
+   "published": "2026-10-20T17:30:11+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "RUKEyUKSuYQ",
+   "title": "What's driving Trump's feud with Ukraine's president?",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T17:29:16+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "j1uEwX2bMBw",
+   "title": "NPR journalist Noah Adams dies at 84",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-20T17:00:03+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
+  {
+   "id": "3II9AFi5U0M",
+   "title": "National Geographic's #BestOfTheWorld Guide 2027",
+   "channel": "National Geographic",
+   "published": "2026-10-20T16:32:13+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-21T15:51:00.135Z"
+  },
   {
    "id": "mpVG9jkECvU",
    "title": "10 people arrested connected to West bank settler attacks",
