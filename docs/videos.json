@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-21T15:51:00.135Z",
+ "updatedAt": "2026-10-22T15:48:12.881Z",
  "topics": [
   "Science",
   "History",
@@ -1354,6 +1354,15 @@
    "dur": 144
   },
   {
+   "id": "gp-M7JAatMQ",
+   "title": "[FREE] Boom Bap Type Beat – \"Smoke Break\" | Hip Hop Instrumental",
+   "channel": "Templum Boom Bap",
+   "published": "2026-10-21T16:00:21+00:00",
+   "source": "@TemplumBoomBap",
+   "added": "2026-10-22T15:48:12.881Z",
+   "dur": null
+  },
+  {
    "id": "o9NHmM5lsgg",
    "title": "[FREE] Boom Bap Type Beat – \"Pressure Drop\" | Hip Hop Reggae Instrumental",
    "channel": "Templum Boom Bap",
@@ -2228,6 +2237,26 @@
   }
  ],
  "learn": [
+  {
+   "id": "a_4eFB8pPwI",
+   "title": "5 sneaky ways stores get you to spend more",
+   "channel": "TED-Ed",
+   "published": "2026-10-22T15:01:05+00:00",
+   "source": "@TEDEd",
+   "added": "2026-10-22T15:48:12.881Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "j11fPNKe5mY",
+   "title": "Inside the “Play Labs” Helping Refugee Kids Heal | Erum Mariam | TED",
+   "channel": "TED",
+   "published": "2026-10-22T15:00:04+00:00",
+   "source": "@TED",
+   "added": "2026-10-22T15:48:12.881Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "YzrVkyDqLcE",
    "title": "The Magic of The Great Listen",
@@ -8464,6 +8493,70 @@
   }
  ],
  "shorts": [
+  {
+   "id": "wxLc-gFORPQ",
+   "title": "Is there something faster than light?",
+   "channel": "Veritasium",
+   "published": "2026-10-22T13:00:17+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "qWRvkLN4Oe4",
+   "title": "India's Gen Z youth flock to streets over voter roll purge",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T00:03:52+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "pjPwC0VX0SM",
+   "title": "Drone strike kills more than 150 in South Sudan",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T18:20:23+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "vEMNft0Le7c",
+   "title": "Alberta voters reject referendum to split from Canada",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T17:50:28+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "gLZ0fJWAJ_4",
+   "title": "Remembering character actor Richard Riehle",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T17:30:26+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "QHPVRQVLUrQ",
+   "title": "U.K. jets to help defend Saudi Arabia from Houthi attacks",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T17:12:12+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "boITirzub_k",
+   "title": "Christina Applegate says her MS was a misdiagnosis",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T17:00:12+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
+  {
+   "id": "Px9YZWx-UWs",
+   "title": "Houthi strike on military camp kills at least 53 in Yemen",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-21T16:00:37+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-22T15:48:12.881Z"
+  },
   {
    "id": "t_P0La5o6Tc",
    "title": "Vance not endorsing Netanyahu ahead of Israeli elections",
