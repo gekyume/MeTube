@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-22T15:48:12.881Z",
+ "updatedAt": "2026-10-23T15:39:17.680Z",
  "topics": [
   "Science",
   "History",
@@ -2237,6 +2237,36 @@
   }
  ],
  "learn": [
+  {
+   "id": "cTHwSER_l-8",
+   "title": "How to Stop Homelessness Before It Starts | Jen Loving | TED",
+   "channel": "TED",
+   "published": "2026-10-23T15:00:35+00:00",
+   "source": "@TED",
+   "added": "2026-10-23T15:39:17.680Z",
+   "dur": null,
+   "topic": "Ideas & Talks"
+  },
+  {
+   "id": "annnR8zAdbY",
+   "title": "What makes a life good enough? | The Gray Area",
+   "channel": "Vox",
+   "published": "2026-10-23T12:00:19+00:00",
+   "source": "@Vox",
+   "added": "2026-10-23T15:39:17.680Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "U927gKmIu7c",
+   "title": "Chris's Interview (Opening Up For The First Time)",
+   "channel": "Special Books by Special Kids",
+   "published": "2026-10-22T18:58:11+00:00",
+   "source": "@SpecialBooksbySpecialKids",
+   "added": "2026-10-23T15:39:17.680Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "a_4eFB8pPwI",
    "title": "5 sneaky ways stores get you to spend more",
@@ -4808,7 +4838,7 @@
   {
    "id": "zozEm4f_dlw",
    "title": "Astronomy Is In Crisis...And It's Incredibly Exciting",
-   "dur": 688,
+   "dur": 682,
    "channel": "Kurzgesagt – In a Nutshell",
    "topic": "Science",
    "collection": "@kurzgesagt",
@@ -8493,6 +8523,110 @@
   }
  ],
  "shorts": [
+  {
+   "id": "r8uakRj9bqE",
+   "title": "Virginia state senator indicted on federal charges",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T15:22:45+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "d--iHPCldPM",
+   "title": "Why chocolate prices might scare you this Halloween",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T12:30:27+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "EEM-t-zguqg",
+   "title": "How to talk to kids about child sexual abuse",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T12:00:36+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "gkOGZTyA_ws",
+   "title": "New York City passes bill to ban horse carriages #shorts",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T23:39:12+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "1k1w1Q8vr5g",
+   "title": "The Magic Octagon",
+   "channel": "Vsauce",
+   "published": "2026-10-22T21:19:50+00:00",
+   "source": "@Vsauce",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "hfzSVUaufjA",
+   "title": "Presented by @ROLEX. National Geographic photographer Marcus Westberg filmed a pangolin feeding.",
+   "channel": "National Geographic",
+   "published": "2026-10-22T21:00:17+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "GTqsT7esFZY",
+   "title": "Introducing IN THEORY, a new StarTalk limited series with theoretical cosmologist Janna Levin",
+   "channel": "StarTalk",
+   "published": "2026-10-22T20:53:05+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "8xCAZeH8Dp8",
+   "title": "A Trillion Is a Lot… Chuck Needs a Minute 💀",
+   "channel": "StarTalk",
+   "published": "2026-10-22T20:52:49+00:00",
+   "source": "@StarTalk",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "tENA0Z30QUU",
+   "title": "Algorithms may be narrowing your taste #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-22T20:30:36+00:00",
+   "source": "@TED",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "KkGVBdqxY1I",
+   "title": "Trump transgender care policy rejected by Supreme Court",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T17:50:24+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "8fr6UhafKMg",
+   "title": "Thousands march for education reform in Greece",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T17:30:02+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "nYbEHOphjKs",
+   "title": "U.S. candidate Brad Lander detained by IDF in West Bank",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T17:10:08+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
+  {
+   "id": "_RBDG-038n0",
+   "title": "Vatican says pope won't need further cancer treatment",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-22T16:30:06+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-23T15:39:17.680Z"
+  },
   {
    "id": "wxLc-gFORPQ",
    "title": "Is there something faster than light?",
