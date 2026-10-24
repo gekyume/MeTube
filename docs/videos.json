@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-23T15:39:17.680Z",
+ "updatedAt": "2026-10-24T14:17:32.695Z",
  "topics": [
   "Science",
   "History",
@@ -2237,6 +2237,46 @@
   }
  ],
  "learn": [
+  {
+   "id": "w5HRDzH_EE4",
+   "title": "Can Trump steal the midterms? | America, Actually",
+   "channel": "Vox",
+   "published": "2026-10-24T12:00:40+00:00",
+   "source": "@Vox",
+   "added": "2026-10-24T14:17:32.695Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "eyZEqSPeMwg",
+   "title": "No device could prove our theory of gravity wrong... until now",
+   "channel": "Veritasium",
+   "published": "2026-10-23T18:46:44+00:00",
+   "source": "@veritasium",
+   "added": "2026-10-24T14:17:32.695Z",
+   "dur": null,
+   "topic": "Science"
+  },
+  {
+   "id": "NB93ARM7GVY",
+   "title": "Can Democrats finally pass affordable child care for all?",
+   "channel": "Vox",
+   "published": "2026-10-23T17:15:25+00:00",
+   "source": "@Vox",
+   "added": "2026-10-24T14:17:32.695Z",
+   "dur": null,
+   "topic": "Society"
+  },
+  {
+   "id": "FA-oEtccS_k",
+   "title": "Why Russia Thinks It Can Attack Europe and WIN",
+   "channel": "RealLifeLore",
+   "published": "2026-10-23T17:06:11+00:00",
+   "source": "@RealLifeLore",
+   "added": "2026-10-24T14:17:32.695Z",
+   "dur": null,
+   "topic": "People & World"
+  },
   {
    "id": "cTHwSER_l-8",
    "title": "How to Stop Homelessness Before It Starts | Jen Loving | TED",
@@ -8523,6 +8563,78 @@
   }
  ],
  "shorts": [
+  {
+   "id": "35No369rmq0",
+   "title": "What If We Cool Down the Sun?",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-10-24T14:00:15+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "x2cSnn6QOac",
+   "title": "How midterms will shape how Canadians see U.S.",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-24T01:00:02+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "UyG1QpVntTY",
+   "title": "How to prioritize safety when owning a firearm",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-24T00:00:22+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "Tl-5u1AHQjo",
+   "title": "Kate's National Geographic Journeys safari experience!",
+   "channel": "MinuteEarth",
+   "published": "2026-10-23T23:36:42+00:00",
+   "source": "@MinuteEarth",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "OTetOxYWDg8",
+   "title": "Trump doesn't say if he asked Musk to restore Starlink",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T19:50:48+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "ahEpfudazJc",
+   "title": "The real danger isn't the technology itself, but rather the communities it leaves behind #TEDTalks",
+   "channel": "TED",
+   "published": "2026-10-23T19:00:01+00:00",
+   "source": "@TED",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "TyhJRL7kKmg",
+   "title": "Judge orders Trump to sit for deposition in BBC case",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T18:58:22+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "LMsW1MdryhA",
+   "title": "Remembering 'Top Gun' actor Tom Skerritt",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-23T17:21:00+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
+  {
+   "id": "TzHYW7-Na_U",
+   "title": "How to become a mosquito magnet!",
+   "channel": "MinuteEarth",
+   "published": "2026-10-23T17:00:17+00:00",
+   "source": "@MinuteEarth",
+   "added": "2026-10-24T14:17:32.695Z"
+  },
   {
    "id": "r8uakRj9bqE",
    "title": "Virginia state senator indicted on federal charges",
