@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T14:51:41.054Z",
+ "updatedAt": "2026-10-26T01:02:53.246Z",
  "topics": [
   "Science",
   "History",
@@ -1360,7 +1360,7 @@
    "published": "2026-10-21T16:00:21+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-22T15:48:12.881Z",
-   "dur": null
+   "dur": 208
   },
   {
    "id": "o9NHmM5lsgg",
@@ -1369,7 +1369,7 @@
    "published": "2026-10-15T16:00:07+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": null
+   "dur": 246
   },
   {
    "id": "g33rB9pHOfE",
@@ -1378,7 +1378,7 @@
    "published": "2026-10-06T16:43:21+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null
+   "dur": 200
   },
   {
    "id": "S7268BlYeq4",
@@ -1387,7 +1387,7 @@
    "published": "2026-10-04T12:48:41+00:00",
    "source": "@lethalneedle",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null
+   "dur": 199
   },
   {
    "id": "rssPT6XC2-A",
@@ -2234,9 +2234,733 @@
    "source": "@mixlaproduction",
    "added": "2026-09-25T22:07:34.050Z",
    "dur": 171
+  },
+  {
+   "id": "rk4Q0os1ulc",
+   "title": "[Free] Detroit Type Beat x YN Jay Type Beat - \"FANNED OUT\"",
+   "channel": "Yung Helf",
+   "dur": 200,
+   "published": "2026-10-25T16:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "Usx68LYXeIc",
+   "title": "Detroit X Rio Da Yung OG Type Beat 2026 - \"FLOW\" Detroit Type Beat",
+   "channel": "Kezii",
+   "dur": 122,
+   "published": "2026-10-22T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "ORk687eLJIw",
+   "title": "[Free] Detroit Type Beat x YN Jay Type Beat - \"TIP TOE\"",
+   "channel": "Yung Helf",
+   "dur": 182,
+   "published": "2026-10-21T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "mfJQVSqsweg",
+   "title": "Detroit X Rio Da Yung OG Type Beat 2026 - \"BULLY\" Detroit Type Beat",
+   "channel": "Kezii",
+   "dur": 119,
+   "published": "2026-10-21T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "3UjBHCWOY44",
+   "title": "[FREE] Babyfxce E x Rio Da Yung Og x Detroit Type Beat - “Hustle\"",
+   "channel": "Flintana",
+   "dur": 150,
+   "published": "2026-10-24T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "dEryQUZqQlg",
+   "title": "Detroit X Rio Da Yung OG Type Beat 2026 - \"LOUIS\" Detroit Type Beat",
+   "channel": "Kezii",
+   "dur": 118,
+   "published": "2026-10-17T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "rWWpa0VWhrs",
+   "title": "[FREE] Detroit Type Beat x West Coast Type Beat - \"Overseas\"",
+   "channel": "Memory Boom Bap beats",
+   "dur": 201,
+   "published": "2026-10-18T01:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "HoznLYk2emA",
+   "title": "[FREE] Baby Smoove x Rocaine x Detroit Type Beat - \"Crypto\"",
+   "channel": "8x Smoove",
+   "dur": 141,
+   "published": "2026-10-25T21:02:56.599Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "KtdHVlwPElM",
+   "title": "[FREE] Veeze x Fox BD Type Beat \"Weigh it up\"",
+   "channel": "99LA",
+   "dur": 162,
+   "published": "2026-10-17T01:02:57.931Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "-LPWeUnrNBQ",
+   "title": "[FREE] Veeze Type Beat \"Private Party\"",
+   "channel": "99LA",
+   "dur": 151,
+   "published": "2026-10-12T01:02:57.932Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "yFbfZW32oQY",
+   "title": "[FREE] Veeze Type Beat \"Clarity\"",
+   "channel": "99LA",
+   "dur": 136,
+   "published": "2026-09-28T01:02:57.932Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "GE2APSH3JRg",
+   "title": "[FREE] Lil Yachty x Veeze Type Beat “Shine Again”",
+   "channel": "Grailz",
+   "dur": 280,
+   "published": "2026-10-25T16:02:57.932Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "drqwJowdYnc",
+   "title": "(FREE) Veeze Type Beat \"Receipt\"",
+   "channel": "ayoray",
+   "dur": 154,
+   "published": "2026-10-12T01:02:57.932Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "O5rrTighsEg",
+   "title": "(FREE) Veeze Type Beat \"Off the Grid\"",
+   "channel": "ayoray",
+   "dur": 145,
+   "published": "2026-10-20T01:02:57.932Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "0PUmlH1wvBY",
+   "title": "[FREE] Veeze Type Beat - \"Save It\"",
+   "channel": "ozi",
+   "dur": 105,
+   "published": "2026-09-28T01:02:57.933Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "FX9TM8y283A",
+   "title": "[FREE] Veeze Type Beat - \"Every Cent\"",
+   "channel": "BeatsBy Taz",
+   "dur": 127,
+   "published": "2026-10-12T01:02:57.933Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "MAuUYRHGaw4",
+   "title": "[FREE] Babyface Ray Type Beat - \"Mindset On A Mil'\"",
+   "channel": "DG2Thousand",
+   "dur": 212,
+   "published": "2026-10-18T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "XqJtCf4eKak",
+   "title": "(FREE) Babyface Ray Type Beat - \"Into U\"",
+   "channel": "ozithegoat",
+   "dur": 116,
+   "published": "2026-10-22T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "uo7LJHDL5pY",
+   "title": "(FREE) Babyface Ray Type Beat - \"Thank Me Later\"",
+   "channel": "ozithegoat",
+   "dur": 116,
+   "published": "2026-10-18T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "ypqvwUmuobI",
+   "title": "[FREE] Veeze x Babyface Ray Sample Type Beat - 'Endless Darkness'",
+   "channel": "Beats By Solt Boy",
+   "dur": 168,
+   "published": "2026-10-26T00:21:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "gYsw_4YnM_g",
+   "title": "(FREE) Babyface Ray Type Beat - \"Liveroom\"",
+   "channel": "ozithegoat",
+   "dur": 126,
+   "published": "2026-10-20T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "yjgFi3w_gUM",
+   "title": "[FREE] Babyface Ray Type Beat - \"Closer Than Ever\"",
+   "channel": "DG2Thousand",
+   "dur": 221,
+   "published": "2026-10-24T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "7IOpF0jZ95o",
+   "title": "[FREE] Babyface Ray Type Beat - \"Knew I Was Chosen\"",
+   "channel": "DG2Thousand",
+   "dur": 184,
+   "published": "2026-09-28T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "ydH-YOeRdIk",
+   "title": "[FREE] Babyface Ray Type Beat \"I Need Alone Time\"",
+   "channel": "Mazo Beats",
+   "dur": 215,
+   "published": "2026-10-05T01:02:59.289Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "-ND5P4OLiuo",
+   "title": "(FREE) Shoreline Mafia x West Coast Type Beat \"DIOR\"",
+   "channel": "morebands",
+   "dur": 172,
+   "published": "2026-10-12T01:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "9UrQny6PhGY",
+   "title": "(FREE) Shoreline Mafia Type Beat x West Coast Type Beat - \"Too Icy\"",
+   "channel": "DJ Problematic",
+   "dur": 176,
+   "published": "2026-10-12T01:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "J8LVNt8tkos",
+   "title": "[FREE] Larry June x West Coast Type Beat - \"Peak Performance\"",
+   "channel": "Steve Vicious Beats",
+   "dur": 196,
+   "published": "2026-10-26T00:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "F-uSXKRdkSA",
+   "title": "[FREE] 22GFay x Lil Maru Type Beat | West Coast Type Beat - \"TOUGHTS\"",
+   "channel": "Jay | West Coast",
+   "dur": 113,
+   "published": "2026-10-26T01:01:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "YXuT4axr4-E",
+   "title": "(FREE FOR PROFIT) West Coast X Ohgeesy Type Beat - \"O's\"",
+   "channel": "Spaced Out Studios",
+   "dur": 233,
+   "published": "2026-10-05T01:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "GUznmiXgOyc",
+   "title": "Million Ways | Larry June x Nipsey Hussle type beat | Soulful West Coast type beat 2026",
+   "channel": "KOFI COOKS",
+   "dur": 222,
+   "published": "2026-10-24T01:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "w1gtypMseTI",
+   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"THOUGHTS\"",
+   "channel": "wiri archives",
+   "dur": 135,
+   "published": "2026-10-25T23:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "ZmqE_fpEYO0",
+   "title": "[FREE] Shoreline Mafia x West Coast Type Beat - \"SIN MIEDO\"",
+   "channel": "ThatFrank",
+   "dur": 156,
+   "published": "2026-10-12T01:03:00.805Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "3lwsY4LnMjQ",
+   "title": "[BUY] KGR - CSOOMARI BAY AREA TYPE BEAT “CUT CHECK”",
+   "channel": "Prodbypimpin",
+   "dur": 169,
+   "published": "2026-10-14T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "lWko5nt_ATA",
+   "title": "[FREE] Bay Area x West Coast Type Beat - 'New World Order'",
+   "channel": "s1nisterbeats",
+   "dur": 175,
+   "published": "2026-09-28T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "4otbYqFetGU",
+   "title": "[FREE] West Coast Type Beat x Bay Area Type Beat - \"Blammy\"",
+   "channel": "NickRick ",
+   "dur": 139,
+   "published": "2026-10-25T18:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "IAMYtwi8Dts",
+   "title": "*FREE* BAY AREA TYPE BEAT x WEST COAST TYPE BEAT - \"FANTASY\" | PRODUCED BY ETRIZZLE",
+   "channel": "BEATS BY ETRIZZLE",
+   "dur": 164,
+   "published": "2026-10-17T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "rqtopgEDg7M",
+   "title": "[BUY] csoomari x babydonkk3 x Jhoodtwin Bay Area sample type beat - “let go” | prod. ckimyoumadethis",
+   "channel": "CKIM",
+   "dur": 130,
+   "published": "2026-10-25T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "xbMckYWlXJw",
+   "title": "(Free) SOB X RBE Type Beat - \"Expectations\" Bay Area Type Beat",
+   "channel": "beatsbyht",
+   "dur": 202,
+   "published": "2026-10-05T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "G6tQYdvkBpw",
+   "title": "[FREE] West Coast x Bay Area Type Beat - 'My dreams'",
+   "channel": "s1nisterbeats",
+   "dur": 175,
+   "published": "2026-09-28T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "jMbMqvP8p2U",
+   "title": "[BUY] KGR x csoomari Bay Area type beat - “Gaga” | prod. ckimyoumadethis & prod.lazerrr",
+   "channel": "CKIM and prod.Lazerrr",
+   "dur": 129,
+   "published": "2026-10-12T01:03:02.111Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "YhPldadyD_g",
+   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Stick Popper\"",
+   "channel": "DJ Problematic",
+   "dur": 199,
+   "published": "2026-10-12T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "R3HWpJtJCOY",
+   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Drama Talk\"",
+   "channel": "DJ Problematic",
+   "dur": 189,
+   "published": "2026-10-05T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "swL7LJmNZY8",
+   "title": "[FREE] Shoreline Mafia Type Beat - \"Aurora\"",
+   "channel": "Fukk2Beatz",
+   "dur": 128,
+   "published": "2026-10-17T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "pNGMA7kmfzQ",
+   "title": "[FREE] Shoreline Mafia Type Beat - \"NIGHTLIFE\"",
+   "channel": "Westcoast Disa",
+   "dur": 141,
+   "published": "2026-10-13T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "osc0jPRljLQ",
+   "title": "[FREE] OhGeesy x Shoreline Mafia Type Beat - 'GOIN'",
+   "channel": "3Tookie ",
+   "dur": 147,
+   "published": "2026-10-18T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "pqOtiEX6ekQ",
+   "title": "[FREE] Shoreline Mafia Type Beat \"BACKWOODS\"",
+   "channel": "wiri archives",
+   "dur": 191,
+   "published": "2026-10-12T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "Gvx2OBQ0ZGw",
+   "title": "[FREE] Shoreline Mafia Type Beat \"CHANCES\"",
+   "channel": "wiri archives",
+   "dur": 151,
+   "published": "2026-10-17T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "3BLKrEX5aK0",
+   "title": "[FREE] Shoreline Mafia Type Beat - \"BABY MILO\"",
+   "channel": "Westcoast Disa",
+   "dur": 122,
+   "published": "2026-10-05T01:03:04.747Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "pH6KVynLRVQ",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY FREESTYLE TRAP TYPE BEAT \"CHASIN\" | HARD BOUNCY RAP TRAP BEAT",
+   "channel": "Guy Beats and Rocket Beats",
+   "dur": 173,
+   "published": "2026-10-25T16:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "I71TzVrAiH0",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"SPINNA\"",
+   "channel": "Optics Beats",
+   "dur": 170,
+   "published": "2026-10-25T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "OlS_33bq81M",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY FREESTYLE TRAP TYPE BEAT \"CITY\" | HARD BOUNCY RAP TRAP BEAT",
+   "channel": "Guy Beats and Rocket Beats",
+   "dur": 136,
+   "published": "2026-10-23T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "q6b3Cs46MxA",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"SLIDE\"",
+   "channel": "Optics Beats",
+   "dur": 175,
+   "published": "2026-10-12T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "EczgZ0CtrLI",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"BESTIE\"",
+   "channel": "KALYBA",
+   "dur": 215,
+   "published": "2026-10-05T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "S5WqD-3fp2w",
+   "title": "[FREE] HARD BOUNCY TRAP TYPE BEAT - \"LALA\"",
+   "channel": "MOSHEIX",
+   "dur": 175,
+   "published": "2026-10-12T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "xOwkU8_r3JQ",
+   "title": "BOUNCY x ASHANTI x 2000s R&B TYPE BEAT \"TIPSY\"",
+   "channel": "Markmywords Beats",
+   "dur": 221,
+   "published": "2026-10-25T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "w7q4g2ipsBk",
+   "title": "Hard Bouncy Trap Rap Beat ''ACT BAD'' Fast Aggressive Freestyle Type Dark Beat Instrumental",
+   "channel": "Profetesa Beats (Hip-Hop Rap Instrumentals)",
+   "dur": 168,
+   "published": "2026-10-24T01:03:06.869Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "TLq_DVZfAvc",
+   "title": "(free) jerk + hoodtrap + sample type beat \"never with u again\"",
+   "channel": "prod. legos",
+   "dur": 133,
+   "published": "2026-10-20T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "J-AHUD2swm0",
+   "title": "[FREE] Kyle Richh x Mdot 59 Jerk Drill Type Beat \"I Spoke To The Devil\" | NY Drill Type Beat 2026",
+   "channel": "Kosfinger Beats",
+   "dur": 99,
+   "published": "2026-10-24T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "ZXXxxnBzHbY",
+   "title": "(free) xaviersobased x emotional jerk type beat - \"simple\"",
+   "channel": "ihatedynasty",
+   "dur": 107,
+   "published": "2026-10-23T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "2-G4gnj4V-U",
+   "title": "(FREE) Jerk Type Beat \"Clutch\" (prod. Zoowe)",
+   "channel": "thiszoowe",
+   "dur": 121,
+   "published": "2026-10-12T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "pf24uJ9vzKg",
+   "title": "(free) xaviersobased x emotional jerk type beat - \"the way it is\"",
+   "channel": "ihatedynasty",
+   "dur": 119,
+   "published": "2026-10-20T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "MRZ7Hv90TlI",
+   "title": "dragnutz + jerk type beat - \"perfect\" @slugwurf",
+   "channel": "slugwurf",
+   "dur": 128,
+   "published": "2026-10-13T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "Jc5YA3wbeiM",
+   "title": "(free) jerk + hoodtrap + sample type beat \"you're so perfect\"",
+   "channel": "prod. legos",
+   "dur": 145,
+   "published": "2026-10-25T15:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "aUpuDjwhT2k",
+   "title": "[FREE FOR PROFIT] jerk x hyperpop type beat  \"Jollybee\"",
+   "channel": "OhMyGon!",
+   "dur": 92,
+   "published": "2026-10-17T01:03:09.029Z",
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-10-26T01:02:53.246Z"
   }
  ],
  "learn": [
+  {
+   "id": "ksx5g5WvAIw",
+   "title": "How Linux (and Windows) Ate UNIX",
+   "channel": "Asianometry",
+   "published": "2026-10-25T23:00:15+00:00",
+   "source": "@Asianometry",
+   "added": "2026-10-26T01:02:53.246Z",
+   "dur": 2555,
+   "topic": "Engineering & Tech"
+  },
+  {
+   "id": "46v8M4RsCzg",
+   "title": "Why We Should Design Cities Like Disney | Zach DeBoer | TED",
+   "channel": "TED",
+   "published": "2026-10-25T15:00:34+00:00",
+   "source": "@TED",
+   "added": "2026-10-26T01:02:53.246Z",
+   "dur": 987,
+   "topic": "Ideas & Talks"
+  },
   {
    "id": "w5HRDzH_EE4",
    "title": "Can Trump steal the midterms? | America, Actually",
@@ -2244,7 +2968,7 @@
    "published": "2026-10-24T12:00:40+00:00",
    "source": "@Vox",
    "added": "2026-10-24T14:17:32.695Z",
-   "dur": null,
+   "dur": 1751,
    "topic": "Society"
   },
   {
@@ -2254,7 +2978,7 @@
    "published": "2026-10-23T18:46:44+00:00",
    "source": "@veritasium",
    "added": "2026-10-24T14:17:32.695Z",
-   "dur": null,
+   "dur": 2067,
    "topic": "Science"
   },
   {
@@ -2264,7 +2988,7 @@
    "published": "2026-10-23T17:15:25+00:00",
    "source": "@Vox",
    "added": "2026-10-24T14:17:32.695Z",
-   "dur": null,
+   "dur": 1710,
    "topic": "Society"
   },
   {
@@ -2274,7 +2998,7 @@
    "published": "2026-10-23T17:06:11+00:00",
    "source": "@RealLifeLore",
    "added": "2026-10-24T14:17:32.695Z",
-   "dur": null,
+   "dur": 2623,
    "topic": "People & World"
   },
   {
@@ -2284,7 +3008,7 @@
    "published": "2026-10-23T15:00:35+00:00",
    "source": "@TED",
    "added": "2026-10-23T15:39:17.680Z",
-   "dur": null,
+   "dur": 545,
    "topic": "Ideas & Talks"
   },
   {
@@ -2294,7 +3018,7 @@
    "published": "2026-10-23T12:00:19+00:00",
    "source": "@Vox",
    "added": "2026-10-23T15:39:17.680Z",
-   "dur": null,
+   "dur": 2534,
    "topic": "Society"
   },
   {
@@ -2304,7 +3028,7 @@
    "published": "2026-10-22T18:58:11+00:00",
    "source": "@SpecialBooksbySpecialKids",
    "added": "2026-10-23T15:39:17.680Z",
-   "dur": null,
+   "dur": 4810,
    "topic": "People & World"
   },
   {
@@ -2314,7 +3038,7 @@
    "published": "2026-10-22T15:01:05+00:00",
    "source": "@TEDEd",
    "added": "2026-10-22T15:48:12.881Z",
-   "dur": null,
+   "dur": 382,
    "topic": "Ideas & Talks"
   },
   {
@@ -2324,7 +3048,7 @@
    "published": "2026-10-22T15:00:04+00:00",
    "source": "@TED",
    "added": "2026-10-22T15:48:12.881Z",
-   "dur": null,
+   "dur": 662,
    "topic": "Ideas & Talks"
   },
   {
@@ -2334,7 +3058,7 @@
    "published": "2026-10-20T20:48:38+00:00",
    "source": "@StoryCorps",
    "added": "2026-10-21T15:51:00.135Z",
-   "dur": null,
+   "dur": 51,
    "topic": "People & World"
   },
   {
@@ -2344,7 +3068,7 @@
    "published": "2026-10-20T15:01:00+00:00",
    "source": "@TEDEd",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 350,
    "topic": "Ideas & Talks"
   },
   {
@@ -2354,7 +3078,7 @@
    "published": "2026-10-20T15:00:04+00:00",
    "source": "@TED",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 741,
    "topic": "Ideas & Talks"
   },
   {
@@ -2364,7 +3088,7 @@
    "published": "2026-10-20T14:00:11+00:00",
    "source": "@kurzgesagt",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 213,
    "topic": "Science"
   },
   {
@@ -2374,7 +3098,7 @@
    "published": "2026-10-20T13:00:19+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 1087,
    "topic": "Engineering & Tech"
   },
   {
@@ -2384,7 +3108,7 @@
    "published": "2026-10-20T12:00:28+00:00",
    "source": "@Vox",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 104,
    "topic": "Society"
   },
   {
@@ -2394,7 +3118,7 @@
    "published": "2026-10-19T21:30:22+00:00",
    "source": "@Vox",
    "added": "2026-10-20T15:34:14.220Z",
-   "dur": null,
+   "dur": 2822,
    "topic": "Society"
   },
   {
@@ -2404,7 +3128,7 @@
    "published": "2026-10-19T15:00:33+00:00",
    "source": "@TED",
    "added": "2026-10-19T17:21:02.851Z",
-   "dur": null,
+   "dur": 754,
    "topic": "Ideas & Talks"
   },
   {
@@ -2414,7 +3138,7 @@
    "published": "2026-10-18T23:00:26+00:00",
    "source": "@Asianometry",
    "added": "2026-10-19T17:21:02.851Z",
-   "dur": null,
+   "dur": 1888,
    "topic": "Engineering & Tech"
   },
   {
@@ -2424,7 +3148,7 @@
    "published": "2026-10-18T15:00:30+00:00",
    "source": "@TED",
    "added": "2026-10-19T17:21:02.851Z",
-   "dur": null,
+   "dur": 534,
    "topic": "Ideas & Talks"
   },
   {
@@ -2434,7 +3158,7 @@
    "published": "2026-10-17T15:00:35+00:00",
    "source": "@TED",
    "added": "2026-10-18T14:19:47.823Z",
-   "dur": null,
+   "dur": 657,
    "topic": "Ideas & Talks"
   },
   {
@@ -2444,7 +3168,7 @@
    "published": "2026-10-17T12:00:15+00:00",
    "source": "@Vox",
    "added": "2026-10-17T14:04:51.966Z",
-   "dur": null,
+   "dur": 1942,
    "topic": "Society"
   },
   {
@@ -2454,7 +3178,7 @@
    "published": "2026-10-16T20:00:35+00:00",
    "source": "@Vox",
    "added": "2026-10-17T14:04:51.966Z",
-   "dur": null,
+   "dur": 1823,
    "topic": "Society"
   },
   {
@@ -2464,7 +3188,7 @@
    "published": "2026-10-16T16:15:20+00:00",
    "source": "@3blue1brown",
    "added": "2026-10-17T14:04:51.966Z",
-   "dur": null,
+   "dur": 2444,
    "topic": "Science"
   },
   {
@@ -2474,7 +3198,7 @@
    "published": "2026-10-16T15:00:35+00:00",
    "source": "@TED",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": null,
+   "dur": 734,
    "topic": "Ideas & Talks"
   },
   {
@@ -2484,7 +3208,7 @@
    "published": "2026-10-16T12:00:09+00:00",
    "source": "@Vox",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": null,
+   "dur": 2813,
    "topic": "Society"
   },
   {
@@ -2494,7 +3218,7 @@
    "published": "2026-10-15T23:00:03+00:00",
    "source": "@Asianometry",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": null,
+   "dur": 1382,
    "topic": "Engineering & Tech"
   },
   {
@@ -2504,7 +3228,7 @@
    "published": "2026-10-15T16:12:47+00:00",
    "source": "@RealLifeLore",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": null,
+   "dur": 3183,
    "topic": "People & World"
   },
   {
@@ -2514,7 +3238,7 @@
    "published": "2026-10-15T15:00:51+00:00",
    "source": "@TEDEd",
    "added": "2026-10-15T15:30:53.757Z",
-   "dur": null,
+   "dur": 358,
    "topic": "Ideas & Talks"
   },
   {
@@ -2524,7 +3248,7 @@
    "published": "2026-10-15T15:00:33+00:00",
    "source": "@TED",
    "added": "2026-10-15T15:30:53.757Z",
-   "dur": null,
+   "dur": 749,
    "topic": "Ideas & Talks"
   },
   {
@@ -2534,7 +3258,7 @@
    "published": "2026-10-15T12:00:21+00:00",
    "source": "@johnnyharris",
    "added": "2026-10-15T15:30:53.757Z",
-   "dur": null,
+   "dur": 3025,
    "topic": "People & World"
   },
   {
@@ -2544,7 +3268,7 @@
    "published": "2026-10-14T19:01:11+00:00",
    "source": "@SpecialBooksbySpecialKids",
    "added": "2026-10-15T15:30:53.757Z",
-   "dur": null,
+   "dur": 2327,
    "topic": "People & World"
   },
   {
@@ -2554,7 +3278,7 @@
    "published": "2026-10-13T15:00:24+00:00",
    "source": "@TEDEd",
    "added": "2026-10-13T17:58:14.007Z",
-   "dur": null,
+   "dur": 393,
    "topic": "Ideas & Talks"
   },
   {
@@ -2564,7 +3288,7 @@
    "published": "2026-10-13T15:00:17+00:00",
    "source": "@TED",
    "added": "2026-10-13T17:58:14.007Z",
-   "dur": null,
+   "dur": 636,
    "topic": "Ideas & Talks"
   },
   {
@@ -2574,7 +3298,7 @@
    "published": "2026-10-12T17:11:45+00:00",
    "source": "@veritasium",
    "added": "2026-10-12T20:08:38.405Z",
-   "dur": null,
+   "dur": 2072,
    "topic": "Science"
   },
   {
@@ -2584,7 +3308,7 @@
    "published": "2026-10-12T15:00:34+00:00",
    "source": "@TED",
    "added": "2026-10-12T20:08:38.405Z",
-   "dur": null,
+   "dur": 777,
    "topic": "Ideas & Talks"
   },
   {
@@ -2594,7 +3318,7 @@
    "published": "2026-10-12T12:00:16+00:00",
    "source": "@Vox",
    "added": "2026-10-12T20:08:38.405Z",
-   "dur": null,
+   "dur": 2669,
    "topic": "Society"
   },
   {
@@ -2604,7 +3328,7 @@
    "published": "2026-10-11T23:00:38+00:00",
    "source": "@Asianometry",
    "added": "2026-10-12T20:08:38.405Z",
-   "dur": null,
+   "dur": 1498,
    "topic": "Engineering & Tech"
   },
   {
@@ -2614,7 +3338,7 @@
    "published": "2026-10-11T18:00:21+00:00",
    "source": "@TED",
    "added": "2026-10-12T20:08:38.405Z",
-   "dur": null,
+   "dur": 667,
    "topic": "Ideas & Talks"
   },
   {
@@ -2624,7 +3348,7 @@
    "published": "2026-10-10T12:00:18+00:00",
    "source": "@TED",
    "added": "2026-10-10T16:07:14.319Z",
-   "dur": null,
+   "dur": 937,
    "topic": "Ideas & Talks"
   },
   {
@@ -2634,7 +3358,7 @@
    "published": "2026-10-10T12:00:16+00:00",
    "source": "@Vox",
    "added": "2026-10-10T16:07:14.319Z",
-   "dur": null,
+   "dur": 1884,
    "topic": "Society"
   },
   {
@@ -2644,7 +3368,7 @@
    "published": "2026-10-09T15:00:11+00:00",
    "source": "@TED",
    "added": "2026-10-09T17:21:37.742Z",
-   "dur": null,
+   "dur": 459,
    "topic": "Ideas & Talks"
   },
   {
@@ -2654,7 +3378,7 @@
    "published": "2026-10-09T12:00:17+00:00",
    "source": "@Vox",
    "added": "2026-10-09T17:21:37.742Z",
-   "dur": null,
+   "dur": 3370,
    "topic": "Society"
   },
   {
@@ -2664,7 +3388,7 @@
    "published": "2026-10-08T23:00:23+00:00",
    "source": "@Asianometry",
    "added": "2026-10-09T17:21:37.742Z",
-   "dur": null,
+   "dur": 816,
    "topic": "Engineering & Tech"
   },
   {
@@ -2674,7 +3398,7 @@
    "published": "2026-10-08T19:02:15+00:00",
    "source": "@SpecialBooksbySpecialKids",
    "added": "2026-10-09T17:21:37.742Z",
-   "dur": null,
+   "dur": 1398,
    "topic": "People & World"
   },
   {
@@ -2684,7 +3408,7 @@
    "published": "2026-10-08T17:30:01+00:00",
    "source": "@Vox",
    "added": "2026-10-08T17:45:34.450Z",
-   "dur": null,
+   "dur": 1128,
    "topic": "Society"
   },
   {
@@ -2694,7 +3418,7 @@
    "published": "2026-10-08T15:01:11+00:00",
    "source": "@TEDEd",
    "added": "2026-10-08T17:45:34.450Z",
-   "dur": null,
+   "dur": 364,
    "topic": "Ideas & Talks"
   },
   {
@@ -2704,7 +3428,7 @@
    "published": "2026-10-08T15:00:17+00:00",
    "source": "@TED",
    "added": "2026-10-08T17:45:34.450Z",
-   "dur": null,
+   "dur": 949,
    "topic": "Ideas & Talks"
   },
   {
@@ -2714,7 +3438,7 @@
    "published": "2026-10-08T15:00:14+00:00",
    "source": "@johnnyharris",
    "added": "2026-10-08T17:45:34.450Z",
-   "dur": null,
+   "dur": 107,
    "topic": "People & World"
   },
   {
@@ -2724,7 +3448,7 @@
    "published": "2026-10-08T14:07:00+00:00",
    "source": "@kurzgesagt",
    "added": "2026-10-08T17:45:34.450Z",
-   "dur": null,
+   "dur": 1050,
    "topic": "Science"
   },
   {
@@ -2734,7 +3458,7 @@
    "published": "2026-10-06T19:45:01+00:00",
    "source": "@Vox",
    "added": "2026-10-07T17:41:20.525Z",
-   "dur": null,
+   "dur": 2334,
    "topic": "Society"
   },
   {
@@ -2744,7 +3468,7 @@
    "published": "2026-10-06T15:01:57+00:00",
    "source": "@TEDEd",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 380,
    "topic": "Ideas & Talks"
   },
   {
@@ -2754,7 +3478,7 @@
    "published": "2026-10-06T15:00:08+00:00",
    "source": "@TED",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 1247,
    "topic": "Ideas & Talks"
   },
   {
@@ -2764,7 +3488,7 @@
    "published": "2026-10-06T13:00:17+00:00",
    "source": "@PracticalEngineeringChannel",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 994,
    "topic": "Engineering & Tech"
   },
   {
@@ -2774,7 +3498,7 @@
    "published": "2026-10-05T15:00:04+00:00",
    "source": "@TED",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 889,
    "topic": "Ideas & Talks"
   },
   {
@@ -2784,7 +3508,7 @@
    "published": "2026-10-05T14:58:58+00:00",
    "source": "@kurzgesagt",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 1304,
    "topic": "Science"
   },
   {
@@ -2794,7 +3518,7 @@
    "published": "2026-10-05T12:00:07+00:00",
    "source": "@Vox",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": null,
+   "dur": 2933,
    "topic": "Society"
   },
   {
@@ -2804,7 +3528,7 @@
    "published": "2026-10-04T23:00:28+00:00",
    "source": "@Asianometry",
    "added": "2026-10-05T01:19:15.463Z",
-   "dur": null,
+   "dur": 1744,
    "topic": "Engineering & Tech"
   },
   {
@@ -2814,7 +3538,7 @@
    "published": "2026-10-04T15:00:02+00:00",
    "source": "@TED",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 605,
    "topic": "Ideas & Talks"
   },
   {
@@ -2824,7 +3548,7 @@
    "published": "2026-10-02T12:00:22+00:00",
    "source": "@Vox",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 2099,
    "topic": "Society"
   },
   {
@@ -2854,7 +3578,7 @@
    "published": "2026-10-01T12:00:35+00:00",
    "source": "@Vox",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 584,
    "topic": "Society"
   },
   {
@@ -2894,7 +3618,7 @@
    "published": "2026-09-29T14:00:18+00:00",
    "source": "@Vox",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 2417,
    "topic": "Society"
   },
   {
@@ -2904,7 +3628,7 @@
    "published": "2026-09-28T12:00:39+00:00",
    "source": "@Vox",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 2322,
    "topic": "Society"
   },
   {
@@ -2924,7 +3648,7 @@
    "published": "2026-09-26T15:00:05+00:00",
    "source": "@TED",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": null,
+   "dur": 90,
    "topic": "Ideas & Talks"
   },
   {
@@ -2934,7 +3658,7 @@
    "published": "2026-09-26T12:00:25+00:00",
    "source": "@Vox",
    "added": "2026-10-05T01:19:15.463Z",
-   "dur": null,
+   "dur": 1665,
    "topic": "Society"
   },
   {
@@ -3374,7 +4098,7 @@
    "published": "2026-09-03T23:00:09+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
+   "dur": 1135,
    "topic": "Engineering & Tech"
   },
   {
@@ -3454,7 +4178,7 @@
    "published": "2026-08-30T23:00:33+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:34:25.540Z",
-   "dur": null,
+   "dur": 1213,
    "topic": "Engineering & Tech"
   },
   {
@@ -3504,7 +4228,7 @@
    "published": "2026-08-24T14:00:11+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:43:50.004Z",
-   "dur": null,
+   "dur": 1234,
    "topic": "Engineering & Tech"
   },
   {
@@ -3524,7 +4248,7 @@
    "published": "2026-08-20T23:00:24+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:43:50.004Z",
-   "dur": null,
+   "dur": 1694,
    "topic": "Engineering & Tech"
   },
   {
@@ -3564,7 +4288,7 @@
    "published": "2026-08-16T23:00:31+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:43:50.004Z",
-   "dur": null,
+   "dur": 920,
    "topic": "Engineering & Tech"
   },
   {
@@ -3574,7 +4298,7 @@
    "published": "2026-08-13T23:00:03+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:43:50.004Z",
-   "dur": null,
+   "dur": 2296,
    "topic": "Engineering & Tech"
   },
   {
@@ -3604,7 +4328,7 @@
    "published": "2026-08-09T23:00:07+00:00",
    "source": "@Asianometry",
    "added": "2026-10-04T00:43:50.004Z",
-   "dur": null,
+   "dur": 1213,
    "topic": "Engineering & Tech"
   },
   {
@@ -8563,6 +9287,38 @@
   }
  ],
  "shorts": [
+  {
+   "id": "fI733MhOWdU",
+   "title": "Officer who shot and killed 1-year-old boy has resigned",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-25T18:00:24+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "Jw5r8x0G2oI",
+   "title": "The problem with Trump seeing Putin as a partner",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-25T17:00:15+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "bsvKjUvUPKg",
+   "title": "Why doctors are campaigning to reduce gun violence",
+   "channel": "PBS NewsHour",
+   "published": "2026-10-25T16:00:28+00:00",
+   "source": "@PBSNewsHour",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
+  {
+   "id": "5L3R1K8aJgk",
+   "title": "Teaching a young pangolin how to feed itself #Rolex #PerpetualPlanet #AfricaEarthsWildHome",
+   "channel": "National Geographic",
+   "published": "2026-10-25T15:00:13+00:00",
+   "source": "@NatGeo",
+   "added": "2026-10-26T01:02:53.246Z"
+  },
   {
    "id": "V_uq3v6xK-4",
    "title": "Sphere Intersection Puzzle Corrected",

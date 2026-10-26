@@ -297,11 +297,56 @@ async function readPlaylistOnce(listId) {
 
 // ---------- run ----------
 
+// Fresh beats: search YouTube for recent uploads in the styles you like (no API key; scrapes the results page).
+const agoToISO = (txt = "") => {
+  const m = txt.match(/(\d+)\s*(second|minute|min|hour|h|day|d|week|w|month|mo|year|y)/i);
+  if (!m) return now;
+  const unit = { second: 1, minute: 60, min: 60, hour: 3600, h: 3600, day: 86400, d: 86400, week: 604800, w: 604800, month: 2592000, mo: 2592000, year: 31536000, y: 31536000 }[m[2].toLowerCase()] || 0;
+  return new Date(Date.now() - +m[1] * unit * 1000).toISOString();
+};
+async function searchRecent(q) {
+  // sp=EgQIBBAB: videos only, uploaded this month
+  const html = await (await fetch(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=EgQIBBAB`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
+  const json = html.match(/var ytInitialData = (\{.*?\});<\/script>/s)?.[1];
+  const out = [];
+  (function walk(o) {
+    if (Array.isArray(o)) return o.forEach(walk);
+    if (!o || typeof o !== "object") return;
+    const r = o.videoRenderer;
+    if (r?.videoId) out.push({
+      id: r.videoId, title: r.title?.runs?.map((x) => x.text).join("") || "", channel: r.ownerText?.runs?.[0]?.text || "",
+      dur: r.lengthText?.simpleText ? toSec(r.lengthText.simpleText) : null, published: agoToISO(r.publishedTimeText?.simpleText),
+    });
+    Object.values(o).forEach(walk);
+  })(json ? JSON.parse(json) : {});
+  return out;
+}
+async function discoverBeats(cfg, skip) {
+  if (!cfg?.queries?.length) return [];
+  const found = [], perChannel = {};
+  const bad = new RegExp((cfg.block || []).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") || "$^", "i");
+  for (const { q, style } of cfg.queries) {
+    let res = [];
+    try { res = await searchRecent(q); } catch (e) { log("beat search", q, e.message); }
+    let took = 0;
+    for (const v of res) {
+      if (took >= (cfg.perQuery || 8) || skip.has(v.id)) continue;
+      if (!/beat|instrumental/i.test(v.title) || bad.test(v.title)) continue;
+      if (!v.dur || v.dur < (cfg.minSec || 90) || v.dur > (cfg.maxSec || 360)) continue;
+      if ((perChannel[v.channel] = (perChannel[v.channel] || 0) + 1) > (cfg.maxPerProducer || 3)) continue;
+      skip.add(v.id); took++;
+      found.push({ ...v, source: "discover", fresh: true, style, added: now });
+    }
+    await new Promise((r) => setTimeout(r, 800));
+  }
+  return found;
+}
+
 // Liked beats are hand-picked: always kept, never trimmed, listed in your order.
 const liked = (config.beats.liked || []).map((v) => ({ ...v, source: "liked", liked: true }));
 const likedIds = new Set(liked.map((v) => v.id));
 const beatsIn = [...(await manualVideos(config.beats.videos)), ...(await collectFeeds(config.beats))];
-const feedBeats = await merge((library.beats || []).filter((v) => !v.liked), beatsIn.filter((v) => !likedIds.has(v.id)), config.beats);
+const feedBeats = await merge((library.beats || []).filter((v) => !v.liked && v.source !== "discover"), beatsIn.filter((v) => !likedIds.has(v.id)), config.beats);
 const prevAdded = new Map((library.beats || []).map((v) => [v.id, v.added]));
 const beats = {
   items: [...liked.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...feedBeats.items.filter((v) => !likedIds.has(v.id))],
@@ -313,6 +358,17 @@ const learnSources = new Set(config.learn.channels);
 library.learn = (library.learn || []).filter((v) => !v.series && !v.collection && (learnSources.has(v.source) || ["discovery", "manual"].includes(v.source)));
 library.shorts = (library.shorts || []).filter((v) => (config.shorts?.channels || []).includes(v.source));
 const prevLearn = await readJson(OUT_PATH, { learn: [] }).then((d) => d.learn || []);
+
+// Fresh beats: today's finds first, then earlier finds, capped. Never repeats a beat already in the library.
+{
+  const cfg = config.beats.discover;
+  const prevFresh = (library.beats || []).filter((v) => v.source === "discover");
+  const skip = new Set([...beats.items.map((v) => v.id), ...prevFresh.map((v) => v.id)]);
+  const today = await discoverBeats(cfg, skip);
+  if (today.length) log(`fresh beats: +${today.length}`);
+  const fresh = [...today, ...prevFresh.filter((v) => !beats.items.some((b) => b.id === v.id))].slice(0, cfg?.keep || 150);
+  beats.items = [...beats.items, ...fresh];
+}
 
 // Existing libraries predate seeding; treat their channels as already seeded.
 const seededSources = new Set(state.seeded || ((library.learn || []).length ? config.learn.channels.filter((c) => (library.learn || []).some((v) => v.source === c)) : []));

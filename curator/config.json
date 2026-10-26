@@ -738,7 +738,67 @@
     "playlists": [],
     "videos": [],
     "maxPerChannel": 15,
-    "maxTotal": 200
+    "maxTotal": 200,
+    "discover": {
+      "queries": [
+        {
+          "q": "detroit type beat",
+          "style": "Detroit"
+        },
+        {
+          "q": "veeze type beat",
+          "style": "Detroit"
+        },
+        {
+          "q": "babyface ray type beat",
+          "style": "Detroit"
+        },
+        {
+          "q": "west coast type beat",
+          "style": "West Coast"
+        },
+        {
+          "q": "bay area type beat",
+          "style": "West Coast"
+        },
+        {
+          "q": "shoreline mafia type beat",
+          "style": "West Coast"
+        },
+        {
+          "q": "bouncy type beat",
+          "style": "Bouncy"
+        },
+        {
+          "q": "jerk type beat",
+          "style": "Bouncy"
+        }
+      ],
+      "perQuery": 8,
+      "maxPerProducer": 3,
+      "keep": 150,
+      "minSec": 90,
+      "maxSec": 360,
+      "block": [
+        "slowed",
+        "reverb",
+        "sped up",
+        "nightcore",
+        "1 hour",
+        "mix",
+        "compilation",
+        "beat tape",
+        "beattape",
+        "loop kit",
+        "drum kit",
+        "how to make",
+        "tutorial",
+        "cookup",
+        "cook up",
+        "reaction",
+        "hours"
+      ]
+    }
   },
   "learn": {
     "channels": [],

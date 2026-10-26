@@ -106,6 +106,7 @@
   .watched .thumb img { opacity: .5; }
   .badge { position: absolute; left: 6px; top: 6px; font-size: 10px; font-weight: 800; letter-spacing: .04em; padding: 2px 6px; border-radius: 5px;
     background: var(--learn); color: #031; }
+  .badge.new { background: var(--beats); color: #1a1200; }
   .now-badge { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(0,0,0,.55); font-size: 11px; font-weight: 800; letter-spacing: .08em; }
   .dur { position: absolute; right: 6px; bottom: 6px; font-size: 11.5px; font-weight: 700; line-height: 1.3; padding: 1px 5px; border-radius: 4px;
     background: rgba(0,0,0,.82); color: #fff; font-variant-numeric: tabular-nums; }
@@ -584,21 +585,26 @@
     ["Soulful", ["soul", "gospel", "sample", "kanye", "chance the rapper", "amy winehouse", "70s", "clayh", "choir"]],
     ["Emotional", ["emotional", "sad", "tears", "ballad", "pain", "falling in love", "regrets", "piano", "my space prod", "drake type beat"]],
     ["Throwback", ["2000s", "90s", "r&b-pop", "dougie", "lil wayne", "jay z", "50 cent", "pharrell", "lil tecca", "jack harlow", "old school kanye"]],
+    ["Detroit", ["detroit", "veeze", "babyface ray", "babyfxce", "yn jay", "rio da yung", "sada baby", "peezy", "icewear vezzo", "tee grizzley", "baby smoove", "rocaine", "flint", "fox bd", "42 dugg", "bfb da packman"]],
+    ["West Coast", ["west coast", "bay area", "shoreline mafia", "ohgeesy", "blueface", "03 greedo", "kalan.frfr", "mustard", "g-funk", "larry june", "mozzy", "az chike", "bluebucksclan", "rucci", "saviii", "hyphy", "drakeo", "los angeles"]],
+    ["Bouncy", ["bouncy", "bounce", "jerk", "hyphy"]],
     ["Epic", ["stadium", "cinematic", "yeezus", "life of pablo", "champion", "beat switch", "trumpet", "brass", "award show", "greatest"]],
   ];
   const moodCache = new Map();
   function moodsOf(v) {
     if (!moodCache.has(v.id)) {
       const hay = `${v.title} ${v.channel}`.toLowerCase();
-      moodCache.set(v.id, MOODS.filter(([, words]) => words.some((w) => hay.includes(w))).map(([m]) => m));
+      const ms = MOODS.filter(([, words]) => words.some((w) => hay.includes(w))).map(([m]) => m);
+      if (v.style && !ms.includes(v.style)) ms.push(v.style); // fresh beats know which search found them
+      moodCache.set(v.id, ms);
     }
     return moodCache.get(v.id);
   }
 
   // Round-robin across channels so the Shorts feed keeps changing topic instead of 12 in a row from one channel.
-  function interleave(items) {
+  function interleave(items, key = (v) => v.channel) {
     const by = new Map();
-    for (const v of items) { if (!by.has(v.channel)) by.set(v.channel, []); by.get(v.channel).push(v); }
+    for (const v of items) { const k = key(v); if (!by.has(k)) by.set(k, []); by.get(k).push(v); }
     const lanes = [...by.values()], out = [];
     for (let i = 0; out.length < items.length; i++) for (const l of lanes) if (l[i]) out.push(l[i]);
     return out;
@@ -612,6 +618,7 @@
     }
     if (f === "recent") { const byId = new Map(items.map((v) => [v.id, v])); return recent.map((h) => byId.get(h.id)).filter(Boolean); }
     if (f === "liked") return items.filter(isLiked);
+    if (f === "fresh") return interleave(items.filter((v) => v.fresh && !watched.has(v.id)), (v) => v.style); // mix Detroit / West Coast / Bouncy
     if (f === "new") return items.filter((v) => !watched.has(v.id));
     if (f === "picks") return items.filter((v) => v.source === "discovery");
     if (f === "quick") return items.filter((v) => v.dur && v.dur <= 600);
@@ -739,6 +746,8 @@
     if (tab === "beats") {
       addChip(`${icon("shuffle")}Shuffle`, false, () => { const q = shuffled(listFor("beats")); if (q.length) playFrom(q[0], q); }, "action");
       addChip("Liked", f === "liked", setFilter("liked"));
+      const freshLeft = allItems("beats").filter((v) => v.fresh && !watched.has(v.id)).length;
+      if (freshLeft) addChip(`New to you · ${freshLeft}`, f === "fresh", setFilter("fresh"));
       addChip("Recent", f === "recent", setFilter("recent"));
       addChip("All beats", f === "all", setFilter("all"));
       addChip(`${icon("book")}Notebook`, false, () => go({ view: "notebook" }), "action");
@@ -782,6 +791,7 @@
     const f = filter[tab];
     if (f === "recent") return `<div class="empty"><strong>Nothing watched yet</strong>Videos you play show up here.</div>`;
     if (f === "new") return `<div class="empty"><strong>You're caught up</strong>New videos arrive every morning.</div>`;
+    if (f === "fresh") return `<div class="empty"><strong>You've heard every new beat</strong>Fresh Detroit, West Coast and bouncy beats arrive every morning.</div>`;
     if (f === "liked") return `<div class="empty"><strong>No liked beats</strong>Tap the heart on any beat to save it here.</div>`;
     return `<div class="empty"><strong>Nothing here yet</strong></div>`;
   }
@@ -873,6 +883,7 @@
     const p = progressOf(v.id);
     return `<div class="thumb"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg">
       ${v.source === "discovery" ? '<span class="badge">PICK</span>' : ""}
+      ${v.fresh && !watched.has(v.id) && !isLiked(v) ? '<span class="badge new">NEW</span>' : ""}
       ${v.external ? '<span class="ext-badge">LINK</span>' : ""}
       ${current?.id === v.id ? '<span class="now-badge">NOW PLAYING</span>' : ""}
       ${p && current?.id !== v.id ? `<span class="progress-track"></span><span class="progress" style="width:${p}%"></span>` : ""}
