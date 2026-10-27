@@ -59,7 +59,21 @@
   "@GoodNewsNetwork": "UCyl1HT0KZdM2mFGXwvXikfA",
   "@TheDodo": "UCINb0wqPz-A0dV9nARjJlOQ",
   "@osmosis": "UCNI0qOojpkhsUtaQ4_2NUhQ",
-  "@mayoclinic": "UC8fQzKHIhSoZeSq3bwQx4mw"
+  "@mayoclinic": "UC8fQzKHIhSoZeSq3bwQx4mw",
+  "@Kenhub": "UCHn_K1zOBYZqtmIYkXLEIQw",
+  "@AnatomyZone": "UCR9m1bxGaw3Ubrap34U-yDA",
+  "@MuscleandMotion": "UCo0du-IzWuYaVf9QTg10nAQ",
+  "@ArmandoHasudungan": "UCesNt4_Z-Pm41RzpAClfVcg",
+  "@NinjaNerdOfficial": "UC6QYFutt9cluQ3uSM963_KQ",
+  "@JeffNippard": "UC68TLK0mAEzUyHx5x5k-S1Q",
+  "@squatuniversity": "UCyPYQTT20IgzVw92LDvtClw",
+  "@E3Rehab": "UCkb9jgRxR2D5bc1fSDofwtA",
+  "@hybridcalisthenics": "UCeJFgNahi--FKs0oJyeRDEw",
+  "@StrengthSide": "UC9BNGVGr_lvbn3d23ckuVOA",
+  "@MarkWildman": "UCVYbUVLrZ6pEBfYV_UyvItA",
+  "@athleanx": "UCe0TLA0EsQbE-MjuHXevj2A",
+  "@BobandBrad": "UCmTe0LsfEbpkDpgrxKAWbRA",
+  "@yogawithadriene": "UCFKE7WVJfvaHW5q283SxchA"
  },
  "seen": [
   "HXVifRd-HXQ",
@@ -226,7 +240,21 @@
   "@hacksmith",
   "@AppliedScience",
   "@GoodNewsNetwork",
-  "@TheDodo"
+  "@TheDodo",
+  "@Kenhub",
+  "@AnatomyZone",
+  "@MuscleandMotion",
+  "@ArmandoHasudungan",
+  "@NinjaNerdOfficial",
+  "@JeffNippard",
+  "@squatuniversity",
+  "@E3Rehab",
+  "@hybridcalisthenics",
+  "@StrengthSide",
+  "@MarkWildman",
+  "@athleanx",
+  "@BobandBrad",
+  "@yogawithadriene"
  ],
  "channelNames": {
   "@vintagemanbeats": "VintageMan Beats",
@@ -281,6 +309,20 @@
   "@GoodNewsNetwork": "goodnewsnetwork",
   "@TheDodo": "The Dodo",
   "@osmosis": "Osmosis from Elsevier",
-  "@mayoclinic": "Mayo Clinic"
+  "@mayoclinic": "Mayo Clinic",
+  "@Kenhub": "Kenhub - Learn Human Anatomy",
+  "@AnatomyZone": "AnatomyZone",
+  "@MuscleandMotion": "Muscle & Motion",
+  "@ArmandoHasudungan": "Armando Hasudungan",
+  "@NinjaNerdOfficial": "Ninja Nerd",
+  "@JeffNippard": "Jeff Nippard",
+  "@squatuniversity": "Squat University",
+  "@E3Rehab": "E3 Rehab",
+  "@hybridcalisthenics": "Hybrid Calisthenics",
+  "@StrengthSide": "Strength Side",
+  "@MarkWildman": "Mark Wildman",
+  "@athleanx": "ATHLEAN-X™",
+  "@BobandBrad": "Bob & Brad",
+  "@yogawithadriene": "Yoga With Adriene"
  }
 }

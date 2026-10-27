@@ -306,7 +306,12 @@ const agoToISO = (txt = "") => {
 };
 // sp=EgQIBBAB: videos uploaded this month; sp=EgIQAQ%3D%3D: any video, by relevance.
 async function searchRecent(q, sp = "EgQIBBAB") {
-  const html = await (await fetch(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=${sp}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
+  let html = "";
+  for (let t = 0; t < 4 && !html.includes("ytInitialData"); t++) {
+    if (t) await new Promise((r) => setTimeout(r, 2000 * t)); // YouTube sometimes drops the connection after many requests
+    try { html = await (await fetch(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=${sp}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text(); }
+    catch (e) { if (t === 3) throw e; }
+  }
   const json = html.match(/var ytInitialData = (\{.*?\});<\/script>/s)?.[1];
   const out = [];
   (function walk(o) {
@@ -428,7 +433,8 @@ for (const d of config.learn.searches || []) {
   let got = [];
   try {
     got = (await searchRecent(d.q, "EgIQAQ%3D%3D"))
-      .filter((v) => v.dur >= (d.minSec || 300) && v.dur <= (d.maxSec || 3600) && v.views >= (d.minViews || 200000) && !blocked(v.title))
+      .filter((v) => v.dur >= (d.minSec || 300) && v.dur <= (d.maxSec || 3600) && v.views >= (d.minViews || 200000) && !blocked(v.title)
+        && !(config.blockedChannels || []).some((c) => v.channel.toLowerCase().startsWith(c.toLowerCase())))
       .slice(0, d.max || 5)
       .map((v) => ({ ...v, topic: d.topic, source: `search:${d.q}`, deep: d.q }));
   } catch (e) { log("deep dive", d.q, e.message); }

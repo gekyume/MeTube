@@ -809,6 +809,24 @@
         "@kurzgesagt",
         "@Vsauce"
       ],
+      "Anatomy": [
+        "@Kenhub",
+        "@AnatomyZone",
+        "@MuscleandMotion",
+        "@ArmandoHasudungan",
+        "@NinjaNerdOfficial"
+      ],
+      "Exercise": [
+        "@JeffNippard",
+        "@squatuniversity",
+        "@E3Rehab",
+        "@hybridcalisthenics",
+        "@StrengthSide",
+        "@MarkWildman",
+        "@athleanx",
+        "@BobandBrad",
+        "@yogawithadriene"
+      ],
       "Chips & Computers": [
         "@BranchEducation",
         "@Computerphile",
@@ -967,6 +985,42 @@
         "q": "inspiring true story kindness documentary",
         "topic": "Uplifting Stories",
         "minViews": 500000
+      },
+      {
+        "q": "how muscles grow hypertrophy science explained",
+        "topic": "Exercise"
+      },
+      {
+        "q": "science based full body workout best exercises",
+        "topic": "Exercise"
+      },
+      {
+        "q": "fix posture exercises physical therapist",
+        "topic": "Exercise"
+      },
+      {
+        "q": "hip mobility routine follow along",
+        "topic": "Exercise",
+        "minSec": 480
+      },
+      {
+        "q": "shoulder anatomy explained 3d",
+        "topic": "Anatomy",
+        "minViews": 100000
+      },
+      {
+        "q": "knee anatomy explained 3d",
+        "topic": "Anatomy",
+        "minViews": 100000
+      },
+      {
+        "q": "how the heart works anatomy animation",
+        "topic": "Anatomy"
+      },
+      {
+        "q": "spine anatomy explained",
+        "topic": "Anatomy",
+        "minViews": 100000
       }
     ]
   },
@@ -1017,9 +1071,23 @@
       "@hacksmith",
       "@SteveMould",
       "@TheDodo",
-      "@GoodNewsNetwork"
+      "@GoodNewsNetwork",
+      "@MuscleandMotion",
+      "@Kenhub",
+      "@ArmandoHasudungan",
+      "@squatuniversity",
+      "@E3Rehab",
+      "@JeffNippard",
+      "@hybridcalisthenics",
+      "@StrengthSide",
+      "@MarkWildman",
+      "@athleanx"
     ],
     "maxPerChannel": 12,
-    "maxTotal": 900
-  }
+    "maxTotal": 1100
+  },
+  "blockedChannels": [
+    "Dr. Eric Berg",
+    "Institute of Human Anatomy"
+  ]
 }
