@@ -809,8 +809,41 @@
         "@kurzgesagt",
         "@Vsauce"
       ],
+      "Chips & Computers": [
+        "@BranchEducation",
+        "@Computerphile",
+        "@BenEater"
+      ],
+      "Physics & Quantum": [
+        "@QuantaScienceChannel",
+        "@pbsspacetime",
+        "@HuygensOptics",
+        "@DomainofScience",
+        "@SteveMould"
+      ],
+      "Brain & Body": [
+        "@ArtemKirsanov",
+        "@NeuroTransmissions",
+        "@nucleusmedicalmedia",
+        "@DoctorMike",
+        "@hubermanlab"
+      ],
       "History": [],
       "Philosophy": [],
+      "Gadgets & Making": [
+        "@greatscottlab",
+        "@DIYPerks",
+        "@SimoneGiertz",
+        "@unnecessaryinventions",
+        "@hacksmith",
+        "@AppliedScience"
+      ],
+      "Uplifting Stories": [
+        "@SpecialBooksbySpecialKids",
+        "@StoryCorps",
+        "@GoodNewsNetwork",
+        "@TheDodo"
+      ],
       "Ideas & Talks": [
         "@TED",
         "@TEDEd"
@@ -819,14 +852,12 @@
         "@PracticalEngineeringChannel",
         "@Asianometry"
       ],
-      "Society": [
-        "@Vox"
-      ],
       "People & World": [
-        "@SpecialBooksbySpecialKids",
-        "@StoryCorps",
         "@johnnyharris",
         "@RealLifeLore"
+      ],
+      "Society": [
+        "@Vox"
       ]
     },
     "playlists": [],
@@ -884,6 +915,59 @@
         "playlist": "PL8dPuuaLjXtNppY8ZHMPDH5TKK2UpU8Ng",
         "topic": "History"
       }
+    ],
+    "searches": [
+      {
+        "q": "how a data center works explained",
+        "topic": "Chips & Computers"
+      },
+      {
+        "q": "inside a data center tour cooling power",
+        "topic": "Chips & Computers"
+      },
+      {
+        "q": "how computer memory RAM works",
+        "topic": "Chips & Computers"
+      },
+      {
+        "q": "how computer chips are made",
+        "topic": "Chips & Computers"
+      },
+      {
+        "q": "how a CPU works",
+        "topic": "Chips & Computers"
+      },
+      {
+        "q": "silicon photonics explained",
+        "topic": "Physics & Quantum",
+        "minViews": 50000
+      },
+      {
+        "q": "photonics explained light computing",
+        "topic": "Physics & Quantum",
+        "minViews": 50000
+      },
+      {
+        "q": "how quantum computers work",
+        "topic": "Physics & Quantum"
+      },
+      {
+        "q": "how human memory works neuroscience",
+        "topic": "Brain & Body"
+      },
+      {
+        "q": "how the brain constructs reality perception",
+        "topic": "Brain & Body"
+      },
+      {
+        "q": "human anatomy explained animation",
+        "topic": "Brain & Body"
+      },
+      {
+        "q": "inspiring true story kindness documentary",
+        "topic": "Uplifting Stories",
+        "minViews": 500000
+      }
     ]
   },
   "blockedTitleWords": [
@@ -916,9 +1000,26 @@
       "@StoryCorps",
       "@RealLifeLore",
       "@UNICEF",
-      "@PBSNewsHour"
+      "@PBSNewsHour",
+      "@BranchEducation",
+      "@HuygensOptics",
+      "@QuantaScienceChannel",
+      "@DomainofScience",
+      "@pbsspacetime",
+      "@nucleusmedicalmedia",
+      "@osmosis",
+      "@DoctorMike",
+      "@hubermanlab",
+      "@mayoclinic",
+      "@greatscottlab",
+      "@SimoneGiertz",
+      "@unnecessaryinventions",
+      "@hacksmith",
+      "@SteveMould",
+      "@TheDodo",
+      "@GoodNewsNetwork"
     ],
     "maxPerChannel": 12,
-    "maxTotal": 500
+    "maxTotal": 900
   }
 }

@@ -304,9 +304,9 @@ const agoToISO = (txt = "") => {
   const unit = { second: 1, minute: 60, min: 60, hour: 3600, h: 3600, day: 86400, d: 86400, week: 604800, w: 604800, month: 2592000, mo: 2592000, year: 31536000, y: 31536000 }[m[2].toLowerCase()] || 0;
   return new Date(Date.now() - +m[1] * unit * 1000).toISOString();
 };
-async function searchRecent(q) {
-  // sp=EgQIBBAB: videos only, uploaded this month
-  const html = await (await fetch(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=EgQIBBAB`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
+// sp=EgQIBBAB: videos uploaded this month; sp=EgIQAQ%3D%3D: any video, by relevance.
+async function searchRecent(q, sp = "EgQIBBAB") {
+  const html = await (await fetch(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=${sp}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
   const json = html.match(/var ytInitialData = (\{.*?\});<\/script>/s)?.[1];
   const out = [];
   (function walk(o) {
@@ -316,6 +316,7 @@ async function searchRecent(q) {
     if (r?.videoId) out.push({
       id: r.videoId, title: r.title?.runs?.map((x) => x.text).join("") || "", channel: r.ownerText?.runs?.[0]?.text || "",
       dur: r.lengthText?.simpleText ? toSec(r.lengthText.simpleText) : null, published: agoToISO(r.publishedTimeText?.simpleText),
+      views: +(r.viewCountText?.simpleText || "").replace(/[^\d]/g, "") || 0,
     });
     Object.values(o).forEach(walk);
   })(json ? JSON.parse(json) : {});
@@ -355,7 +356,7 @@ const beats = {
 
 // Drop videos from channels you've removed from the config, and rebuild series/collections fresh below.
 const learnSources = new Set(config.learn.channels);
-library.learn = (library.learn || []).filter((v) => !v.series && !v.collection && (learnSources.has(v.source) || ["discovery", "manual"].includes(v.source)));
+library.learn = (library.learn || []).filter((v) => !v.series && !v.collection && !v.deep && (learnSources.has(v.source) || ["discovery", "manual"].includes(v.source)));
 library.shorts = (library.shorts || []).filter((v) => (config.shorts?.channels || []).includes(v.source));
 const prevLearn = await readJson(OUT_PATH, { learn: [] }).then((d) => d.learn || []);
 
@@ -421,6 +422,21 @@ for (const co of config.learn.collections || []) {
   collectionItems.push(...vids);
 }
 
+// Deep dives: the most-watched, substantial explainers for niche subjects (data centers, photonics...). Kept permanently.
+const deepItems = [];
+for (const d of config.learn.searches || []) {
+  let got = [];
+  try {
+    got = (await searchRecent(d.q, "EgIQAQ%3D%3D"))
+      .filter((v) => v.dur >= (d.minSec || 300) && v.dur <= (d.maxSec || 3600) && v.views >= (d.minViews || 200000) && !blocked(v.title))
+      .slice(0, d.max || 5)
+      .map((v) => ({ ...v, topic: d.topic, source: `search:${d.q}`, deep: d.q }));
+  } catch (e) { log("deep dive", d.q, e.message); }
+  if (!got.length) got = prevLearn.filter((v) => v.deep === d.q);
+  deepItems.push(...got);
+  await new Promise((r) => setTimeout(r, 800));
+}
+
 // Shorts: educational channels' Shorts-only feeds, for the swipe feed.
 const shortsCfg = config.shorts || { channels: [] };
 const shortsIn = await collectFeeds(shortsCfg, { list: "UUSH" });
@@ -432,7 +448,7 @@ beats.items = dedupe(beats.items);
 {
   // Feed videos first (they have dates), then back-catalog extras, then series episodes in order.
   const have = new Set(learn.items.map((v) => v.id));
-  const extras = collectionItems.filter((v) => !have.has(v.id) && have.add(v.id));
+  const extras = [...collectionItems, ...deepItems].filter((v) => !have.has(v.id) && have.add(v.id));
   const eps = seriesItems.filter((v) => !have.has(v.id) && have.add(v.id));
   learn.items = [...dedupe(learn.items), ...dedupe(extras), ...eps];
 }
