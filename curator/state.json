@@ -1,6 +1,5 @@
 {
  "channelIds": {
-  "@Asianometry": "UC1LpsuAUaKoMzzJSEt5WImw",
   "@OverSimplified": "UCNIuvl7V8zACPpTmmNIqP2A",
   "@KingsandGenerals": "UCMmaBzfCCwZ2KqaBJjkj0fw",
   "@HistoriaCivilis": "UCv_vLHiWVBh_FR9vbeuiY-A",
@@ -73,7 +72,8 @@
   "@MarkWildman": "UCVYbUVLrZ6pEBfYV_UyvItA",
   "@athleanx": "UCe0TLA0EsQbE-MjuHXevj2A",
   "@BobandBrad": "UCmTe0LsfEbpkDpgrxKAWbRA",
-  "@yogawithadriene": "UCFKE7WVJfvaHW5q283SxchA"
+  "@yogawithadriene": "UCFKE7WVJfvaHW5q283SxchA",
+  "@Asianometry": "UC1LpsuAUaKoMzzJSEt5WImw"
  },
  "seen": [
   "HXVifRd-HXQ",
@@ -349,6 +349,7 @@
   "@MarkWildman": "Mark Wildman",
   "@athleanx": "ATHLEAN-X™",
   "@BobandBrad": "Bob & Brad",
-  "@yogawithadriene": "Yoga With Adriene"
+  "@yogawithadriene": "Yoga With Adriene",
+  "@Asianometry": "Asianometry"
  }
 }
