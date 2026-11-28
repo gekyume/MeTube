@@ -119,7 +119,25 @@
   .meta { flex: 1; min-width: 0; }
   .vtitle { font-size: 14.5px; font-weight: 550; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .vsub { color: var(--muted); font-size: 12.5px; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .like-btn { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: var(--faint); }
+  .vstats { display: flex; gap: 10px; color: var(--faint); font-size: 12px; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .pv-btn { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; color: var(--text); background: var(--surface-2); }
+  .pv-btn .ico { width: 16px; height: 16px; }
+  .pv-btn.on { background: var(--beats); color: #1a1200; }
+  .preview-card { position: fixed; z-index: 45; left: 8px; bottom: calc(var(--safe-b) + 8px); width: min(340px, calc(100vw - 16px));
+    display: flex; align-items: center; gap: 10px; padding: 8px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--line);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); transition: transform .2s, opacity .2s; }
+  .preview-card.off { opacity: 0; transform: translateY(150%); pointer-events: none; }
+  body.has-mini .preview-card { bottom: calc(var(--safe-b) + 96px); }
+  .preview-card .pv-frame { position: relative; width: 120px; aspect-ratio: 16/9; flex: none; border-radius: 8px; overflow: hidden; background: #000; }
+  .preview-card iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .preview-card .pv-shield { position: absolute; inset: 0; }
+  .preview-card.started .pv-hint { display: none; }
+  .preview-card:not(.started) .pv-shield { display: none; }
+  .pv-text { flex: 1; min-width: 0; font-size: 13px; }
+  .pv-text b { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pv-text span { color: var(--muted); font-size: 12px; }
+  .pv-bar { height: 3px; background: var(--surface-3); border-radius: 3px; margin-top: 6px; overflow: hidden; }
+  .pv-bar i { display: block; height: 100%; width: 0; background: var(--beats); } width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: var(--faint); }
   .like-btn.on { color: var(--beats); }
   .like-btn .ico { width: 20px; height: 20px; }
   .like-btn:hover { background: var(--surface-2); }
@@ -379,6 +397,7 @@
     .vlist.grid .thumb { width: 100%; }
     .vlist.grid .meta { padding: 10px 40px 0 2px; }
     .vlist.grid .like-btn { position: absolute; right: -6px; bottom: -4px; }
+    .vlist.grid .pv-btn { position: absolute; right: 30px; bottom: -3px; }
     .sgrid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; padding: 8px 24px; }
     .scard:hover img { transform: scale(1.04); }
     .vlist.grid .vrow.playing .thumb { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -432,6 +451,7 @@
   <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/></symbol>
   <symbol id="i-book" viewBox="0 0 24 24"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM6 4h5v8l-2.5-1.5L6 12z"/></symbol>
   <symbol id="i-cam" viewBox="0 0 24 24"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11z"/></symbol>
+  <symbol id="i-stop2" viewBox="0 0 24 24"><path d="M7 7h10v10H7z"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></symbol>
 </svg>
 
@@ -525,6 +545,11 @@
       <button class="icon-btn" id="shortsShare" aria-label="Share this Short"><svg class="ico"><use href="#i-share"/></svg></button>
     </span>
   </div>
+</div>
+<div class="preview-card off" id="pvCard" aria-live="polite">
+  <div class="pv-frame"><iframe id="pyt" allow="autoplay; encrypted-media" title="Preview"></iframe><div class="pv-shield"></div></div>
+  <div class="pv-text"><b id="pvTitle"></b><span id="pvSub"></span><div class="pv-bar"><i id="pvBar"></i></div></div>
+  <button class="icon-btn" id="pvStop" aria-label="Stop preview"><svg class="ico"><use href="#i-close"/></svg></button>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -622,6 +647,7 @@
     if (f === "recent") { const byId = new Map(items.map((v) => [v.id, v])); return recent.map((h) => byId.get(h.id)).filter(Boolean); }
     if (f === "liked") return items.filter(isLiked);
     if (f === "ideas") return items.filter((v) => v.idea);
+    if (f === "popular") return items.filter((v) => v.views != null).sort((a, b) => b.views - a.views);
     if (f.startsWith("batch:")) return items.filter((v) => v.batch === f.slice(6));
     if (f === "fresh") return interleave(items.filter((v) => v.fresh && !watched.has(v.id)), (v) => v.style); // mix Detroit / West Coast / Bouncy
     if (f === "new") return items.filter((v) => !watched.has(v.id));
@@ -758,6 +784,7 @@
       if (freshLeft) addChip(`New to you · ${freshLeft}`, f === "fresh", setFilter("fresh"));
       addChip("Recent", f === "recent", setFilter("recent"));
       addChip("All beats", f === "all", setFilter("all"));
+      addChip("🔥 Popular", f === "popular", setFilter("popular"));
       addChip(`${icon("book")}Notebook`, false, () => go({ view: "notebook" }), "action");
       chips.insertAdjacentHTML("beforeend", `<span class="chip-sep"></span>`);
       const beats = allItems("beats");
@@ -951,6 +978,12 @@
     root.append(videoList(eps, { grid: true, section: "learn" }));
   }
 
+  const compact = (n) => (n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1) + "M" : n >= 1e3 ? Math.round(n / 1e3) + "K" : String(n)).replace(".0", "");
+  function statsHTML(v) {
+    if (v.views == null) return "";
+    return `<div class="vstats"><span>${compact(v.views)} views</span>${v.likes != null ? `<span>♥ ${compact(v.likes)}</span>` : ""}</div>`;
+  }
+
   function subText(v, showWhen) {
     if (v.ref && !showWhen && filter.beats !== "ideas" && !filter.beats.startsWith("batch:")) return `Similar to “${v.ref}” · ${v.channel}`;
     if (v.series && !showWhen) return `${epLabel(v)} · ${v.series.replace(/^Crash Course /, "")}`;
@@ -963,11 +996,15 @@
     ul.className = "vlist" + (grid ? " grid" : "");
     for (const v of list) {
       const li = document.createElement("li");
+      li.dataset.id = v.id;
       li.className = "vrow" + (watched.has(v.id) && current?.id !== v.id ? " watched" : "") + (current?.id === v.id ? " playing" : "");
       li.innerHTML = `${thumbHTML(v)}
-        <div class="meta"><div class="vtitle">${esc(v.title)}</div><div class="vsub">${esc(subText(v, showWhen))}</div></div>
+        <div class="meta"><div class="vtitle">${esc(v.title)}</div><div class="vsub">${esc(subText(v, showWhen))}</div>${statsHTML(v)}</div>
+        ${section === "beats" ? `<button class="pv-btn${preview.id === v.id ? " on" : ""}" aria-label="Preview 8 seconds">${icon(preview.id === v.id ? "stop2" : "play")}</button>` : ""}
         ${section === "beats" ? `<button class="like-btn${isLiked(v) ? " on" : ""}" aria-label="Like">${icon(isLiked(v) ? "heart" : "heart-o")}</button>` : ""}`;
       li.onclick = () => (onPick ? onPick(v) : playFrom(v, list));
+      const pvb = li.querySelector(".pv-btn");
+      if (pvb) pvb.onclick = (e) => { e.stopPropagation(); togglePreview(v); };
       const like = li.querySelector(".like-btn");
       if (like) like.onclick = (e) => {
         e.stopPropagation(); toggleLike(v);
@@ -1359,6 +1396,77 @@
   $("shortsNext").onclick = () => stepShort(1);
   $("shortsBack").onclick = goBack;
   $("shortsShare").onclick = () => { const v = shortsList[shortsIdx]; if (v) shareLink(v.title, appLink({ view: "shorts", id: v.id })); };
+
+  // ---------- preview: hear ~8 seconds of a beat from where it drops, without opening it ----------
+  const PREVIEW_SEC = 8;
+  const preview = { id: null, started: false, ready: false, state: -1, timer: null, t0: 0 };
+  const pframe = $("pyt");
+  const psend = (func, args = []) => pframe.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args, id: 3, channel: "widget" }), ORIGIN);
+  const dropPoint = (v) => Math.max(0, Math.round((v.dur || 150) * 0.3)); // past the intro, usually where the drums are in
+
+  function togglePreview(v) {
+    if (preview.id === v.id) return stopPreview();
+    if (wantPlaying && player.state === 1) { wantPlaying = false; send("pauseVideo"); } // don't play two things at once
+    preview.id = v.id;
+    $("pvTitle").textContent = v.title;
+    $("pvSub").textContent = preview.started ? `Previewing from ${fmt(dropPoint(v))}` : "Tap the video once to start previews";
+    $("pvCard").classList.remove("off");
+    $("pvBar").style.transition = "none"; $("pvBar").style.width = "0";
+    if (preview.started && preview.ready) {
+      // Same player, already unlocked by your first tap, so later previews start by themselves.
+      psend("loadVideoById", [{ videoId: v.id, startSeconds: dropPoint(v) }]);
+    } else {
+      preview.ready = false; preview.state = -1;
+      pframe.src = `${ORIGIN}/embed/${v.id}?` + new URLSearchParams({ enablejsapi: 1, controls: 0, playsinline: 1, rel: 0, iv_load_policy: 3, fs: 0, autoplay: 1, start: dropPoint(v), origin: location.origin });
+    }
+    refreshPreviewButtons();
+  }
+
+  function stopPreview() {
+    clearTimeout(preview.timer);
+    psend("pauseVideo");
+    preview.id = null;
+    $("pvCard").classList.add("off");
+    refreshPreviewButtons();
+  }
+
+  function refreshPreviewButtons() {
+    document.querySelectorAll(".vrow .pv-btn").forEach((b) => {
+      const li = b.closest(".vrow"); const on = li?.dataset.id === preview.id;
+      b.classList.toggle("on", on); b.innerHTML = icon(on ? "stop2" : "play");
+    });
+  }
+
+  pframe.addEventListener("load", () => {
+    if (!pframe.src.startsWith(ORIGIN)) return;
+    let tries = 0;
+    const t = setInterval(() => {
+      pframe.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: 3, channel: "widget" }), ORIGIN);
+      if (preview.ready || ++tries > 40) clearInterval(t);
+    }, 250);
+  });
+
+  function onPreviewMessage(msg) {
+    const info = msg.info;
+    if (msg.event === "onReady") preview.ready = true;
+    let st = msg.event === "onStateChange" ? (typeof info === "number" ? info : info?.playerState) : undefined;
+    if (msg.event === "infoDelivery" && info) { preview.ready = true; if (typeof info.playerState === "number") st = info.playerState; }
+    if (st === undefined || st === preview.state) return;
+    preview.state = st;
+    if (st === 1 && preview.id) {
+      preview.started = true;
+      $("pvCard").classList.add("started");
+      const v = findVideo(preview.id);
+      $("pvSub").textContent = `Previewing from ${fmt(dropPoint(v || {}))}`;
+      // Count the 8 seconds from when sound actually starts (after any ad).
+      clearTimeout(preview.timer);
+      const bar = $("pvBar"); bar.style.transition = "none"; bar.style.width = "0"; void bar.offsetWidth;
+      bar.style.transition = `width ${PREVIEW_SEC}s linear`; bar.style.width = "100%";
+      preview.timer = setTimeout(stopPreview, PREVIEW_SEC * 1000);
+    }
+  }
+  $("pvStop").onclick = stopPreview;
+  document.querySelector("#pvCard .pv-shield").onclick = () => { const v = findVideo(preview.id); if (v) { stopPreview(); playFrom(v, listFor("beats")); } };
 
   // ---------- studio: write lyrics and record vocal takes over a beat ----------
   const lyrics = store.get("lyrics", {}); // beat id -> {text, at}
@@ -1779,6 +1887,7 @@
     if (e.origin !== ORIGIN || typeof e.data !== "string") return;
     let msg; try { msg = JSON.parse(e.data); } catch { return; }
     if (e.source === sframe.contentWindow) return onShortsMessage(msg);
+    if (e.source === $("pyt").contentWindow) return onPreviewMessage(msg);
     if (e.source !== iframe.contentWindow) return;
     const info = msg.info;
     if (msg.event === "onReady") player.ready = true;

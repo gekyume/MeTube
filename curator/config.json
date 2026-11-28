@@ -774,7 +774,7 @@
           "style": "Bouncy"
         }
       ],
-      "perQuery": 8,
+      "perQuery": 10,
       "maxPerProducer": 3,
       "keep": 150,
       "minSec": 90,
@@ -797,7 +797,8 @@
         "cook up",
         "reaction",
         "hours"
-      ]
+      ],
+      "minViews": 10000
     },
     "ideas": [
       {

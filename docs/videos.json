@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T05:26:36.789Z",
+ "updatedAt": "2026-11-28T05:49:16.119Z",
  "topics": [
   "Science",
   "Anatomy",
@@ -62,7 +62,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 154
+   "dur": 154,
+   "views": 52754,
+   "likes": 1324,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "h6lcau4CTb8",
@@ -71,7 +74,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 180
+   "dur": 180,
+   "views": 47608,
+   "likes": 1275,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "I5RdOyqmOMM",
@@ -80,7 +86,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 159
+   "dur": 159,
+   "views": 11808,
+   "likes": 218,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "kHDAzYZGbnw",
@@ -89,7 +98,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 205
+   "dur": 205,
+   "views": 180787,
+   "likes": 4067,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "D1ILYa_FFxw",
@@ -98,7 +110,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 181
+   "dur": 181,
+   "views": 21183,
+   "likes": 589,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "8qURcj0If-8",
@@ -107,7 +122,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 141
+   "dur": 141,
+   "views": 66826,
+   "likes": 1632,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "V6FFVSuowq4",
@@ -116,7 +134,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 240
+   "dur": 240,
+   "views": 59664,
+   "likes": 1557,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cTUYbXTAEn8",
@@ -125,7 +146,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 238
+   "dur": 238,
+   "views": 158984,
+   "likes": 5552,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "CKHaerl-blI",
@@ -134,7 +158,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 162
+   "dur": 162,
+   "views": 28208,
+   "likes": 902,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "6inxwNHgZiM",
@@ -143,7 +170,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 266
+   "dur": 266,
+   "views": 331706,
+   "likes": 11071,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "I6kZBdkaJTw",
@@ -152,7 +182,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 214
+   "dur": 214,
+   "views": 182016,
+   "likes": 6920,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "0DfHsNjWuVo",
@@ -161,7 +194,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 311
+   "dur": 311,
+   "views": 32441,
+   "likes": 2135,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "k8vvYCoIhDM",
@@ -170,7 +206,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 210
+   "dur": 210,
+   "views": 40722,
+   "likes": 3375,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "WDdaUp8L2zw",
@@ -179,7 +218,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 285
+   "dur": 285,
+   "views": 144550,
+   "likes": 5187,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "jha3gmyMyVs",
@@ -188,7 +230,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 195
+   "dur": 195,
+   "views": 538096,
+   "likes": 51616,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4dSCsh92GvE",
@@ -197,7 +242,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 151
+   "dur": 151,
+   "views": 73494,
+   "likes": 2764,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "2f8WZ7KUYWE",
@@ -206,7 +254,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 141
+   "dur": 141,
+   "views": 50593,
+   "likes": 1753,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "eQsH44KszbM",
@@ -215,7 +266,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 204
+   "dur": 204,
+   "views": 4524,
+   "likes": 225,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "EUEel39HiHk",
@@ -224,7 +278,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 220
+   "dur": 220,
+   "views": 11563,
+   "likes": 536,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4N4C-EeFhTE",
@@ -233,7 +290,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 242
+   "dur": 242,
+   "views": 9188,
+   "likes": 375,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "NBeJlppARjY",
@@ -242,7 +302,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 188
+   "dur": 188,
+   "views": 43603,
+   "likes": 1795,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "j-FCoIK9ZYU",
@@ -251,7 +314,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 222
+   "dur": 222,
+   "views": 385368,
+   "likes": 14994,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "wVBJBEz2_H0",
@@ -260,7 +326,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 220
+   "dur": 220,
+   "views": 57139,
+   "likes": 1872,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "bCYcQh74ees",
@@ -269,7 +338,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 151
+   "dur": 151,
+   "views": 84293,
+   "likes": 2408,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "mb_S9JgWVmw",
@@ -278,7 +350,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 255
+   "dur": 255,
+   "views": 773812,
+   "likes": 24012,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "itAtd-cH92k",
@@ -287,7 +362,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 160
+   "dur": 160,
+   "views": 149210,
+   "likes": 3862,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "BRuMOfMIPmQ",
@@ -296,7 +374,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 190
+   "dur": 190,
+   "views": 8167,
+   "likes": 308,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "BX4f3_CORHs",
@@ -305,7 +386,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 272
+   "dur": 272,
+   "views": 1177835,
+   "likes": 26554,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cE5vOOy9lLs",
@@ -314,7 +398,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 198
+   "dur": 198,
+   "views": 202472,
+   "likes": 7532,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "alBapK3ToSc",
@@ -323,7 +410,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 147
+   "dur": 147,
+   "views": 1066120,
+   "likes": 29433,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "WtKMtx8WWgc",
@@ -332,7 +422,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 180
+   "dur": 180,
+   "views": 23969,
+   "likes": 804,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "NTeTP7WyGSs",
@@ -341,7 +434,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 202
+   "dur": 202,
+   "views": 2315,
+   "likes": 48,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "AAfZC0Ovq50",
@@ -350,7 +446,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 263
+   "dur": 263,
+   "views": 8514,
+   "likes": 255,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "qUdMu9aZtQU",
@@ -359,7 +458,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 150
+   "dur": 150,
+   "views": 39041,
+   "likes": 1110,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "2UElHx9d2OQ",
@@ -368,7 +470,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 257
+   "dur": 257,
+   "views": 440102,
+   "likes": 14345,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "RtYnbazb1hw",
@@ -377,7 +482,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 219
+   "dur": 219,
+   "views": 87756,
+   "likes": 2510,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "GPJ2cJdEVCI",
@@ -386,7 +494,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 194
+   "dur": 194,
+   "views": 579785,
+   "likes": 15955,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ck6MUSns63o",
@@ -395,7 +506,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 195
+   "dur": 195,
+   "views": 449418,
+   "likes": 13689,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "1Nf5y8AiJZ4",
@@ -404,7 +518,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 189
+   "dur": 189,
+   "views": 487153,
+   "likes": 9917,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "2RRC8KP56m0",
@@ -413,7 +530,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 262
+   "dur": 262,
+   "views": 284643,
+   "likes": 7864,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "6EH5bxU5f84",
@@ -422,7 +542,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 182
+   "dur": 182,
+   "views": 383215,
+   "likes": 9790,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "R4n0KYclhUE",
@@ -431,7 +554,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 183
+   "dur": 183,
+   "views": 65048,
+   "likes": 1665,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "wXCPPteE47w",
@@ -440,7 +566,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 218
+   "dur": 218,
+   "views": 153615,
+   "likes": 4495,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "vMtbqk1lVes",
@@ -449,7 +578,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 173
+   "dur": 173,
+   "views": 17459,
+   "likes": 657,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "inXLeGQedN8",
@@ -458,7 +590,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 192
+   "dur": 192,
+   "views": 80992,
+   "likes": 2283,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5WfHkQ-0rcs",
@@ -467,7 +602,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 168
+   "dur": 168,
+   "views": 16691,
+   "likes": 544,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dDVS7XJ-JFs",
@@ -476,7 +614,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 153
+   "dur": 153,
+   "views": 173539,
+   "likes": 7899,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "C61erTEFVak",
@@ -485,7 +626,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 185
+   "dur": 185,
+   "views": 619127,
+   "likes": 17581,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "mju_-Z6Q1Nk",
@@ -494,7 +638,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 110
+   "dur": 110,
+   "views": 389700,
+   "likes": 11258,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "gul3_-rDq1A",
@@ -503,7 +650,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 155
+   "dur": 155,
+   "views": 76330,
+   "likes": 1376,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "7yn8YhR8qkg",
@@ -512,7 +662,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 170
+   "dur": 170,
+   "views": 495751,
+   "likes": 19521,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "EJe0iIXYHhs",
@@ -521,7 +674,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 150
+   "dur": 150,
+   "views": 11144,
+   "likes": 420,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yHnjLFWjIN8",
@@ -530,7 +686,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 162
+   "dur": 162,
+   "views": 679121,
+   "likes": 17533,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dqy4SaxLx9I",
@@ -539,7 +698,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 131
+   "dur": 131,
+   "views": 161372,
+   "likes": 6807,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "iATGuMXQNNM",
@@ -548,7 +710,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 260
+   "dur": 260,
+   "views": 656508,
+   "likes": 13233,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "q8IUsQnAANA",
@@ -557,7 +722,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 137
+   "dur": 137,
+   "views": 72676,
+   "likes": 1879,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "7eG0OwbZ4js",
@@ -566,7 +734,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 164
+   "dur": 164,
+   "views": 62075,
+   "likes": 1785,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "lqVId_4tRG8",
@@ -575,7 +746,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 237
+   "dur": 237,
+   "views": 1166429,
+   "likes": 1687,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ZpStvC8SGqs",
@@ -584,7 +758,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 174
+   "dur": 174,
+   "views": 12475,
+   "likes": 457,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "22rbq1O52FY",
@@ -593,7 +770,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 248
+   "dur": 248,
+   "views": 73711,
+   "likes": 3571,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Kj5ayNbLK6Q",
@@ -602,7 +782,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 210
+   "dur": 210,
+   "views": 171300,
+   "likes": 4743,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "r9dwFR7upo4",
@@ -611,7 +794,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 203
+   "dur": 203,
+   "views": 4904,
+   "likes": 104,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cVOPAQf8fzw",
@@ -620,7 +806,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 168
+   "dur": 168,
+   "views": 139782,
+   "likes": 3854,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "L-6Grj22Cdw",
@@ -629,7 +818,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 160
+   "dur": 160,
+   "views": 74903,
+   "likes": 3250,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "AWmeda3cPEg",
@@ -638,7 +830,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 119
+   "dur": 119,
+   "views": 231631,
+   "likes": 7155,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "RKUAJ9pmuHs",
@@ -647,7 +842,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 166
+   "dur": 166,
+   "views": 1732626,
+   "likes": 45808,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4OgngSo5jk4",
@@ -656,7 +854,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 168
+   "dur": 168,
+   "views": 59018,
+   "likes": 2242,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Keh745xnz3o",
@@ -665,7 +866,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 245
+   "dur": 245,
+   "views": 16835,
+   "likes": 554,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Ju5axCGDTSA",
@@ -674,7 +878,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 152
+   "dur": 152,
+   "views": 15476,
+   "likes": 688,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "JmDah4JMIOg",
@@ -683,7 +890,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 196
+   "dur": 196,
+   "views": 32465,
+   "likes": 1201,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "NKwMu-Yjzn8",
@@ -692,7 +902,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 231
+   "dur": 231,
+   "views": 118361,
+   "likes": 4073,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "qGm1m643kYA",
@@ -701,7 +914,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 223
+   "dur": 223,
+   "views": 295309,
+   "likes": 9280,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "_zs5ZoDoMCg",
@@ -710,7 +926,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 183
+   "dur": 183,
+   "views": 1569003,
+   "likes": 30671,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "m5Ns0o_NKZM",
@@ -719,7 +938,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 226
+   "dur": 226,
+   "views": 258049,
+   "likes": 7614,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dqFiskSAcIk",
@@ -728,7 +950,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 162
+   "dur": 162,
+   "views": 534742,
+   "likes": 18027,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "TZfwM2pLcFk",
@@ -737,7 +962,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 214
+   "dur": 214,
+   "views": 13336,
+   "likes": 371,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "_nyBZF42LaY",
@@ -746,7 +974,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 202
+   "dur": 202,
+   "views": 7698,
+   "likes": 251,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "GTN04vnJtWw",
@@ -755,7 +986,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 230
+   "dur": 230,
+   "views": 258560,
+   "likes": 9170,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "gXBkfezvnVA",
@@ -764,7 +998,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 183
+   "dur": 183,
+   "views": 15898,
+   "likes": 364,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "kuJD6dTPTdg",
@@ -773,7 +1010,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 213
+   "dur": 213,
+   "views": 7721,
+   "likes": 188,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "YOpElpjQX1A",
@@ -782,7 +1022,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 204
+   "dur": 204,
+   "views": 451927,
+   "likes": 14358,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "txeE55gfn1g",
@@ -791,7 +1034,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 257
+   "dur": 257,
+   "views": 52209,
+   "likes": 1706,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "OOymAaVxDH4",
@@ -800,7 +1046,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 187
+   "dur": 187,
+   "views": 31664,
+   "likes": 764,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4YPegNZ8MU8",
@@ -809,7 +1058,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 208
+   "dur": 208,
+   "views": 77067,
+   "likes": 2254,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "APcFypgNN4Y",
@@ -818,7 +1070,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 263
+   "dur": 263,
+   "views": 2211953,
+   "likes": 65114,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4LCGtYEZ49I",
@@ -827,7 +1082,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 183
+   "dur": 183,
+   "views": 168676,
+   "likes": 5449,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "GDGVfmHbRP4",
@@ -836,7 +1094,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 230
+   "dur": 230,
+   "views": 64007,
+   "likes": 1947,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "JzyGta89dTs",
@@ -845,7 +1106,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 217
+   "dur": 217,
+   "views": 18750,
+   "likes": 597,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Wq3JESsHlS0",
@@ -854,7 +1118,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 207
+   "dur": 207,
+   "views": 78257,
+   "likes": 2943,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "R3HcdqgzFa4",
@@ -863,7 +1130,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 195
+   "dur": 195,
+   "views": 316026,
+   "likes": 9815,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "powa3HdtBko",
@@ -872,7 +1142,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 166
+   "dur": 166,
+   "views": 396996,
+   "likes": 12158,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "tZv8dU_EIVo",
@@ -881,7 +1154,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 153
+   "dur": 153,
+   "views": 1468507,
+   "likes": 48442,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "KBU4ZHiMO8Y",
@@ -890,7 +1166,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 119
+   "dur": 119,
+   "views": 13838,
+   "likes": 416,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "VmX92XtMuvs",
@@ -899,7 +1178,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 145
+   "dur": 145,
+   "views": 336689,
+   "likes": 12152,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "v_uoQoTZd0A",
@@ -908,7 +1190,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 146
+   "dur": 146,
+   "views": 135782,
+   "likes": 3302,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "P0CyVdf7q6M",
@@ -917,7 +1202,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 164
+   "dur": 164,
+   "views": 156582,
+   "likes": 6028,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "jiBu1a9jLVU",
@@ -926,7 +1214,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 135
+   "dur": 135,
+   "views": 14287,
+   "likes": 296,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "SAAsjePWIEk",
@@ -935,7 +1226,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 134
+   "dur": 134,
+   "views": 115059,
+   "likes": 2786,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "KgO2qC724Ys",
@@ -944,7 +1238,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 145
+   "dur": 145,
+   "views": 452391,
+   "likes": 6658,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dw4FYa_DpA8",
@@ -953,7 +1250,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 151
+   "dur": 151,
+   "views": 5194,
+   "likes": 214,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Xt-WS_EeG9I",
@@ -962,7 +1262,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 156
+   "dur": 156,
+   "views": 747363,
+   "likes": 22836,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ol3I4U6l0To",
@@ -971,7 +1274,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 165
+   "dur": 165,
+   "views": 102413,
+   "likes": 4368,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "nF2PHylevS0",
@@ -980,7 +1286,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 90
+   "dur": 90,
+   "views": 153040,
+   "likes": 4974,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cfJtMRyrAYw",
@@ -989,7 +1298,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 157
+   "dur": 157,
+   "views": 480742,
+   "likes": 14093,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "IgFjDGVfAIk",
@@ -998,7 +1310,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 131
+   "dur": 131,
+   "views": 881655,
+   "likes": 9710,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Hl6Qrwhvcko",
@@ -1007,7 +1322,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 141
+   "dur": 141,
+   "views": 65974,
+   "likes": 1699,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "fSgEmAzI4W0",
@@ -1016,7 +1334,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 95
+   "dur": 95,
+   "views": 15439,
+   "likes": 484,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "wFsyoedSRFY",
@@ -1025,7 +1346,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 120
+   "dur": 120,
+   "views": 95482,
+   "likes": 2371,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "8Dq0xXFVQ_Q",
@@ -1034,7 +1358,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 165
+   "dur": 165,
+   "views": 85260,
+   "likes": 3404,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "asFsirbXLbM",
@@ -1043,7 +1370,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 122
+   "dur": 122,
+   "views": 103286,
+   "likes": 3629,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yBaIGCgMPYY",
@@ -1052,7 +1382,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 206
+   "dur": 206,
+   "views": 42372,
+   "likes": 1109,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "V-GsMAGt5FY",
@@ -1061,7 +1394,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 218
+   "dur": 218,
+   "views": 273234,
+   "likes": 7843,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5d-dgORZdlg",
@@ -1070,7 +1406,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 171
+   "dur": 171,
+   "views": 272689,
+   "likes": 5711,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "6JRKuzHO15Q",
@@ -1079,7 +1418,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 182
+   "dur": 182,
+   "views": 312529,
+   "likes": 8786,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "QKwtETQ1v5c",
@@ -1088,7 +1430,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 161
+   "dur": 161,
+   "views": 300354,
+   "likes": 9060,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "7V4JuG1t490",
@@ -1097,7 +1442,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 152
+   "dur": 152,
+   "views": 91124,
+   "likes": 2844,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yyI9rn0ovVU",
@@ -1106,7 +1454,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 147
+   "dur": 147,
+   "views": 448862,
+   "likes": 14013,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "oveDfjZWx3s",
@@ -1115,7 +1466,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 177
+   "dur": 177,
+   "views": 572722,
+   "likes": 20261,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "-0qgZma-fWE",
@@ -1124,7 +1478,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 120
+   "dur": 120,
+   "views": 55094,
+   "likes": 3034,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "P95RiBV9MKo",
@@ -1133,7 +1490,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 135
+   "dur": 135,
+   "views": 518100,
+   "likes": 10099,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "3fsdG0n6p6Q",
@@ -1142,7 +1502,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 203
+   "dur": 203,
+   "views": 156109,
+   "likes": 7953,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "n89dJL1koEU",
@@ -1151,7 +1514,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 208
+   "dur": 208,
+   "views": 18333,
+   "likes": 592,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "amPNJVX4o6M",
@@ -1160,7 +1526,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 158
+   "dur": 158,
+   "views": 24782,
+   "likes": 776,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "49wJNL7Scss",
@@ -1169,7 +1538,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 205
+   "dur": 205,
+   "views": 100437,
+   "likes": 3729,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "AWqpxLYEQcU",
@@ -1178,7 +1550,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 180
+   "dur": 180,
+   "views": 98381,
+   "likes": 2139,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "aHBqt4-lAfo",
@@ -1187,7 +1562,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 120
+   "dur": 120,
+   "views": 191135,
+   "likes": 5494,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "B388qKXVqgA",
@@ -1196,7 +1574,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 123
+   "dur": 123,
+   "views": 746165,
+   "likes": 16552,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Fl1T03hAkj8",
@@ -1205,7 +1586,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 155
+   "dur": 155,
+   "views": 312574,
+   "likes": 6555,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "YyHCm9xcwtA",
@@ -1214,7 +1598,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 171
+   "dur": 171,
+   "views": 136075,
+   "likes": 5066,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "mVNyRbMAGUc",
@@ -1223,7 +1610,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 220
+   "dur": 220,
+   "views": 256271,
+   "likes": 9201,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "tlLt0UBDdaI",
@@ -1232,7 +1622,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 144
+   "dur": 144,
+   "views": 93553,
+   "likes": 3960,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "imrW-3iU9Uo",
@@ -1241,7 +1634,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 129
+   "dur": 129,
+   "views": 672447,
+   "likes": 13220,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "LEWs1-D2VRQ",
@@ -1250,7 +1646,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 132
+   "dur": 132,
+   "views": 255528,
+   "likes": 6549,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "jmpAfEjvv6c",
@@ -1259,7 +1658,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 163
+   "dur": 163,
+   "views": 436063,
+   "likes": 10322,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "6esYtgMY7QQ",
@@ -1268,7 +1670,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 175
+   "dur": 175,
+   "views": 588441,
+   "likes": 10383,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "eNTd9WBpcSo",
@@ -1277,7 +1682,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 202
+   "dur": 202,
+   "views": 182060,
+   "likes": 3060,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yCcvpI-8E4I",
@@ -1286,7 +1694,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 176
+   "dur": 176,
+   "views": 2053691,
+   "likes": 47961,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "8hbfICSyF8o",
@@ -1295,7 +1706,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 147
+   "dur": 147,
+   "views": 948939,
+   "likes": 21135,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "VlwI2yr0gO8",
@@ -1304,7 +1718,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 168
+   "dur": 168,
+   "views": 655088,
+   "likes": 18005,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "bnRAQqkxgcA",
@@ -1313,7 +1730,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 184
+   "dur": 184,
+   "views": 385606,
+   "likes": 11636,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "8GrP4k0PB_I",
@@ -1322,7 +1742,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 150
+   "dur": 150,
+   "views": 888186,
+   "likes": 19690,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "81FyLb1diGQ",
@@ -1331,7 +1754,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 261
+   "dur": 261,
+   "views": 534510,
+   "likes": 12364,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ocJiCrZzsWc",
@@ -1340,7 +1766,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 150
+   "dur": 150,
+   "views": 241008,
+   "likes": 9297,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "SpFs8RtXi9Y",
@@ -1349,7 +1778,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 188
+   "dur": 188,
+   "views": 98896,
+   "likes": 3516,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "w_6RO-ieEuc",
@@ -1358,7 +1790,10 @@
    "source": "liked",
    "liked": true,
    "added": "2026-09-25T18:41:04.276Z",
-   "dur": 144
+   "dur": 144,
+   "views": 130872,
+   "likes": 2870,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "We Takin Over",
@@ -1369,7 +1804,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 292
+   "dur": 292,
+   "views": 162257,
+   "likes": 2143,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "We Takin Over",
@@ -1380,7 +1818,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 150
+   "dur": 150,
+   "views": 332,
+   "likes": 6,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "God's Plan",
@@ -1391,7 +1832,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 227
+   "dur": 227,
+   "views": 562,
+   "likes": 6,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "God's Plan",
@@ -1402,7 +1846,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 156
+   "dur": 156,
+   "views": 593,
+   "likes": 14,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Let Em Know – T.I.",
@@ -1413,7 +1860,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 220
+   "dur": 220,
+   "views": 141900,
+   "likes": 2070,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Let Em Know – T.I.",
@@ -1424,7 +1874,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:15:39.416Z",
-   "dur": 152
+   "dur": 152,
+   "views": 19248,
+   "likes": 497,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Industry Baby",
@@ -1435,7 +1888,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 130
+   "dur": 130,
+   "views": 23014,
+   "likes": 677,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Industry Baby",
@@ -1446,7 +1902,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 217
+   "dur": 217,
+   "views": 51,
+   "likes": 3,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Lovin On Me",
@@ -1457,7 +1916,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 171
+   "dur": 171,
+   "views": 11960,
+   "likes": 326,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Lovin On Me",
@@ -1468,7 +1930,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 163
+   "dur": 163,
+   "views": 14192,
+   "likes": 60,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Invincible – Aminé",
@@ -1479,7 +1944,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 202
+   "dur": 202,
+   "views": 661,
+   "likes": 36,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Invincible – Aminé",
@@ -1490,7 +1958,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 191
+   "dur": 191,
+   "views": 14,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Vacay – Aminé",
@@ -1501,7 +1972,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 171
+   "dur": 171,
+   "views": 20614,
+   "likes": 596,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Vacay – Aminé",
@@ -1512,7 +1986,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 121
+   "dur": 121,
+   "views": 60273,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Vacay – Aminé",
@@ -1523,7 +2000,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 93
+   "dur": 93,
+   "views": 238,
+   "likes": 6,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Vacay – Aminé",
@@ -1534,7 +2014,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 146
+   "dur": 146,
+   "views": 25440,
+   "likes": 1122,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Favorite Song – Chance",
@@ -1545,7 +2028,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 186
+   "dur": 186,
+   "views": 5833,
+   "likes": 139,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Favorite Song – Chance",
@@ -1556,7 +2042,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 170
+   "dur": 170,
+   "views": 192405,
+   "likes": 2890,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Favorite Song – Chance",
@@ -1567,7 +2056,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 258
+   "dur": 258,
+   "views": 4430183,
+   "likes": 83105,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Gun in Yo Purse – Chance",
@@ -1578,7 +2070,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 232
+   "dur": 232,
+   "views": 13749,
+   "likes": 335,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Gun in Yo Purse – Chance",
@@ -1589,7 +2084,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 189
+   "dur": 189,
+   "views": 21759,
+   "likes": 569,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "679 – Fetty Wap",
@@ -1600,7 +2098,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 181
+   "dur": 181,
+   "views": 2961,
+   "likes": 45,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Fight Night – Migos",
@@ -1611,7 +2112,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 192
+   "dur": 192,
+   "views": 3971,
+   "likes": 150,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Fight Night – Migos",
@@ -1622,7 +2126,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 165
+   "dur": 165,
+   "views": 909,
+   "likes": 16,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Lovesick – A$AP Rocky",
@@ -1633,7 +2140,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 165
+   "dur": 165,
+   "views": 19558,
+   "likes": 812,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Lovesick – A$AP Rocky",
@@ -1644,7 +2154,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 130
+   "dur": 130,
+   "views": 175,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Dark Thoughts – Lil Tecca",
@@ -1655,7 +2168,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 184
+   "dur": 184,
+   "views": 200307,
+   "likes": 4803,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Dark Thoughts – Lil Tecca",
@@ -1666,7 +2182,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 137
+   "dur": 137,
+   "views": 8262,
+   "likes": 319,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Slide – Calvin Harris & Migos",
@@ -1677,7 +2196,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 159
+   "dur": 159,
+   "views": 1101,
+   "likes": 11,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Slide – Calvin Harris & Migos",
@@ -1688,7 +2210,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 219
+   "dur": 219,
+   "views": 2655,
+   "likes": 31,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Nice For What – Drake",
@@ -1699,7 +2224,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 237
+   "dur": 237,
+   "views": 6134,
+   "likes": 112,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Nice For What – Drake",
@@ -1710,7 +2238,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 183
+   "dur": 183,
+   "views": 14142,
+   "likes": 601,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Tommy Richman",
@@ -1721,7 +2252,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 156
+   "dur": 156,
+   "views": 339,
+   "likes": 8,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Tommy Richman",
@@ -1732,7 +2266,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 146
+   "dur": 146,
+   "views": 2050,
+   "likes": 75,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Slide – Paperboys / Connor Price",
@@ -1743,7 +2280,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 145
+   "dur": 145,
+   "views": 6894,
+   "likes": 193,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Slide – Paperboys / Connor Price",
@@ -1754,7 +2294,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 123
+   "dur": 123,
+   "views": 12952,
+   "likes": 318,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Black and Yellow – Wiz",
@@ -1765,7 +2308,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 208
+   "dur": 208,
+   "views": 25702,
+   "likes": 321,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Black and Yellow – Wiz",
@@ -1776,7 +2322,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 125
+   "dur": 125,
+   "views": 2205,
+   "likes": 59,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Jugg – Fetty Wap",
@@ -1787,7 +2336,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 171
+   "dur": 171,
+   "views": 1655,
+   "likes": 25,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "The Motto – Drake",
@@ -1798,7 +2350,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 220
+   "dur": 220,
+   "views": 6966,
+   "likes": 353,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "The Motto – Drake",
@@ -1809,7 +2364,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 200
+   "dur": 200,
+   "views": 57665,
+   "likes": 2323,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Donald Trump – Mac Miller",
@@ -1820,7 +2378,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 211
+   "dur": 211,
+   "views": 38,
+   "likes": 3,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "The Show Goes On – Lupe",
@@ -1831,7 +2392,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 219
+   "dur": 219,
+   "views": 23822,
+   "likes": 801,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "The Show Goes On – Lupe",
@@ -1842,7 +2406,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 219
+   "dur": 219,
+   "views": 1514,
+   "likes": 33,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "All I Got – Henderson",
@@ -1853,7 +2420,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 172
+   "dur": 172,
+   "views": 11654,
+   "likes": 376,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "So Good – B.o.B",
@@ -1864,7 +2434,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 148
+   "dur": 148,
+   "views": 97076,
+   "likes": 1863,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Whatever You Like – T.I.",
@@ -1875,7 +2448,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 170
+   "dur": 170,
+   "views": 6998,
+   "likes": 138,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Airplanes – B.o.B",
@@ -1886,7 +2462,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 168
+   "dur": 168,
+   "views": 130496,
+   "likes": 2859,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Airplanes – B.o.B",
@@ -1897,7 +2476,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:15:39.416Z",
-   "dur": 195
+   "dur": 195,
+   "views": 10481,
+   "likes": 241,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "6 Foot 7 Foot – Lil Wayne",
@@ -1908,7 +2490,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 164
+   "dur": 164,
+   "views": 22,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "6 Foot 7 Foot – Lil Wayne",
@@ -1919,7 +2504,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 123
+   "dur": 123,
+   "views": 58515,
+   "likes": 2761,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "3005 – Childish Gambino",
@@ -1930,7 +2518,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 153
+   "dur": 153,
+   "views": 3009,
+   "likes": 76,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "3005 – Childish Gambino",
@@ -1941,7 +2532,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 155
+   "dur": 155,
+   "views": 5319,
+   "likes": 149,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Type of Way – Rich Homie Quan",
@@ -1952,7 +2546,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 168
+   "dur": 168,
+   "views": 12893,
+   "likes": 191,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "ref": "Type of Way – Rich Homie Quan",
@@ -1963,7 +2560,10 @@
    "source": "ideas",
    "idea": true,
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 253
+   "dur": 253,
+   "views": 222292,
+   "likes": 2590,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "LiX0iwvxXGE",
@@ -1972,7 +2572,10 @@
    "published": "2026-11-25T14:53:40+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 201
+   "dur": 201,
+   "views": 3396,
+   "likes": 121,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "85PlHgkFA0s",
@@ -1981,7 +2584,10 @@
    "published": "2026-11-23T17:22:27+00:00",
    "source": "@lethalneedle",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 157
+   "dur": 157,
+   "views": 3917,
+   "likes": 170,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "bhOnONXr8q4",
@@ -1990,7 +2596,10 @@
    "published": "2026-11-23T16:43:33+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 200
+   "dur": 200,
+   "views": 17027,
+   "likes": 438,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "3kw9iJ8B4ZY",
@@ -1999,7 +2608,10 @@
    "published": "2026-11-18T17:20:28+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 201
+   "dur": 201,
+   "views": 27199,
+   "likes": 664,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "n68o2sJCVW4",
@@ -2008,7 +2620,10 @@
    "published": "2026-11-17T22:07:52+00:00",
    "source": "@myspaceproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 217
+   "dur": 217,
+   "views": 92,
+   "likes": 2,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "NAvm5-u7qM0",
@@ -2017,7 +2632,10 @@
    "published": "2026-11-17T19:23:28+00:00",
    "source": "@mixlaproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 180
+   "dur": 180,
+   "views": 1521,
+   "likes": 41,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "O6xf-Odr6xY",
@@ -2026,7 +2644,10 @@
    "published": "2026-11-15T20:28:41+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 205
+   "dur": 205,
+   "views": 12265,
+   "likes": 277,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ve6nFdgT760",
@@ -2035,7 +2656,10 @@
    "published": "2026-11-14T01:02:08+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 195
+   "dur": 195,
+   "views": 12860,
+   "likes": 285,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "9iFmpJMteqY",
@@ -2044,7 +2668,10 @@
    "published": "2026-11-13T17:50:27+00:00",
    "source": "@myspaceproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 207
+   "dur": 207,
+   "views": 55,
+   "likes": 5,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "7M79bZvFoow",
@@ -2053,7 +2680,10 @@
    "published": "2026-11-12T15:04:14+00:00",
    "source": "@myspaceproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 184
+   "dur": 184,
+   "views": 84,
+   "likes": 2,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "TkqPwsUnXTU",
@@ -2062,7 +2692,10 @@
    "published": "2026-11-06T22:20:27+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 210
+   "dur": 210,
+   "views": 7562,
+   "likes": 147,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "_YYu78jY9H0",
@@ -2071,7 +2704,10 @@
    "published": "2026-11-05T16:04:01+00:00",
    "source": "@myspaceproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 194
+   "dur": 194,
+   "views": 172,
+   "likes": 5,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4ll70kkQxbU",
@@ -2080,7 +2716,10 @@
    "published": "2026-11-03T19:50:55+00:00",
    "source": "@mixlaproduction",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 175
+   "dur": 175,
+   "views": 3519,
+   "likes": 107,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cXETC740W7k",
@@ -2089,7 +2728,10 @@
    "published": "2026-11-03T18:00:32+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 227
+   "dur": 227,
+   "views": 1030,
+   "likes": 31,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "_ZANxBVCJo4",
@@ -2098,7 +2740,10 @@
    "published": "2026-10-31T19:51:35+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-11-28T05:12:45.754Z",
-   "dur": 190
+   "dur": 190,
+   "views": 8578,
+   "likes": 201,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "gp-M7JAatMQ",
@@ -2107,7 +2752,10 @@
    "published": "2026-10-21T16:00:21+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-22T15:48:12.881Z",
-   "dur": 208
+   "dur": 208,
+   "views": 838,
+   "likes": 28,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "o9NHmM5lsgg",
@@ -2116,7 +2764,10 @@
    "published": "2026-10-15T16:00:07+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-16T15:15:31.116Z",
-   "dur": 246
+   "dur": 246,
+   "views": 1345,
+   "likes": 32,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "g33rB9pHOfE",
@@ -2125,7 +2776,10 @@
    "published": "2026-10-06T16:43:21+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-10-06T17:03:31.738Z",
-   "dur": 200
+   "dur": 200,
+   "views": 35586,
+   "likes": 542,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "S7268BlYeq4",
@@ -2134,7 +2788,10 @@
    "published": "2026-10-04T12:48:41+00:00",
    "source": "@lethalneedle",
    "added": "2026-10-04T15:41:06.249Z",
-   "dur": 199
+   "dur": 199,
+   "views": 12656,
+   "likes": 321,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "rssPT6XC2-A",
@@ -2143,7 +2800,10 @@
    "published": "2026-10-02T17:00:38+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-10-03T15:04:14.122Z",
-   "dur": 255
+   "dur": 255,
+   "views": 1450,
+   "likes": 48,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cQjnNU1e8x8",
@@ -2152,7 +2812,10 @@
    "published": "2026-10-01T01:48:51+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-10-01T17:17:16.124Z",
-   "dur": 210
+   "dur": 210,
+   "views": 23919,
+   "likes": 399,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "RDuH78WYhVo",
@@ -2161,7 +2824,10 @@
    "published": "2026-09-28T04:07:17+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-28T18:30:58.674Z",
-   "dur": 136
+   "dur": 136,
+   "views": 4,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "LT4ZHf5Cegk",
@@ -2170,7 +2836,10 @@
    "published": "2026-09-26T04:27:16+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-26T14:54:07.739Z",
-   "dur": 108
+   "dur": 108,
+   "views": 0,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "x2_oZ0dOpZU",
@@ -2179,7 +2848,10 @@
    "published": "2026-09-24T16:00:13+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 232
+   "dur": 232,
+   "views": 2040,
+   "likes": 48,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "0ASHgEd64WE",
@@ -2188,7 +2860,10 @@
    "published": "2026-09-24T03:51:10+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 128
+   "dur": 128,
+   "views": 11,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "CUYzvEU8ry0",
@@ -2197,7 +2872,10 @@
    "published": "2026-09-23T02:15:35+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 115
+   "dur": 115,
+   "views": 10,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "k3EyPJCD6wc",
@@ -2206,7 +2884,10 @@
    "published": "2026-09-21T14:24:46+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 150
+   "dur": 150,
+   "views": 11957,
+   "likes": 315,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "sqUNNc-gOfA",
@@ -2215,7 +2896,10 @@
    "published": "2026-09-21T02:15:08+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 138
+   "dur": 138,
+   "views": 6,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "olAP-t4-DfE",
@@ -2224,7 +2908,10 @@
    "published": "2026-09-20T20:12:16+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 170
+   "dur": 170,
+   "views": 21237,
+   "likes": 329,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "LbJ5Rkbu1vI",
@@ -2233,7 +2920,10 @@
    "published": "2026-09-18T18:30:36+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 129
+   "dur": 129,
+   "views": 5,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "9M7Hg1yqEx0",
@@ -2242,7 +2932,10 @@
    "published": "2026-09-17T16:00:00+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 213
+   "dur": 213,
+   "views": 5061,
+   "likes": 115,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "anmITC1TX-A",
@@ -2251,7 +2944,10 @@
    "published": "2026-09-16T18:30:10+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 143
+   "dur": 143,
+   "views": 1,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "3KaZKGJ53_Y",
@@ -2260,7 +2956,10 @@
    "published": "2026-09-15T21:54:07+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 18905,
+   "likes": 343,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "TZw6x0dYHqw",
@@ -2269,7 +2968,10 @@
    "published": "2026-09-14T18:30:37+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 169
+   "dur": 169,
+   "views": 6,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "0fBUaWELqpw",
@@ -2278,7 +2980,10 @@
    "published": "2026-09-12T18:30:08+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 133
+   "dur": 133,
+   "views": 2,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "kHRz13iPu5w",
@@ -2287,7 +2992,10 @@
    "published": "2026-09-11T16:00:10+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 224
+   "dur": 224,
+   "views": 1777,
+   "likes": 52,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "bpWTXq9kK9M",
@@ -2296,7 +3004,10 @@
    "published": "2026-09-10T18:30:24+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 106
+   "dur": 106,
+   "views": 1,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "rKQMVH9nTF8",
@@ -2305,7 +3016,10 @@
    "published": "2026-09-09T05:29:57+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 148
+   "dur": 148,
+   "views": 7,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Wy5HgoOaw30",
@@ -2314,7 +3028,10 @@
    "published": "2026-09-06T18:30:09+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 164
+   "dur": 164,
+   "views": 5,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "H1PjQz8xU48",
@@ -2323,7 +3040,10 @@
    "published": "2026-09-05T21:14:44+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 14894,
+   "likes": 273,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "urOCZm7d1FM",
@@ -2332,7 +3052,10 @@
    "published": "2026-09-04T18:30:05+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 148
+   "dur": 148,
+   "views": 5,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "kwYnnf0MgSQ",
@@ -2341,7 +3064,10 @@
    "published": "2026-09-03T16:00:19+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 219
+   "dur": 219,
+   "views": 997,
+   "likes": 35,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "hVn5jL9RBPU",
@@ -2350,7 +3076,10 @@
    "published": "2026-09-02T20:37:40+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 190
+   "dur": 190,
+   "views": 31068,
+   "likes": 462,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "zXFZO9QLBW8",
@@ -2359,7 +3088,10 @@
    "published": "2026-09-01T18:30:22+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 124
+   "dur": 124,
+   "views": 3,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "jq6w4j1LYAs",
@@ -2368,7 +3100,10 @@
    "published": "2026-08-30T16:48:19+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 192
+   "dur": 192,
+   "views": 21825,
+   "likes": 362,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Dr2Ngv-oT3M",
@@ -2377,7 +3112,10 @@
    "published": "2026-08-29T18:30:15+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 137
+   "dur": 137,
+   "views": 10,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "3A-W1QdEFXo",
@@ -2386,7 +3124,10 @@
    "published": "2026-08-29T16:00:06+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 241
+   "dur": 241,
+   "views": 1657,
+   "likes": 43,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ICfX2Wg9R7w",
@@ -2395,7 +3136,10 @@
    "published": "2026-08-29T00:32:02+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 186
+   "dur": 186,
+   "views": 14387,
+   "likes": 314,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "BpH7eAxwWck",
@@ -2404,7 +3148,10 @@
    "published": "2026-08-26T18:30:24+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 136
+   "dur": 136,
+   "views": 8,
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "H2_Vb9Y-sfo",
@@ -2413,7 +3160,10 @@
    "published": "2026-08-23T18:30:29+00:00",
    "source": "@beatzbyprophecy",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 137
+   "dur": 137,
+   "views": 4,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "wdw0dy41ef4",
@@ -2422,7 +3172,10 @@
    "published": "2026-08-21T13:09:58+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 35707,
+   "likes": 593,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "lbPiDTiU1xE",
@@ -2431,7 +3184,10 @@
    "published": "2026-08-21T00:03:31+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 207
+   "dur": 207,
+   "views": 21769,
+   "likes": 566,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "3SqCfIfvwuA",
@@ -2440,7 +3196,10 @@
    "published": "2026-08-20T16:00:07+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 209
+   "dur": 209,
+   "views": 3095,
+   "likes": 91,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "-jYTRXUHPyc",
@@ -2449,7 +3208,10 @@
    "published": "2026-08-19T18:22:48+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 171
+   "dur": 171,
+   "views": 12610,
+   "likes": 422,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "qO_Y7YCHQrw",
@@ -2458,7 +3220,10 @@
    "published": "2026-08-15T17:00:06+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 213
+   "dur": 213,
+   "views": 1588,
+   "likes": 59,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "KrveN2Cu1OU",
@@ -2467,7 +3232,10 @@
    "published": "2026-08-13T21:14:21+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 173
+   "dur": 173,
+   "views": 34016,
+   "likes": 764,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5i5N3A0Ox8M",
@@ -2476,7 +3244,10 @@
    "published": "2026-08-11T07:16:53+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 203
+   "dur": 203,
+   "views": 83474,
+   "likes": 1733,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "7GNYx90fUA4",
@@ -2485,7 +3256,10 @@
    "published": "2026-08-10T19:22:06+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 36582,
+   "likes": 547,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "067XftnWnYU",
@@ -2494,7 +3268,10 @@
    "published": "2026-08-08T17:00:44+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 53285,
+   "likes": 792,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "cf1dksQMYbk",
@@ -2503,7 +3280,10 @@
    "published": "2026-08-06T19:18:11+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 42621,
+   "likes": 684,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5NYH9I2L7Xc",
@@ -2512,7 +3292,10 @@
    "published": "2026-08-04T17:27:07+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 44203,
+   "likes": 866,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Wpi__4a5SnA",
@@ -2521,7 +3304,10 @@
    "published": "2026-08-02T16:16:00+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 32545,
+   "likes": 523,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "juFqfaAF2vE",
@@ -2530,7 +3316,10 @@
    "published": "2026-07-31T16:58:39+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 190
+   "dur": 190,
+   "views": 33083,
+   "likes": 586,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "S0cxNNbUI4Q",
@@ -2539,7 +3328,10 @@
    "published": "2026-07-30T17:00:12+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 281
+   "dur": 281,
+   "views": 3405,
+   "likes": 92,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "wcy7OPIARVU",
@@ -2548,7 +3340,10 @@
    "published": "2026-07-28T18:56:46+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 207
+   "dur": 207,
+   "views": 29567,
+   "likes": 579,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "S8g0ZGtHPQ0",
@@ -2557,7 +3352,10 @@
    "published": "2026-07-27T19:33:46+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 200
+   "dur": 200,
+   "views": 418,
+   "likes": 13,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yqJhHTmncwo",
@@ -2566,7 +3364,10 @@
    "published": "2026-07-26T18:36:13+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 190
+   "dur": 190,
+   "views": 32741,
+   "likes": 510,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "McAQAXpNvH0",
@@ -2575,7 +3376,10 @@
    "published": "2026-07-25T16:00:29+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 232
+   "dur": 232,
+   "views": 4746,
+   "likes": 140,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ebj7e8aGYFs",
@@ -2584,7 +3388,10 @@
    "published": "2026-07-24T16:35:46+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 190
+   "dur": 190,
+   "views": 42238,
+   "likes": 481,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "9TSmxd3x_R4",
@@ -2593,7 +3400,10 @@
    "published": "2026-07-24T14:13:25+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 195
+   "dur": 195,
+   "views": 902,
+   "likes": 14,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "vNn5lg9tA1E",
@@ -2602,7 +3412,10 @@
    "published": "2026-07-23T18:59:07+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 135
+   "dur": 135,
+   "views": 31736,
+   "likes": 901,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "XVL337GFG9Q",
@@ -2611,7 +3424,10 @@
    "published": "2026-07-22T08:44:48+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 138
+   "dur": 138,
+   "views": 17814,
+   "likes": 684,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "yEVkj1bz97c",
@@ -2620,7 +3436,10 @@
    "published": "2026-07-20T21:17:55+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 197
+   "dur": 197,
+   "views": 11394,
+   "likes": 391,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "XlLh4OZS88o",
@@ -2629,7 +3448,10 @@
    "published": "2026-07-20T18:12:27+00:00",
    "source": "@vintagemanbeats",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 190
+   "dur": 190,
+   "views": 78330,
+   "likes": 1467,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "oRYcZ-wGAp4",
@@ -2638,7 +3460,10 @@
    "published": "2026-07-19T19:16:13+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 165
+   "dur": 165,
+   "views": 8808,
+   "likes": 280,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "c-BG7D38eJ4",
@@ -2647,7 +3472,10 @@
    "published": "2026-07-18T16:00:05+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 213
+   "dur": 213,
+   "views": 1747,
+   "likes": 43,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "4g9WxTDMkHA",
@@ -2656,7 +3484,10 @@
    "published": "2026-07-17T18:11:42+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 187
+   "dur": 187,
+   "views": 41613,
+   "likes": 950,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "XcwyMytK2N0",
@@ -2665,7 +3496,10 @@
    "published": "2026-07-16T08:53:42+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 204
+   "dur": 204,
+   "views": 30264,
+   "likes": 774,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "SlpnNFLfXz8",
@@ -2674,7 +3508,10 @@
    "published": "2026-07-15T04:32:22+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 155
+   "dur": 155,
+   "views": 14368,
+   "likes": 404,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "uBYKCEvL7rI",
@@ -2683,7 +3520,10 @@
    "published": "2026-07-13T16:28:19+00:00",
    "source": "@lethalneedle",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 160
+   "dur": 160,
+   "views": 302291,
+   "likes": 4869,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "9hhvV0o4JS8",
@@ -2692,7 +3532,10 @@
    "published": "2026-07-09T18:00:20+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 232
+   "dur": 232,
+   "views": 2652,
+   "likes": 83,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Fj17ZOo-D5Q",
@@ -2701,7 +3544,10 @@
    "published": "2026-07-02T18:00:11+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 240
+   "dur": 240,
+   "views": 2586,
+   "likes": 78,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "zDF1dTGM8O0",
@@ -2710,7 +3556,10 @@
    "published": "2026-06-25T18:36:04+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 180
+   "dur": 180,
+   "views": 334,
+   "likes": 7,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "stUnjXS6S98",
@@ -2719,7 +3568,10 @@
    "published": "2026-06-20T20:22:49+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 234
+   "dur": 234,
+   "views": 306,
+   "likes": 5,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "HWS8tn4R7OE",
@@ -2728,7 +3580,10 @@
    "published": "2026-06-18T18:00:14+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 324
+   "dur": 324,
+   "views": 2659,
+   "likes": 89,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "tc8WQ20UEeA",
@@ -2737,7 +3592,10 @@
    "published": "2026-06-15T18:00:10+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 240
+   "dur": 240,
+   "views": 11606,
+   "likes": 309,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "vtp3uAqoHzY",
@@ -2746,7 +3604,10 @@
    "published": "2026-06-11T19:30:33+00:00",
    "source": "@TemplumBoomBap",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 245
+   "dur": 245,
+   "views": 3545,
+   "likes": 94,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "bzV53BH4M_Q",
@@ -2755,7 +3616,10 @@
    "published": "2026-03-21T14:01:01+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 117
+   "dur": 117,
+   "views": 451,
+   "likes": 10,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ghRH7NJMcwk",
@@ -2764,7 +3628,10 @@
    "published": "2026-03-19T14:01:13+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 129
+   "dur": 129,
+   "views": 375,
+   "likes": 6,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "eV79rRD2PBM",
@@ -2773,7 +3640,10 @@
    "published": "2026-03-17T14:01:04+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 119
+   "dur": 119,
+   "views": 205,
+   "likes": 5,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "gj-1bkcJIk4",
@@ -2782,7 +3652,10 @@
    "published": "2026-03-14T14:01:00+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 123
+   "dur": 123,
+   "views": 160,
+   "likes": 3,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "oGb2TzLh4qo",
@@ -2791,7 +3664,10 @@
    "published": "2026-03-12T14:01:16+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 127
+   "dur": 127,
+   "views": 196,
+   "likes": 2,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "TmC8PgoBeYo",
@@ -2800,7 +3676,10 @@
    "published": "2026-03-10T14:00:47+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 135
+   "dur": 135,
+   "views": 125,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "6LvaaA8sn1w",
@@ -2809,7 +3688,10 @@
    "published": "2026-03-07T14:00:13+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 124
+   "dur": 124,
+   "views": 145,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "-X0QxN8Ysew",
@@ -2818,7 +3700,10 @@
    "published": "2026-03-05T14:00:00+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 129
+   "dur": 129,
+   "views": 104,
+   "likes": 2,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Udbq-sK10YY",
@@ -2827,7 +3712,10 @@
    "published": "2026-03-03T14:00:54+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 131
+   "dur": 131,
+   "views": 114,
+   "likes": 1,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dsx8IUqSKxQ",
@@ -2836,7 +3724,10 @@
    "published": "2026-02-24T20:58:34+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 122
+   "dur": 122,
+   "views": 345,
+   "likes": 8,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "UQdpbLgw8tk",
@@ -2845,7 +3736,10 @@
    "published": "2025-12-22T14:54:54+00:00",
    "source": "@myspaceproduction",
    "added": "2026-09-25T22:07:34.050Z",
-   "dur": 124
+   "dur": 124,
+   "views": 494,
+   "likes": 8,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "HRcV_rwcwJk",
@@ -2854,7 +3748,10 @@
    "published": "2025-10-15T15:10:07+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 150
+   "dur": 150,
+   "views": 17634,
+   "likes": 238,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "jMjb6EEApf0",
@@ -2863,7 +3760,10 @@
    "published": "2025-10-11T14:56:30+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 206
+   "dur": 206,
+   "views": 14702,
+   "likes": 219,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5oq9d6aLYSo",
@@ -2872,7 +3772,10 @@
    "published": "2025-04-09T13:21:15+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 201
+   "dur": 201,
+   "views": 27092,
+   "likes": 507,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "SQg1cztO3P8",
@@ -2881,7 +3784,10 @@
    "published": "2025-04-04T19:26:50+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 168
+   "dur": 168,
+   "views": 18106,
+   "likes": 348,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "WtjU2hQgYHg",
@@ -2890,7 +3796,10 @@
    "published": "2025-03-29T18:30:21+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 194
+   "dur": 194,
+   "views": 16215,
+   "likes": 379,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ff4sCaqyUcI",
@@ -2899,7 +3808,10 @@
    "published": "2025-03-27T19:00:38+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 165
+   "dur": 165,
+   "views": 14590,
+   "likes": 310,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Mbtqc1602YY",
@@ -2908,7 +3820,10 @@
    "published": "2025-03-25T14:00:24+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 214
+   "dur": 214,
+   "views": 15926,
+   "likes": 231,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "WznY-xbcFV0",
@@ -2917,7 +3832,10 @@
    "published": "2025-03-20T15:21:49+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 213
+   "dur": 213,
+   "views": 36371,
+   "likes": 473,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "W92SZLPBV6g",
@@ -2926,7 +3844,10 @@
    "published": "2025-03-19T19:36:21+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 215
+   "dur": 215,
+   "views": 7979,
+   "likes": 149,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "s84HsiaLbjI",
@@ -2935,7 +3856,10 @@
    "published": "2025-03-18T14:46:34+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 180
+   "dur": 180,
+   "views": 5589,
+   "likes": 107,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "mNhO0s4G36Q",
@@ -2944,7 +3868,10 @@
    "published": "2025-03-15T17:50:25+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 201
+   "dur": 201,
+   "views": 4665,
+   "likes": 101,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "uTNSgis1T4c",
@@ -2953,7 +3880,10 @@
    "published": "2025-03-14T19:02:10+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 227
+   "dur": 227,
+   "views": 12037,
+   "likes": 289,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "xrx-IIioykQ",
@@ -2962,7 +3892,10 @@
    "published": "2025-03-13T16:19:27+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 234
+   "dur": 234,
+   "views": 17793,
+   "likes": 291,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "DLKGFOHoZK0",
@@ -2971,7 +3904,10 @@
    "published": "2025-03-11T16:05:03+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T17:55:32.668Z",
-   "dur": 1905
+   "dur": 1905,
+   "views": 4748,
+   "likes": 102,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "-jc93jAkEYk",
@@ -2980,439 +3916,732 @@
    "published": "2025-03-07T15:55:59+00:00",
    "source": "@mixlaproduction",
    "added": "2026-09-25T22:07:34.050Z",
-   "dur": 171
+   "dur": 171,
+   "views": 5277,
+   "likes": 106,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "yKkyJfi3sZ0",
+   "title": "[FREE] Veeze Type Beat - \"Dealer\"",
+   "channel": "Fukk2Beatz",
+   "dur": 100,
+   "published": "2026-08-30T05:49:21.660Z",
+   "views": 79777,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "KtdHVlwPElM",
+   "title": "[FREE] Veeze x Fox BD Type Beat \"Weigh it up\"",
+   "channel": "99LA",
+   "dur": 162,
+   "published": "2026-10-29T05:49:21.661Z",
+   "views": 69078,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "-1hyf7L77k8",
+   "title": "[FREE] Veeze Type Beat - \"Give A Reason\"",
+   "channel": "Gentle Beats",
+   "dur": 135,
+   "published": "2026-07-31T05:49:21.661Z",
+   "views": 80333,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "IrkJPu-Z86o",
+   "title": "[FREE] Veeze x Lucki Type Beat \"Tweaker\"",
+   "channel": "99LA",
+   "dur": 169,
+   "published": "2026-09-29T05:49:21.661Z",
+   "views": 110960,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "O5rrTighsEg",
+   "title": "(FREE) Veeze Type Beat \"Off the Grid\"",
+   "channel": "ayoray",
+   "dur": 145,
+   "published": "2026-10-29T05:49:21.661Z",
+   "views": 13088,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "EfepPz5CA88",
+   "title": "BABYFACE RAY TYPE BEAT - \"WITH A DAWG\"",
+   "channel": "Bayro",
+   "dur": 145,
+   "published": "2026-09-29T05:49:23.025Z",
+   "views": 33715,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "lqNqKypdD-4",
+   "title": "[FREE] BABYFACE RAY TYPE BEAT “TOUCH THE SKY”",
+   "channel": "Pat Swish",
+   "dur": 147,
+   "published": "2026-03-03T05:49:23.025Z",
+   "views": 140358,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "V38ocT81Ul8",
+   "title": "[FREE] Babyface Ray Type Beat \"You Didn't Save Me\"",
+   "channel": "Mazo Beats",
+   "dur": 235,
+   "published": "2026-07-31T05:49:23.025Z",
+   "views": 94357,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "MAuUYRHGaw4",
+   "title": "[FREE] Babyface Ray Type Beat - \"Mindset On A Mil'\"",
+   "channel": "DG2Thousand",
+   "dur": 212,
+   "published": "2026-10-29T05:49:23.026Z",
+   "views": 15110,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "FetMROHAy0I",
+   "title": "[FREE] Babyface Ray Type Beat \"I'm Losing My Control\"",
+   "channel": "Mazo Beats",
+   "dur": 266,
+   "published": "2026-09-29T05:49:23.026Z",
+   "views": 74793,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "Cn7BT31h7aI",
+   "title": "[FREE] Babyface Ray Type Beat \"No Losses No Lessons\"",
+   "channel": "Mazo Beats",
+   "dur": 270,
+   "published": "2026-09-29T05:49:23.026Z",
+   "views": 20825,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "yjgFi3w_gUM",
+   "title": "[FREE] Babyface Ray Type Beat - \"Closer Than Ever\"",
+   "channel": "DG2Thousand",
+   "dur": 221,
+   "published": "2026-10-29T05:49:23.027Z",
+   "views": 11030,
+   "source": "discover",
+   "fresh": true,
+   "style": "Detroit",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "3cGiqOH5e0A",
+   "title": "[FREE] WEST COAST TYPE BEAT - \"RISK IT ALL\"",
+   "channel": "Verse2",
+   "dur": 170,
+   "published": "2026-05-02T05:49:24.366Z",
+   "views": 124120,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "xdL9kgoRe4o",
+   "title": "[SOLD] Shoreline Mafia x West Coast Type Beat - 'Bounce'",
+   "channel": "3Tookie ",
+   "dur": 161,
+   "published": "2026-08-30T05:49:24.367Z",
+   "views": 50275,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "xidD8OG_qaA",
+   "title": "[FREE] Shoreline Mafia x West Coast Type Beat - 'HEAD'",
+   "channel": "3Tookie ",
+   "dur": 140,
+   "published": "2026-08-30T05:49:24.367Z",
+   "views": 84828,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "nShfjcj5fU4",
+   "title": "(FREE) MoneySign Suede x West Coast Type Beat - 'Killing me softly'",
+   "channel": "s1nisterbeats",
+   "dur": 198,
+   "published": "2026-01-02T05:49:24.367Z",
+   "views": 149346,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "KYho1lj5Xg4",
+   "title": "Nate Dogg x Snoop Dogg West Coast Type Beat - West Fest",
+   "channel": "Abel Beats",
+   "dur": 220,
+   "published": "2026-09-29T05:49:24.367Z",
+   "views": 13346,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "K-mhadwoayw",
+   "title": "[FREE] West Coast x Bay Area Type Beat - \"Show me\"",
+   "channel": "YP ",
+   "dur": 148,
+   "published": "2026-03-03T05:49:24.367Z",
+   "views": 45710,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "_zdty8tztyo",
+   "title": "(FREE) AZ CHIKE *WEST COAST* TYPE BEAT \"ACES\"",
+   "channel": "SKUNK!",
+   "dur": 116,
+   "published": "2026-09-29T05:49:24.367Z",
+   "views": 15653,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "pcoeIsieQyI",
+   "title": "[FREE] WEST COAST TYPE BEAT - \"PLAY WITH\"",
+   "channel": "Verse2",
+   "dur": 170,
+   "published": "2026-04-02T05:49:24.367Z",
+   "views": 21917,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "7e1tFvmtkiQ",
+   "title": "[FREE] West Coast Type Beat - \"Celesta\"",
+   "channel": "Fukk2Beatz",
+   "dur": 142,
+   "published": "2026-07-01T05:49:24.367Z",
+   "views": 23547,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "Xw79BanksSc",
+   "title": "[FREE] WEST COAST TYPE BEAT - \"GO UP\"",
+   "channel": "Verse2",
+   "dur": 159,
+   "published": "2026-01-02T05:49:24.367Z",
+   "views": 11044,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "nwh_eKjTEAc",
+   "title": "[FREE] Bay Area x West Coast Type Beat - \"Goin Crazy\"",
+   "channel": "YP ",
+   "dur": 157,
+   "published": "2026-05-02T05:49:25.643Z",
+   "views": 56289,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "RXyreAmlUtw",
+   "title": "[FREE] Bay Area x West Coast Type Beat - \"All Gas\"",
+   "channel": "YP ",
+   "dur": 127,
+   "published": "2026-03-03T05:49:25.644Z",
+   "views": 144468,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "RuLbAG8RBM0",
+   "title": "[FREE] Babydonkk3 x Bay Area Type Beat \"Mask Down\" (@cementcityshape)",
+   "channel": "cementcityshape",
+   "dur": 154,
+   "published": "2026-07-31T05:49:25.644Z",
+   "views": 27638,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "j8_Y5pefBI4",
+   "title": "[FREE] ChaiBenjii4 x Bay Area Type Beat \"Ran Down\" (@cementcityshape)",
+   "channel": "cementcityshape",
+   "dur": 186,
+   "published": "2026-08-30T05:49:25.644Z",
+   "views": 29613,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "JIen3b5uP4U",
+   "title": "Bay Area x Mobb Type Beat - My Scrilla",
+   "channel": "Abel Beats",
+   "dur": 232,
+   "published": "2026-08-30T05:49:25.645Z",
+   "views": 31150,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "-rlbnnWFYXg",
+   "title": "[SOLD] OhGeesy x Shoreline Mafia Type Beat - 'CLAP'",
+   "channel": "3Tookie ",
+   "dur": 198,
+   "published": "2026-07-31T05:49:27.714Z",
+   "views": 593794,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "9UrQny6PhGY",
+   "title": "(FREE) Shoreline Mafia Type Beat x West Coast Type Beat - \"Too Icy\"",
+   "channel": "DJ Problematic",
+   "dur": 176,
+   "published": "2026-10-29T05:49:27.714Z",
+   "views": 31500,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "pDibMUo8ITk",
+   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"MOB TIES\"",
+   "channel": "wiri archives",
+   "dur": 151,
+   "published": "2026-08-30T05:49:27.714Z",
+   "views": 262200,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "YhPldadyD_g",
+   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Stick Popper\"",
+   "channel": "DJ Problematic",
+   "dur": 199,
+   "published": "2026-10-29T05:49:27.714Z",
+   "views": 10776,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "W72i3a3p-aA",
+   "title": "(FREE) Shoreline Mafia x Ohgeesy Type Beat - “Still Faded”",
+   "channel": "DJ Problematic",
+   "dur": 159,
+   "published": "2026-07-31T05:49:27.714Z",
+   "views": 37394,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "As9LU1ayBHI",
+   "title": "[FREE] Shoreline Mafia Type Beat - \"Fern\"",
+   "channel": "Fukk2Beatz",
+   "dur": 164,
+   "published": "2026-07-31T05:49:27.714Z",
+   "views": 13151,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "10XoAD-L5bY",
+   "title": "[FREE] Shoreline Mafia Type Beat \"DIRTY MUDDY\"",
+   "channel": "wiri archives",
+   "dur": 150,
+   "published": "2026-09-29T05:49:27.715Z",
+   "views": 70398,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "3nfxnzdKA3o",
+   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"NEXT UP\"",
+   "channel": "wiri archives",
+   "dur": 147,
+   "published": "2026-07-31T05:49:27.715Z",
+   "views": 240577,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "9EZ-AKVQdRU",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"SMASH\"",
+   "channel": "Optics Beats",
+   "dur": 193,
+   "published": "2026-07-01T05:49:29.701Z",
+   "views": 696679,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "E4qUL1YKWE4",
+   "title": "[FREE] HARD BOUNCY TRAP TYPE BEAT - “NO CAP”",
+   "channel": "Matt11 Beats",
+   "dur": 246,
+   "published": "2026-01-02T05:49:29.701Z",
+   "views": 438331,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "uYZ02TDEzF4",
+   "title": "[FREE] HARD BOUNCY TRAP TYPE BEAT - \"EAGLE\"",
+   "channel": "Matt11 Beats",
+   "dur": 172,
+   "published": "2026-09-29T05:49:29.701Z",
+   "views": 296188,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "0OlpUEPgVgw",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"NO TALK\"",
+   "channel": "Optics Beats",
+   "dur": 182,
+   "published": "2026-07-01T05:49:29.702Z",
+   "views": 402798,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "1_y2GiDTiaY",
+   "title": "[FREE] HARD BOUNCY DETROIT TRAP TYPE BEAT - \"TWIN\"",
+   "channel": "Matt11 Beats",
+   "dur": 246,
+   "published": "2026-05-02T05:49:29.702Z",
+   "views": 374446,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "wwB8nH3iYcA",
+   "title": "[BEAT SWITCH] BOUNCY x PHARRELL x 2000s TYPE BEAT \" I BELIEVE\"",
+   "channel": "Markmywords Beats",
+   "dur": 208,
+   "published": "2026-09-29T05:49:29.702Z",
+   "views": 91797,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "3cQt92d1WcM",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"PIMP\"",
+   "channel": "KaalaH",
+   "dur": 143,
+   "published": "2026-03-03T05:49:29.702Z",
+   "views": 357205,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "lFctJSeQpYo",
+   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"ROLLY\"",
+   "channel": "KALYBA",
+   "dur": 202,
+   "published": "2026-09-29T05:49:29.702Z",
+   "views": 79742,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "qiiEvvctUus",
+   "title": "[SOLD] HARD BOUNCY TRAP TYPE BEAT \"FAST\"",
+   "channel": "Optics Beats",
+   "dur": 190,
+   "published": "2026-09-29T05:49:29.702Z",
+   "views": 45374,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "o7Oz9BXcPrQ",
+   "title": "[FREE] HARD BOUNCY TRAP TYPE BEAT - \"HAJDUK\"",
+   "channel": "MOSHEIX",
+   "dur": 164,
+   "published": "2026-01-02T05:49:29.702Z",
+   "views": 149198,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "aOmi9ubj2A8",
+   "title": "jerk + milwaukee type beat - \"no smoking room\" @slugwurf",
+   "channel": "slugwurf",
+   "dur": 125,
+   "published": "2026-10-29T05:49:31.798Z",
+   "views": 12636,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "JXbPaqnfInk",
+   "title": "ambient jerk type beat - \"the only one\"",
+   "channel": "prod. quintuple",
+   "dur": 156,
+   "published": "2026-08-30T05:49:31.798Z",
+   "views": 61950,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "yd-0gEpIPCY",
+   "title": "jerk type beat - \"gummy worm\" @slugwurf",
+   "channel": "slugwurf",
+   "dur": 91,
+   "published": "2026-08-30T05:49:31.798Z",
+   "views": 19329,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "t3IiUZwdm7g",
+   "title": "(free) jerk + hoodtrap + sample type beat \"gauge\"",
+   "channel": "prod. legos",
+   "dur": 94,
+   "published": "2026-09-29T05:49:31.798Z",
+   "views": 137299,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "e_2qLcEFtz8",
+   "title": "(FREE) Jerk Type Beat \"Playground\" (prod. Zoowe)",
+   "channel": "thiszoowe",
+   "dur": 102,
+   "published": "2026-02-01T05:49:31.798Z",
+   "views": 124850,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "9ZvqJS1hQlY",
+   "title": "jerk + xaviersobased type beat - \"vector\"",
+   "channel": "slugwurf",
+   "dur": 107,
+   "published": "2026-07-01T05:49:31.798Z",
+   "views": 192181,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
+  },
+  {
+   "id": "2-G4gnj4V-U",
+   "title": "(FREE) Jerk Type Beat \"Clutch\" (prod. Zoowe)",
+   "channel": "thiszoowe",
+   "dur": 121,
+   "published": "2026-10-29T05:49:31.798Z",
+   "views": 17430,
+   "source": "discover",
+   "fresh": true,
+   "style": "Bouncy",
+   "added": "2026-11-28T05:49:16.119Z"
   },
   {
    "id": "cr0LpeTwaoM",
    "title": "[FREE] Detroit Type Beat x YN Jay Sample Type Beat - \"Dreaming\"",
    "channel": "ManuGTB",
    "dur": 135,
-   "published": "2026-11-07T05:26:38.579Z",
-   "views": 169809,
+   "published": "2026-11-07T05:45:59.860Z",
+   "views": 169902,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "YYbu_a_7u1s",
-   "title": "[FREE] Baby Smoove x Detroit Type Beat \"Pinky Promise\"",
-   "channel": "ua killed it",
-   "dur": 150,
-   "published": "2026-11-14T05:26:38.579Z",
-   "views": 5811,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 4620,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "91b6_FA3o6s",
    "title": "Detroit X Rio Da Yung OG Type Beat 2026 - \"PERC\" Detroit Type Beat",
    "channel": "Kezii",
    "dur": 126,
-   "published": "2026-11-14T05:26:38.579Z",
-   "views": 28927,
+   "published": "2026-11-14T05:45:59.861Z",
+   "views": 28922,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 378,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dTlIYC5KMP0",
    "title": "[Bouncy] Detroit Type Beat x YN Jay Type Beat - \"NO DOUBTS\"",
    "channel": "Yung Helf",
    "dur": 179,
-   "published": "2026-11-07T05:26:38.579Z",
-   "views": 105930,
+   "published": "2026-11-07T05:45:59.861Z",
+   "views": 105951,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 2536,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "ZYB3TaDpGTU",
    "title": "[Bouncy] Detroit Type Beat x YN Jay Type Beat - \"MILLION\"",
    "channel": "Yung Helf",
    "dur": 186,
-   "published": "2026-10-31T05:26:38.579Z",
+   "published": "2026-10-31T05:45:59.862Z",
    "views": 51640,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 1119,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
-   "id": "xWs_iz-J4ZI",
-   "title": "[FREE] Veeze Type Beat - \"Romance\"",
-   "channel": "ozi",
-   "dur": 121,
-   "published": "2026-11-21T05:26:39.796Z",
-   "views": 1703,
+   "id": "s_4AT2zJRQQ",
+   "title": "(free) veeze x lelo type beat - \"losing my mind\"",
+   "channel": "PROD. YOUNG LAFLAME",
+   "dur": 130,
+   "published": "2026-11-19T05:46:01.185Z",
+   "views": 31188,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "UKYneuEhE7E",
-   "title": "[FREE] Veeze Type Beat - \"Father\"",
-   "channel": "ozi",
-   "dur": 112,
-   "published": "2026-11-17T05:26:39.797Z",
-   "views": 3883,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "aQLbowIjpWw",
-   "title": "[FREE] Veeze Type Beat - \"Distance\"",
-   "channel": "ozi",
-   "dur": 117,
-   "published": "2026-11-07T05:26:39.797Z",
-   "views": 6682,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "dOQItLfUpJk",
-   "title": "[FREE] Babyface Ray Type Beat - \"Millions On The Table\"",
-   "channel": "DG2Thousand",
-   "dur": 199,
-   "published": "2026-11-27T22:26:41.038Z",
-   "views": 282,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "gpHs9BVMxvY",
-   "title": "[FREE] Babyface Ray x GT Type Beat (sample) “Nowhere To Hide 2”",
-   "channel": "CROWNED STEVO",
-   "dur": 217,
-   "published": "2026-11-07T05:26:41.038Z",
-   "views": 5440,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "UHENgcgtDqI",
-   "title": "(FREE) Babyface Ray Type Beat - \"Trill\"",
-   "channel": "ozithegoat",
-   "dur": 137,
-   "published": "2026-11-14T05:26:41.038Z",
-   "views": 3082,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "xEtxh_1Im-U",
-   "title": "[FREE] West Coast x Sample Type Beat - 'The Cali Special'",
-   "channel": "s1nisterbeats",
-   "dur": 143,
-   "published": "2026-11-27T16:26:42.291Z",
-   "views": 143,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "sy6l-ZsBSXM",
-   "title": "[FREE] Bay Area x West Coast Type Beat - \"BOUNCE OUT\"",
-   "channel": "Ceaze",
-   "dur": 156,
-   "published": "2026-11-14T05:26:42.291Z",
-   "views": 233,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "d4Bxjlzm6fw",
-   "title": "G-funk Rap Beat West Coast Old School Hip Hop Instrumental - \"Wild West\"",
-   "channel": "Tune Seeker - Beats",
-   "dur": 166,
-   "published": "2026-11-07T05:26:42.292Z",
-   "views": 7732,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "DclWAF3fAy8",
-   "title": "Back On Tha Streets | Nate Dogg x West Coast Type Beat",
-   "channel": "Abel Beats",
-   "dur": 200,
-   "published": "2026-11-19T05:26:42.292Z",
-   "views": 5013,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "_FF9i9O6vJo",
-   "title": "[BUY] Babydonkk3 x Jhoodtwin Bay Area Type Beat | Prod By RKCC",
-   "channel": "Kadiri",
-   "dur": 172,
-   "published": "2026-11-07T05:26:43.518Z",
-   "views": 881,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "ya2gFdh1YzY",
-   "title": "[BUY] Baby Roasta x csoomari Bay Area type beat - “get right” | prod. ckimyoumadethis",
-   "channel": "CKIM",
-   "dur": 153,
-   "published": "2026-11-18T05:26:43.518Z",
-   "views": 1134,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "fw3cSXi7FsI",
-   "title": "[FREE] Bay Area x West Coast Type Beat - \"Gotta do\"",
-   "channel": "YP ",
-   "dur": 199,
-   "published": "2026-11-24T05:26:43.518Z",
-   "views": 2003,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "Us46_q_mdwU",
-   "title": "[FREE] Young Slobe Type Beat 2026 | \"Certified\" | Prod. Dj Idea",
-   "channel": "DJ Idea",
-   "dur": 201,
-   "published": "2026-10-31T05:26:43.518Z",
-   "views": 579,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "lz4aB0uAejI",
-   "title": "[FREE] West Coast Type Beat x Bay Area Type Beat - \"Day One\"",
-   "channel": "NickRick ",
-   "dur": 134,
-   "published": "2026-11-07T05:26:43.518Z",
-   "views": 1372,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "HkVnxgvCW88",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"TOP HASH\"",
-   "channel": "Westcoast Disa",
-   "dur": 151,
-   "published": "2026-11-07T05:26:45.660Z",
-   "views": 356,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "N21HiGAuM1Q",
-   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"BANG\"",
-   "channel": "wiri archives",
-   "dur": 151,
-   "published": "2026-11-07T05:26:45.660Z",
-   "views": 782,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "lPtHyl-QL4A",
-   "title": "TRAP TYPE BEAT - \"THUG\" | FREESTYLE BEAT | HARD TYPE BEAT | FREE RAP INSTRUMENTAL 2026 | FREE BEAT",
-   "channel": "STORM",
-   "dur": 142,
-   "published": "2026-11-14T05:26:47.828Z",
-   "views": 375480,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "k0MssiOD_T4",
-   "title": "(BOUNCY) DaBaby Type Beat - \"PULL A TRIGGER\"",
-   "channel": "KICKBACK",
-   "dur": 132,
-   "published": "2026-11-07T05:26:47.828Z",
-   "views": 3062,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "HtzE928iwnA",
-   "title": "\"GANGSTA NATION\" | BOUNCY x 50 CENT x TUPAC x 2000s TYPE BEAT",
-   "channel": "WLDN Beats",
-   "dur": 150,
-   "published": "2026-11-14T05:26:47.828Z",
-   "views": 19394,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "gPNYYLmms9E",
-   "title": "Melodic Type Beat - “2 CUPS” | Trap Type Beat | Rap Instrumental | Free Beat | Freestyle Beat 2026",
-   "channel": "Zdan Beats",
-   "dur": 143,
-   "published": "2026-11-19T05:26:47.828Z",
-   "views": 27318,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 2215,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "D9uEdj-VEqA",
    "title": "(FREE) Jerk Type Beat \"10mg\" (prod. Zoowe)",
    "channel": "thiszoowe",
    "dur": 131,
-   "published": "2026-11-07T05:26:49.835Z",
-   "views": 20958,
+   "published": "2026-11-07T05:46:12.046Z",
+   "views": 20953,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 609,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
-   "id": "4JJdK59xOEE",
-   "title": "jerk + milwaukee type beat - \"harumi exit\" @slugwurf",
-   "channel": "slugwurf",
-   "dur": 135,
-   "published": "2026-11-14T05:26:49.835Z",
-   "views": 6592,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "zOuFh2IwJ9A",
-   "title": "(free) jerk + hoodtrap + sample type beat \"lucy\"",
-   "channel": "prod. legos",
-   "dur": 93,
-   "published": "2026-11-14T05:26:49.835Z",
-   "views": 7104,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "udw-E1IyPP4",
-   "title": "[FREE] Kyle Richh x Mdot 59 Jerk Drill Type Beat \"Roll In Peace\" | NY Drill Type Beat 2026",
+   "id": "EbHnM1vrhkw",
+   "title": "[FREE] Kyle Richh x Mdot 59 Jerk Drill Type Beat \"Halloween\" | NY Drill Type Beat 2026",
    "channel": "Kosfinger Beats",
-   "dur": 120,
-   "published": "2026-11-16T05:26:49.835Z",
-   "views": 72382,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "f5LWQlA2tRA",
-   "title": "[FREE FOR PROFIT] jerk x hyperpop type beat  \"Gone\"",
-   "channel": "OhMyGon!",
    "dur": 112,
-   "published": "2026-11-14T05:26:49.836Z",
-   "views": 6746,
+   "published": "2026-10-31T05:46:12.046Z",
+   "views": 56663,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "iuUvKY5U9H4",
-   "title": "jerk + sample type beat - hurt",
-   "channel": "neetro2x",
-   "dur": 139,
-   "published": "2026-11-17T05:26:49.836Z",
-   "views": 4065,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:26:36.789Z"
-  },
-  {
-   "id": "21opD4oVJls",
-   "title": "[FREE] Detroit Type Beat x YN Jay Type Beat \"Boat Talk\"",
-   "channel": "ProdByNiizo",
-   "dur": 126,
-   "published": "2026-11-24T05:20:26.032Z",
-   "views": 1900,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "7IX7wwbh9no",
-   "title": "[FREE] Hiltz X Tunde Type Beat - \"FRONTLINE\" | UK Detroit Instrumental 2026",
-   "channel": "WavezMadeIt Beats",
-   "dur": 212,
-   "published": "2026-11-07T05:20:26.032Z",
-   "views": 8794,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "Vqrwb1k74As",
-   "title": "[FREE] Nuk x Detroit Type Beat 2026 - ''TURBO''",
-   "channel": "Floaty Beats",
-   "dur": 149,
-   "published": "2026-11-27T23:20:26.032Z",
-   "views": 168,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "BXvaVFJIxiU",
-   "title": "[FREE] Detroit Type Beat x YN Jay Type Beat - \"Mercy\"",
-   "channel": "Kooba II",
-   "dur": 154,
-   "published": "2026-11-26T05:20:26.032Z",
-   "views": 1451,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
+   "added": "2026-11-28T05:45:56.690Z",
+   "likes": 1053,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "0mlktkobAns",
@@ -3420,287 +4649,13 @@
    "channel": "Kezii",
    "dur": 123,
    "published": "2026-11-07T05:20:26.032Z",
-   "views": 34580,
+   "views": 34576,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "EbzkyHet3G0",
-   "title": "DETROIT TYPE BEAT - \"SWITCHING UP THE FLOW\" | Type Beat Detroit | Freestyle Beats | Rap Type Beat",
-   "channel": "AngelLaCiencia Beats",
-   "dur": 159,
-   "published": "2026-11-19T05:20:26.033Z",
-   "views": 6177,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "7qCnnxXWrHw",
-   "title": "[FREE] Veeze Type Beat - \"I GOT BENZ\"",
-   "channel": "Fukk2Beatz",
-   "dur": 144,
-   "published": "2026-11-23T05:20:27.286Z",
-   "views": 724,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "3Z5LcUKk6P4",
-   "title": "[FREE] Veeze Type Beat - \"Reset\"",
-   "channel": "ozi",
-   "dur": 103,
-   "published": "2026-11-07T05:20:27.286Z",
-   "views": 8921,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "PBFRSVtUVE4",
-   "title": "(free) veeze x lelo type beat - \"missing u\"",
-   "channel": "PROD. YOUNG LAFLAME",
-   "dur": 116,
-   "published": "2026-11-14T05:20:27.286Z",
-   "views": 9892,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "pTn1V3v93hk",
-   "title": "[FREE] Veeze Type Beat - \"Hornets\"",
-   "channel": "ozi",
-   "dur": 100,
-   "published": "2026-11-27T05:20:27.286Z",
-   "views": 500,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "6phyZscLslc",
-   "title": "[FREE] Veeze Type Beat - \"Blocked Me\"",
-   "channel": "Gentle Beats",
-   "dur": 140,
-   "published": "2026-11-07T05:20:27.286Z",
-   "views": 3414,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "qDLXbCHaBsQ",
-   "title": "(FREE) Babyface Ray Type Beat - \"Mister\"",
-   "channel": "ozithegoat",
-   "dur": 102,
-   "published": "2026-11-14T05:20:28.573Z",
-   "views": 3136,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "S9LMbzmKPsU",
-   "title": "(FREE) Babyface Ray Type Beat - \"Pave A Way\"",
-   "channel": "ozithegoat",
-   "dur": 102,
-   "published": "2026-11-07T05:20:28.573Z",
-   "views": 6298,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "e305iNVxOak",
-   "title": "[FREE] Veeze x Babyface Ray Sample Type Beat - “Spent A Minute\"",
-   "channel": "ProdByXeno",
-   "dur": 160,
-   "published": "2026-10-31T05:20:28.573Z",
-   "views": 3930,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "RZ_3ii1yeTw",
-   "title": "(FREE) Babyface Ray Type Beat - \"Discover\"",
-   "channel": "ozithegoat",
-   "dur": 119,
-   "published": "2026-10-31T05:20:28.573Z",
-   "views": 1302,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "Hx4at3A2Cgg",
-   "title": "[FREE] Veeze x Babyface Ray Sample Type Beat - “Sunflowers\"",
-   "channel": "prod. vinxia",
-   "dur": 208,
-   "published": "2026-11-28T03:20:28.573Z",
-   "views": 48,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "GI8TgSdIqNA",
-   "title": "[FREE] West Coast x New Jazz Type Beat - ''KISSES YOU GIVE'' | West Coast x Detroit Type Beat",
-   "channel": "VG",
-   "dur": 149,
-   "published": "2026-11-27T22:20:29.861Z",
-   "views": 72,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "FZF2cvSA4fw",
-   "title": "All I Care - Nipsey Hussle type beat | West Coast type beat",
-   "channel": "KOFI COOKS",
-   "dur": 174,
-   "published": "2026-11-27T21:20:29.861Z",
-   "views": 544,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "L9vMlrq0kVU",
-   "title": "[FREE] Larry June Type Beat x West Coast Type Beat - \"Juicer\"",
-   "channel": "Who On The Track",
-   "dur": 220,
-   "published": "2026-10-31T05:20:29.861Z",
-   "views": 1660,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "n00mmZC6nYo",
-   "title": "[FREE] MOZZY X BAY AREA TYPE BEAT | 'OWN LANE'",
-   "channel": "JAGE BEATS",
-   "dur": 211,
-   "published": "2026-11-14T05:20:31.155Z",
-   "views": 102,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "2TGA_2IUIp8",
-   "title": "[FREE] ChaiBenjii4 x Bay Area Type Beat \"Kill Em All\" (@cementcityshape)",
-   "channel": "cementcityshape",
-   "dur": 176,
-   "published": "2026-11-07T05:20:31.156Z",
-   "views": 1975,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "cFdcm_r8OgQ",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"BEFORE MONEY\"",
-   "channel": "Westcoast Disa",
-   "dur": 166,
-   "published": "2026-11-22T05:20:32.923Z",
-   "views": 413,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "72VM3OAOziI",
-   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Spray N Pray\"",
-   "channel": "DJ Problematic",
-   "dur": 132,
-   "published": "2026-11-24T05:20:32.923Z",
-   "views": 792,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "NIdDz0_hA-g",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"NEW BAPE\"",
-   "channel": "Westcoast Disa",
-   "dur": 195,
-   "published": "2026-11-19T05:20:32.923Z",
-   "views": 436,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "f3J1W_mW0yk",
-   "title": "[FREE] OhGeesy x Shoreline Mafia Type Beat - 'DO IT'",
-   "channel": "3Tookie ",
-   "dur": 145,
-   "published": "2026-11-23T05:20:32.923Z",
-   "views": 333,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "mKNCpgoe--8",
-   "title": "[FREE] OhGeesy x Shoreline Mafia Type Beat - 'FIRST BANDS'",
-   "channel": "3Tookie ",
-   "dur": 144,
-   "published": "2026-11-07T05:20:32.924Z",
-   "views": 1028,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "163HlNsG7S0",
-   "title": "OHGEESY x SHORELINE MAFIA TYPE BEAT - \"NUTRITION\"",
-   "channel": "KillerGarthTypeBeats",
-   "dur": 155,
-   "published": "2026-11-07T05:20:32.924Z",
-   "views": 166,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "jBupJBW7uc0",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY FREESTYLE TRAP TYPE BEAT \"NPC\" | HARD BOUNCY RAP TRAP BEAT",
-   "channel": "Guy Beats and Rocket Beats",
-   "dur": 194,
-   "published": "2026-11-24T05:20:35.128Z",
-   "views": 7233,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
+   "added": "2026-11-28T05:20:22.492Z",
+   "likes": 482,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dPWko5AVdCY",
@@ -3708,11 +4663,13 @@
    "channel": "VEEDY BEATS",
    "dur": 218,
    "published": "2026-11-26T05:20:35.129Z",
-   "views": 49022,
+   "views": 49309,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
+   "added": "2026-11-28T05:20:22.492Z",
+   "likes": null,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "J_jDg8pkiag",
@@ -3724,7 +4681,9 @@
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
+   "added": "2026-11-28T05:20:22.492Z",
+   "likes": 1205,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "_Rv0omqMFYc",
@@ -3732,35 +4691,13 @@
    "channel": "WLDN Beats",
    "dur": 139,
    "published": "2026-11-24T05:20:35.129Z",
-   "views": 12626,
+   "views": 12665,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "E9yKyW2ZJkY",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY STREET TRAP TYPE BEAT - \"PARIS\" | FAST RAP TRAP TYGA TYPE BEAT 2026",
-   "channel": "FREY ECHO",
-   "dur": 178,
-   "published": "2026-11-23T05:20:35.129Z",
-   "views": 1221,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "fVsVp7ErdY8",
-   "title": "[FREE] HARD BOUNCY TRAP TYPE BEAT - “DISPLAY”",
-   "channel": "Matt11 Beats",
-   "dur": 241,
-   "published": "2026-11-22T05:20:35.129Z",
-   "views": 2533,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
+   "added": "2026-11-28T05:20:22.492Z",
+   "likes": 322,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "esyS1dysrI8",
@@ -3768,47 +4705,13 @@
    "channel": "BLACK LIONS BEATZ",
    "dur": 238,
    "published": "2026-11-14T05:20:35.129Z",
-   "views": 12658,
+   "views": 12656,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "aaKeVruNlQA",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY FREESTYLE TRAP TYPE BEAT \"ALPHA\" | HARD BOUNCY RAP TRAP BEAT",
-   "channel": "Guy Beats and Rocket Beats",
-   "dur": 142,
-   "published": "2026-11-26T05:20:35.129Z",
-   "views": 2560,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:20:22.492Z"
-  },
-  {
-   "id": "1uw0RDMqlB8",
-   "title": "[FREE] Baby Smoove x Rocaine x Detroit Type Beat - \"German Whip\"",
-   "channel": "8x Smoove",
-   "dur": 154,
-   "published": "2026-11-14T05:15:43.645Z",
-   "views": 7253,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "Z_vuuzy7zww",
-   "title": "[FREE] Detroit Type Beat x YN Jay Type Beat - \"ZAZA\"",
-   "channel": "Kooba II",
-   "dur": 163,
-   "published": "2026-11-14T05:15:43.645Z",
-   "views": 3215,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:20:22.492Z",
+   "likes": 219,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "OmMb84vWrjY",
@@ -3816,11 +4719,13 @@
    "channel": "Kezii",
    "dur": 123,
    "published": "2026-11-07T05:15:43.645Z",
-   "views": 59805,
+   "views": 59836,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 915,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "CafkzOyb1Pc",
@@ -3828,35 +4733,13 @@
    "channel": "Kezii",
    "dur": 123,
    "published": "2026-11-17T05:15:43.645Z",
-   "views": 33947,
+   "views": 33975,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "X0TnFXBmD4s",
-   "title": "[FREE] Detroit Type Beat x YN Jay Sample Type Beat - \"November Freestyle\"",
-   "channel": "Naren II",
-   "dur": 134,
-   "published": "2026-11-14T05:15:43.645Z",
-   "views": 3351,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "39agV7aU9xU",
-   "title": "[FREE] Detroit Type Beat x YN Jay Sample Type Beat - \"Fantasy\"",
-   "channel": "ManuGTB",
-   "dur": 125,
-   "published": "2026-11-27T18:15:43.646Z",
-   "views": 1629,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 426,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "zSIYhsXLrJk",
@@ -3864,11 +4747,13 @@
    "channel": "ManuGTB",
    "dur": 144,
    "published": "2026-11-24T05:15:43.646Z",
-   "views": 27156,
+   "views": 27199,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 714,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "5SD5btXjcHo",
@@ -3876,71 +4761,13 @@
    "channel": "Flintana",
    "dur": 155,
    "published": "2026-11-14T05:15:43.646Z",
-   "views": 84235,
+   "views": 84357,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "UhHgSnA5Nws",
-   "title": "[FREE] Veeze Type Beat - \"Detach\"",
-   "channel": "ozi",
-   "dur": 117,
-   "published": "2026-11-25T05:15:44.919Z",
-   "views": 1194,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "OSiUOd82zxw",
-   "title": "[FREE] Veeze x Chief Keef Type Beat - \"Cap It Off\"",
-   "channel": "BeatsBy Taz",
-   "dur": 100,
-   "published": "2026-11-07T05:15:44.919Z",
-   "views": 7663,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "uRTqw_9Srwo",
-   "title": "[FREE] Veeze Type Beat - \"Her Song\"",
-   "channel": "ozi",
-   "dur": 107,
-   "published": "2026-11-23T05:15:44.919Z",
-   "views": 2009,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "sWVc2FN8F9o",
-   "title": "(FREE) Lucki x Veeze Type Beat \"Bruce Wayne Coupe\"",
-   "channel": "Yonx",
-   "dur": 135,
-   "published": "2026-11-20T05:15:44.919Z",
-   "views": 5849,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "igsCP-WlVpA",
-   "title": "[FREE] Veeze Type Beat - \"Rider\"",
-   "channel": "ozi",
-   "dur": 102,
-   "published": "2026-11-19T05:15:44.919Z",
-   "views": 3857,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 3705,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "zSXYZMzWuK0",
@@ -3948,83 +4775,13 @@
    "channel": "99LA",
    "dur": 167,
    "published": "2026-11-07T05:15:44.919Z",
-   "views": 24877,
+   "views": 24881,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "Huj8f8RXK-0",
-   "title": "(FREE) Veeze Type Beat - \"Eastside\"",
-   "channel": "ayoray",
-   "dur": 165,
-   "published": "2026-11-24T05:15:44.919Z",
-   "views": 1553,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "kUq7Yrjp4fo",
-   "title": "[FREE] Veeze Type Beat - \"Hand In Hand\"",
-   "channel": "Gentle Beats",
-   "dur": 120,
-   "published": "2026-11-17T05:15:44.920Z",
-   "views": 6691,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "_DeVwAu7YWk",
-   "title": "(FREE) Babyface Ray Type Beat - \"Fenrir\"",
-   "channel": "ozithegoat",
-   "dur": 118,
-   "published": "2026-11-23T05:15:49.518Z",
-   "views": 526,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "e1JsQKn6BeI",
-   "title": "(FREE) Babyface Ray Type Beat - \"Dilla\"",
-   "channel": "ozithegoat",
-   "dur": 116,
-   "published": "2026-11-27T05:15:49.518Z",
-   "views": 648,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "wcCPsRltr04",
-   "title": "(FREE) Babyface Ray Type Beat - \"Low Lights\"",
-   "channel": "ozithegoat",
-   "dur": 111,
-   "published": "2026-11-21T05:15:49.518Z",
-   "views": 1588,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "nANkpKW8VQY",
-   "title": "[FREE] Veeze x Babyface Ray Sample Type Beat - “Gaslight\"",
-   "channel": "ProdByXeno",
-   "dur": 195,
-   "published": "2026-11-23T05:15:49.518Z",
-   "views": 2922,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 781,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Ksi_Ihm0XYA",
@@ -4032,35 +4789,13 @@
    "channel": "DG2Thousand",
    "dur": 217,
    "published": "2026-10-31T05:15:49.518Z",
-   "views": 15563,
+   "views": 15577,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "p8nBFrStj0Q",
-   "title": "[FREE] Veeze x Babyface Ray Sample Type Beat - 'Bourbon Moon'",
-   "channel": "Beats By Solt Boy",
-   "dur": 177,
-   "published": "2026-11-14T05:15:49.519Z",
-   "views": 9264,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "XoVhm2sUGgg",
-   "title": "[FREE] Raq baby Type Beat \"Wizard\"",
-   "channel": "99LA",
-   "dur": 145,
-   "published": "2026-11-26T05:15:49.519Z",
-   "views": 9273,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 708,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "EiZGELfqV5A",
@@ -4068,311 +4803,13 @@
    "channel": "ProdByXeno",
    "dur": 261,
    "published": "2026-10-31T05:15:49.520Z",
-   "views": 56163,
+   "views": 56215,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "e5wlydrXXqc",
-   "title": "[FREE] Larry June x Cardogotwings Type Beat - \"Magnificent\" | West Coast Beat 2026",
-   "channel": "Runtz",
-   "dur": 164,
-   "published": "2026-11-18T05:15:50.890Z",
-   "views": 112,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "zfqe1hxLhc8",
-   "title": "[free] new jazz + west coast type beat ~ 'cheap flex'",
-   "channel": "bxrgio!",
-   "dur": 114,
-   "published": "2026-11-14T05:15:50.890Z",
-   "views": 4322,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "I7zZ5wm0ejg",
-   "title": "[FREE] WEST COAST x HARD TYPE BEAT - \"GET UP\"",
-   "channel": "Verse2",
-   "dur": 164,
-   "published": "2026-11-16T05:15:50.890Z",
-   "views": 1249,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "tJ-65MGoYAo",
-   "title": "Wutz Hood | YG x The Game Type Beat | West Coast",
-   "channel": "Abel Beats",
-   "dur": 201,
-   "published": "2026-11-14T05:15:50.891Z",
-   "views": 7532,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "A104aMq42DQ",
-   "title": "[FREE] Detroit Type Beat x West Coast Type Beat - \"LUCIA\"",
-   "channel": "ManuGTB",
-   "dur": 135,
-   "published": "2026-11-18T05:15:50.891Z",
-   "views": 5437,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "52OoJz0vjh8",
-   "title": "[FREE] Bay Area x West Coast Type Beat - \"My Desire\"",
-   "channel": "YP ",
-   "dur": 146,
-   "published": "2026-10-31T05:15:50.891Z",
-   "views": 3851,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "l0_fvxaW9Ik",
-   "title": "[FREE] West Coast x Sample Type Beat - 'Shorty is mine'",
-   "channel": "s1nisterbeats",
-   "dur": 145,
-   "published": "2026-11-19T05:15:50.891Z",
-   "views": 1331,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "iYS32W-K_B0",
-   "title": "(bouncy) \"NIGHT IN MIAMI\" Detroit Type Beat x West Coast Type Beat",
-   "channel": "MARKK CBFW",
-   "dur": 132,
-   "published": "2026-10-31T05:15:50.891Z",
-   "views": 2737,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "oLLhSYHN76I",
-   "title": "[FREE] Bay Area x West Coast Type Beat - \"What it looks like\"",
-   "channel": "YP ",
-   "dur": 181,
-   "published": "2026-11-14T05:15:52.204Z",
-   "views": 2610,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "52qmnUnzvzA",
-   "title": "Bay Area Type Beat- “Bay Baddie” | Hip Hop Instrumental| Rap Type Beat 2026",
-   "channel": "NaDeem SlappIN",
-   "dur": 146,
-   "published": "2026-11-07T05:15:52.204Z",
-   "views": 27,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "_SZUZTI6aes",
-   "title": "[FREE] Bay Area x West Coast Type Beat - \"Endurance\"",
-   "channel": "YP ",
-   "dur": 189,
-   "published": "2026-11-15T05:15:52.204Z",
-   "views": 2198,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "QbWLmjdVxGk",
-   "title": "[FREE] Mike Sherm x DaBoii x Bay Area Type Beat 2026 “4Life” | @HoodWil",
-   "channel": "HoodWil",
-   "dur": 174,
-   "published": "2026-11-18T05:15:52.205Z",
-   "views": 2096,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "_Pkh124zPyI",
-   "title": "[FREE] YounginSoSleaze x EBK Jaaybo Type Beat - “We Up Now” Bay Area Type Beat",
-   "channel": "PayMig",
-   "dur": 120,
-   "published": "2026-11-22T05:15:52.205Z",
-   "views": 130,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "0M26_BcV78c",
-   "title": "„TOO MUCH SAUCE“ | P-Lo x E-40 Bay Area Type Beat",
-   "channel": "GrindingBeats",
-   "dur": 121,
-   "published": "2026-11-26T05:15:52.205Z",
-   "views": 23,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "lnn6Fo-pcw8",
-   "title": "[FREE] Babydonkk3 x Bay Area x K8do Type Beat \"Show It\" (@cementcityshape)",
-   "channel": "cementcityshape",
-   "dur": 185,
-   "published": "2026-11-22T05:15:52.205Z",
-   "views": 998,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "eNCXMp8GFAQ",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"MONEY MAXXER\"",
-   "channel": "Westcoast Disa",
-   "dur": 164,
-   "published": "2026-11-14T05:15:54.555Z",
-   "views": 582,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "SRuKGyhmXwc",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"RICH KID\"",
-   "channel": "Westcoast Disa",
-   "dur": 193,
-   "published": "2026-11-14T05:15:54.555Z",
-   "views": 862,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "MDKGrwwiMG0",
-   "title": "[FREE] Shoreline Mafia Type Beat - \"LIFE\"",
-   "channel": "Westcoast Disa",
-   "dur": 161,
-   "published": "2026-11-07T05:15:54.555Z",
-   "views": 607,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "UX9HAzmWCpg",
-   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Fumbled Her\"",
-   "channel": "DJ Problematic",
-   "dur": 173,
-   "published": "2026-11-26T05:15:54.555Z",
-   "views": 823,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "dyu0Dy4FmQg",
-   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Nothing Left\"",
-   "channel": "DJ Problematic",
-   "dur": 199,
-   "published": "2026-11-21T05:15:54.556Z",
-   "views": 2022,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "w53-aX_mlyw",
-   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"LATE NIGHT\"",
-   "channel": "wiri archives",
-   "dur": 147,
-   "published": "2026-11-17T05:15:54.556Z",
-   "views": 886,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "Gz_BQk9EEf4",
-   "title": "[FREE] Shoreline Mafia x West Coast Type Beat \"SHE SHAKIN\"",
-   "channel": "wiri archives",
-   "dur": 147,
-   "published": "2026-11-15T05:15:54.556Z",
-   "views": 1157,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "7fGgaCENde4",
-   "title": "(FREE) Shoreline Mafia x West Coast Type Beat \"NEW URUS\"",
-   "channel": "morebands",
-   "dur": 158,
-   "published": "2026-11-27T20:15:54.556Z",
-   "views": 94,
-   "source": "discover",
-   "fresh": true,
-   "style": "West Coast",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "PDBvlmLE9GA",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"LOAF\"",
-   "channel": "KaalaH",
-   "dur": 177,
-   "published": "2026-11-27T17:15:57.780Z",
-   "views": 4515,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "cGhkRE6V1Ho",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY TRAP TYPE BEAT \"FENDI\"",
-   "channel": "Optics Beats",
-   "dur": 183,
-   "published": "2026-11-22T05:15:57.780Z",
-   "views": 4614,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 2920,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "pJuabh4V-_0",
@@ -4380,11 +4817,13 @@
    "channel": "Markmywords Beats",
    "dur": 210,
    "published": "2026-11-07T05:15:57.781Z",
-   "views": 56399,
+   "views": 56413,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 2133,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "Zqz70aFFLUw",
@@ -4392,11 +4831,13 @@
    "channel": "theskybeats",
    "dur": 153,
    "published": "2026-11-19T05:15:57.781Z",
-   "views": 218130,
+   "views": 218271,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 3699,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "p348iPkx9iw",
@@ -4404,23 +4845,13 @@
    "channel": "Optics Beats",
    "dur": 194,
    "published": "2026-11-15T05:15:57.781Z",
-   "views": 31447,
+   "views": 31468,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "QA7vOpLC1F8",
-   "title": "[FREE FOR PROFIT] HARD BOUNCY FREESTYLE TRAP TYPE BEAT \"VICE\" | HARD BOUNCY RAP TRAP BEAT",
-   "channel": "Guy Beats and Rocket Beats",
-   "dur": 285,
-   "published": "2026-11-27T15:15:57.781Z",
-   "views": 345,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 785,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "has7gKxRd3k",
@@ -4428,11 +4859,13 @@
    "channel": "theskybeats",
    "dur": 145,
    "published": "2026-11-14T05:15:57.781Z",
-   "views": 229883,
+   "views": 229930,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 3514,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "2F2ddXVHTqw",
@@ -4440,47 +4873,13 @@
    "channel": "Guy Beats and Rocket Beats",
    "dur": 181,
    "published": "2026-11-21T05:15:57.781Z",
-   "views": 19414,
+   "views": 19454,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "KDrg5IztelI",
-   "title": "(free) jerk + hoodtrap + sample type beat \"remember\"",
-   "channel": "prod. legos",
-   "dur": 141,
-   "published": "2026-11-16T05:15:59.629Z",
-   "views": 4777,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "4bgyo7w8qc4",
-   "title": "(free) xaviersobased + ksuuvi + jerk type beat - night sky",
-   "channel": "kari",
-   "dur": 182,
-   "published": "2026-11-14T05:15:59.629Z",
-   "views": 1874,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "xBRp9dp_wUQ",
-   "title": "jerk + sample type beat - passion",
-   "channel": "neetro2x",
-   "dur": 122,
-   "published": "2026-11-14T05:15:59.629Z",
-   "views": 8817,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 459,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "b-n26TgIPx4",
@@ -4488,23 +4887,13 @@
    "channel": "prod. quintuple",
    "dur": 157,
    "published": "2026-11-07T05:15:59.630Z",
-   "views": 10953,
+   "views": 10946,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "xTjrlQl3cP8",
-   "title": "ambient jerk type beat - \"phone\"",
-   "channel": "prod. quintuple",
-   "dur": 129,
-   "published": "2026-11-14T05:15:59.630Z",
-   "views": 2356,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 384,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "1vBNy10Cmz0",
@@ -4512,35 +4901,13 @@
    "channel": "Young Madz",
    "dur": 164,
    "published": "2026-11-07T05:15:59.630Z",
-   "views": 18003,
+   "views": 18019,
    "source": "discover",
    "fresh": true,
    "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "aZai2NyeYB4",
-   "title": "ambient jerk type beat - \"blue skies\"",
-   "channel": "prod. quintuple",
-   "dur": 112,
-   "published": "2026-11-07T05:15:59.630Z",
-   "views": 2129,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
-  },
-  {
-   "id": "Rq4S0L3kGZU",
-   "title": "Fakemink x Jim Legxacy x YT x Jerk Type Beat - \"PANDA\"",
-   "channel": "SAINT6",
-   "dur": 203,
-   "published": "2026-11-16T05:15:59.630Z",
-   "views": 7257,
-   "source": "discover",
-   "fresh": true,
-   "style": "Bouncy",
-   "added": "2026-11-28T05:15:39.416Z"
+   "added": "2026-11-28T05:15:39.416Z",
+   "likes": 417,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "VZjDwtGHhkI",
@@ -4548,11 +4915,13 @@
    "channel": "ManuGTB",
    "dur": 118,
    "published": "2026-11-19T05:12:52.541Z",
-   "views": 48018,
+   "views": 48129,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 946,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "utHvkvhSGZM",
@@ -4560,11 +4929,13 @@
    "channel": "Yung Helf",
    "dur": 185,
    "published": "2026-11-19T05:12:52.541Z",
-   "views": 59474,
+   "views": 59581,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1153,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "QHEo3c5rsro",
@@ -4572,11 +4943,13 @@
    "channel": "Drezly",
    "dur": 123,
    "published": "2026-11-23T05:12:52.542Z",
-   "views": 101966,
+   "views": 102749,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 2074,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "IQhPQ3sRa60",
@@ -4584,23 +4957,13 @@
    "channel": "Yung Helf",
    "dur": 185,
    "published": "2026-11-14T05:12:52.542Z",
-   "views": 138992,
+   "views": 139056,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "C0-GxAqeFpY",
-   "title": "[FREE] Babyfxce E x Rio Da Yung Og x Detroit Type Beat - “Ground Shake\"",
-   "channel": "Flintana",
-   "dur": 160,
-   "published": "2026-11-26T05:12:52.542Z",
-   "views": 6769,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 2521,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "viPvKOyEsK8",
@@ -4608,11 +4971,13 @@
    "channel": "Flintana",
    "dur": 165,
    "published": "2026-11-07T05:12:52.542Z",
-   "views": 15742,
+   "views": 15747,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 593,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "76qYsT0PG9U",
@@ -4620,11 +4985,13 @@
    "channel": "Kezii",
    "dur": 117,
    "published": "2026-11-21T05:12:52.542Z",
-   "views": 31294,
+   "views": 31329,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 451,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "XdcGa4Ts85Q",
@@ -4632,11 +4999,13 @@
    "channel": "Kezii",
    "dur": 129,
    "published": "2026-11-14T05:12:52.542Z",
-   "views": 64389,
+   "views": 64408,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 964,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "vdenLFOu-a4",
@@ -4644,11 +5013,13 @@
    "channel": "ozi",
    "dur": 107,
    "published": "2026-11-15T05:12:53.826Z",
-   "views": 13479,
+   "views": 13523,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 372,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "H1ffOMWgYBI",
@@ -4656,11 +5027,13 @@
    "channel": "Alone Again",
    "dur": 145,
    "published": "2026-11-21T05:12:53.826Z",
-   "views": 53793,
+   "views": 53906,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 2580,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dbZ4CCnRkr8",
@@ -4668,23 +5041,13 @@
    "channel": "ayoray",
    "dur": 127,
    "published": "2026-11-14T05:12:53.826Z",
-   "views": 18145,
+   "views": 18158,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "0fJeXeEDYm8",
-   "title": "[FREE] Veeze x Chicken P Type Beat ~ \"SIGNALS\"",
-   "channel": "Bag Chaser",
-   "dur": 143,
-   "published": "2026-11-24T05:12:53.826Z",
-   "views": 5114,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 656,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "feqtVtN21q0",
@@ -4692,59 +5055,13 @@
    "channel": "99LA",
    "dur": 156,
    "published": "2026-11-14T05:12:53.826Z",
-   "views": 42967,
+   "views": 42968,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "rKZ0O4KfPxo",
-   "title": "[FREE] Baby Smoove x Veeze Type Beat - \"Hidden Hills\"",
-   "channel": "Alone Again",
-   "dur": 142,
-   "published": "2026-11-24T05:12:53.826Z",
-   "views": 3360,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "I8Zh5nd4tOY",
-   "title": "[FREE] Veeze Type Beat - \"How Mean\"",
-   "channel": "Gentle Beats",
-   "dur": 145,
-   "published": "2026-11-16T05:12:53.826Z",
-   "views": 3791,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "9bRp-xDb30E",
-   "title": "[FREE] Veeze Type Beat - \"Lost It\"",
-   "channel": "ozi",
-   "dur": 105,
-   "published": "2026-11-14T05:12:53.826Z",
-   "views": 9356,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "bg_VTio2otA",
-   "title": "(FREE) BABYFACE RAY TYPE BEAT - \"COUPLE CUTS\"",
-   "channel": "Bayro",
-   "dur": 152,
-   "published": "2026-11-23T05:12:55.219Z",
-   "views": 564,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1213,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "dHcJg_qk0UQ",
@@ -4752,23 +5069,13 @@
    "channel": "ProdByXeno",
    "dur": 245,
    "published": "2026-11-15T05:12:55.221Z",
-   "views": 37566,
+   "views": 37679,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
-  },
-  {
-   "id": "QB05wlSjMLg",
-   "title": "(FREE) Fox BD x Babyface Ray Type Beat \"Nothing\"",
-   "channel": "13thirteen beats",
-   "dur": 167,
-   "published": "2026-11-18T05:12:55.221Z",
-   "views": 6824,
-   "source": "discover",
-   "fresh": true,
-   "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1894,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   },
   {
    "id": "hFIUhiVhoY0",
@@ -4776,11 +5083,83 @@
    "channel": "DG2Thousand",
    "dur": 204,
    "published": "2026-10-31T05:12:55.221Z",
-   "views": 30920,
+   "views": 30913,
    "source": "discover",
    "fresh": true,
    "style": "Detroit",
-   "added": "2026-11-28T05:12:45.754Z"
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1236,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "C8vKEPnNu54",
+   "title": "(FREE) West Coast Type Beat x Shoreline Mafia Type Beat - \"Mobb Ties\"",
+   "channel": "DJ Problematic",
+   "dur": 173,
+   "published": "2026-11-07T05:12:56.532Z",
+   "views": 27706,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 712,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "QnT0k8sBgbs",
+   "title": "[FREE] Bay Area x West Coast Type Beat - \"When I Fake It\"",
+   "channel": "YP ",
+   "dur": 226,
+   "published": "2026-11-07T05:12:56.532Z",
+   "views": 40921,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1936,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "ELhekdpvgtY",
+   "title": "[FREE] West Coast Type Beat x Bay Area Type Beat - \"Toxic\"",
+   "channel": "NickRick ",
+   "dur": 161,
+   "published": "2026-11-16T05:12:57.921Z",
+   "views": 98131,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 2911,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "DaBzT2q1KtE",
+   "title": "[FREE] West Coast Type Beat x Bay Area Type Beat - \"Can't Wait\"",
+   "channel": "NickRick ",
+   "dur": 179,
+   "published": "2026-11-14T05:12:57.921Z",
+   "views": 11217,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 450,
+   "statsAt": "2026-11-28T05:45:56.690Z"
+  },
+  {
+   "id": "95O_Zz-ELhs",
+   "title": "TRAP TYPE BEAT - \"DUES\" | FREESTYLE BEAT | HARD TYPE BEAT | FREE RAP INSTRUMENTAL 2026 | FREE BEAT",
+   "channel": "theskybeats",
+   "dur": 145,
+   "published": "2026-11-25T05:12:57.921Z",
+   "views": 109951,
+   "source": "discover",
+   "fresh": true,
+   "style": "West Coast",
+   "added": "2026-11-28T05:12:45.754Z",
+   "likes": 1468,
+   "statsAt": "2026-11-28T05:45:56.690Z"
   }
  ],
  "learn": [
@@ -4822,6 +5201,16 @@
    "source": "@3blue1brown",
    "added": "2026-11-28T05:15:39.416Z",
    "dur": 2245,
+   "topic": "Science"
+  },
+  {
+   "id": "fEjvSbI_PT4",
+   "title": "Dying Is Complicated",
+   "channel": "Kurzgesagt – In a Nutshell",
+   "published": "2026-11-10T15:00:01+00:00",
+   "source": "@kurzgesagt",
+   "added": "2026-11-28T05:45:56.690Z",
+   "dur": 840,
    "topic": "Science"
   },
   {
@@ -8775,25 +9164,6 @@
    "topic": "Uplifting Stories"
   },
   {
-   "id": "7Wiw42ZlBKs",
-   "title": "The Quantum Experiment That Breaks Time",
-   "channel": "PBS Space Time",
-   "published": "2026-07-02T20:15:36+00:00",
-   "source": "@pbsspacetime",
-   "added": "2026-10-27T20:22:50.771Z",
-   "dur": 1060,
-   "topic": "Physics & Quantum"
-  },
-  {
-   "id": "fEjvSbI_PT4",
-   "title": "Dying Is Complicated",
-   "dur": 840,
-   "channel": "Kurzgesagt – In a Nutshell",
-   "topic": "Science",
-   "collection": "@kurzgesagt",
-   "source": "@kurzgesagt"
-  },
-  {
    "id": "PqtggjVAi8M",
    "title": "How Are Memories Stored Inside Your Brain?",
    "dur": 836,
@@ -9626,8 +9996,8 @@
    "title": "How Data Centers Actually Work",
    "channel": "MEP Academy",
    "dur": 352,
-   "published": "2026-03-03T05:27:02.292Z",
-   "views": 1858677,
+   "published": "2026-03-03T05:49:58.816Z",
+   "views": 1858805,
    "topic": "Chips & Computers",
    "source": "search:how a data center works explained",
    "deep": "how a data center works explained"
@@ -9637,19 +10007,8 @@
    "title": "Data Center Cooling - how are data centre cooled cold aisle containment hvacr",
    "channel": "The Engineering Mindset",
    "dur": 625,
-   "published": "2021-11-29T05:27:02.292Z",
-   "views": 525141,
-   "topic": "Chips & Computers",
-   "source": "search:how a data center works explained",
-   "deep": "how a data center works explained"
-  },
-  {
-   "id": "v477fvbj3rk",
-   "title": "THIS Is Where the Internet Lives",
-   "channel": "NetworkChuck",
-   "dur": 1084,
-   "published": "2025-11-28T05:27:02.293Z",
-   "views": 1653975,
+   "published": "2021-11-29T05:49:58.816Z",
+   "views": 525140,
    "topic": "Chips & Computers",
    "source": "search:how a data center works explained",
    "deep": "how a data center works explained"
@@ -9659,8 +10018,8 @@
    "title": "The Truth About How Data Centers Use Water And Power To Keep Cool",
    "channel": "CNBC",
    "dur": 721,
-   "published": "2026-11-07T05:27:02.293Z",
-   "views": 2532038,
+   "published": "2026-11-07T05:49:58.817Z",
+   "views": 2532154,
    "topic": "Chips & Computers",
    "source": "search:how a data center works explained",
    "deep": "how a data center works explained"
@@ -9670,8 +10029,19 @@
    "title": "The Entire AI Data Center Explained — From Electricity to ChatGPT",
    "channel": "Leo Cui, Ph.D., CFA ",
    "dur": 2419,
-   "published": "2026-07-31T05:27:02.293Z",
-   "views": 655682,
+   "published": "2026-07-31T05:49:58.817Z",
+   "views": 655702,
+   "topic": "Chips & Computers",
+   "source": "search:how a data center works explained",
+   "deep": "how a data center works explained"
+  },
+  {
+   "id": "v477fvbj3rk",
+   "title": "THIS Is Where the Internet Lives",
+   "channel": "NetworkChuck",
+   "dur": 1084,
+   "published": "2025-11-28T05:49:58.817Z",
+   "views": 1653975,
    "topic": "Chips & Computers",
    "source": "search:how a data center works explained",
    "deep": "how a data center works explained"
@@ -9681,8 +10051,8 @@
    "title": "Inside a 36 Megawatt Data Center: The Power, Cooling and Fiber",
    "channel": "Lawrence Systems",
    "dur": 1792,
-   "published": "2024-11-28T05:27:03.590Z",
-   "views": 518442,
+   "published": "2024-11-28T05:50:00.168Z",
+   "views": 518460,
    "topic": "Chips & Computers",
    "source": "search:inside a data center tour cooling power",
    "deep": "inside a data center tour cooling power"
@@ -9692,19 +10062,30 @@
    "title": "I Can't BELIEVE They Let Me in Here!",
    "channel": "Linus Tech Tips",
    "dur": 1417,
-   "published": "2024-11-28T05:27:03.590Z",
-   "views": 2802677,
+   "published": "2024-11-28T05:50:00.168Z",
+   "views": 2802675,
    "topic": "Chips & Computers",
    "source": "search:inside a data center tour cooling power",
    "deep": "inside a data center tour cooling power"
   },
   {
-   "id": "-Scb_4ZIPBk",
-   "title": "Inside the Factory Building Liquid Cooling for AI Data Centers | Schneider Electric",
-   "channel": "Schneider Electric",
-   "dur": 412,
-   "published": "2026-09-29T05:27:03.590Z",
-   "views": 307471,
+   "id": "UMMfJ4au1o4",
+   "title": "Inside one of the world’s most efficient Data Centers",
+   "channel": "Tom Shaw",
+   "dur": 936,
+   "published": "2026-07-01T05:50:00.168Z",
+   "views": 433350,
+   "topic": "Chips & Computers",
+   "source": "search:inside a data center tour cooling power",
+   "deep": "inside a data center tour cooling power"
+  },
+  {
+   "id": "7J7X7aZvMXQ",
+   "title": "How does Computer Memory Work? 💻🛠",
+   "channel": "Branch Education",
+   "dur": 2133,
+   "published": "2022-11-29T05:21:03.350Z",
+   "views": 5499190,
    "topic": "Chips & Computers",
    "source": "search:inside a data center tour cooling power",
    "deep": "inside a data center tour cooling power"
@@ -9765,12 +10146,45 @@
    "deep": "how computer memory RAM works"
   },
   {
+   "id": "IkRXpFIRUl4",
+   "title": "How are microchips made? - George Zaidan and Sajan Saini",
+   "channel": "TED-Ed",
+   "dur": 329,
+   "published": "2025-11-28T05:50:02.999Z",
+   "views": 1164564,
+   "topic": "Chips & Computers",
+   "source": "search:how computer chips are made",
+   "deep": "how computer chips are made"
+  },
+  {
    "id": "g8Qav3vIv9s",
    "title": "💻 How Are Microchips Made?",
    "channel": "Interesting Engineering",
    "dur": 335,
-   "published": "2022-11-29T05:27:06.515Z",
-   "views": 7072238,
+   "published": "2022-11-29T05:50:02.999Z",
+   "views": 7072241,
+   "topic": "Chips & Computers",
+   "source": "search:how computer chips are made",
+   "deep": "how computer chips are made"
+  },
+  {
+   "id": "dX9CGRZwD-w",
+   "title": "How are Microchips Made? 🖥️🛠️ CPU Manufacturing Process Steps",
+   "channel": "Branch Education",
+   "dur": 1668,
+   "published": "2024-11-28T05:50:03.000Z",
+   "views": 12022367,
+   "topic": "Chips & Computers",
+   "source": "search:how computer chips are made",
+   "deep": "how computer chips are made"
+  },
+  {
+   "id": "o9g49L-MmeE",
+   "title": "Semiconductors explained in 16 mins | Chris Miller",
+   "channel": "Big Think Clips and Big Think",
+   "dur": 986,
+   "published": "2026-03-03T05:50:03.000Z",
+   "views": 442412,
    "topic": "Chips & Computers",
    "source": "search:how computer chips are made",
    "deep": "how computer chips are made"
@@ -9780,41 +10194,8 @@
    "title": "How Microchips Are Actually Made (It's Insane)",
    "channel": "Mr. HowMade",
    "dur": 1146,
-   "published": "2026-01-02T05:27:06.515Z",
-   "views": 811102,
-   "topic": "Chips & Computers",
-   "source": "search:how computer chips are made",
-   "deep": "how computer chips are made"
-  },
-  {
-   "id": "6bHrtsn2Cbc",
-   "title": "Computers, Circuit Boards, Flash Drives & More | How It's Made | Science Channel",
-   "channel": "Science Channel",
-   "dur": 1500,
-   "published": "2024-11-28T05:27:06.515Z",
-   "views": 324680,
-   "topic": "Chips & Computers",
-   "source": "search:how computer chips are made",
-   "deep": "how computer chips are made"
-  },
-  {
-   "id": "IkRXpFIRUl4",
-   "title": "How are microchips made? - George Zaidan and Sajan Saini",
-   "channel": "TED-Ed",
-   "dur": 329,
-   "published": "2025-11-28T05:27:06.515Z",
-   "views": 1164564,
-   "topic": "Chips & Computers",
-   "source": "search:how computer chips are made",
-   "deep": "how computer chips are made"
-  },
-  {
-   "id": "RJsAqqObj-Y",
-   "title": "HOW IT'S MADE: Microchips",
-   "channel": "How It's Made",
-   "dur": 539,
-   "published": "2021-11-29T05:27:06.515Z",
-   "views": 1576859,
+   "published": "2026-01-02T05:50:03.000Z",
+   "views": 811189,
    "topic": "Chips & Computers",
    "source": "search:how computer chips are made",
    "deep": "how computer chips are made"
@@ -9824,8 +10205,8 @@
    "title": "The Engineering that Runs the Digital World 🛠️⚙️💻 How do CPUs Work?",
    "channel": "Branch Education",
    "dur": 2183,
-   "published": "2025-11-28T05:27:07.843Z",
-   "views": 3373348,
+   "published": "2025-11-28T05:50:04.320Z",
+   "views": 3373407,
    "topic": "Chips & Computers",
    "source": "search:how a CPU works",
    "deep": "how a CPU works"
@@ -9835,8 +10216,8 @@
    "title": "How a CPU Works",
    "channel": "In One Lesson",
    "dur": 1200,
-   "published": "2013-12-01T05:27:07.843Z",
-   "views": 8529717,
+   "published": "2013-12-01T05:50:04.320Z",
+   "views": 8529719,
    "topic": "Chips & Computers",
    "source": "search:how a CPU works",
    "deep": "how a CPU works"
@@ -9846,8 +10227,19 @@
    "title": "How Do CPUs Work?",
    "channel": "ExplainingComputers",
    "dur": 640,
-   "published": "2021-11-29T05:27:07.843Z",
-   "views": 441444,
+   "published": "2021-11-29T05:50:04.320Z",
+   "views": 441442,
+   "topic": "Chips & Computers",
+   "source": "search:how a CPU works",
+   "deep": "how a CPU works"
+  },
+  {
+   "id": "GtVDTp826DE",
+   "title": "CPU Architecture Explained",
+   "channel": "BitLemon",
+   "dur": 458,
+   "published": "2025-11-28T05:50:04.320Z",
+   "views": 316999,
    "topic": "Chips & Computers",
    "source": "search:how a CPU works",
    "deep": "how a CPU works"
@@ -9857,7 +10249,7 @@
    "title": "How A CPU Works | The CPU Explained",
    "channel": "Futurology — An Optimistic Future",
    "dur": 518,
-   "published": "2018-11-30T05:27:07.844Z",
+   "published": "2018-11-30T05:50:04.320Z",
    "views": 471097,
    "topic": "Chips & Computers",
    "source": "search:how a CPU works",
@@ -9879,8 +10271,8 @@
    "title": "Silicon Photonics: The Next Silicon Revolution?",
    "channel": "Asianometry",
    "dur": 945,
-   "published": "2022-11-29T05:27:09.043Z",
-   "views": 505370,
+   "published": "2022-11-29T05:50:05.548Z",
+   "views": 505375,
    "topic": "Physics & Quantum",
    "source": "search:silicon photonics explained",
    "deep": "silicon photonics explained"
@@ -9890,8 +10282,8 @@
    "title": "Photonic ICs, Silicon Photonics & Programmable Photonics - HandheldOCT webinar",
    "channel": "Photonics Research Group - UGent-imec",
    "dur": 3234,
-   "published": "2021-11-29T05:27:09.044Z",
-   "views": 192567,
+   "published": "2021-11-29T05:50:05.549Z",
+   "views": 192574,
    "topic": "Physics & Quantum",
    "source": "search:silicon photonics explained",
    "deep": "silicon photonics explained"
@@ -9901,8 +10293,8 @@
    "title": "The Genius of Computing with Light",
    "channel": "Dr Ben Miles",
    "dur": 1941,
-   "published": "2026-03-03T05:27:09.044Z",
-   "views": 550763,
+   "published": "2026-03-03T05:50:05.549Z",
+   "views": 550777,
    "topic": "Physics & Quantum",
    "source": "search:silicon photonics explained",
    "deep": "silicon photonics explained"
@@ -9912,7 +10304,7 @@
    "title": "5 Things Failing in AI. One Technology - Photonics is the Key!",
    "channel": "BWB - Business With Brian",
    "dur": 1035,
-   "published": "2026-04-02T05:27:09.044Z",
+   "published": "2026-04-02T05:50:05.549Z",
    "views": 309647,
    "topic": "Physics & Quantum",
    "source": "search:silicon photonics explained",
@@ -9923,8 +10315,8 @@
    "title": "The Wire Problem Nobody In AI Is Talking About",
    "channel": "Tiff In Tech",
    "dur": 1013,
-   "published": "2026-04-02T05:27:09.044Z",
-   "views": 613965,
+   "published": "2026-04-02T05:50:05.549Z",
+   "views": 613963,
    "topic": "Physics & Quantum",
    "source": "search:silicon photonics explained",
    "deep": "silicon photonics explained"
@@ -9934,19 +10326,19 @@
    "title": "Is Photonic Computing The Future Of AI Chip Technology?",
    "channel": "Forbes",
    "dur": 1484,
-   "published": "2026-01-02T05:27:10.313Z",
-   "views": 55545,
+   "published": "2026-01-02T05:50:07.938Z",
+   "views": 55554,
    "topic": "Physics & Quantum",
    "source": "search:photonics explained light computing",
    "deep": "photonics explained light computing"
   },
   {
-   "id": "yCqrv0SM02o",
-   "title": "Germany's New Photonic NPU Just Made NVIDIA’s Billion Dollar GPUs Look Like TRASH!",
-   "channel": "Evolving AI",
-   "dur": 723,
-   "published": "2026-05-02T05:27:10.313Z",
-   "views": 322515,
+   "id": "ln0zZcQXv38",
+   "title": "Creating Logic using Waves: Photonic Gates",
+   "channel": "Huygens Optics",
+   "dur": 1063,
+   "published": "2026-11-07T05:50:07.938Z",
+   "views": 305880,
    "topic": "Physics & Quantum",
    "source": "search:photonics explained light computing",
    "deep": "photonics explained light computing"
@@ -9956,8 +10348,8 @@
    "title": "Photonic Chips Are Coming Faster Than Anyone Expected | Akhetonics #003",
    "channel": "Europe’s Foundry ",
    "dur": 1190,
-   "published": "2026-01-02T05:27:10.313Z",
-   "views": 372957,
+   "published": "2026-01-02T05:50:07.938Z",
+   "views": 372941,
    "topic": "Physics & Quantum",
    "source": "search:photonics explained light computing",
    "deep": "photonics explained light computing"
@@ -9967,7 +10359,7 @@
    "title": "Moore's Law is Dead — Welcome to Light Speed Computers",
    "channel": "S3 | Science, Startups, & Stories",
    "dur": 1227,
-   "published": "2025-11-28T05:27:10.314Z",
+   "published": "2025-11-28T05:50:07.939Z",
    "views": 3580224,
    "topic": "Physics & Quantum",
    "source": "search:photonics explained light computing",
@@ -9978,7 +10370,7 @@
    "title": "Quantum Computers Explained: How Quantum Computing Works",
    "channel": "Science ABC",
    "dur": 341,
-   "published": "2024-11-28T05:27:12.538Z",
+   "published": "2024-11-28T05:50:10.472Z",
    "views": 1053022,
    "topic": "Physics & Quantum",
    "source": "search:how quantum computers work",
@@ -9989,8 +10381,8 @@
    "title": "Quantum Computers: Explained VISUALLY",
    "channel": "Lukas's Lab",
    "dur": 757,
-   "published": "2025-11-28T05:27:12.538Z",
-   "views": 719324,
+   "published": "2025-11-28T05:50:10.472Z",
+   "views": 719354,
    "topic": "Physics & Quantum",
    "source": "search:how quantum computers work",
    "deep": "how quantum computers work"
@@ -10000,19 +10392,8 @@
    "title": "Quantum Computers Explained – Limits of Human Technology",
    "channel": "Kurzgesagt – In a Nutshell",
    "dur": 437,
-   "published": "2016-11-30T05:27:12.538Z",
-   "views": 19438081,
-   "topic": "Physics & Quantum",
-   "source": "search:how quantum computers work",
-   "deep": "how quantum computers work"
-  },
-  {
-   "id": "RQWpF2Gb-gU",
-   "title": "But what is quantum computing?  (Grover's Algorithm)",
-   "channel": "3Blue1Brown",
-   "dur": 2214,
-   "published": "2025-11-28T05:27:12.538Z",
-   "views": 4363357,
+   "published": "2016-11-30T05:50:10.472Z",
+   "views": 19438096,
    "topic": "Physics & Quantum",
    "source": "search:how quantum computers work",
    "deep": "how quantum computers work"
@@ -10022,30 +10403,41 @@
    "title": "How Does a Quantum Computer Work?",
    "channel": "Veritasium",
    "dur": 407,
-   "published": "2013-12-01T05:27:12.538Z",
-   "views": 5472006,
+   "published": "2013-12-01T05:50:10.472Z",
+   "views": 5472020,
    "topic": "Physics & Quantum",
    "source": "search:how quantum computers work",
    "deep": "how quantum computers work"
   },
   {
-   "id": "_uOLii9sDiE",
-   "title": "The neuroscience of memory - Ri Science Podcast with Charan Ranganath",
-   "channel": "The Royal Institution",
-   "dur": 2120,
-   "published": "2024-11-28T05:27:14.721Z",
-   "views": 202341,
-   "topic": "Brain & Body",
-   "source": "search:how human memory works neuroscience",
-   "deep": "how human memory works neuroscience"
+   "id": "RQWpF2Gb-gU",
+   "title": "But what is quantum computing?  (Grover's Algorithm)",
+   "channel": "3Blue1Brown",
+   "dur": 2214,
+   "published": "2025-11-28T05:50:10.472Z",
+   "views": 4363536,
+   "topic": "Physics & Quantum",
+   "source": "search:how quantum computers work",
+   "deep": "how quantum computers work"
   },
   {
    "id": "X5trRLX7PQY",
    "title": "Building Blocks of Memory in the Brain",
    "channel": "Artem Kirsanov",
    "dur": 1666,
-   "published": "2023-11-29T05:27:14.721Z",
-   "views": 407301,
+   "published": "2023-11-29T05:46:55.866Z",
+   "views": 407305,
+   "topic": "Brain & Body",
+   "source": "search:how human memory works neuroscience",
+   "deep": "how human memory works neuroscience"
+  },
+  {
+   "id": "_uOLii9sDiE",
+   "title": "The neuroscience of memory - Ri Science Podcast with Charan Ranganath",
+   "channel": "The Royal Institution",
+   "dur": 2120,
+   "published": "2024-11-28T05:46:55.867Z",
+   "views": 202341,
    "topic": "Brain & Body",
    "source": "search:how human memory works neuroscience",
    "deep": "how human memory works neuroscience"
@@ -10055,8 +10447,8 @@
    "title": "How Your Brain Chooses What to Remember",
    "channel": "Artem Kirsanov",
    "dur": 1039,
-   "published": "2025-11-28T05:27:14.721Z",
-   "views": 1206428,
+   "published": "2025-11-28T05:46:55.867Z",
+   "views": 1206429,
    "topic": "Brain & Body",
    "source": "search:how human memory works neuroscience",
    "deep": "how human memory works neuroscience"
@@ -10066,19 +10458,8 @@
    "title": "Your brain doesn’t detect reality. It creates it. | Lisa Feldman Barrett",
    "channel": "Big Think and 2 more",
    "dur": 395,
-   "published": "2023-11-29T05:27:16.796Z",
+   "published": "2023-11-29T05:50:15.088Z",
    "views": 2079625,
-   "topic": "Brain & Body",
-   "source": "search:how the brain constructs reality perception",
-   "deep": "how the brain constructs reality perception"
-  },
-  {
-   "id": "lyu7v7nWzfo",
-   "title": "Your Brain Hallucinates Your Conscious Reality | Anil Seth | TED",
-   "channel": "TED",
-   "dur": 1021,
-   "published": "2017-11-30T05:27:16.796Z",
-   "views": 11998342,
    "topic": "Brain & Body",
    "source": "search:how the brain constructs reality perception",
    "deep": "how the brain constructs reality perception"
@@ -10088,8 +10469,8 @@
    "title": "How the brain shapes reality - with Andy Clark",
    "channel": "The Royal Institution",
    "dur": 3591,
-   "published": "2024-11-28T05:27:16.796Z",
-   "views": 242225,
+   "published": "2024-11-28T05:50:15.088Z",
+   "views": 242227,
    "topic": "Brain & Body",
    "source": "search:how the brain constructs reality perception",
    "deep": "how the brain constructs reality perception"
@@ -10099,8 +10480,19 @@
    "title": "Your Reality Is a Simulation | NOVA | PBS",
    "channel": "NOVA PBS Official",
    "dur": 642,
-   "published": "2026-08-30T05:27:16.796Z",
+   "published": "2026-08-30T05:50:15.088Z",
    "views": 877357,
+   "topic": "Brain & Body",
+   "source": "search:how the brain constructs reality perception",
+   "deep": "how the brain constructs reality perception"
+  },
+  {
+   "id": "HU6LfXNeQM4",
+   "title": "Your Brain: Perception Deception | Full Documentary | NOVA | PBS",
+   "channel": "NOVA PBS Official",
+   "dur": 3213,
+   "published": "2023-11-29T05:50:15.088Z",
+   "views": 3359654,
    "topic": "Brain & Body",
    "source": "search:how the brain constructs reality perception",
    "deep": "how the brain constructs reality perception"
@@ -10110,7 +10502,7 @@
    "title": "Your Brain is Making Reality Up | NOVA | PBS",
    "channel": "NOVA PBS Official",
    "dur": 788,
-   "published": "2026-07-01T05:27:16.796Z",
+   "published": "2026-07-01T05:50:15.088Z",
    "views": 212436,
    "topic": "Brain & Body",
    "source": "search:how the brain constructs reality perception",
@@ -10121,19 +10513,8 @@
    "title": "Every Human Organ Explained in 11 Minutes",
    "channel": "The Analyst",
    "dur": 665,
-   "published": "2024-11-28T05:27:18.913Z",
-   "views": 1807350,
-   "topic": "Brain & Body",
-   "source": "search:human anatomy explained animation",
-   "deep": "human anatomy explained animation"
-  },
-  {
-   "id": "Ae4MadKPJC0",
-   "title": "Human Body 101 | National Geographic",
-   "channel": "National Geographic",
-   "dur": 311,
-   "published": "2018-11-30T05:27:18.913Z",
-   "views": 5536269,
+   "published": "2024-11-28T05:50:17.298Z",
+   "views": 1807390,
    "topic": "Brain & Body",
    "source": "search:human anatomy explained animation",
    "deep": "human anatomy explained animation"
@@ -10143,19 +10524,19 @@
    "title": "Human Body Systems Overview (Updated 2024)",
    "channel": "Amoeba Sisters",
    "dur": 587,
-   "published": "2024-11-28T05:27:18.913Z",
-   "views": 2454805,
+   "published": "2024-11-28T05:50:17.299Z",
+   "views": 2454842,
    "topic": "Brain & Body",
    "source": "search:human anatomy explained animation",
    "deep": "human anatomy explained animation"
   },
   {
-   "id": "AHQGNb0zBgg",
-   "title": "Human Body - Science for Kids - Rock 'N Learn",
-   "channel": "Rock 'N Learn",
-   "dur": 2280,
-   "published": "2019-11-30T05:27:18.913Z",
-   "views": 7587857,
+   "id": "Ae4MadKPJC0",
+   "title": "Human Body 101 | National Geographic",
+   "channel": "National Geographic",
+   "dur": 311,
+   "published": "2018-11-30T05:50:17.299Z",
+   "views": 5536294,
    "topic": "Brain & Body",
    "source": "search:human anatomy explained animation",
    "deep": "human anatomy explained animation"
@@ -10165,8 +10546,19 @@
    "title": "Anatomy Explained Like You're 5 Years Old",
    "channel": "No Fluff Academy",
    "dur": 1439,
-   "published": "2026-06-01T05:27:18.913Z",
-   "views": 218346,
+   "published": "2026-06-01T05:50:17.299Z",
+   "views": 218408,
+   "topic": "Brain & Body",
+   "source": "search:human anatomy explained animation",
+   "deep": "human anatomy explained animation"
+  },
+  {
+   "id": "AHQGNb0zBgg",
+   "title": "Human Body - Science for Kids - Rock 'N Learn",
+   "channel": "Rock 'N Learn",
+   "dur": 2280,
+   "published": "2019-11-30T05:50:17.299Z",
+   "views": 7587901,
    "topic": "Brain & Body",
    "source": "search:human anatomy explained animation",
    "deep": "human anatomy explained animation"
@@ -10176,8 +10568,8 @@
    "title": "Stories about acts of kindness from Steve Hartman",
    "channel": "CBS Evening News",
    "dur": 3329,
-   "published": "2024-11-28T05:27:20.845Z",
-   "views": 1048056,
+   "published": "2024-11-28T05:50:36.074Z",
+   "views": 1048063,
    "topic": "Uplifting Stories",
    "source": "search:inspiring true story kindness documentary",
    "deep": "inspiring true story kindness documentary"
@@ -10187,7 +10579,7 @@
    "title": "🥰Henry and Ella's Big Jar of Kindness - Building Empathy for Kids SEL Read Aloud - Emotion in Motion",
    "channel": "Book League Storytime Adventures",
    "dur": 481,
-   "published": "2025-11-28T05:27:20.845Z",
+   "published": "2025-11-28T05:50:36.075Z",
    "views": 593799,
    "topic": "Uplifting Stories",
    "source": "search:inspiring true story kindness documentary",
@@ -10198,8 +10590,8 @@
    "title": "Ripple (Award Winning)- Kindness and good deeds will come back to you",
    "channel": "Daniel Yam",
    "dur": 348,
-   "published": "2021-11-29T05:27:20.845Z",
-   "views": 3064216,
+   "published": "2021-11-29T05:50:36.075Z",
+   "views": 3064245,
    "topic": "Uplifting Stories",
    "source": "search:inspiring true story kindness documentary",
    "deep": "inspiring true story kindness documentary"
@@ -10209,8 +10601,8 @@
    "title": "Full Documentary: Gander's Ripple Effect: How a Small Town's Kindness Opened on Broadway",
    "channel": "CBC News NL - Newfoundland and Labrador",
    "dur": 2648,
-   "published": "2018-11-30T05:27:20.845Z",
-   "views": 566049,
+   "published": "2018-11-30T05:50:36.075Z",
+   "views": 566055,
    "topic": "Uplifting Stories",
    "source": "search:inspiring true story kindness documentary",
    "deep": "inspiring true story kindness documentary"
@@ -10220,8 +10612,8 @@
    "title": "Kindness is My Superpower | Read Aloud by Reading Pioneers Academy",
    "channel": "Reading Pioneers Academy",
    "dur": 530,
-   "published": "2020-11-29T05:27:20.845Z",
-   "views": 3303095,
+   "published": "2020-11-29T05:50:36.075Z",
+   "views": 3303102,
    "topic": "Uplifting Stories",
    "source": "search:inspiring true story kindness documentary",
    "deep": "inspiring true story kindness documentary"
@@ -10231,8 +10623,19 @@
    "title": "Science of Muscle Hypertrophy",
    "channel": "Dr Matt & Dr Mike",
    "dur": 1066,
-   "published": "2020-11-29T05:27:39.735Z",
-   "views": 237375,
+   "published": "2020-11-29T05:50:38.090Z",
+   "views": 237382,
+   "topic": "Exercise",
+   "source": "search:how muscles grow hypertrophy science explained",
+   "deep": "how muscles grow hypertrophy science explained"
+  },
+  {
+   "id": "UCcnxSJcNeA",
+   "title": "What actually makes muscles grow",
+   "channel": "Yellow Dude",
+   "dur": 404,
+   "published": "2026-05-02T05:50:38.090Z",
+   "views": 5587322,
    "topic": "Exercise",
    "source": "search:how muscles grow hypertrophy science explained",
    "deep": "how muscles grow hypertrophy science explained"
@@ -10242,19 +10645,8 @@
    "title": "How to Build Muscle, According to Science",
    "channel": "Seeker",
    "dur": 520,
-   "published": "2020-11-29T05:27:39.735Z",
-   "views": 1277495,
-   "topic": "Exercise",
-   "source": "search:how muscles grow hypertrophy science explained",
-   "deep": "how muscles grow hypertrophy science explained"
-  },
-  {
-   "id": "lu_BObG6dj8",
-   "title": "How To Build Muscle (Explained In 5 Levels)",
-   "channel": "Jeff Nippard",
-   "dur": 1315,
-   "published": "2021-11-29T05:27:39.735Z",
-   "views": 9917378,
+   "published": "2020-11-29T05:50:38.091Z",
+   "views": 1277497,
    "topic": "Exercise",
    "source": "search:how muscles grow hypertrophy science explained",
    "deep": "how muscles grow hypertrophy science explained"
@@ -10264,19 +10656,19 @@
    "title": "10 Years of Muscle Building Advice in 23 Minutes",
    "channel": "Jeremy Ethier",
    "dur": 1407,
-   "published": "2024-11-28T05:27:39.735Z",
-   "views": 4549242,
+   "published": "2024-11-28T05:50:38.091Z",
+   "views": 4549266,
    "topic": "Exercise",
    "source": "search:how muscles grow hypertrophy science explained",
    "deep": "how muscles grow hypertrophy science explained"
   },
   {
-   "id": "jgaoLdS82vw",
-   "title": "Build Muscle Size, Increase Strength & Improve Recovery | Huberman Lab Essentials",
-   "channel": "Andrew Huberman",
-   "dur": 1669,
-   "published": "2025-11-28T05:27:39.735Z",
-   "views": 1239983,
+   "id": "BWY5_aQxeUo",
+   "title": "The Best Way to Gain Muscle: Science Explained Simply",
+   "channel": "Natacha Océane",
+   "dur": 1361,
+   "published": "2022-11-29T05:50:38.091Z",
+   "views": 1328850,
    "topic": "Exercise",
    "source": "search:how muscles grow hypertrophy science explained",
    "deep": "how muscles grow hypertrophy science explained"
@@ -10286,8 +10678,8 @@
    "title": "The Best Science-Based Full Body Workout: BACK Focused",
    "channel": "Jeff Nippard",
    "dur": 495,
-   "published": "2020-11-29T05:27:41.254Z",
-   "views": 994344,
+   "published": "2020-11-29T05:47:24.336Z",
+   "views": 994341,
    "topic": "Exercise",
    "source": "search:science based full body workout best exercises",
    "deep": "science based full body workout best exercises"
@@ -10297,19 +10689,8 @@
    "title": "The Most Effective Science-Based Shoulder Focused Full Body Workout",
    "channel": "Jeff Nippard",
    "dur": 571,
-   "published": "2020-11-29T05:27:41.254Z",
-   "views": 1768925,
-   "topic": "Exercise",
-   "source": "search:science based full body workout best exercises",
-   "deep": "science based full body workout best exercises"
-  },
-  {
-   "id": "E81GN-3A8XM",
-   "title": "The Most Effective Science-Based Warm Up & Mobility Routine (Full Body)",
-   "channel": "Jeff Nippard",
-   "dur": 557,
-   "published": "2019-11-30T05:27:41.254Z",
-   "views": 1514771,
+   "published": "2020-11-29T05:47:24.336Z",
+   "views": 1768926,
    "topic": "Exercise",
    "source": "search:science based full body workout best exercises",
    "deep": "science based full body workout best exercises"
@@ -10319,8 +10700,19 @@
    "title": "Full Body 5x Per Week: Why High Frequency Training Is So Effective",
    "channel": "Jeff Nippard",
    "dur": 611,
-   "published": "2020-11-29T05:27:41.254Z",
-   "views": 7832085,
+   "published": "2020-11-29T05:47:24.336Z",
+   "views": 7832069,
+   "topic": "Exercise",
+   "source": "search:science based full body workout best exercises",
+   "deep": "science based full body workout best exercises"
+  },
+  {
+   "id": "E81GN-3A8XM",
+   "title": "The Most Effective Science-Based Warm Up & Mobility Routine (Full Body)",
+   "channel": "Jeff Nippard",
+   "dur": 557,
+   "published": "2019-11-30T05:47:24.336Z",
+   "views": 1514769,
    "topic": "Exercise",
    "source": "search:science based full body workout best exercises",
    "deep": "science based full body workout best exercises"
@@ -10330,8 +10722,8 @@
    "title": "The Best Science-Based Minimalist Workout Plan (Under 45 Mins)",
    "channel": "Jeff Nippard",
    "dur": 788,
-   "published": "2022-11-29T05:27:41.254Z",
-   "views": 6205295,
+   "published": "2022-11-29T05:47:24.336Z",
+   "views": 6205328,
    "topic": "Exercise",
    "source": "search:science based full body workout best exercises",
    "deep": "science based full body workout best exercises"
@@ -10341,8 +10733,8 @@
    "title": "How To FIX Your Posture | 10-Minute Daily Routine",
    "channel": "Tone and Tighten",
    "dur": 642,
-   "published": "2020-11-29T05:27:42.677Z",
-   "views": 2249171,
+   "published": "2020-11-29T05:50:42.135Z",
+   "views": 2249184,
    "topic": "Exercise",
    "source": "search:fix posture exercises physical therapist",
    "deep": "fix posture exercises physical therapist"
@@ -10352,8 +10744,19 @@
    "title": "How To Stop Walking Hunched Over! 5 Best Fixes",
    "channel": "Bob & Brad",
    "dur": 729,
-   "published": "2023-11-29T05:27:42.678Z",
-   "views": 2377818,
+   "published": "2023-11-29T05:50:42.135Z",
+   "views": 2377814,
+   "topic": "Exercise",
+   "source": "search:fix posture exercises physical therapist",
+   "deep": "fix posture exercises physical therapist"
+  },
+  {
+   "id": "cC5pPsiXO7s",
+   "title": "How to Finally \"Fix\" Your Posture",
+   "channel": "Hybrid Calisthenics",
+   "dur": 319,
+   "published": "2022-11-29T05:50:42.135Z",
+   "views": 1832363,
    "topic": "Exercise",
    "source": "search:fix posture exercises physical therapist",
    "deep": "fix posture exercises physical therapist"
@@ -10374,8 +10777,8 @@
    "title": "7 EASY Posture Exercises to Fix Hunchback Posture for Good",
    "channel": "Tim Fraticelli - PTProgress",
    "dur": 504,
-   "published": "2021-11-29T05:27:42.678Z",
-   "views": 220140,
+   "published": "2021-11-29T05:50:42.136Z",
+   "views": 220142,
    "topic": "Exercise",
    "source": "search:fix posture exercises physical therapist",
    "deep": "fix posture exercises physical therapist"
@@ -10385,8 +10788,8 @@
    "title": "Fix Bad Posture in 5 Minutes (FOREVER!)",
    "channel": "ATHLEAN-X™",
    "dur": 398,
-   "published": "2022-11-29T05:27:42.678Z",
-   "views": 1561510,
+   "published": "2022-11-29T05:50:42.136Z",
+   "views": 1561519,
    "topic": "Exercise",
    "source": "search:fix posture exercises physical therapist",
    "deep": "fix posture exercises physical therapist"
@@ -10396,8 +10799,8 @@
    "title": "12 Minute Hip Mobility Routine (FOLLOW ALONG)",
    "channel": "Tom Merrick",
    "dur": 835,
-   "published": "2020-11-29T05:27:43.932Z",
-   "views": 8216053,
+   "published": "2020-11-29T05:50:44.284Z",
+   "views": 8216096,
    "topic": "Exercise",
    "source": "search:hip mobility routine follow along",
    "deep": "hip mobility routine follow along"
@@ -10407,7 +10810,7 @@
    "title": "Quick Hip Mobility Routine! (FOLLOW ALONG)",
    "channel": "Tom Merrick",
    "dur": 659,
-   "published": "2023-11-29T05:27:43.932Z",
+   "published": "2023-11-29T05:50:44.284Z",
    "views": 800579,
    "topic": "Exercise",
    "source": "search:hip mobility routine follow along",
@@ -10418,8 +10821,8 @@
    "title": "8-Minute Hip Mobility Routine | Loosen Tight Hips (No Equipment)",
    "channel": "nourishmovelove",
    "dur": 521,
-   "published": "2024-11-28T05:27:43.932Z",
-   "views": 3047239,
+   "published": "2024-11-28T05:50:44.284Z",
+   "views": 3047418,
    "topic": "Exercise",
    "source": "search:hip mobility routine follow along",
    "deep": "hip mobility routine follow along"
@@ -10429,19 +10832,19 @@
    "title": "10 Minute Hip Mobility Routine (Follow Along)",
    "channel": "Yoga With Tim",
    "dur": 681,
-   "published": "2024-11-28T05:27:43.932Z",
+   "published": "2024-11-28T05:50:44.284Z",
    "views": 450887,
    "topic": "Exercise",
    "source": "search:hip mobility routine follow along",
    "deep": "hip mobility routine follow along"
   },
   {
-   "id": "Z04ldN6WnRY",
-   "title": "20 Minute Hip Flexor Flexibility Routine (FOLLOW ALONG)",
-   "channel": "Tom Merrick",
-   "dur": 1319,
-   "published": "2021-11-29T05:27:43.932Z",
-   "views": 222932,
+   "id": "jeHZy6FoZr0",
+   "title": "10 Min. Hip Mobility & Stretches to Unlock Hips | Beginner-Friendly Hip Openers",
+   "channel": "mobility by julia reppel",
+   "dur": 694,
+   "published": "2025-11-28T05:50:44.285Z",
+   "views": 207745,
    "topic": "Exercise",
    "source": "search:hip mobility routine follow along",
    "deep": "hip mobility routine follow along"
@@ -10451,8 +10854,8 @@
    "title": "Shoulder Anatomy Animated Tutorial",
    "channel": "Randale Sechrest",
    "dur": 413,
-   "published": "2012-12-01T05:27:45.260Z",
-   "views": 6675779,
+   "published": "2012-12-01T05:47:30.714Z",
+   "views": 6675845,
    "topic": "Anatomy",
    "source": "search:shoulder anatomy explained 3d",
    "deep": "shoulder anatomy explained 3d"
@@ -10462,7 +10865,7 @@
    "title": "Anatomy of the Shoulder Joint | Bones, Ligaments, and Muscles",
    "channel": "Siebert Science",
    "dur": 976,
-   "published": "2023-11-29T05:27:45.260Z",
+   "published": "2023-11-29T05:47:30.714Z",
    "views": 1010663,
    "topic": "Anatomy",
    "source": "search:shoulder anatomy explained 3d",
@@ -10473,7 +10876,7 @@
    "title": "Rotator Cuff | 3D Anatomy Tutorial",
    "channel": "AnatomyZone",
    "dur": 626,
-   "published": "2019-11-30T05:27:45.260Z",
+   "published": "2019-11-30T05:47:30.714Z",
    "views": 5294761,
    "topic": "Anatomy",
    "source": "search:shoulder anatomy explained 3d",
@@ -10484,8 +10887,8 @@
    "title": "Shoulder & Arm Muscles - NEVER FORGET Origins & Insertions Again!",
    "channel": "Siebert Science",
    "dur": 1917,
-   "published": "2026-09-29T05:27:45.260Z",
-   "views": 205553,
+   "published": "2026-09-29T05:47:30.714Z",
+   "views": 205595,
    "topic": "Anatomy",
    "source": "search:shoulder anatomy explained 3d",
    "deep": "shoulder anatomy explained 3d"
@@ -10495,8 +10898,8 @@
    "title": "Shoulder Joint -  Glenohumeral Joint - 3D Anatomy Tutorial",
    "channel": "AnatomyZone",
    "dur": 699,
-   "published": "2012-12-01T05:27:45.260Z",
-   "views": 1480220,
+   "published": "2012-12-01T05:47:30.714Z",
+   "views": 1480222,
    "topic": "Anatomy",
    "source": "search:shoulder anatomy explained 3d",
    "deep": "shoulder anatomy explained 3d"
@@ -10506,8 +10909,8 @@
    "title": "Knee Anatomy Animated Tutorial",
    "channel": "Randale Sechrest",
    "dur": 657,
-   "published": "2012-12-01T05:27:47.386Z",
-   "views": 4849116,
+   "published": "2012-12-01T05:47:51.202Z",
+   "views": 4849122,
    "topic": "Anatomy",
    "source": "search:knee anatomy explained 3d",
    "deep": "knee anatomy explained 3d"
@@ -10517,7 +10920,7 @@
    "title": "Anatomy of the Knee Joint",
    "channel": "Siebert Science",
    "dur": 560,
-   "published": "2021-11-29T05:27:47.386Z",
+   "published": "2021-11-29T05:47:51.204Z",
    "views": 755914,
    "topic": "Anatomy",
    "source": "search:knee anatomy explained 3d",
@@ -10528,8 +10931,8 @@
    "title": "Understanding the Anatomy of Your Knee",
    "channel": "Muscle & Motion",
    "dur": 618,
-   "published": "2023-11-29T05:27:47.386Z",
-   "views": 330140,
+   "published": "2023-11-29T05:47:51.204Z",
+   "views": 330149,
    "topic": "Anatomy",
    "source": "search:knee anatomy explained 3d",
    "deep": "knee anatomy explained 3d"
@@ -10539,41 +10942,63 @@
    "title": "Knee joint structure and actions",
    "channel": "The Noted Anatomist",
    "dur": 317,
-   "published": "2015-12-01T05:27:47.386Z",
-   "views": 252984,
+   "published": "2015-12-01T05:47:51.204Z",
+   "views": 252990,
    "topic": "Anatomy",
    "source": "search:knee anatomy explained 3d",
    "deep": "knee anatomy explained 3d"
   },
   {
-   "id": "2i2qyOTJCmk",
-   "title": "Knee bones and ligaments",
-   "channel": "Sam Webster",
-   "dur": 1425,
-   "published": "2018-11-30T05:27:47.386Z",
-   "views": 317673,
+   "id": "8QDTbhViMs8",
+   "title": "The Muscle that Unlocks the Knee: Screw Home Mechanism Explained | Corporis",
+   "channel": "Corporis",
+   "dur": 355,
+   "published": "2022-11-29T05:47:51.204Z",
+   "views": 307142,
    "topic": "Anatomy",
    "source": "search:knee anatomy explained 3d",
    "deep": "knee anatomy explained 3d"
-  },
-  {
-   "id": "X9ZZ6tcxArI",
-   "title": "The Heart, Part 1 - Under Pressure: Crash Course Anatomy & Physiology #25",
-   "channel": "CrashCourse",
-   "dur": 608,
-   "published": "2015-12-01T05:27:49.314Z",
-   "views": 8246220,
-   "topic": "Anatomy",
-   "source": "search:how the heart works anatomy animation",
-   "deep": "how the heart works anatomy animation"
   },
   {
    "id": "L7XLal4Cm1U",
    "title": "How the Heart Works (Animation)",
    "channel": "Thomas Schwenke",
    "dur": 866,
-   "published": "2024-11-28T05:27:49.314Z",
-   "views": 773258,
+   "published": "2024-11-28T05:51:09.329Z",
+   "views": 773253,
+   "topic": "Anatomy",
+   "source": "search:how the heart works anatomy animation",
+   "deep": "how the heart works anatomy animation"
+  },
+  {
+   "id": "mC9tYJjmvYQ",
+   "title": "Human Heart Anatomy | Structure and Function Explained 3D Animation",
+   "channel": "Demystifying Science",
+   "dur": 580,
+   "published": "2026-07-01T05:51:09.329Z",
+   "views": 479021,
+   "topic": "Anatomy",
+   "source": "search:how the heart works anatomy animation",
+   "deep": "how the heart works anatomy animation"
+  },
+  {
+   "id": "X9ZZ6tcxArI",
+   "title": "The Heart, Part 1 - Under Pressure: Crash Course Anatomy & Physiology #25",
+   "channel": "CrashCourse",
+   "dur": 608,
+   "published": "2015-12-01T05:51:09.330Z",
+   "views": 8246267,
+   "topic": "Anatomy",
+   "source": "search:how the heart works anatomy animation",
+   "deep": "how the heart works anatomy animation"
+  },
+  {
+   "id": "Mv3dKgwbJ7U",
+   "title": "Anatomy and Physiology of The Heart",
+   "channel": "New Anatomy and Physiology Video",
+   "dur": 2721,
+   "published": "2015-12-01T05:51:09.330Z",
+   "views": 838308,
    "topic": "Anatomy",
    "source": "search:how the heart works anatomy animation",
    "deep": "how the heart works anatomy animation"
@@ -10583,19 +11008,8 @@
    "title": "Circulatory System and Pathway of Blood Through the Heart",
    "channel": "Amoeba Sisters",
    "dur": 494,
-   "published": "2020-11-29T05:27:49.314Z",
-   "views": 7771304,
-   "topic": "Anatomy",
-   "source": "search:how the heart works anatomy animation",
-   "deep": "how the heart works anatomy animation"
-  },
-  {
-   "id": "uKrgEv7-rVM",
-   "title": "Parts of the Cardiac System (Heart Anatomy)",
-   "channel": "Dr Matt & Dr Mike",
-   "dur": 477,
-   "published": "2020-11-29T05:27:49.314Z",
-   "views": 697813,
+   "published": "2020-11-29T05:51:09.331Z",
+   "views": 7771379,
    "topic": "Anatomy",
    "source": "search:how the heart works anatomy animation",
    "deep": "how the heart works anatomy animation"
@@ -10616,19 +11030,19 @@
    "title": "The Entire Spine, Explained in 16 Minutes",
    "channel": "Taim Talks Med",
    "dur": 1009,
-   "published": "2025-11-28T05:27:51.371Z",
-   "views": 278305,
+   "published": "2025-11-28T05:51:11.340Z",
+   "views": 278339,
    "topic": "Anatomy",
    "source": "search:spine anatomy explained",
    "deep": "spine anatomy explained"
   },
   {
-   "id": "N28uEWxhH8I",
-   "title": "Spinal Cord Regions + What Each Region Controls",
-   "channel": "Siebert Science",
-   "dur": 1121,
-   "published": "2023-11-29T05:27:51.372Z",
-   "views": 389249,
+   "id": "6XtPzcXAqBc",
+   "title": "Neurology | Gross Anatomy of the Spinal Cord and Spinal Nerves",
+   "channel": "Ninja Nerd",
+   "dur": 2119,
+   "published": "2020-11-29T05:51:11.340Z",
+   "views": 1821165,
    "topic": "Anatomy",
    "source": "search:spine anatomy explained",
    "deep": "spine anatomy explained"
@@ -10638,30 +11052,30 @@
    "title": "Lumbar Spine Anatomy",
    "channel": "Randale Sechrest",
    "dur": 332,
-   "published": "2012-12-01T05:27:51.372Z",
+   "published": "2012-12-01T05:51:11.340Z",
    "views": 1628573,
    "topic": "Anatomy",
    "source": "search:spine anatomy explained",
    "deep": "spine anatomy explained"
   },
   {
-   "id": "andQHqp51Ow",
-   "title": "Spinal Cord Cross-Section | Anatomy, Reflex Arc, and Ascending/Descending Tracts",
+   "id": "N28uEWxhH8I",
+   "title": "Spinal Cord Regions + What Each Region Controls",
    "channel": "Siebert Science",
-   "dur": 861,
-   "published": "2023-11-29T05:27:51.372Z",
-   "views": 255153,
+   "dur": 1121,
+   "published": "2023-11-29T05:51:11.340Z",
+   "views": 389278,
    "topic": "Anatomy",
    "source": "search:spine anatomy explained",
    "deep": "spine anatomy explained"
   },
   {
-   "id": "fULDv63Ytrg",
-   "title": "The Spinal Cord: Why It’s More Complex Than You Think",
-   "channel": "Demystifying Science",
-   "dur": 519,
-   "published": "2026-09-29T05:27:51.372Z",
-   "views": 168993,
+   "id": "s8WfisaAY6Q",
+   "title": "Vertebral Column - Introduction | 3D Anatomy Tutorial",
+   "channel": "AnatomyZone",
+   "dur": 479,
+   "published": "2022-11-29T05:51:11.340Z",
+   "views": 334134,
    "topic": "Anatomy",
    "source": "search:spine anatomy explained",
    "deep": "spine anatomy explained"

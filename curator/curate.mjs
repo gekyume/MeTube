@@ -239,12 +239,36 @@ async function manualVideos(list) {
 }
 
 // Video length in seconds, read from the watch page (the RSS feeds don't include it). Cached in videos.json.
-async function fetchDuration(id) {
+// Length, views and likes, read from the watch page (the RSS feeds don't include them).
+async function fetchStats(id) {
   try {
     const html = await (await fetch(`https://www.youtube.com/watch?v=${id}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
-    const m = html.match(/"lengthSeconds":"(\d+)"/);
-    return m ? +m[1] : null;
-  } catch { return null; }
+    const num = (m) => (m ? +m[1].replace(/,/g, "") : null);
+    return {
+      dur: num(html.match(/"lengthSeconds":"(\d+)"/)),
+      views: num(html.match(/"viewCount":"(\d+)"/)),
+      likes: num(html.match(/along with ([\d,]+) other/)),
+    };
+  } catch { return {}; }
+}
+const fetchDuration = async (id) => (await fetchStats(id)).dur ?? null;
+// Beats show views + likes; refresh them about weekly.
+async function fillBeatStats(items, prev) {
+  const old = new Map(prev.filter((v) => v.statsAt).map((v) => [v.id, v]));
+  const week = 7 * 864e5, todo = [];
+  for (const v of items) {
+    const o = old.get(v.id);
+    if (o) Object.assign(v, { views: o.views, likes: o.likes, statsAt: o.statsAt, dur: v.dur ?? o.dur });
+    if (!v.statsAt || Date.now() - Date.parse(v.statsAt) > week) todo.push(v);
+  }
+  let i = 0, ok = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    while (i < Math.min(todo.length, 800)) {
+      const v = todo[i++], st = await fetchStats(v.id);
+      if (st.views != null) { Object.assign(v, { views: st.views, likes: st.likes ?? v.likes ?? null, dur: v.dur ?? st.dur, statsAt: now }); ok++; }
+    }
+  }));
+  if (todo.length) log(`beat stats: ${ok}/${Math.min(todo.length, 800)} refreshed`);
 }
 async function fillDurations(items, known) {
   const todo = [];
@@ -333,12 +357,13 @@ async function discoverBeats(cfg, skip) {
   const bad = new RegExp((cfg.block || []).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") || "$^", "i");
   for (const { q, style } of cfg.queries) {
     let res = [];
-    try { res = await searchRecent(q); } catch (e) { log("beat search", q, e.message); }
+    try { res = await searchRecent(q, cfg.window === "month" ? "EgQIBBAB" : "EgQIBRAB"); } catch (e) { log("beat search", q, e.message); } // uploaded this year
     let took = 0;
     for (const v of res) {
       if (took >= (cfg.perQuery || 8) || skip.has(v.id)) continue;
       if (!/beat|instrumental/i.test(v.title) || bad.test(v.title)) continue;
       if (!v.dur || v.dur < (cfg.minSec || 90) || v.dur > (cfg.maxSec || 360)) continue;
+      if ((v.views || 0) < (cfg.minViews || 0)) continue; // quality bar: skip beats almost nobody has played
       if ((perChannel[v.channel] = (perChannel[v.channel] || 0) + 1) > (cfg.maxPerProducer || 3)) continue;
       skip.add(v.id); took++;
       found.push({ ...v, source: "discover", fresh: true, style, added: now });
@@ -463,6 +488,13 @@ beats.items = dedupe(beats.items);
 shorts.items = dedupe(shorts.items);
 const knownDur = new Map([...(library.beats || []), ...(library.learn || []), ...prevLearn].filter((v) => v.dur != null).map((v) => [v.id, v.dur]));
 await fillDurations([...beats.items, ...learn.items], knownDur);
+await fillBeatStats(beats.items, library.beats || []);
+{ // New-to-you beats must clear the view bar (your own Liked / Song ideas are always kept).
+  const min = config.beats.discover?.minViews || 0;
+  const before = beats.items.length;
+  beats.items = beats.items.filter((v) => v.source !== "discover" || v.views == null || v.views >= min);
+  if (before !== beats.items.length) log(`dropped ${before - beats.items.length} new beats under ${min} views`);
+}
 const learnOut = learn.items.map((v) => (!v.topic && topicOf[v.source] ? { ...v, topic: topicOf[v.source] } : v));
 await writeFile(OUT_PATH, JSON.stringify({ updatedAt: now, topics: Object.keys(config.learn.topics || {}), series: seriesMeta, beats: beats.items, learn: learnOut, shorts: shorts.items }, null, 1) + "\n");
 state.seen = [...seen].slice(-5000);
