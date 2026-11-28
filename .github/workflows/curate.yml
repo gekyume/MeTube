@@ -22,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
@@ -42,8 +42,15 @@ jobs:
           git diff --cached --quiet || git commit -m "Curate: $(date -u +%F)"
           git push
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: docs
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # GitHub's Pages API sometimes fails to find the upload; wait and try once more.
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4

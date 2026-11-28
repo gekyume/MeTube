@@ -94,6 +94,9 @@
   .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 18px 16px 8px; }
   .section-head h2 { margin: 0; font-size: 18px; letter-spacing: -0.02em; }
   .section-head .sub { color: var(--muted); font-size: 13px; }
+  .section-head h2 .sim { color: var(--muted); font-weight: 600; font-size: 14px; margin-right: 2px; }
+  .sim-tag { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 5px 12px; border-radius: 999px; font-size: 13px; font-weight: 650;
+    background: color-mix(in srgb, var(--beats) 18%, transparent); color: var(--beats); }
   .link { color: var(--accent); font-size: 13.5px; font-weight: 600; white-space: nowrap; }
 
   /* ---------- video lists ---------- */
@@ -784,6 +787,17 @@
     }
     if (query) root.insertAdjacentHTML("beforeend", `<div class="section-head"><h2>Results for “${esc(query)}”</h2><span class="sub">${list.length}</span></div>`);
     if (!list.length) root.insertAdjacentHTML("beforeend", emptyState());
+    else if (!query && tab === "beats" && filter.beats === "ideas") {
+      // One heading per reference song: "Similar to Vacay – Aminé"
+      const groups = new Map();
+      for (const v of list) { if (!groups.has(v.ref)) groups.set(v.ref, []); groups.get(v.ref).push(v); }
+      for (const [ref, items] of groups) {
+        root.insertAdjacentHTML("beforeend", `<div class="section-head"><h2><span class="sim">Similar to</span> ${esc(ref)}</h2><span class="sub">${items.length} beat${items.length > 1 ? "s" : ""}</span></div>`);
+        const ul = videoList(items, { grid: true });
+        ul.querySelectorAll(".vrow").forEach((li, k) => (li.onclick = () => playFrom(items[k], list)));
+        root.append(ul);
+      }
+    }
     else root.append(videoList(list, { grid: true, showWhen: !query && filter[tab] === "recent" }));
     footer(root);
   }
@@ -935,7 +949,7 @@
   }
 
   function subText(v, showWhen) {
-    if (v.ref && !showWhen) return `Like “${v.ref}” · ${v.channel}`;
+    if (v.ref && !showWhen && filter.beats !== "ideas") return `Similar to “${v.ref}” · ${v.channel}`;
     if (v.series && !showWhen) return `${epLabel(v)} · ${v.series.replace(/^Crash Course /, "")}`;
     const seenAt = showWhen && recent.find((h) => h.id === v.id)?.at;
     return [v.channel, seenAt ? `watched ${agoTime(seenAt)}` : ago(v.published)].filter(Boolean).join(" · ");
@@ -1155,6 +1169,7 @@
     const mode = modes[queueTab];
     el.innerHTML = `
       <h1>${esc(v.title)}</h1>
+      ${v.ref ? `<button class="sim-tag" data-act="sim">♪ Similar to: ${esc(v.ref)}</button>` : ""}
       ${v.why ? `<div class="why">${esc(v.why)}</div>` : ""}
       <div class="info-row">
         ${v.series ? `<button class="pill on" data-act="series">${icon("grid")}${esc(v.series.replace(/^Crash Course /, ""))} · ${epLabel(v)}</button>` : ""}
@@ -1175,6 +1190,7 @@
       store.set("modes", modes); renderInfo();
     };
     el.querySelector('[data-act="share"]').onclick = () => shareVideo(v);
+    el.querySelector('[data-act="sim"]')?.addEventListener("click", () => { filter.beats = "ideas"; go({ view: "home" }); });
     el.querySelector('[data-act="hide"]').onclick = () => {
       hidden.add(v.id); store.set("hidden", [...hidden]);
       if (queue.length > 1) next(); else closePlayer();
