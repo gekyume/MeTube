@@ -257,6 +257,7 @@ async function fetchStats(id) {
   } catch { return {}; }
 }
 const fetchDuration = async (id) => (await fetchStats(id)).dur ?? null;
+const bpmIn = (text = "") => [...`${text} `.matchAll(/(\d{2,3})\s*-?\s*bpm\b|\bbpm\s*[:\-–=]?\s*(\d{2,3})/gi)].map((m) => +(m[1] || m[2])).find((n) => n >= 60 && n <= 200) || null;
 // Beats show views + likes; refresh them about weekly.
 async function fillBeatStats(items, prev) {
   const old = new Map(prev.filter((v) => v.statsAt).map((v) => [v.id, v]));
@@ -266,14 +267,24 @@ async function fillBeatStats(items, prev) {
     if (o) Object.assign(v, { views: o.views, likes: o.likes, statsAt: o.statsAt, dur: v.dur ?? o.dur, ...(o.bpm !== undefined ? { bpm: o.bpm } : {}) });
     if (!v.statsAt || v.bpm === undefined || Date.now() - Date.parse(v.statsAt) > week) todo.push(v);
   }
-  let i = 0, ok = 0;
-  await Promise.all(Array.from({ length: 6 }, async () => {
-    while (i < Math.min(todo.length, 800)) {
+  // BPM in the title costs nothing: read it for every beat, every run.
+  for (const v of items) { const t = bpmIn(v.title); if (t && !v.bpm) v.bpm = t; }
+  // Page reads get throttled by YouTube in bulk, so do a gentle batch per day: your Song ideas and Liked beats first.
+  const rank = (v) => (v.idea || v.liked ? 0 : v.views == null ? 1 : 2);
+  todo.sort((a, b) => rank(a) - rank(b));
+  const cap = Math.min(todo.length, 150);
+  let i = 0, ok = 0, misses = 0;
+  await Promise.all(Array.from({ length: 2 }, async () => {
+    while (i < cap && misses < 8) {
       const v = todo[i++], st = await fetchStats(v.id);
-      if (st.views != null) { Object.assign(v, { views: st.views, likes: st.likes ?? v.likes ?? null, bpm: st.bpm ?? null, dur: v.dur ?? st.dur, statsAt: now }); ok++; }
+      if (st.views != null) {
+        misses = 0;
+        Object.assign(v, { views: st.views, likes: st.likes ?? v.likes ?? null, bpm: st.bpm ?? v.bpm ?? null, dur: v.dur ?? st.dur, statsAt: now }); ok++;
+      } else misses++;
+      await new Promise((r) => setTimeout(r, 600));
     }
   }));
-  if (todo.length) log(`beat stats: ${ok}/${Math.min(todo.length, 800)} refreshed`);
+  if (todo.length) log(`beat stats: ${ok}/${todo.length} refreshed${misses >= 8 ? " (YouTube throttled; continuing tomorrow)" : ""}`);
 }
 async function fillDurations(items, known) {
   const todo = [];
