@@ -350,12 +350,14 @@ async function discoverBeats(cfg, skip) {
 
 // Liked beats are hand-picked: always kept, never trimmed, listed in your order.
 const liked = (config.beats.liked || []).map((v) => ({ ...v, source: "liked", liked: true }));
-const likedIds = new Set(liked.map((v) => v.id));
+// Song ideas: type beats matched to songs you want to write in the style of, kept permanently, in your order.
+const ideas = (config.beats.ideas || []).filter((v) => !liked.some((l) => l.id === v.id)).map((v) => ({ ...v, source: "ideas", idea: true }));
+const likedIds = new Set([...liked, ...ideas].map((v) => v.id));
 const beatsIn = [...(await manualVideos(config.beats.videos)), ...(await collectFeeds(config.beats))];
-const feedBeats = await merge((library.beats || []).filter((v) => !v.liked && v.source !== "discover"), beatsIn.filter((v) => !likedIds.has(v.id)), config.beats);
+const feedBeats = await merge((library.beats || []).filter((v) => !v.liked && !v.idea && v.source !== "discover"), beatsIn.filter((v) => !likedIds.has(v.id)), config.beats);
 const prevAdded = new Map((library.beats || []).map((v) => [v.id, v.added]));
 const beats = {
-  items: [...liked.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...feedBeats.items.filter((v) => !likedIds.has(v.id))],
+  items: [...liked.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...ideas.map((v) => ({ ...v, added: prevAdded.get(v.id) || now })), ...feedBeats.items.filter((v) => !likedIds.has(v.id))],
   added: feedBeats.added,
 };
 

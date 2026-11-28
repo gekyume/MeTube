@@ -618,6 +618,7 @@
     }
     if (f === "recent") { const byId = new Map(items.map((v) => [v.id, v])); return recent.map((h) => byId.get(h.id)).filter(Boolean); }
     if (f === "liked") return items.filter(isLiked);
+    if (f === "ideas") return items.filter((v) => v.idea);
     if (f === "fresh") return interleave(items.filter((v) => v.fresh && !watched.has(v.id)), (v) => v.style); // mix Detroit / West Coast / Bouncy
     if (f === "new") return items.filter((v) => !watched.has(v.id));
     if (f === "picks") return items.filter((v) => v.source === "discovery");
@@ -746,6 +747,7 @@
     if (tab === "beats") {
       addChip(`${icon("shuffle")}Shuffle`, false, () => { const q = shuffled(listFor("beats")); if (q.length) playFrom(q[0], q); }, "action");
       addChip("Liked", f === "liked", setFilter("liked"));
+      if (allItems("beats").some((v) => v.idea)) addChip("Song ideas", f === "ideas", setFilter("ideas"));
       const freshLeft = allItems("beats").filter((v) => v.fresh && !watched.has(v.id)).length;
       if (freshLeft) addChip(`New to you · ${freshLeft}`, f === "fresh", setFilter("fresh"));
       addChip("Recent", f === "recent", setFilter("recent"));
@@ -933,6 +935,7 @@
   }
 
   function subText(v, showWhen) {
+    if (v.ref && !showWhen) return `Like “${v.ref}” · ${v.channel}`;
     if (v.series && !showWhen) return `${epLabel(v)} · ${v.series.replace(/^Crash Course /, "")}`;
     const seenAt = showWhen && recent.find((h) => h.id === v.id)?.at;
     return [v.channel, seenAt ? `watched ${agoTime(seenAt)}` : ago(v.published)].filter(Boolean).join(" · ");
