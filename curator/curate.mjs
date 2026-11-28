@@ -244,7 +244,12 @@ async function fetchStats(id) {
   try {
     const html = await (await fetch(`https://www.youtube.com/watch?v=${id}`, { headers: { ...UA, Cookie: "SOCS=CAI" } })).text();
     const num = (m) => (m ? +m[1].replace(/,/g, "") : null);
+    // BPM: producers usually put it in the title or description ("93 bpm", "BPM: 93").
+    const desc = (html.match(/"shortDescription":"((?:[^"\\]|\\.)*)"/)?.[1] || "").replace(/\\n/g, " ");
+    const title = html.match(/<title>([^<]*)/)?.[1] || "";
+    const bpm = [...`${title} ${desc} `.matchAll(/(\d{2,3})\s*-?\s*bpm\b|\bbpm\s*[:\-–=]?\s*(\d{2,3})/gi)].map((m) => +(m[1] || m[2])).find((n) => n >= 60 && n <= 200) || null;
     return {
+      bpm,
       dur: num(html.match(/"lengthSeconds":"(\d+)"/)),
       views: num(html.match(/"viewCount":"(\d+)"/)),
       likes: num(html.match(/along with ([\d,]+) other/)),
@@ -258,14 +263,14 @@ async function fillBeatStats(items, prev) {
   const week = 7 * 864e5, todo = [];
   for (const v of items) {
     const o = old.get(v.id);
-    if (o) Object.assign(v, { views: o.views, likes: o.likes, statsAt: o.statsAt, dur: v.dur ?? o.dur });
-    if (!v.statsAt || Date.now() - Date.parse(v.statsAt) > week) todo.push(v);
+    if (o) Object.assign(v, { views: o.views, likes: o.likes, statsAt: o.statsAt, dur: v.dur ?? o.dur, ...(o.bpm !== undefined ? { bpm: o.bpm } : {}) });
+    if (!v.statsAt || v.bpm === undefined || Date.now() - Date.parse(v.statsAt) > week) todo.push(v);
   }
   let i = 0, ok = 0;
   await Promise.all(Array.from({ length: 6 }, async () => {
     while (i < Math.min(todo.length, 800)) {
       const v = todo[i++], st = await fetchStats(v.id);
-      if (st.views != null) { Object.assign(v, { views: st.views, likes: st.likes ?? v.likes ?? null, dur: v.dur ?? st.dur, statsAt: now }); ok++; }
+      if (st.views != null) { Object.assign(v, { views: st.views, likes: st.likes ?? v.likes ?? null, bpm: st.bpm ?? null, dur: v.dur ?? st.dur, statsAt: now }); ok++; }
     }
   }));
   if (todo.length) log(`beat stats: ${ok}/${Math.min(todo.length, 800)} refreshed`);
